@@ -104,7 +104,7 @@ sequence. The numbers outside that run stay in the text as printed and are not a
 - Vibhāvinī: the seven verses of the Nigamanakathā, numbered 1–7 in the file.
 - Paramatthadīpanī: 31 (out of order), 66 and 67 (repeated as "[66]" …). Paragraph 30 has no number in the file.
 - Anudīpanī: 52, 66, 67, 136, 161 (repeated or out of order), "14. 147" (the file's own slip for 147),
-  197 (for 157), 169 (for 159), and the colophon verses 1–2. The Anudīpanī does not comment on every
+  197 (for 157), 169 (for 159), 262 (for 172, the comment on the Paramatthadīpanī's closing paragraph), and the colophon verses 1–2. The Anudīpanī does not comment on every
   paragraph of the Paramatthadīpanī, so its numbers have gaps.
 
 The script prints these lists each time it runs.

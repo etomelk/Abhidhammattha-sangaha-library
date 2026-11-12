@@ -100,6 +100,13 @@ def accepted(ps, keyed):
         elif n and rend not in ('title', 'subhead', 'subsubhead'):
             cand.append((i, ch * 1000 + int(n) if keyed == 'chapter' else int(n)))
     keep = lis([k for _, k in cand])
+    prev = 0                     # a jump far ahead (Anudīpanī "262" for 172) is a slip too
+    for j in sorted(keep):
+        k = cand[j][1]
+        if keyed == 'running' and k - prev > 25:
+            keep.discard(j)
+        else:
+            prev = k
     return {cand[j][0] for j in keep}, [(cand[j][1]) for j in range(len(cand)) if j not in keep]
 
 
