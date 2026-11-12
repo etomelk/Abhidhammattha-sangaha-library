@@ -1,0 +1,200 @@
+{
+ "title": "Abhidhammattha-saṅgaha Library",
+ "tagline": "Ācariya Anuruddha’s manual of the Abhidhamma — its Pāli text, its commentaries and its translations — one chapter per page, with the Saṅgaha’s own paragraphs as a common map between the books.",
+ "books": [
+  {
+   "unit": "Chapter",
+   "cid": "ch",
+   "sign": "§",
+   "margin_sign": "",
+   "xrefs": false,
+   "footnotes": true,
+   "split": true,
+   "inline_markup": true,
+   "drawer_btn": "Notes",
+   "drawer_title": "Pāli terms",
+   "drawer_hint": "These texts have no index of their own.",
+   "level": "Pāli text",
+   "slug": "sangaha",
+   "title": "Abhidhammatthasaṅgaho",
+   "short": "Abhidhammatthasaṅgaha in Pāli",
+   "author": "Ācariya Anuruddha",
+   "cite": "Saṅgaha",
+   "edition": "Sixth Council edition, VRI digital text",
+   "by": "Ācariya Anuruddha · the Sixth Council (Chaṭṭha Saṅgāyana) text, Yangon · digital edition of the Vipassana Research Institute",
+   "blurb": "The manual itself: the four ultimate realities in nine chapters, from consciousness to meditation, in verse and prose.",
+   "note": "The whole text, one chapter per page: the opening verses, the nine paricchedas and the closing verses. Each paragraph carries the Saṅgaha’s own number (I.1, I.2 … IX.75), the map that every book of this library follows; a small chip beside it opens the same paragraph in the Vibhāvinī. The pages of the Myanmar edition are marked in the margin.",
+   "brand_sub": "Sixth Council Pāḷi",
+   "toc_foot": "The nine chapters ({{NPARA}} numbered paragraphs), in the Sixth Council text.",
+   "source": "Source: the Chaṭṭha Saṅgāyana (Sixth Council) text as published in digital form by the Vipassana Research Institute (github.com/VipassanaTech/tipitaka-xml), file romn/abh07t.nrf.xml, first book. The text is unchanged; the paragraph numbers and the Myanmar edition’s page numbers are as in the file. In Chapter IV the file numbers its paragraphs 1, 2, 4 (there is no 3); the numbers are kept as they are.",
+   "desc": "The Abhidhammatthasaṅgaha in the Pāli of the Sixth Council edition, with its paragraph numbers, linked to its commentaries and translations.",
+   "howto": [
+    [
+     "Find anything",
+     "Type in Search (or press <kbd>/</kbd>). Accents are optional: <i>rupa</i> finds <i>rūpa</i>."
+    ],
+    [
+     "Go to a paragraph",
+     "Type chapter and paragraph in <b>§</b>, e.g. <b>4.6</b> for IV.6."
+    ],
+    [
+     "Between the books",
+     "The chip beside a paragraph opens the same paragraph in the Vibhāvinī."
+    ]
+   ],
+   "anchor": "^(p[\\d-]+|pg\\w+)$",
+   "goto": "p",
+   "goto_label": "§",
+   "goto_aria": "Go to chapter.paragraph",
+   "goto_text": true,
+   "sangaha_keys": true,
+   "pts_map": "sangaha-key.json",
+   "pts_label": "Saṅgaha"
+  },
+  {
+   "unit": "Chapter",
+   "cid": "ch",
+   "sign": "§",
+   "margin_sign": "",
+   "xrefs": false,
+   "footnotes": true,
+   "split": true,
+   "inline_markup": true,
+   "drawer_btn": "Notes",
+   "drawer_title": "Pāli terms",
+   "drawer_hint": "These texts have no index of their own.",
+   "level": "Commentary",
+   "slug": "vibhavini",
+   "title": "Abhidhammatthavibhāvinīṭīkā",
+   "short": "Vibhāvinī (Pāli commentary)",
+   "author": "Ācariya Sumaṅgala",
+   "cite": "Vibhāvinī",
+   "edition": "Sixth Council edition, VRI digital text",
+   "by": "Ācariya Sumaṅgala (12th century) · the Sixth Council text · digital edition of the Vipassana Research Institute",
+   "blurb": "The classic commentary on the Saṅgaha, read in Myanmar beside the root text; explains it phrase by phrase.",
+   "note": "The whole commentary, one chapter per page. VRI numbers it by the paragraph of the Saṅgaha it explains, so each numbered paragraph carries that Saṅgaha number (I.11 …) and a chip back to it. The words of the Saṅgaha being explained are in bold, as in the edition.",
+   "brand_sub": "Vibhāvinī · Pāḷi",
+   "toc_foot": "The commentary on the nine chapters ({{NPARA}} numbered paragraphs).",
+   "source": "Source: the Chaṭṭha Saṅgāyana (Sixth Council) text as published in digital form by the Vipassana Research Institute (github.com/VipassanaTech/tipitaka-xml), file romn/abh07t.nrf.xml, second book (Abhidhammatthavibhāvinīṭīkā). The text is unchanged; the closing verses (Nigamanakathā) keep their own numbers 1–7 in the text.",
+   "desc": "The Abhidhammatthavibhāvinī-ṭīkā in Pāli, paragraph by paragraph against the Abhidhammatthasaṅgaha.",
+   "howto": [
+    [
+     "Find anything",
+     "Type in Search (or press <kbd>/</kbd>). Accents are optional: <i>rupa</i> finds <i>rūpa</i>."
+    ],
+    [
+     "Go to a paragraph",
+     "Type chapter and paragraph of the Saṅgaha in <b>§</b>, e.g. <b>1.11</b>."
+    ],
+    [
+     "Between the books",
+     "The chip beside a paragraph opens the paragraph of the Saṅgaha it explains."
+    ]
+   ],
+   "anchor": "^(p[\\d-]+|pg\\w+)$",
+   "goto": "p",
+   "goto_label": "§",
+   "goto_aria": "Go to chapter.paragraph",
+   "goto_text": true,
+   "sangaha_keys": true,
+   "pts_map": "sangaha-key.json",
+   "pts_label": "Vibhāvinī"
+  },
+  {
+   "unit": "Chapter",
+   "cid": "ch",
+   "sign": "§",
+   "margin_sign": "",
+   "xrefs": false,
+   "footnotes": true,
+   "split": true,
+   "inline_markup": true,
+   "drawer_btn": "Notes",
+   "drawer_title": "Pāli terms",
+   "drawer_hint": "These texts have no index of their own.",
+   "level": "Sub-commentary",
+   "slug": "paramattha",
+   "title": "Paramatthadīpanī",
+   "short": "Paramatthadīpanī (Saṅgaha-mahāṭīkā)",
+   "author": "Ledi Sayadaw",
+   "cite": "Paramatthadīpanī",
+   "edition": "Sixth Council edition, VRI digital text",
+   "by": "Ledi Sayadaw (1846–1923) · Saṅgaha-mahāṭīkā · digital edition of the Vipassana Research Institute",
+   "blurb": "Ledi Sayadaw’s great commentary on the Saṅgaha, which weighs the Vibhāvinī and often disagrees with it.",
+   "note": "The whole text, one chapter of the Saṅgaha per page, with its own paragraph numbers (1–174) running through the book; a chip beside each opens the same paragraph in the Anudīpanī, Ledi Sayadaw’s own commentary on it.",
+   "brand_sub": "Ledi Sayadaw · Pāḷi",
+   "toc_foot": "The nine chapters ({{NPARA}} numbered paragraphs).",
+   "source": "Source: the Chaṭṭha Saṅgāyana (Sixth Council) text as published in digital form by the Vipassana Research Institute (github.com/VipassanaTech/tipitaka-xml), file romn/e0301n.nrf.xml. The text is unchanged. Where the file repeats a paragraph number (66, 67) or prints one out of order (31), the number is left in the text as printed and not made an anchor.",
+   "desc": "Ledi Sayadaw’s Paramatthadīpanī on the Abhidhammatthasaṅgaha, in Pāli.",
+   "howto": [
+    [
+     "Find anything",
+     "Type in Search (or press <kbd>/</kbd>). Accents are optional: <i>rupa</i> finds <i>rūpa</i>."
+    ],
+    [
+     "Go to a paragraph",
+     "Type a number in <b>§</b> (1–174)."
+    ],
+    [
+     "Between the books",
+     "The chip beside a paragraph opens the same paragraph in the Anudīpanī."
+    ]
+   ],
+   "anchor": "^(p\\d+|pg\\w+)$",
+   "goto": "p",
+   "goto_label": "§",
+   "goto_aria": "Go to paragraph",
+   "goto_max": 174,
+   "pts_map": "pd-key.json",
+   "pts_label": "Paramatthadīpanī"
+  },
+  {
+   "unit": "Chapter",
+   "cid": "ch",
+   "sign": "§",
+   "margin_sign": "",
+   "xrefs": false,
+   "footnotes": true,
+   "split": true,
+   "inline_markup": true,
+   "drawer_btn": "Notes",
+   "drawer_title": "Pāli terms",
+   "drawer_hint": "These texts have no index of their own.",
+   "level": "Sub-commentary",
+   "slug": "anudipani",
+   "title": "Anudīpanīpāṭha",
+   "short": "Anudīpanī (on the Paramatthadīpanī)",
+   "author": "Ledi Sayadaw",
+   "cite": "Anudīpanī",
+   "edition": "Sixth Council edition, VRI digital text",
+   "by": "Ledi Sayadaw · commentary on his Paramatthadīpanī · digital edition of the Vipassana Research Institute",
+   "blurb": "Ledi Sayadaw’s notes on his own Paramatthadīpanī, numbered by its paragraphs.",
+   "note": "The whole text, one chapter of the Saṅgaha per page; each numbered paragraph explains the paragraph of the Paramatthadīpanī with the same number, and a chip opens it.",
+   "brand_sub": "Ledi Sayadaw · Pāḷi",
+   "toc_foot": "The nine chapters ({{NPARA}} numbered paragraphs).",
+   "source": "Source: the Chaṭṭha Saṅgāyana (Sixth Council) text as published in digital form by the Vipassana Research Institute (github.com/VipassanaTech/tipitaka-xml), file romn/e0401n.nrf.xml. The text is unchanged. Numbers the file prints out of order or twice (14 for 147, 197 for 157, 169 for 159 …) are left in the text as printed and not made anchors.",
+   "desc": "Ledi Sayadaw’s Anudīpanī, the commentary on his Paramatthadīpanī, in Pāli.",
+   "howto": [
+    [
+     "Find anything",
+     "Type in Search (or press <kbd>/</kbd>). Accents are optional: <i>rupa</i> finds <i>rūpa</i>."
+    ],
+    [
+     "Go to a paragraph",
+     "Type a number in <b>§</b> (1–174): the Paramatthadīpanī’s numbers."
+    ],
+    [
+     "Between the books",
+     "The chip beside a paragraph opens the same paragraph in the Paramatthadīpanī."
+    ]
+   ],
+   "anchor": "^(p\\d+|pg\\w+)$",
+   "goto": "p",
+   "goto_label": "§",
+   "goto_aria": "Go to paragraph",
+   "goto_max": 174,
+   "pts_map": "pd-key.json",
+   "pts_label": "Anudīpanī"
+  }
+ ]
+}

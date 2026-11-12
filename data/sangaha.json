@@ -1,0 +1,6644 @@
+{
+"chapters": [
+{
+"num": "0",
+"label": "Ganthārambha",
+"title": "The opening",
+"blocks": [
+{
+"type": "p",
+"text": "Namo tassa bhagavato arahato sammāsambuddhassa",
+"ctr": true
+},
+{
+"type": "h4",
+"text": "Ganthārambhakathā"
+},
+{
+"type": "p",
+"pnum": 1001,
+"label": "I.1",
+"alias": [
+"p1-1"
+],
+"text": "Sammāsambuddhamatulaṃ⟨pg:1⟩, sasaddhammagaṇuttamaṃ."
+},
+{
+"type": "p",
+"text": "Abhivādiya bhāsissaṃ, abhidhammatthasaṅgahaṃ.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Catuparamatthadhammo"
+},
+{
+"type": "p",
+"pnum": 1002,
+"label": "I.2",
+"alias": [
+"p1-2"
+],
+"text": "Tattha vuttābhidhammatthā, **catudhā paramatthato**."
+},
+{
+"type": "p",
+"text": "Cittaṃ cetasikaṃ rūpaṃ, nibbānamiti sabbathā.",
+"ind": 2
+}
+],
+"sangaha_ch": 1
+},
+{
+"num": "1",
+"label": "Chapter I",
+"title": "1. Cittaparicchedo — Consciousness",
+"blocks": [
+{
+"type": "h",
+"text": "1. Cittaparicchedo"
+},
+{
+"type": "h",
+"text": "Bhūmibhedacittaṃ"
+},
+{
+"type": "p",
+"pnum": 1003,
+"label": "I.3",
+"alias": [
+"p1-3"
+],
+"text": "Tattha **cittaṃ** tāva catubbidhaṃ hoti kāmāvacaraṃ rūpāvacaraṃ arūpāvacaraṃ lokuttarañceti."
+},
+{
+"type": "h",
+"text": "Akusalacittaṃ"
+},
+{
+"type": "p",
+"pnum": 1004,
+"label": "I.4",
+"alias": [
+"p1-4"
+],
+"text": "Tattha katamaṃ **kāmāvacaraṃ**? Somanassasahagataṃ diṭṭhigatasampayuttaṃ asaṅkhārikamekaṃ, sasaṅkhārikamekaṃ, somanassasahagataṃ diṭṭhigatavippayuttaṃ asaṅkhārikamekaṃ, sasaṅkhārikamekaṃ⟨pg:2⟩, upekkhāsahagataṃ diṭṭhigatasampayuttaṃ asaṅkhārikamekaṃ, sasaṅkhārikamekaṃ, upekkhāsahagataṃ diṭṭhigatavippayuttaṃ asaṅkhārikamekaṃ, sasaṅkhārikamekanti imāni aṭṭhapi lobhasahagatacittāni nāma."
+},
+{
+"type": "p",
+"pnum": 1005,
+"label": "I.5",
+"alias": [
+"p1-5"
+],
+"text": "Domanassasahagataṃ paṭighasampayuttaṃ asaṅkhārikamekaṃ, sasaṅkhārikamekanti imāni dvepi paṭighasampayuttacittāni nāma."
+},
+{
+"type": "p",
+"pnum": 1006,
+"label": "I.6",
+"alias": [
+"p1-6"
+],
+"text": "Upekkhāsahagataṃ vicikicchāsampayuttamekaṃ, upekkhāsahagataṃ uddhaccasampayuttamekanti imāni dvepi momūhacittāni nāma."
+},
+{
+"type": "p",
+"pnum": 1007,
+"label": "I.7",
+"alias": [
+"p1-7"
+],
+"text": "Iccevaṃ sabbathāpi **dvādasākusalacittāni** samattāni."
+},
+{
+"type": "p",
+"pnum": 1008,
+"label": "I.8",
+"alias": [
+"p1-8"
+],
+"text": "Aṭṭhadhā lobhamūlāni, dosamūlāni ca dvidhā."
+},
+{
+"type": "p",
+"text": "Mohamūlāni ca dveti, dvādasākusalā siyuṃ.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Ahetukacittaṃ"
+},
+{
+"type": "p",
+"pnum": 1009,
+"label": "I.9",
+"alias": [
+"p1-9"
+],
+"text": "Upekkhāsahagataṃ cakkhuviññāṇaṃ, tathā sotaviññāṇaṃ, ghānaviññāṇaṃ, jivhāviññāṇaṃ, dukkhasahagataṃ kāyaviññāṇaṃ, upekkhāsahagataṃ sampaṭicchanacittaṃ, upekkhāsahagataṃ santīraṇacittañceti imāni sattapi akusalavipākacittāni nāma."
+},
+{
+"type": "p",
+"pnum": 1010,
+"label": "I.10",
+"alias": [
+"p1-10"
+],
+"text": "Upekkhāsahagataṃ kusalavipākaṃ cakkhuviññāṇaṃ, tathā sotaviññāṇaṃ, ghānaviññāṇaṃ, jivhāviññāṇaṃ, sukhasahagataṃ kāyaviññāṇaṃ, upekkhāsahagataṃ sampaṭicchanacittaṃ, somanassasahagataṃ santīraṇacittaṃ, upekkhāsahagataṃ santīraṇacittañceti imāni aṭṭhapi kusalavipākāhetukacittāni nāma."
+},
+{
+"type": "p",
+"pnum": 1011,
+"label": "I.11",
+"alias": [
+"p1-11"
+],
+"text": "Upekkhāsahagataṃ ⟨pg:3⟩ pañcadvārāvajjanacittaṃ, tathā manodvārāvajjanacittaṃ, somanassasahagataṃ hasituppādacittañceti imāni tīṇipi ahetukakiriyacittāni nāma."
+},
+{
+"type": "p",
+"pnum": 1012,
+"label": "I.12",
+"alias": [
+"p1-12"
+],
+"text": "Icceva sabbathāpi **aṭṭhārasāhetukacittāni** samattāni."
+},
+{
+"type": "p",
+"pnum": 1013,
+"label": "I.13",
+"alias": [
+"p1-13"
+],
+"text": "Sattākusalapākāni, puññapākāni aṭṭhadhā."
+},
+{
+"type": "p",
+"text": "Kriyacittāni tīṇīti, aṭṭhārasa ahetukā.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Sobhanacittaṃ"
+},
+{
+"type": "p",
+"pnum": 1014,
+"label": "I.14",
+"alias": [
+"p1-14"
+],
+"text": "Pāpāhetukamuttāni, **sobhanānī**ti vuccare."
+},
+{
+"type": "p",
+"text": "Ekūnasaṭṭhi cittāni, athekanavutīpi vā.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Kāmāvacarasobhanacittaṃ"
+},
+{
+"type": "p",
+"pnum": 1015,
+"label": "I.15",
+"alias": [
+"p1-15"
+],
+"text": "Somanassasahagataṃ ñāṇasampayuttaṃ asaṅkhārikamekaṃ, sasaṅkhārikamekaṃ, somanassasahagataṃ ñāṇavippayuttaṃ asaṅkhārikamekaṃ, sasaṅkhārikamekaṃ, upekkhāsahagataṃ ñāṇasampayuttaṃ asaṅkhārikamekaṃ, sasaṅkhārikamekaṃ. Upekkhāsahagataṃ ñāṇavippayuttaṃ asaṅkhārikamekaṃ, sasaṅkhārikamekanti imāni aṭṭhapi kāmāvacarakusalacittāni nāma."
+},
+{
+"type": "p",
+"pnum": 1016,
+"label": "I.16",
+"alias": [
+"p1-16"
+],
+"text": "Somanassasahagataṃ ñāṇasampayuttaṃ asaṅkhārikamekaṃ, sasaṅkhārikamekaṃ, somanassasahagataṃ ñāṇavippayuttaṃ asaṅkhārikamekaṃ, sasaṅkhārikamekaṃ, upekkhāsahagataṃ ñāṇasampayuttaṃ asaṅkhārikamekaṃ, sasaṅkhārikamekaṃ, upekkhāsahagataṃ ñāṇavippayuttaṃ asaṅkhārikamekaṃ, sasaṅkhārikamekanti imāni aṭṭhapi sahetukakāmāvacaravipākacittāni nāma."
+},
+{
+"type": "p",
+"pnum": 1017,
+"label": "I.17",
+"alias": [
+"p1-17"
+],
+"text": "Somassasahagataṃ ñāṇasampayuttaṃ asaṅkhārikamekaṃ, sasaṅkhārikamekaṃ, somanassasahagataṃ ñāṇavippayuttaṃ asaṅkhārikamekaṃ⟨pg:4⟩, sasaṅkhārikamekaṃ, upekkhāsahagataṃ ñāṇasampayuttaṃ asaṅkhārikamekaṃ, sasaṅkhārikamekaṃ, upekkhāsahagataṃ ñāṇavippayuttaṃ asaṅkhārikamekaṃ, sasaṅkhārikamekanti imāni aṭṭhapi sahetukakāmāvacarakiriyacittāni nāma."
+},
+{
+"type": "p",
+"pnum": 1018,
+"label": "I.18",
+"alias": [
+"p1-18"
+],
+"text": "Iccevaṃ sabbathāpi **catuvīsati sahetukakāmāvacarakusalavipākakiriyacittāni** samattāni."
+},
+{
+"type": "p",
+"pnum": 1019,
+"label": "I.19",
+"alias": [
+"p1-19"
+],
+"text": "Vedanāñāṇasaṅkhārabhedena catuvīsati."
+},
+{
+"type": "p",
+"text": "Sahetukāmāvacarapuññapākakriyā matā.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 1020,
+"label": "I.20",
+"alias": [
+"p1-20"
+],
+"text": "Kāme tevīsa pākāni, puññāpuññāni vīsati."
+},
+{
+"type": "p",
+"text": "Ekādasa kriyā ceti, catupaññāsa sabbathā.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Rūpāvacaracittaṃ"
+},
+{
+"type": "p",
+"pnum": 1021,
+"label": "I.21",
+"alias": [
+"p1-21"
+],
+"text": "Vitakkavicārapītisukhekaggatāsahitaṃ paṭhamajjhānakusalacittaṃ, vicārapītisukhekaggatāsahitaṃ dutiyajjhānakusalacittaṃ, pītisukhekaggatāsahitaṃ tatiyajjhānakusalacittaṃ, sukhekaggatāsahitaṃ catutthajjhānakusalacittaṃ, upekkhekaggatāsahitaṃ pañcamajjhānakusalacittañceti imāni pañcapi rūpāvacarakusalacittāni nāma."
+},
+{
+"type": "p",
+"pnum": 1022,
+"label": "I.22",
+"alias": [
+"p1-22"
+],
+"text": "Vitakkavicārapītisukhekaggatāsahitaṃ paṭhamajjhānavipākacittaṃ, vicārapītisukhekaggatāsahitaṃ dutiyajjhānavipākacittaṃ, pītisukhekaggatāsahitaṃ tatiyajjhānavipākacittaṃ, sukhekaggatāsahitaṃ catutthajjhānavipākacittaṃ, upekkhekaggatāsahitaṃ pañcamajjhānavipākacittañceti imāni pañcapi rūpāvacaravipākacittāni nāma."
+},
+{
+"type": "p",
+"pnum": 1023,
+"label": "I.23",
+"alias": [
+"p1-23"
+],
+"text": "Vitakkavicārapītisukhekaggatāsahitaṃ paṭhamajjhānakiriyacittaṃ, vicārapītisukhekaggatāsahitaṃ dutiyajjhānakiriyacittaṃ, pītisukhekaggatāsahitaṃ tatiyajjhānakiriyacittaṃ⟨pg:5⟩, sukhekaggatāsahitaṃ catutthajjhānakiriyacittaṃ, upekkhekaggatāsahitaṃ pañcamajjhānakiriyacittañceti imāni pañcapi rūpāvacarakiriyacittāni nāma."
+},
+{
+"type": "p",
+"pnum": 1024,
+"label": "I.24",
+"alias": [
+"p1-24"
+],
+"text": "Iccevaṃ sabbathāpi **pannarasa rūpāvacarakusalavipākakiriyacittāni** samattāni."
+},
+{
+"type": "p",
+"pnum": 1025,
+"label": "I.25",
+"alias": [
+"p1-25"
+],
+"text": "Pañcadhā jhānabhedena, rūpāvacaramānasaṃ."
+},
+{
+"type": "p",
+"text": "Puññapākakriyābhedā, taṃ pañcadasadhā bhave.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Arūpāvacaracittaṃ"
+},
+{
+"type": "p",
+"pnum": 1026,
+"label": "I.26",
+"alias": [
+"p1-26"
+],
+"text": "Ākāsānañcāyatanakusalacittaṃ, viññāṇañcāyatanakusalacittaṃ, ākiñcaññāyatanakusalacittaṃ, nevasaññānāsaññāyatanakusalacittañceti imāni cattāripi arūpāvacarakusalacittāni nāma."
+},
+{
+"type": "p",
+"pnum": 1027,
+"label": "I.27",
+"alias": [
+"p1-27"
+],
+"text": "Ākāsānañcāyatanavipākacittaṃ, viññāṇañcāyatanavipākacittaṃ, ākiñcaññāyatanavipākacittaṃ, nevasaññānāsaññāyatanavipākacittañceti imāni cattāripi arūpāvacaravipākacittāni nāma."
+},
+{
+"type": "p",
+"pnum": 1028,
+"label": "I.28",
+"alias": [
+"p1-28"
+],
+"text": "Ākāsānañcāyatanakiriyacittaṃ, viññāṇañcāyatanakiriyacittaṃ, ākiñcaññāyatanakiriyacittaṃ, nevasaññānāsaññāyatanakiriyacittañceti imāni cattāripi arūpāvacarakiriyacittāni nāma."
+},
+{
+"type": "p",
+"pnum": 1029,
+"label": "I.29",
+"alias": [
+"p1-29"
+],
+"text": "Iccevaṃ sabbathāpi **dvādasa arūpāvacarakusalavipākakiriyacittāni** samattāni."
+},
+{
+"type": "p",
+"pnum": 1030,
+"label": "I.30",
+"alias": [
+"p1-30"
+],
+"text": "Ālambaṇappabhedena, catudhāruppamānasaṃ."
+},
+{
+"type": "p",
+"text": "Puññapākakriyābhedā, puna dvādasadhā ṭhitaṃ.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Lokuttaracittaṃ"
+},
+{
+"type": "p",
+"pnum": 1031,
+"label": "I.31",
+"alias": [
+"p1-31"
+],
+"text": "Sotāpattimaggacittaṃ⟨pg:6⟩, sakadāgāmimaggacittaṃ, anāgāmimaggacittaṃ, arahattamaggacittañceti imāni cattāripi lokuttarakusalacittāni nāma."
+},
+{
+"type": "p",
+"pnum": 1032,
+"label": "I.32",
+"alias": [
+"p1-32"
+],
+"text": "Sotāpattiphalacittaṃ, sakadāgāmiphalacittaṃ, anāgāmiphalacittaṃ, arahattaphalacittañceti imāni cattāripi lokuttaravipākacittāni nāma."
+},
+{
+"type": "p",
+"pnum": 1033,
+"label": "I.33",
+"alias": [
+"p1-33"
+],
+"text": "Iccevaṃ sabbathāpi **aṭṭha lokuttarakusalavipākacittāni** samattāni."
+},
+{
+"type": "p",
+"pnum": 1034,
+"label": "I.34",
+"alias": [
+"p1-34"
+],
+"text": "Catumaggappabhedena, catudhā kusalaṃ tathā."
+},
+{
+"type": "p",
+"text": "Pākaṃ tassa phalattāti, aṭṭhadhānuttaraṃ mataṃ.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Cittagaṇanasaṅgaho"
+},
+{
+"type": "p",
+"pnum": 1035,
+"label": "I.35",
+"alias": [
+"p1-35"
+],
+"text": "Dvādasākusalānevaṃ, kusalānekavīsati."
+},
+{
+"type": "p",
+"text": "Chattiṃseva vipākāni, kriyacittāni vīsati.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 1036,
+"label": "I.36",
+"alias": [
+"p1-36"
+],
+"text": "Catupaññāsadhā kāme, rūpe pannarasīraye."
+},
+{
+"type": "p",
+"text": "Cittāni dvādasāruppe, aṭṭhadhānuttare tathā.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 1037,
+"label": "I.37",
+"alias": [
+"p1-37"
+],
+"text": "Itthamekūnanavutipabhedaṃ pana mānasaṃ."
+},
+{
+"type": "p",
+"text": "Ekavīsasataṃ vātha, vibhajanti vicakkhaṇā.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Vitthāragaṇanā"
+},
+{
+"type": "p",
+"pnum": 1038,
+"label": "I.38",
+"alias": [
+"p1-38"
+],
+"text": "Kathamekūnanavutividhaṃ cittaṃ ekavīsasataṃ hoti? Vitakkavicārapītisukhekaggatāsahitaṃ paṭhamajjhānasotāpattimaggacittaṃ, vicārapītisukhekaggatāsahitaṃ dutiyajjhānasotāpattimaggacittaṃ, pītisukhekaggatāsahitaṃ tatiyajjhānasotāpattimaggacittaṃ, sukhekaggatāsahitaṃ catutthajjhānasotāpattimaggacittaṃ, upekkhekaggatāsahitaṃ pañcamajjhānasotāpattimaggacittañceti imāni pañcapi sotāpattimaggacittāni nāma."
+},
+{
+"type": "p",
+"pnum": 1039,
+"label": "I.39",
+"alias": [
+"p1-39"
+],
+"text": "Tathā ⟨pg:7⟩ sakadāgāmimaggaanāgāmimaggaarahattamaggacittañceti samavīsati maggacittāni."
+},
+{
+"type": "p",
+"pnum": 1040,
+"label": "I.40",
+"alias": [
+"p1-40"
+],
+"text": "Tathā phalacittāni ceti **samacattālīsa lokuttaracittāni** bhavantīti."
+},
+{
+"type": "p",
+"pnum": 1041,
+"label": "I.41",
+"alias": [
+"p1-41"
+],
+"text": "Jhānaṅgayogabhedena, katvekekantu pañcadhā."
+},
+{
+"type": "p",
+"text": "Vuccatānuttaraṃ cittaṃ, cattālīsavidhanti ca.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 1042,
+"label": "I.42",
+"alias": [
+"p1-42"
+],
+"text": "Yathā ca rūpāvacaraṃ, gayhatānuttaraṃ tathā."
+},
+{
+"type": "p",
+"text": "Paṭhamādijhānabhede, āruppañcāpi pañcame.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Ekādasavidhaṃ tasmā, paṭhamādikamīritaṃ;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Jhānamekekamante tu, tevīsatividhaṃ bhave.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 1043,
+"label": "I.43",
+"alias": [
+"p1-43"
+],
+"text": "Sattatiṃsavidhaṃ puññaṃ, dvipaññāsavidhaṃ tathā."
+},
+{
+"type": "p",
+"text": "Pākamiccāhu cittāni, ekavīsasataṃ budhā.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Iti abhidhammatthasaṅgahe cittasaṅgahavibhāgo nāma",
+"ctr": true
+},
+{
+"type": "p",
+"text": "Paṭhamo paricchedo.",
+"ctr": true
+}
+],
+"sangaha_ch": 1
+},
+{
+"num": "2",
+"label": "Chapter II",
+"title": "2. Cetasikaparicchedo — Mental factors",
+"blocks": [
+{
+"type": "h",
+"text": "2. Cetasikaparicchedo"
+},
+{
+"type": "h",
+"text": "Sampayogalakkhaṇaṃ"
+},
+{
+"type": "p",
+"pnum": 2001,
+"label": "II.1",
+"alias": [
+"p2-1"
+],
+"text": "Ekuppādanirodhā ca, ekālambaṇavatthukā."
+},
+{
+"type": "p",
+"text": "Cetoyuttā dvipaññāsa, dhammā cetasikā matā.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Aññasamānacetasikaṃ"
+},
+{
+"type": "p",
+"pnum": 2002,
+"label": "II.2",
+"alias": [
+"p2-2"
+],
+"text": "Kathaṃ? Phasso vedanā saññā cetanā ekaggatā jīvitindriyaṃ manasikāro ceti sattime cetasikā **sabbacittasādhāraṇā** nāma."
+},
+{
+"type": "p",
+"pnum": 2003,
+"label": "II.3",
+"alias": [
+"p2-3"
+],
+"text": "Vitakko ⟨pg:8⟩ vicāro adhimokkho vīriyaṃ pīti chando cāti cha ime cetasikā **pakiṇṇakā** nāma."
+},
+{
+"type": "p",
+"pnum": 2004,
+"label": "II.4",
+"alias": [
+"p2-4"
+],
+"text": "Evamete terasa cetasikā **aññasamānā**ti veditabbā."
+},
+{
+"type": "h",
+"text": "Akusalacetasikaṃ"
+},
+{
+"type": "p",
+"pnum": 2005,
+"label": "II.5",
+"alias": [
+"p2-5"
+],
+"text": "Moho ahirikaṃ anottappaṃ uddhaccaṃ lobho diṭṭhi māno doso issā macchariyaṃ kukkuccaṃ thinaṃ middhaṃ vicikicchā ceti cuddasime cetasikā **akusalā** nāma."
+},
+{
+"type": "h",
+"text": "Sobhanacetasikaṃ"
+},
+{
+"type": "p",
+"pnum": 2006,
+"label": "II.6",
+"alias": [
+"p2-6"
+],
+"text": "Saddhā sati hirī ottappaṃ alobho adoso tatramajjhattatā kāyapassaddhi cittapassaddhi kāyalahutā cittalahutā kāyamudutā cittamudutā kāyakammaññatā cittakammaññatā kāyapāguññatā cittapāguññatā kāyujukatā cittujukatā ceti ekūnavīsatime cetasikā **sobhanasādhāraṇā** nāma."
+},
+{
+"type": "p",
+"pnum": 2007,
+"label": "II.7",
+"alias": [
+"p2-7"
+],
+"text": "Sammāvācā sammākammanto sammāājīvo ceti tisso **viratiyo** nāma."
+},
+{
+"type": "p",
+"pnum": 2008,
+"label": "II.8",
+"alias": [
+"p2-8"
+],
+"text": "Karuṇā muditā **appamaññāyo** nāmāti sabbathāpi paññindriyena saddhiṃ pañcavīsatime cetasikā **sobhanā**ti veditabbā."
+},
+{
+"type": "p",
+"pnum": 2009,
+"label": "II.9",
+"alias": [
+"p2-9"
+],
+"text": "Ettāvatā ca –"
+},
+{
+"type": "p",
+"text": "Terasaññasamānā ca, cuddasākusalā tathā;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Sobhanā pañcavīsāti, dvipaññāsa pavuccare.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Sampayoganayo"
+},
+{
+"type": "p",
+"pnum": 2010,
+"label": "II.10",
+"alias": [
+"p2-10"
+],
+"text": "Tesaṃ ⟨pg:9⟩ cittāviyuttānaṃ, yathāyogamito paraṃ."
+},
+{
+"type": "p",
+"text": "Cittuppādesu paccekaṃ, sampayogo pavuccati.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 2011,
+"label": "II.11",
+"alias": [
+"p2-11"
+],
+"text": "Satta sabbattha yujjanti, yathāyogaṃ pakiṇṇakā."
+},
+{
+"type": "p",
+"text": "Cuddasākusalesveva, sobhanesveva sobhanā.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Aññasamānacetasikasampayoganayo"
+},
+{
+"type": "p",
+"pnum": 2012,
+"label": "II.12",
+"alias": [
+"p2-12"
+],
+"text": "Kathaṃ? **Sabbacittasādhāraṇā** tāva sattime cetasikā sabbesupi ekūnanavuticittuppādesu labbhanti."
+},
+{
+"type": "p",
+"pnum": 2013,
+"label": "II.13",
+"alias": [
+"p2-13"
+],
+"text": "**Pakiṇṇakesu** pana vitakko tāva dvipañcaviññāṇavajjitakāmāvacaracittesu ceva ekādasasu paṭhamajjhānacittesu ceti pañcapaññāsacittesu uppajjati."
+},
+{
+"type": "p",
+"pnum": 2014,
+"label": "II.14",
+"alias": [
+"p2-14"
+],
+"text": "Vicāro pana tesu ceva ekādasasu dutiyajjhānacittesu cāti chasaṭṭhicittesu."
+},
+{
+"type": "p",
+"pnum": 2015,
+"label": "II.15",
+"alias": [
+"p2-15"
+],
+"text": "Adhimokkho dvipañcaviññāṇavicikicchāsahagatavajjitacittesu."
+},
+{
+"type": "p",
+"pnum": 2016,
+"label": "II.16",
+"alias": [
+"p2-16"
+],
+"text": "Vīriyaṃ pañcadvārāvajjanadvipañcaviññāṇasampaṭicchanasantīraṇavajjitacittesu."
+},
+{
+"type": "p",
+"pnum": 2017,
+"label": "II.17",
+"alias": [
+"p2-17"
+],
+"text": "Pīti domanassupekkhāsahagatakāyaviññāṇacatutthajjhānavajjitacittesu."
+},
+{
+"type": "p",
+"pnum": 2018,
+"label": "II.18",
+"alias": [
+"p2-18"
+],
+"text": "Chando ahetukamomūhavajjitacittesūti."
+},
+{
+"type": "p",
+"pnum": 2019,
+"label": "II.19",
+"alias": [
+"p2-19"
+],
+"text": "Te pana cittuppādā yathākkamaṃ –"
+},
+{
+"type": "p",
+"text": "Chasaṭṭhi pañcapaññāsa, ekādasa ca soḷasa;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Sattati vīsati ceva, pakiṇṇakavivajjitā.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Pañcapaññāsa ⟨pg:10⟩ chasaṭṭhiṭṭhasattati tisattati;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Ekapaññāsa cekūnasattati sapakiṇṇakā.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Akusalacetasikasampayoganayo"
+},
+{
+"type": "p",
+"pnum": 2020,
+"label": "II.20",
+"alias": [
+"p2-20"
+],
+"text": "**Akusalesu** pana moho ahirikaṃ anottappaṃ uddhaccañcāti cattārome cetasikā sabbākusalasādhāraṇā nāma, sabbesupi dvādasā kusalesu labbhanti."
+},
+{
+"type": "p",
+"pnum": 2021,
+"label": "II.21",
+"alias": [
+"p2-21"
+],
+"text": "Lobho aṭṭhasu lobhasahagatacittesveva labbhati."
+},
+{
+"type": "p",
+"pnum": 2022,
+"label": "II.22",
+"alias": [
+"p2-22"
+],
+"text": "Diṭṭhi catūsu diṭṭhigatasampayuttesu."
+},
+{
+"type": "p",
+"pnum": 2023,
+"label": "II.23",
+"alias": [
+"p2-23"
+],
+"text": "Māno catūsu diṭṭhigatavippayuttesu."
+},
+{
+"type": "p",
+"pnum": 2024,
+"label": "II.24",
+"alias": [
+"p2-24"
+],
+"text": "Doso issā macchariyaṃ kukkuccañcāti dvīsu paṭighasampayuttacittesu."
+},
+{
+"type": "p",
+"pnum": 2025,
+"label": "II.25",
+"alias": [
+"p2-25"
+],
+"text": "Thinamiddhaṃ pañcasu sasaṅkhārikacittesu."
+},
+{
+"type": "p",
+"pnum": 2026,
+"label": "II.26",
+"alias": [
+"p2-26"
+],
+"text": "Vicikicchā vicikicchāsahagatacitteyevāti."
+},
+{
+"type": "p",
+"pnum": 2027,
+"label": "II.27",
+"alias": [
+"p2-27"
+],
+"text": "Sabbāpuññesu cattāro,"
+},
+{
+"type": "p",
+"text": "Lobhamūle tayo gatā;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Dosamūlesu cattāro,",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Sasaṅkhāre dvayaṃ tathā.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Vicikicchā vicikicchā-citte cāti catuddasa;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Dvādasākulesveva, sampayujjanti pañcadhā.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Sobhanacetasikasampayoganayo"
+},
+{
+"type": "p",
+"pnum": 2028,
+"label": "II.28",
+"alias": [
+"p2-28"
+],
+"text": "**Sobhanesu** pana sobhanasādhāraṇā tāva ekūnavīsatime cetasikā sabbesupi ekūnasaṭṭhisobhanacittesu saṃvijjanti."
+},
+{
+"type": "p",
+"pnum": 2029,
+"label": "II.29",
+"alias": [
+"p2-29"
+],
+"text": "Viratiyo ⟨pg:11⟩ pana tissopi lokuttaracittesu sabbathāpi niyatā ekatova labbhanti, lokiyesu pana kāmāvacarakusalesveva kadāci sandissanti visuṃ visuṃ."
+},
+{
+"type": "p",
+"pnum": 2030,
+"label": "II.30",
+"alias": [
+"p2-30"
+],
+"text": "Appamaññāyo pana dvādasasu pañcamajjhānavajjitamahaggatacittesu ceva kāmāvacarakusalesu ca sahetukakāmāvacarakiriyacittesu cāti aṭṭhavīsaticittesveva kadāci nānā hutvā jāyanti, upekkhāsahagatesu panettha karuṇāmuditā na santīti keci vadanti."
+},
+{
+"type": "p",
+"pnum": 2031,
+"label": "II.31",
+"alias": [
+"p2-31"
+],
+"text": "Paññā pana dvādasasu ñāṇasampayuttakāmāvacaracittesu ceva sabbesupi pañcatiṃsamahaggatalokuttaracittesu cāti sattacattālīsacittesu sampayogaṃ gacchatīti."
+},
+{
+"type": "p",
+"pnum": 2032,
+"label": "II.32",
+"alias": [
+"p2-32"
+],
+"text": "Ekūnavīsati dhammā, jāyantekūnasaṭṭhisu."
+},
+{
+"type": "p",
+"text": "Tayo soḷasacittesu, aṭṭhavīsatiyaṃ dvayaṃ.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Paññā pakāsitā, sattacattālīsavidhesupi;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Sampayuttā catudhevaṃ, sobhanesveva sobhanā.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 2033,
+"label": "II.33",
+"alias": [
+"p2-33"
+],
+"text": "Issāmaccherakukkucca-viratikaruṇādayo."
+},
+{
+"type": "p",
+"text": "Nānā kadāci māno ca, thina middhaṃ tathā saha.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 2034,
+"label": "II.34",
+"alias": [
+"p2-34"
+],
+"text": "Yathāvuttānusārena, sesā **niyatayogino**."
+},
+{
+"type": "p",
+"text": "**Saṅgahañca** pavakkhāmi, tesaṃ dāni yathārahaṃ.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Saṅgahanayo"
+},
+{
+"type": "p",
+"pnum": 2035,
+"label": "II.35",
+"alias": [
+"p2-35"
+],
+"text": "Chattiṃsānuttare dhammā, pañcatiṃsa mahaggate."
+},
+{
+"type": "p",
+"text": "Aṭṭhatiṃsāpi labbhanti, kāmāvacarasobhane.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Sattavīsatipuññamhi, dvādasāhetuketi ca;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Yathāsambhavayogena, pañcadhā tattha saṅgaho.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Lokuttaracittasaṅgahanayo"
+},
+{
+"type": "p",
+"pnum": 2036,
+"label": "II.36",
+"alias": [
+"p2-36"
+],
+"text": "Kathaṃ⟨pg:12⟩? **Lokuttaresu** tāva aṭṭhasu paṭhamajjhānikacittesu aññasamānā terasa cetasikā, appamaññāvajjitā tevīsati sobhanacetasikā ceti chattiṃsa dhammā saṅgahaṃ gacchanti, tathā dutiyajjhānikacittesu vitakkavajjā, tatiyajjhānikacittesu vitakkavicāravajjā, catutthajjhānikacittesu vitakkavicārapītivajjā, pañcamajjhānikacittesupi upekkhāsahagatā te eva saṅgayhantīti sabbathāpi aṭṭhasu lokuttaracittesu pañcakajjhānavasena pañcadhāva saṅgaho hotīti."
+},
+{
+"type": "p",
+"pnum": 2037,
+"label": "II.37",
+"alias": [
+"p2-37"
+],
+"text": "Chattiṃsa pañcatiṃsa ca, catuttiṃsa yathākkamaṃ."
+},
+{
+"type": "p",
+"text": "Tettiṃsadvayamiccevaṃ, pañcadhānuttare ṭhitā.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Mahaggatacittasaṅgahanayo"
+},
+{
+"type": "p",
+"pnum": 2038,
+"label": "II.38",
+"alias": [
+"p2-38"
+],
+"text": "**Mahaggatesu** pana tīsu paṭhamajjhānikacittesu tāva aññasamānā terasa cetasikā, viratittayavajjitā dvāvīsati sobhanacetasikā ceti pañcatiṃsa dhammā saṅgahaṃ gacchanti, karuṇāmuditā panettha paccekameva yojetabbā, tathā dutiyajjhānikacittesu vitakkavajjā, tatiyajjhānikacittesu vitakkavicāravajjā, catutthajjhānikacittesu vitakkavicārapītivajjā, pañcamajjhānikacittesu pana pannarasasu appamaññāyo na labbhantīti sabbathāpi sattavīsatimahaggatacittesu pañcakajjhānavasena pañcadhāva saṅgaho hotīti."
+},
+{
+"type": "p",
+"pnum": 2039,
+"label": "II.39",
+"alias": [
+"p2-39"
+],
+"text": "Pañcatiṃsa catuttiṃsa, tettiṃsa ca yathākkamaṃ."
+},
+{
+"type": "p",
+"text": "Bāttiṃsa ceva tiṃseti, pañcadhāva mahaggate.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Kāmāvacarasobhanacittasaṅgahanayo"
+},
+{
+"type": "p",
+"pnum": 2040,
+"label": "II.40",
+"alias": [
+"p2-40"
+],
+"text": "**Kāmāvacarasobhanesu** pana kusalesu tāva paṭhamadvaye aññasamānā terasa cetasikā, pañcavīsati sobhanacetasikā ⟨pg:13⟩ ceti aṭṭhatiṃsa dhammā saṅgahaṃ gacchanti, appamaññāviratiyo panettha pañcapi paccekameva yojetabbā, tathā dutiyadvaye ñāṇavajjitā, tatiyadvaye ñāṇasampayuttā pītivajjitā, catutthadvaye ñāṇapītivajjitā te eva saṅgayhanti. Kiriyacittesupi virativajjitā tatheva catūsupi dukesu catudhāva saṅgayhanti. Tathā vipākesu ca appamaññāvirativajjitā te eva saṅgayhantīti sabbathāpi catuvīsatikāmāvacarasobhanacittesu dukavasena dvādasadhāva saṅgaho hotīti."
+},
+{
+"type": "p",
+"pnum": 2041,
+"label": "II.41",
+"alias": [
+"p2-41"
+],
+"text": "Aṭṭhatiṃsa sattatiṃsa, dvayaṃ chattiṃsakaṃ subhe."
+},
+{
+"type": "p",
+"text": "Pañcatiṃsa catuttiṃsa, dvayaṃ tettiṃsakaṃ kriye;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Tettiṃsa pāke bāttiṃsa, dvayekatiṃsakaṃ bhave;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Sahetukāmāvacarapuñña-pākakriyāmane.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 2042,
+"label": "II.42",
+"alias": [
+"p2-42"
+],
+"text": "Navijjantettha viratī, kriyesu ca mahaggate."
+},
+{
+"type": "p",
+"text": "Anuttare appamaññā, kāmapāke dvayaṃ tathā;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Anuttare jhānadhammā, appamaññā ca majjhime;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Viratī ñāṇapītī ca, parittesu visesakā.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Akusalacittasaṅgahanayo"
+},
+{
+"type": "p",
+"pnum": 2043,
+"label": "II.43",
+"alias": [
+"p2-43"
+],
+"text": "**Akusalesu** pana lobhamūlesu tāva paṭhame asaṅkhārike aññasamānā terasa cetasikā, akusalasādhāraṇā cattāro cāti sattarasa lobhadiṭṭhīhi saddhiṃ ekūnavīsati dhammā saṅgahaṃ gacchanti."
+},
+{
+"type": "p",
+"pnum": 2044,
+"label": "II.44",
+"alias": [
+"p2-44"
+],
+"text": "Tatheva dutiye asaṅkhārike lobhamānena."
+},
+{
+"type": "p",
+"pnum": 2045,
+"label": "II.45",
+"alias": [
+"p2-45"
+],
+"text": "Tatiye tatheva pītivajjitā lobhadiṭṭhīhi saha aṭṭhārasa."
+},
+{
+"type": "p",
+"pnum": 2046,
+"label": "II.46",
+"alias": [
+"p2-46"
+],
+"text": "Catutthe ⟨pg:14⟩ tatheva lobhamānena."
+},
+{
+"type": "p",
+"pnum": 2047,
+"label": "II.47",
+"alias": [
+"p2-47"
+],
+"text": "Pañcame pana paṭighasampayutte asaṅkhārike doso issā macchariyaṃ kukkuccañcāti catūhi saddhiṃ pītivajjitā te eva vīsati dhammā saṅgayhanti, issāmacchariyakukkuccāni panettha paccekameva yojetabbāni."
+},
+{
+"type": "p",
+"pnum": 2048,
+"label": "II.48",
+"alias": [
+"p2-48"
+],
+"text": "Sasaṅkhārikapañcakepi tatheva thinamiddhena visesetvā yojetabbā."
+},
+{
+"type": "p",
+"pnum": 2049,
+"label": "II.49",
+"alias": [
+"p2-49"
+],
+"text": "Chandapītivajjitā pana aññasamānā ekādasa, akusalasādhāraṇā cattāro cāti pannarasa dhammā uddhaccasahagate sampayujjanti."
+},
+{
+"type": "p",
+"pnum": 2050,
+"label": "II.50",
+"alias": [
+"p2-50"
+],
+"text": "Vicikicchāsahagatacitte ca adhimokkhavirahitā vicikicchāsahagatā tatheva pannarasa dhammā samupalabbhantīti sabbathāpi dvādasākusalacittuppādesu paccekaṃ yojiyamānāpi gaṇanavasena sattadhāva saṅgahitā bhavantīti."
+},
+{
+"type": "p",
+"pnum": 2051,
+"label": "II.51",
+"alias": [
+"p2-51"
+],
+"text": "Ekūnavīsāṭṭhārasa, vīsekavīsa vīsati."
+},
+{
+"type": "p",
+"text": "Dvāvīsa pannaraseti, sattadhā kusaleṭhitā.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 2052,
+"label": "II.52",
+"alias": [
+"p2-52"
+],
+"text": "Sādhāraṇā ca cattāro, samānā ca dasāpare."
+},
+{
+"type": "p",
+"text": "Cuddasete pavuccanti, **sabbākusalayogino**.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Ahetukacittasaṅgahanayo"
+},
+{
+"type": "p",
+"pnum": 2053,
+"label": "II.53",
+"alias": [
+"p2-53"
+],
+"text": "**Ahetukesu** pana hasanacitte tāva chandavajjitā aññasamānā dvādasa dhammā saṅgahaṃ gacchanti."
+},
+{
+"type": "p",
+"pnum": 2054,
+"label": "II.54",
+"alias": [
+"p2-54"
+],
+"text": "Tathā voṭṭhabbane chandapītivajjitā."
+},
+{
+"type": "p",
+"pnum": 2055,
+"label": "II.55",
+"alias": [
+"p2-55"
+],
+"text": "Sukhasantīraṇe chandavīriyavajjitā."
+},
+{
+"type": "p",
+"pnum": 2056,
+"label": "II.56",
+"alias": [
+"p2-56"
+],
+"text": "Manodhātuttikāhetukapaṭisandhiyugaḷe chandapītivīriyavajjitā."
+},
+{
+"type": "p",
+"pnum": 2057,
+"label": "II.57",
+"alias": [
+"p2-57"
+],
+"text": "Dvipañcaviññāṇe ⟨pg:15⟩ pakiṇṇakavajjitā teyeva saṅgayhantīti sabbathāpi aṭṭhārasasu ahetukesu gaṇanavasena catudhāva saṅgaho hotīti."
+},
+{
+"type": "p",
+"pnum": 2058,
+"label": "II.58",
+"alias": [
+"p2-58"
+],
+"text": "Dvādasekādasa dasa, satta cāti catubbidho."
+},
+{
+"type": "p",
+"text": "Aṭṭhārasāhetukesu, cittuppādesu saṅgaho.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 2059,
+"label": "II.59",
+"alias": [
+"p2-59"
+],
+"text": "Ahetukesu sabbattha, satta sesā yathārahaṃ."
+},
+{
+"type": "p",
+"text": "Iti vitthārato vutto, tettiṃsavidhasaṅgaho.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 2060,
+"label": "II.60",
+"alias": [
+"p2-60"
+],
+"text": "Itthaṃ cittāviyuttānaṃ, sampayogañca saṅgahaṃ."
+},
+{
+"type": "p",
+"text": "Ñatvā bhedaṃ yathāyogaṃ, cittena samamuddise.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Iti abhidhammatthasaṅgahe cetasikasaṅgahavibhāgo nāma",
+"ctr": true
+},
+{
+"type": "p",
+"text": "Dutiyo paricchedo.",
+"ctr": true
+}
+],
+"sangaha_ch": 2
+},
+{
+"num": "3",
+"label": "Chapter III",
+"title": "3. Pakiṇṇakaparicchedo — Miscellaneous",
+"blocks": [
+{
+"type": "h",
+"text": "3. Pakiṇṇakaparicchedo"
+},
+{
+"type": "p",
+"pnum": 3001,
+"label": "III.1",
+"alias": [
+"p3-1"
+],
+"text": "Sampayuttā yathāyogaṃ, tepaññāsa sabhāvato."
+},
+{
+"type": "p",
+"text": "Cittacetasikā dhammā, tesaṃ dāni yathārahaṃ.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 3002,
+"label": "III.2",
+"alias": [
+"p3-2"
+],
+"text": "Vedanāhetuto kiccadvārālambaṇavatthuto."
+},
+{
+"type": "p",
+"text": "Cittuppādavaseneva, saṅgaho nāma nīyate.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Vedanāsaṅgaho"
+},
+{
+"type": "p",
+"pnum": 3003,
+"label": "III.3",
+"alias": [
+"p3-3"
+],
+"text": "Tattha **vedanāsaṅgahe** tāva tividhā vedanā sukhaṃ dukkhaṃ adukkhamasukhā ceti, sukhaṃ dukkhaṃ somanassaṃ domanassaṃ upekkhāti ca bhedena pana pañcadhā hoti."
+},
+{
+"type": "p",
+"pnum": 3004,
+"label": "III.4",
+"alias": [
+"p3-4"
+],
+"text": "Tattha sukhasahagataṃ kusalavipākaṃ kāyaviññāṇamekameva, tathā dukkhasahagataṃ akusalavipākaṃ."
+},
+{
+"type": "p",
+"pnum": 3005,
+"label": "III.5",
+"alias": [
+"p3-5"
+],
+"text": "Somanassasahagatacittāni ⟨pg:16⟩ pana lobhamūlāni cattāri, dvādasa kāmāvacarasobhanāni, sukhasantīraṇahasanāni ca dveti aṭṭhārasa kāmāvacarasomanassasahagatacittāni ceva paṭhamadutiyatatiyacatutthajjhānasaṅkhātāni catucattālīsa mahaggatalokuttaracittāni ceti dvāsaṭṭhividhāni bhavanti."
+},
+{
+"type": "p",
+"pnum": 3006,
+"label": "III.6",
+"alias": [
+"p3-6"
+],
+"text": "Domanassasahagatacittāni pana dve paṭighasampayuttacittāneva."
+},
+{
+"type": "p",
+"pnum": 3007,
+"label": "III.7",
+"alias": [
+"p3-7"
+],
+"text": "Sesāni sabbānipi pañcapaññāsa upekkhāsahagatacittānevāti."
+},
+{
+"type": "p",
+"pnum": 3008,
+"label": "III.8",
+"alias": [
+"p3-8"
+],
+"text": "Sukhaṃ dukkhamupekkhāti, tividhā tattha vedanā."
+},
+{
+"type": "p",
+"text": "Somanassaṃ domanassamitibhedena pañcadhā.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 3009,
+"label": "III.9",
+"alias": [
+"p3-9"
+],
+"text": "Sukhamekattha dukkhañca, domanassaṃ dvaye ṭhitaṃ."
+},
+{
+"type": "p",
+"text": "Dvāsaṭṭhīsu somanassaṃ, pañcapaññāsaketarā.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Hetusaṅgaho"
+},
+{
+"type": "p",
+"pnum": 3010,
+"label": "III.10",
+"alias": [
+"p3-10"
+],
+"text": "**Hetusaṅgahe** hetū nāma lobho doso moho alobho adoso amoho cāti chabbidhā bhavanti."
+},
+{
+"type": "p",
+"pnum": 3011,
+"label": "III.11",
+"alias": [
+"p3-11"
+],
+"text": "Tattha pañcadvārāvajjanadvipañcaviññāṇasampaṭicchanasantīraṇavoṭṭhabbanahasanavasena ahetukacittāni nāma."
+},
+{
+"type": "p",
+"pnum": 3012,
+"label": "III.12",
+"alias": [
+"p3-12"
+],
+"text": "Sesāni sabbānipi ekasattati cittāni sahetukāneva."
+},
+{
+"type": "p",
+"pnum": 3013,
+"label": "III.13",
+"alias": [
+"p3-13"
+],
+"text": "Tatthāpi dve momūhacittāni ekahetukāni."
+},
+{
+"type": "p",
+"pnum": 3014,
+"label": "III.14",
+"alias": [
+"p3-14"
+],
+"text": "Sesāni dasa akusalacittāni ceva ñāṇavippayuttāni dvādasa kāmāvacarasobhanāni ceti dvāvīsati dvihetukacittāni."
+},
+{
+"type": "p",
+"pnum": 3015,
+"label": "III.15",
+"alias": [
+"p3-15"
+],
+"text": "Dvādasa ⟨pg:17⟩ ñāṇasampayuttakāmāvacarasobhanāni ceva pañcatiṃsa mahaggatalokuttaracittāni ceti sattacattālīsa tihetukacittānīti."
+},
+{
+"type": "p",
+"pnum": 3016,
+"label": "III.16",
+"alias": [
+"p3-16"
+],
+"text": "Lobho doso ca moho ca,"
+},
+{
+"type": "p",
+"text": "Hetū akusalā tayo;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Alobhādosāmoho ca,",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Kusalābyākatā tathā.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 3017,
+"label": "III.17",
+"alias": [
+"p3-17"
+],
+"text": "Ahetukāṭṭhārasekahetukā dve dvāvīsati."
+},
+{
+"type": "p",
+"text": "Dvihetukā matā sattacattālīsatihetukā.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Kiccasaṅgaho"
+},
+{
+"type": "p",
+"pnum": 3018,
+"label": "III.18",
+"alias": [
+"p3-18"
+],
+"text": "**Kiccasaṅgahe** kiccāni nāma paṭisandhibhavaṅgāvajjanadassanasavanaghāyanasāyanaphusanasampaṭicchanasantīraṇavoṭṭhabbanajavanatadārammaṇacutivasena cuddasavidhāni bhavanti."
+},
+{
+"type": "p",
+"pnum": 3019,
+"label": "III.19",
+"alias": [
+"p3-19"
+],
+"text": "Paṭisandhibhavaṅgāvajjanapañcaviññāṇaṭhānādivasena pana tesaṃ dasadhā ṭhānabhedo veditabbo."
+},
+{
+"type": "p",
+"pnum": 3020,
+"label": "III.20",
+"alias": [
+"p3-20"
+],
+"text": "Tattha dve upekkhāsahagatasantīraṇāni ceva aṭṭha mahāvipākāni ca nava rūpārūpavipākāni ceti ekūnavīsati cittāni paṭisandhibhavaṅgacutikiccāni nāma."
+},
+{
+"type": "p",
+"pnum": 3021,
+"label": "III.21",
+"alias": [
+"p3-21"
+],
+"text": "Āvajjanakiccāni pana dve."
+},
+{
+"type": "p",
+"pnum": 3022,
+"label": "III.22",
+"alias": [
+"p3-22"
+],
+"text": "Tathā dassanasavanaghāyanasāyanaphusanasampaṭicchanakiccāni ca."
+},
+{
+"type": "p",
+"pnum": 3023,
+"label": "III.23",
+"alias": [
+"p3-23"
+],
+"text": "Tīṇi santīraṇakiccāni."
+},
+{
+"type": "p",
+"pnum": 3024,
+"label": "III.24",
+"alias": [
+"p3-24"
+],
+"text": "Manodvārāvajjanameva pañcadvāre voṭṭhabbanakiccaṃ sādheti."
+},
+{
+"type": "p",
+"pnum": 3025,
+"label": "III.25",
+"alias": [
+"p3-25"
+],
+"text": "Āvajjanadvayavajjitāni kusalākusalaphalakiriyacittāni pañcapaññāsa javanakiccāni."
+},
+{
+"type": "p",
+"pnum": 3026,
+"label": "III.26",
+"alias": [
+"p3-26"
+],
+"text": "Aṭṭha ⟨pg:18⟩ mahāvipākāni ceva santīraṇattayañceti ekādasa tadārammaṇakiccāni."
+},
+{
+"type": "p",
+"pnum": 3027,
+"label": "III.27",
+"alias": [
+"p3-27"
+],
+"text": "Tesu pana dve upekkhāsahagatasantīraṇacittāni paṭisandhibhavaṅgacutitadārammaṇasantīraṇavasena pañcakiccāni nāma."
+},
+{
+"type": "p",
+"pnum": 3028,
+"label": "III.28",
+"alias": [
+"p3-28"
+],
+"text": "Mahāvipākāni aṭṭha paṭisandhibhavaṅgacutitadārammaṇavasena catukiccāni nāma."
+},
+{
+"type": "p",
+"pnum": 3029,
+"label": "III.29",
+"alias": [
+"p3-29"
+],
+"text": "Mahaggatavipākāni nava paṭisandhibhavaṅgacutivasena tikiccāni nāma."
+},
+{
+"type": "p",
+"pnum": 3030,
+"label": "III.30",
+"alias": [
+"p3-30"
+],
+"text": "Somanassasantīraṇaṃ santīraṇatadārammaṇavasena dukiccaṃ."
+},
+{
+"type": "p",
+"pnum": 3031,
+"label": "III.31",
+"alias": [
+"p3-31"
+],
+"text": "Tathā voṭṭhabbanaṃ voṭṭhabbanāvajjanavasena."
+},
+{
+"type": "p",
+"pnum": 3032,
+"label": "III.32",
+"alias": [
+"p3-32"
+],
+"text": "Sesāni pana sabbānipi javanamanodhātuttikadvipañcaviññāṇāni yathāsambhavamekakiccānīti."
+},
+{
+"type": "p",
+"pnum": 3033,
+"label": "III.33",
+"alias": [
+"p3-33"
+],
+"text": "Paṭisandhādayo nāma, kiccabhedena cuddasa."
+},
+{
+"type": "p",
+"text": "Dasadhā ṭhānabhedena, cittuppādā pakāsitā.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 3034,
+"label": "III.34",
+"alias": [
+"p3-34"
+],
+"text": "Aṭṭhasaṭṭhi tathā dve ca, navāṭṭha dve yathākkamaṃ."
+},
+{
+"type": "p",
+"text": "Ekadviticatupañcakiccaṭhānāni niddise.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Dvārasaṅgaho"
+},
+{
+"type": "p",
+"pnum": 3035,
+"label": "III.35",
+"alias": [
+"p3-35"
+],
+"text": "**Dvārasaṅgahe** dvārāni nāma cakkhudvāraṃ sotadvāraṃ ghānadvāraṃ jivhādvāraṃ kāyadvāraṃ manodvārañceti chabbidhāni bhavanti."
+},
+{
+"type": "p",
+"pnum": 3036,
+"label": "III.36",
+"alias": [
+"p3-36"
+],
+"text": "Tattha cakkhumeva cakkhudvāraṃ."
+},
+{
+"type": "p",
+"pnum": 3037,
+"label": "III.37",
+"alias": [
+"p3-37"
+],
+"text": "Tathā sotādayo sotadvārādīni."
+},
+{
+"type": "p",
+"pnum": 3038,
+"label": "III.38",
+"alias": [
+"p3-38"
+],
+"text": "Manodvāraṃ ⟨pg:19⟩ pana bhavaṅganti pavuccati."
+},
+{
+"type": "p",
+"pnum": 3039,
+"label": "III.39",
+"alias": [
+"p3-39"
+],
+"text": "Tattha pañcadvārāvajjanacakkhuviññāṇasampaṭicchanasantīraṇavoṭṭhabbanakāmāvacarajavanatadārammaṇavasena chacattālīsa cittāni cakkhudvāre yathārahaṃ uppajjanti, tathā pañcadvārāvajjanasotaviññāṇādivasena sotadvārādīsupi chacattālīseva bhavantīti sabbathāpi pañcadvāre catupaññāsa cittāni kāmāvacarāneva."
+},
+{
+"type": "p",
+"pnum": 3040,
+"label": "III.40",
+"alias": [
+"p3-40"
+],
+"text": "Manodvāre pana manodvārāvajjanapañcapaññāsajavanatadārammaṇavasena sattasaṭṭhi cittāni bhavanti."
+},
+{
+"type": "p",
+"pnum": 3041,
+"label": "III.41",
+"alias": [
+"p3-41"
+],
+"text": "Ekūnavīsati paṭisandhibhavaṅgacutivasena dvāravimuttāni."
+},
+{
+"type": "p",
+"pnum": 3042,
+"label": "III.42",
+"alias": [
+"p3-42"
+],
+"text": "Tesu pana pañcaviññāṇāni ceva mahaggatalokuttarajavanāni ceti chattiṃsa yathārahamekadvārikacittāni nāma."
+},
+{
+"type": "p",
+"pnum": 3043,
+"label": "III.43",
+"alias": [
+"p3-43"
+],
+"text": "Manodhātuttikaṃ pana pañcadvārikaṃ."
+},
+{
+"type": "p",
+"pnum": 3044,
+"label": "III.44",
+"alias": [
+"p3-44"
+],
+"text": "Sukhasantīraṇavoṭṭhabbanakāmāvacarajavanāni chadvārikacittāni."
+},
+{
+"type": "p",
+"pnum": 3045,
+"label": "III.45",
+"alias": [
+"p3-45"
+],
+"text": "Upekkhāsahagatasantīraṇamahāvipākāni chadvārikāni ceva dvāravimuttāni ca."
+},
+{
+"type": "p",
+"pnum": 3046,
+"label": "III.46",
+"alias": [
+"p3-46"
+],
+"text": "Mahaggatavipākāni dvāravimuttānevāti."
+},
+{
+"type": "p",
+"pnum": 3047,
+"label": "III.47",
+"alias": [
+"p3-47"
+],
+"text": "Ekadvārikacittāni, pañcachadvārikāni ca."
+},
+{
+"type": "p",
+"text": "Chadvārikavimuttāni, vimuttāni ca sabbathā.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Chattiṃsati tathā tīṇi, ekatiṃsa yathākkamaṃ;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Dasadhā navadhā ceti, pañcadhā paridīpaye.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Ālambaṇasaṅgaho"
+},
+{
+"type": "p",
+"pnum": 3048,
+"label": "III.48",
+"alias": [
+"p3-48"
+],
+"text": "**Ālambaṇasaṅgahe** ⟨pg:20⟩ ārammaṇāni nāma rūpārammaṇaṃ saddārammaṇaṃ gandhārammaṇaṃ rasārammaṇaṃ phoṭṭhabbārammaṇaṃ dhammārammaṇañceti chabbidhāni bhavanti."
+},
+{
+"type": "p",
+"pnum": 3049,
+"label": "III.49",
+"alias": [
+"p3-49"
+],
+"text": "Tattha rūpameva rūpārammaṇaṃ, tathā saddādayo saddārammaṇādīni."
+},
+{
+"type": "p",
+"pnum": 3050,
+"label": "III.50",
+"alias": [
+"p3-50"
+],
+"text": "Dhammārammaṇaṃ pana pasādasukhumarūpacittacetasikanibbānapaññattivasena chadhā saṅgayhati."
+},
+{
+"type": "p",
+"pnum": 3051,
+"label": "III.51",
+"alias": [
+"p3-51"
+],
+"text": "Tattha cakkhudvārikacittānaṃ sabbesampi rūpameva ārammaṇaṃ, tañca paccuppannaṃ. Tathā sotadvārikacittādīnampi saddādīni, tāni ca paccuppannāniyeva."
+},
+{
+"type": "p",
+"pnum": 3052,
+"label": "III.52",
+"alias": [
+"p3-52"
+],
+"text": "Manodvārikacittānaṃ pana chabbidhampi paccuppannamatītaṃ anāgataṃ kālavimuttañca yathārahamārammaṇaṃ hoti."
+},
+{
+"type": "p",
+"pnum": 3053,
+"label": "III.53",
+"alias": [
+"p3-53"
+],
+"text": "Dvāravimuttānañca paṭisandhibhavaṅgacutisaṅkhātānaṃ chabbidhampi yathāsambhavaṃ yebhuyyena bhavantare chadvāraggahitaṃ paccuppannamatītaṃ paññattibhūtaṃ vā kammakammanimittagatinimittasammataṃ ārammaṇaṃ hoti."
+},
+{
+"type": "p",
+"pnum": 3054,
+"label": "III.54",
+"alias": [
+"p3-54"
+],
+"text": "Tesu cakkhuviññāṇādīni yathākkamaṃ rūpādiekekārammaṇāneva."
+},
+{
+"type": "p",
+"pnum": 3055,
+"label": "III.55",
+"alias": [
+"p3-55"
+],
+"text": "Manodhātuttikaṃ pana rūpādipañcārammaṇaṃ."
+},
+{
+"type": "p",
+"pnum": 3056,
+"label": "III.56",
+"alias": [
+"p3-56"
+],
+"text": "Sesāni kāmāvacaravipākāni hasanacittañceti sabbathāpi kāmāvacarārammaṇāneva."
+},
+{
+"type": "p",
+"pnum": 3057,
+"label": "III.57",
+"alias": [
+"p3-57"
+],
+"text": "Akusalāni ceva ñāṇavippayuttakāmāvacarajavanāni ceti lokuttaravajjitasabbārammaṇāni."
+},
+{
+"type": "p",
+"pnum": 3058,
+"label": "III.58",
+"alias": [
+"p3-58"
+],
+"text": "Ñāṇasampayuttakāmāvacarakusalāni ⟨pg:21⟩ ceva pañcamajjhānasaṅkhātaṃ abhiññākusalañceti arahattamaggaphalavajjitasabbārammaṇāni."
+},
+{
+"type": "p",
+"pnum": 3059,
+"label": "III.59",
+"alias": [
+"p3-59"
+],
+"text": "Ñāṇasampayuttakāmāvacarakiriyāni ceva kiriyābhiññāvoṭṭhabbanañceti sabbathāpi sabbārammaṇāni."
+},
+{
+"type": "p",
+"pnum": 3060,
+"label": "III.60",
+"alias": [
+"p3-60"
+],
+"text": "Āruppesu dutiyacatutthāni mahaggatārammaṇāni."
+},
+{
+"type": "p",
+"pnum": 3061,
+"label": "III.61",
+"alias": [
+"p3-61"
+],
+"text": "Sesāni mahaggatacittāni sabbānipi paññattārammaṇāni."
+},
+{
+"type": "p",
+"pnum": 3062,
+"label": "III.62",
+"alias": [
+"p3-62"
+],
+"text": "Lokuttaracittāni nibbānārammaṇānīti."
+},
+{
+"type": "p",
+"pnum": 3063,
+"label": "III.63",
+"alias": [
+"p3-63"
+],
+"text": "Pañcavīsa parittamhi, cha cittāni mahaggate."
+},
+{
+"type": "p",
+"text": "Ekavīsati vohāre, aṭṭha nibbānagocare.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Vīsānuttaramuttamhi, aggamaggaphalujjhite;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Pañca sabbattha chacceti, sattadhā tattha saṅgaho.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Vatthusaṅgaho"
+},
+{
+"type": "p",
+"pnum": 3064,
+"label": "III.64",
+"alias": [
+"p3-64"
+],
+"text": "**Vatthusaṅgahe** vatthūni nāma cakkhusotaghānajivhākāyahadayavatthu ceti chabbidhāni bhavanti."
+},
+{
+"type": "p",
+"pnum": 3065,
+"label": "III.65",
+"alias": [
+"p3-65"
+],
+"text": "Tāni kāmaloke sabbānipi labbhanti."
+},
+{
+"type": "p",
+"pnum": 3066,
+"label": "III.66",
+"alias": [
+"p3-66"
+],
+"text": "Rūpaloke pana ghānādittayaṃ natthi."
+},
+{
+"type": "p",
+"pnum": 3067,
+"label": "III.67",
+"alias": [
+"p3-67"
+],
+"text": "Arūpaloke pana sabbānipi na saṃvijjanti."
+},
+{
+"type": "p",
+"pnum": 3068,
+"label": "III.68",
+"alias": [
+"p3-68"
+],
+"text": "Tattha pañcaviññāṇadhātuyo yathākkamaṃ ekantena pañca pasādavatthūni nissāyeva pavattanti."
+},
+{
+"type": "p",
+"pnum": 3069,
+"label": "III.69",
+"alias": [
+"p3-69"
+],
+"text": "Pañcadvārāvajjanasampaṭicchanasaṅkhātā pana manodhātu ca hadayaṃ nissitāyeva pavattanti."
+},
+{
+"type": "p",
+"pnum": 3070,
+"label": "III.70",
+"alias": [
+"p3-70"
+],
+"text": "Avasesā ⟨pg:22⟩ pana manoviññāṇadhātusaṅkhātā ca santīraṇamahāvipākapaṭighadvayapaṭhamamaggahasanarūpāvacaravasena hadayaṃ nissāyeva pavattanti."
+},
+{
+"type": "p",
+"pnum": 3071,
+"label": "III.71",
+"alias": [
+"p3-71"
+],
+"text": "Avasesā kusalākusalakiriyānuttaravasena pana nissāya vā anissāya vā."
+},
+{
+"type": "p",
+"pnum": 3072,
+"label": "III.72",
+"alias": [
+"p3-72"
+],
+"text": "Āruppavipākavasena hadayaṃ anissāyevāti."
+},
+{
+"type": "p",
+"pnum": 3073,
+"label": "III.73",
+"alias": [
+"p3-73"
+],
+"text": "Chavatthuṃ nissitā kāme, satta rūpe catubbidhā."
+},
+{
+"type": "p",
+"text": "Tivatthuṃ nissitāruppe, dhātvekā nissitā matā.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 3074,
+"label": "III.74",
+"alias": [
+"p3-74"
+],
+"text": "Tecattālīsa nissāya, dvecattālīsa jāyare."
+},
+{
+"type": "p",
+"text": "Nissāya ca anissāya, pākāruppā anissitā.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Iti abhidhammatthasaṅgahe pakiṇṇakasaṅgahavibhāgo nāma",
+"ctr": true
+},
+{
+"type": "p",
+"text": "Tatiyo paricchedo.",
+"ctr": true
+}
+],
+"sangaha_ch": 3
+},
+{
+"num": "4",
+"label": "Chapter IV",
+"title": "4. Vīthiparicchedo — The cognitive process",
+"blocks": [
+{
+"type": "h",
+"text": "4. Vīthiparicchedo"
+},
+{
+"type": "p",
+"pnum": 4001,
+"label": "IV.1",
+"alias": [
+"p4-1"
+],
+"text": "Cittuppādānamiccevaṃ, katvāsaṅgahamuttaraṃ."
+},
+{
+"type": "p",
+"text": "Bhūmipuggalabhedena, pubbāparaniyāmitaṃ.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Pavattisaṅgahaṃ nāma, paṭisandhipavattiyaṃ;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Pavakkhāmi samāsena, yathāsambhavato kathaṃ.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 4002,
+"label": "IV.2",
+"alias": [
+"p4-2"
+],
+"text": "2.. Vīthimuttānaṃ pana kammakammanimittagatinimittavasena tividhā hoti visayappavatti."
+},
+{
+"type": "p",
+"pnum": 4004,
+"label": "IV.4",
+"alias": [
+"p4-4"
+],
+"text": "Tattha vatthudvārārammaṇāni pubbe vuttanayāneva."
+},
+{
+"type": "h",
+"text": "Viññāṇachakkaṃ"
+},
+{
+"type": "p",
+"pnum": 4005,
+"label": "IV.5",
+"alias": [
+"p4-5"
+],
+"text": "Cakkhuviññāṇaṃ ⟨pg:23⟩ sotaviññāṇaṃ ghānaviññāṇaṃ jivhāviññāṇaṃ kāyaviññāṇaṃ manoviññāṇañceti cha viññāṇāni."
+},
+{
+"type": "h",
+"text": "Vīthichakkaṃ"
+},
+{
+"type": "p",
+"pnum": 4006,
+"label": "IV.6",
+"alias": [
+"p4-6"
+],
+"text": "**Cha vīthiyo** pana cakkhudvāravīthi sotadvāravīthi ghānadvāravīthi jivhādvāravīthi kāyadvāravīthi manodvāravīthi ceti dvāravasena vā, cakkhuviññāṇavīthi sotaviññāṇavīthi ghānaviññāṇavīthi jivhāviññāṇavīthi kāyaviññāṇavīthi manoviññāṇavīthi ceti viññāṇavasena vā dvārappavattā cittappavattiyo yojetabbā."
+},
+{
+"type": "h",
+"text": "Vīthibhedo"
+},
+{
+"type": "p",
+"pnum": 4007,
+"label": "IV.7",
+"alias": [
+"p4-7"
+],
+"text": "Atimahantaṃ mahantaṃ parittaṃ atiparittañceti pañcadvāre manodvāre pana vibhūtamavibhūtañceti chadhā visayappavatti veditabbā."
+},
+{
+"type": "h",
+"text": "Pañcadvāravīthi"
+},
+{
+"type": "p",
+"pnum": 4008,
+"label": "IV.8",
+"alias": [
+"p4-8"
+],
+"text": "Kathaṃ? Uppādaṭhitibhaṅgavasena khaṇattayaṃ ekacittakkhaṇaṃ nāma."
+},
+{
+"type": "p",
+"pnum": 4009,
+"label": "IV.9",
+"alias": [
+"p4-9"
+],
+"text": "Tāni pana sattarasa cittakkhaṇāni rūpadhammānamāyū."
+},
+{
+"type": "p",
+"pnum": 4010,
+"label": "IV.10",
+"alias": [
+"p4-10"
+],
+"text": "Ekacittakkhaṇātītāni vā bahucittakkhaṇātītāni vā ṭhitippattāneva pañcārammaṇāni pañcadvāre āpāthamāgacchanti. Tasmā yadi ekacittakkhaṇātītakaṃ rūpārammaṇaṃ cakkhussa āpāthamāgacchati, tato dvikkhattuṃ bhavaṅge calite bhavaṅgasotaṃ vocchinditvā tameva rūpārammaṇaṃ āvajjantaṃ pañcadvārāvajjanacittaṃ uppajjitvā nirujjhati, tato tassānantaraṃ tameva ⟨pg:24⟩ rūpaṃ passantaṃ cakkhuviññāṇaṃ, sampaṭicchantaṃ sampaṭicchanacittaṃ, santīrayamānaṃ santīraṇacittaṃ, vavatthapentaṃ voṭṭhabbanacittañceti yathākkamaṃ uppajjitvā nirujjhanti, tato paraṃ ekūnatiṃsa kāmāvacarajavanesu yaṃkiñci laddhapaccayaṃ yebhuyyena sattakkhattuṃ javati, javanānubandhāni ca dve tadārammaṇapākāni yathārahaṃ pavattanti, tato paraṃ bhavaṅgapāto."
+},
+{
+"type": "p",
+"pnum": 4011,
+"label": "IV.11",
+"alias": [
+"p4-11"
+],
+"text": "Ettāvatā cuddasa vīthicittuppādā, dve bhavaṅgacalanāni, pubbevātītakamekacittakkhaṇanti katvā sattarasa cittakkhaṇāni paripūrenti, tato paraṃ nirujjhati, ārammaṇametaṃ **atimahantaṃ** nāma gocaraṃ."
+},
+{
+"type": "p",
+"pnum": 4012,
+"label": "IV.12",
+"alias": [
+"p4-12"
+],
+"text": "Yāva tadārammaṇuppādā pana appahontātītakamāpāthamāgataṃ ārammaṇaṃ **mahantaṃ** nāma, tattha javanāvasāne bhavaṅgapātova hoti, natthi tadārammaṇuppādo."
+},
+{
+"type": "p",
+"pnum": 4013,
+"label": "IV.13",
+"alias": [
+"p4-13"
+],
+"text": "Yāva javanuppādāpi appahontātītakamāpāthamāgataṃ ārammaṇaṃ **parittaṃ** nāma, tattha javanampi anuppajjitvā dvattikkhattuṃ voṭṭhabbanameva pavattati, tato paraṃ bhavaṅgapātova hoti."
+},
+{
+"type": "p",
+"pnum": 4014,
+"label": "IV.14",
+"alias": [
+"p4-14"
+],
+"text": "Yāva voṭṭhabbanuppādā ca pana appahontātītakamāpāthamāgataṃ nirodhāsannamārammaṇaṃ **atiparittaṃ** nāma, tattha bhavaṅgacalanameva hoti, natthi vīthicittuppādo."
+},
+{
+"type": "p",
+"pnum": 4015,
+"label": "IV.15",
+"alias": [
+"p4-15"
+],
+"text": "Iccevaṃ cakkhudvāre, tathā sotadvārādīsu ceti sabbathāpi pañcadvāre tadārammaṇajavanavoṭṭhabbanamoghavārasaṅkhātānaṃ catunnaṃ vārānaṃ yathākkamaṃ ārammaṇabhūtā visayappavatti catudhā veditabbā."
+},
+{
+"type": "p",
+"pnum": 4016,
+"label": "IV.16",
+"alias": [
+"p4-16"
+],
+"text": "Vīthicittāni satteva, cittuppādā catuddasa."
+},
+{
+"type": "p",
+"text": "Catupaññāsa vitthārā, pañcadvāre yathārahaṃ.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Ayamettha pañcadvāre vīthicittappavattinayo.",
+"ctr": true
+},
+{
+"type": "h",
+"text": "Manodvāravīthi parittajavanavāro"
+},
+{
+"type": "p",
+"pnum": 4017,
+"label": "IV.17",
+"alias": [
+"p4-17"
+],
+"text": "**Manodvāre** ⟨pg:25⟩ pana yadi **vibhūta**mārammaṇaṃ āpāthamāgacchati, tato paraṃ bhavaṅgacalanamanodvārāvajjanajavanāvasāne tadārammaṇapākāni pavattanti, tato paraṃ bhavaṅgapāto."
+},
+{
+"type": "p",
+"pnum": 4018,
+"label": "IV.18",
+"alias": [
+"p4-18"
+],
+"text": "**Avibhūte** panārammaṇe javanāvasāne bhavaṅgapātova hoti, natthi tadārammaṇuppādoti."
+},
+{
+"type": "p",
+"pnum": 4019,
+"label": "IV.19",
+"alias": [
+"p4-19"
+],
+"text": "Vīthicittāni tīṇeva, cittuppādā daseritā."
+},
+{
+"type": "p",
+"text": "Vitthārena panettheka-cattālīsa vibhāvaye;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Ayamettha parittajavanavāro.",
+"ctr": true
+},
+{
+"type": "h",
+"text": "Appanājavanavāro"
+},
+{
+"type": "p",
+"pnum": 4020,
+"label": "IV.20",
+"alias": [
+"p4-20"
+],
+"text": "**Appanājavanavāre** pana vibhūtāvibhūtabhedo natthi, tathā tadārammaṇuppādo ca."
+},
+{
+"type": "p",
+"pnum": 4021,
+"label": "IV.21",
+"alias": [
+"p4-21"
+],
+"text": "Tattha hi ñāṇasampayuttakāmāvacarajavanānamaṭṭhannaṃ aññatarasmiṃ parikammopacārānulomagotrabhunāmena catukkhattuṃ tikkhattumeva vā yathākkamaṃ uppajjitvā niruddhānantarameva yathārahaṃ catutthaṃ, pañcamaṃ vā chabbīsatimahaggatalokuttarajavanesu yathābhinīhāravasena yaṃ kiñci javanaṃ appanāvīthimotarati, tato paraṃ appanāvasāne bhavaṅgapātova hoti."
+},
+{
+"type": "p",
+"pnum": 4022,
+"label": "IV.22",
+"alias": [
+"p4-22"
+],
+"text": "Tattha somanassasahagatajavanānantaraṃ appanāpi somanassasahagatāva pāṭikaṅkhitabbā, upekkhāsahagatajavanānantaraṃ upekkhāsahagatāva, tatthāpi kusalajavanānantaraṃ kusalajavanañceva heṭṭhimañca phalattayamappeti, kiriyajavanānantaraṃ kiriyajavanaṃ arahattaphalañcāti."
+},
+{
+"type": "p",
+"pnum": 4023,
+"label": "IV.23",
+"alias": [
+"p4-23"
+],
+"text": "Dvattiṃsa ⟨pg:26⟩ sukhapuññamhā, dvādasopekkhakā paraṃ,"
+},
+{
+"type": "p",
+"text": "Sukhitakriyato aṭṭha, cha sambhonti upekkhakā.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 4024,
+"label": "IV.24",
+"alias": [
+"p4-24"
+],
+"text": "Puthujjanāna sekkhānaṃ, kāmapuññatihetuto."
+},
+{
+"type": "p",
+"text": "Tihetukāmakriyato, vītarāgānamappanā.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Ayamettha manodvāre vīthicittappavattinayo.",
+"ctr": true
+},
+{
+"type": "h",
+"text": "Tadārammaṇaniyamo"
+},
+{
+"type": "p",
+"pnum": 4025,
+"label": "IV.25",
+"alias": [
+"p4-25"
+],
+"text": "Sabbatthāpi panettha aniṭṭhe ārammaṇe akusalavipākāneva pañcaviññāṇasampaṭicchanasantīraṇatadārammaṇāni."
+},
+{
+"type": "p",
+"pnum": 4026,
+"label": "IV.26",
+"alias": [
+"p4-26"
+],
+"text": "Iṭṭhe kusalavipākāni."
+},
+{
+"type": "p",
+"pnum": 4027,
+"label": "IV.27",
+"alias": [
+"p4-27"
+],
+"text": "Atiiṭṭhe pana somanassasahagatāneva santīraṇatadārammaṇāni, tatthāpi somanassasahagatakiriyajavanāvasāne somanassasahagatāneva tadārammaṇāni bhavanti, upekkhāsahagatakiriyajavanāvasāne ca upekkhāsahagatāneva honti."
+},
+{
+"type": "p",
+"pnum": 4028,
+"label": "IV.28",
+"alias": [
+"p4-28"
+],
+"text": "Domanassasahagatajavanāvasāne ca pana tadārammaṇāniceva bhavaṅgāni ca upekkhāsahagatāneva bhavanti, tasmā yadi somanassapaṭisandhikassa domanassasahagatajavanāvasāne tadārammaṇasambhavo natthi, tadā yaṃ kiñci paricitapubbaṃ parittārammaṇamārabbha upekkhāsahagatasantīraṇaṃ uppajjati, tamanantaritvā bhavaṅgapātova hotīti vadanti ācariyā."
+},
+{
+"type": "p",
+"pnum": 4029,
+"label": "IV.29",
+"alias": [
+"p4-29"
+],
+"text": "Tathā kāmāvacarajavanāvasāne kāmāvacarasattānaṃ kāmāvacaradhammesveva ārammaṇabhūtesu tadārammaṇaṃ icchantīti."
+},
+{
+"type": "p",
+"pnum": 4030,
+"label": "IV.30",
+"alias": [
+"p4-30"
+],
+"text": "Kāme javanasattālambaṇānaṃ niyame sati."
+},
+{
+"type": "p",
+"text": "Vibhūtetimahante ca, tadārammaṇamīritaṃ.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Ayamettha tadārammaṇaniyamo.",
+"ctr": true
+},
+{
+"type": "h",
+"text": "Javananiyamo"
+},
+{
+"type": "p",
+"pnum": 4031,
+"label": "IV.31",
+"alias": [
+"p4-31"
+],
+"text": "**Javanesu** ⟨pg:27⟩ ca parittajavanavīthiyaṃ kāmāvacarajavanāni sattakkhattuṃ chakkhattumeva vā javanti."
+},
+{
+"type": "p",
+"pnum": 4032,
+"label": "IV.32",
+"alias": [
+"p4-32"
+],
+"text": "Mandappavattiyaṃ pana maraṇakālādīsu pañcavārameva."
+},
+{
+"type": "p",
+"pnum": 4033,
+"label": "IV.33",
+"alias": [
+"p4-33"
+],
+"text": "Bhagavato pana yamakapāṭihāriyakālādīsu lahukappavattiyaṃ cattāripañca vā paccavekkhaṇacittāni bhavantītipi vadanti."
+},
+{
+"type": "p",
+"pnum": 4034,
+"label": "IV.34",
+"alias": [
+"p4-34"
+],
+"text": "Ādikammikassa pana paṭhamakappanāyaṃ mahaggatajavanāniabhiññājavanāni ca sabbadāpi ekavārameva javanti, tato paraṃ bhavaṅgapāto."
+},
+{
+"type": "p",
+"pnum": 4035,
+"label": "IV.35",
+"alias": [
+"p4-35"
+],
+"text": "Cattāro pana magguppādā ekacittakkhaṇikā, tato paraṃ dve tīṇi phalacittāni yathārahaṃ uppajjanti, tato paraṃ bhavaṅgapāto."
+},
+{
+"type": "p",
+"pnum": 4036,
+"label": "IV.36",
+"alias": [
+"p4-36"
+],
+"text": "Nirodhasamāpattikāle dvikkhattuṃ catutthāruppajavanaṃ javati, tato paraṃ nirodhaṃ phusati."
+},
+{
+"type": "p",
+"pnum": 4037,
+"label": "IV.37",
+"alias": [
+"p4-37"
+],
+"text": "Vuṭṭhānakāle ca anāgāmiphalaṃ vā arahattaphalaṃ vā yathārahamekavāraṃ uppajjitvā niruddhe bhavaṅgapātova hoti."
+},
+{
+"type": "p",
+"pnum": 4038,
+"label": "IV.38",
+"alias": [
+"p4-38"
+],
+"text": "Sabbatthāpi samāpattivīthiyaṃ bhavaṅgasoto viya vīthiniyamo natthīti katvā bahūnipi labbhantīti."
+},
+{
+"type": "p",
+"pnum": 4039,
+"label": "IV.39",
+"alias": [
+"p4-39"
+],
+"text": "Sattakkhattuṃ parittāni, maggābhiññā sakiṃ matā."
+},
+{
+"type": "p",
+"text": "Avasesāni labbhanti, javanāni bahūnipi.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Ayamettha javananiyamo.",
+"ctr": true
+},
+{
+"type": "h",
+"text": "Puggalabhedo"
+},
+{
+"type": "p",
+"pnum": 4040,
+"label": "IV.40",
+"alias": [
+"p4-40"
+],
+"text": "**Duhetukānamahetukānañca** ⟨pg:28⟩ panettha kiriyajavanāni ceva appanājavanāni ca labbhanti."
+},
+{
+"type": "p",
+"pnum": 4041,
+"label": "IV.41",
+"alias": [
+"p4-41"
+],
+"text": "Tathā ñāṇasampayuttavipākāni ca sugatiyaṃ."
+},
+{
+"type": "p",
+"pnum": 4042,
+"label": "IV.42",
+"alias": [
+"p4-42"
+],
+"text": "Duggatiyaṃ pana ñāṇavippayuttāni ca mahāvipākāni na labbhanti."
+},
+{
+"type": "p",
+"pnum": 4043,
+"label": "IV.43",
+"alias": [
+"p4-43"
+],
+"text": "**Tihetukesu** ca khīṇāsavānaṃ kusalākusalajavanāni na labbhanti."
+},
+{
+"type": "p",
+"pnum": 4044,
+"label": "IV.44",
+"alias": [
+"p4-44"
+],
+"text": "Tathā sekkhaputhujjanānaṃ kiriyajavanāni."
+},
+{
+"type": "p",
+"pnum": 4045,
+"label": "IV.45",
+"alias": [
+"p4-45"
+],
+"text": "Diṭṭhigatasampayuttavicikicchājavanāni ca sekkhānaṃ."
+},
+{
+"type": "p",
+"pnum": 4046,
+"label": "IV.46",
+"alias": [
+"p4-46"
+],
+"text": "Anāgāmipuggalānaṃ pana paṭighajavanāni ca na labbhanti."
+},
+{
+"type": "p",
+"pnum": 4047,
+"label": "IV.47",
+"alias": [
+"p4-47"
+],
+"text": "Lokuttarajavanāni ca yathārahaṃ ariyānameva samuppajjantīti."
+},
+{
+"type": "p",
+"pnum": 4048,
+"label": "IV.48",
+"alias": [
+"p4-48"
+],
+"text": "Asekkhānaṃ catucattālīsa sekkhānamuddise."
+},
+{
+"type": "p",
+"text": "Chappaññāsāvasesānaṃ, catupaññāsa sambhavā.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Ayamettha puggalabhedo.",
+"ctr": true
+},
+{
+"type": "h",
+"text": "Bhūmivibhāgo"
+},
+{
+"type": "p",
+"pnum": 4049,
+"label": "IV.49",
+"alias": [
+"p4-49"
+],
+"text": "**Kāmāvacarabhūmiyaṃ** panetāni sabbānipi vīthicittāni yathārahamupalabbhanti."
+},
+{
+"type": "p",
+"pnum": 4050,
+"label": "IV.50",
+"alias": [
+"p4-50"
+],
+"text": "**Rūpāvacarabhūmiyaṃ** paṭighajavanatadārammaṇavajjitāni."
+},
+{
+"type": "p",
+"pnum": 4051,
+"label": "IV.51",
+"alias": [
+"p4-51"
+],
+"text": "**Arūpāvacarabhūmiyaṃ** paṭhamamaggarūpāvacarahasanaheṭṭhimāruppavajjitāni ca labbhanti."
+},
+{
+"type": "p",
+"pnum": 4052,
+"label": "IV.52",
+"alias": [
+"p4-52"
+],
+"text": "Sabbatthāpi ⟨pg:29⟩ ca taṃtaṃpasādarahitānaṃ taṃtaṃdvārikavīthicittāni na labbhanteva."
+},
+{
+"type": "p",
+"pnum": 4053,
+"label": "IV.53",
+"alias": [
+"p4-53"
+],
+"text": "Asaññasattānaṃ pana sabbathāpi cittappavatti natthevāti."
+},
+{
+"type": "p",
+"pnum": 4054,
+"label": "IV.54",
+"alias": [
+"p4-54"
+],
+"text": "Asīti vīthicittāni, kāme rūpe yathārahaṃ."
+},
+{
+"type": "p",
+"text": "Catusaṭṭhi tathārūpe, dvecattālīsa labbhare.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Ayamettha bhūmivibhāgo.",
+"ctr": true
+},
+{
+"type": "p",
+"pnum": 4055,
+"label": "IV.55",
+"alias": [
+"p4-55"
+],
+"text": "Iccevaṃ chadvārikacittappavatti yathāsambhavaṃ bhavaṅgantaritā yāvatāyukamabbocchinnā pavattati."
+},
+{
+"type": "p",
+"text": "Iti abhidhammatthasaṅgahe vīthisaṅgahavibhāgo nāma",
+"ctr": true
+},
+{
+"type": "p",
+"text": "Catuttho paricchedo.",
+"ctr": true
+}
+],
+"sangaha_ch": 4
+},
+{
+"num": "5",
+"label": "Chapter V",
+"title": "5. Vīthimuttaparicchedo — Process-freed consciousness",
+"blocks": [
+{
+"type": "h",
+"text": "5. Vīthimuttaparicchedo"
+},
+{
+"type": "p",
+"pnum": 5001,
+"label": "V.1",
+"alias": [
+"p5-1"
+],
+"text": "Vīthicittavasenevaṃ, pavattiyamudīrito."
+},
+{
+"type": "p",
+"text": "Pavattisaṅgaho nāma, sandhiyaṃ dāni vuccati.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 5002,
+"label": "V.2",
+"alias": [
+"p5-2"
+],
+"text": "Catasso bhūmiyo, catubbidhā paṭisandhi, cattāri kammāni, catudhā maraṇuppatti ceti vīthimuttasaṅgahe cattāri catukkāni veditabbāni."
+},
+{
+"type": "h",
+"text": "Bhūmicatukkaṃ"
+},
+{
+"type": "p",
+"pnum": 5003,
+"label": "V.3",
+"alias": [
+"p5-3"
+],
+"text": "Tattha apāyabhūmi kāmasugatibhūmi rūpāvacarabhūmi arūpāvacarabhūmi ceti catasso bhūmiyo nāma."
+},
+{
+"type": "p",
+"pnum": 5004,
+"label": "V.4",
+"alias": [
+"p5-4"
+],
+"text": "Tāsu nirayo tiracchānayoni pettivisayo asurakāyo ceti **apāyabhūmi catubbidhā** hoti."
+},
+{
+"type": "p",
+"pnum": 5005,
+"label": "V.5",
+"alias": [
+"p5-5"
+],
+"text": "Manussā ⟨pg:30⟩ cātumahārājikā tāvatiṃsā yāmā tusitā nimmānarati paranimmitavasavattī ceti **kāmasugatibhūmi sattavidhā** hoti."
+},
+{
+"type": "p",
+"pnum": 5006,
+"label": "V.6",
+"alias": [
+"p5-6"
+],
+"text": "Sā panāyamekādasavidhāpi kāmāvacarabhūmicceva saṅkhaṃ gacchati."
+},
+{
+"type": "p",
+"pnum": 5007,
+"label": "V.7",
+"alias": [
+"p5-7"
+],
+"text": "Brahmapārisajjā brahmapurohitā mahābrahmā ceti paṭhamajjhānabhūmi."
+},
+{
+"type": "p",
+"pnum": 5008,
+"label": "V.8",
+"alias": [
+"p5-8"
+],
+"text": "Parittābhā appamāṇābhā ābhassarā ceti dutiyajjhānabhūmi."
+},
+{
+"type": "p",
+"pnum": 5009,
+"label": "V.9",
+"alias": [
+"p5-9"
+],
+"text": "Parittasubhā appamāṇasubhā subhakiṇhā ceti tatiyajjhānabhūmi."
+},
+{
+"type": "p",
+"pnum": 5010,
+"label": "V.10",
+"alias": [
+"p5-10"
+],
+"text": "Vehapphalā asaññasattā suddhāvāsā ceti catutthajjhānabhūmīti **rūpāvacarabhūmi soḷasavidhā** hoti."
+},
+{
+"type": "p",
+"pnum": 5011,
+"label": "V.11",
+"alias": [
+"p5-11"
+],
+"text": "Avihā atappā sudassā sudassī akaniṭṭhā ceti **suddhāvāsabhūmi pañcavidhā** hoti."
+},
+{
+"type": "p",
+"pnum": 5012,
+"label": "V.12",
+"alias": [
+"p5-12"
+],
+"text": "Ākāsānañcāyatanabhūmi viññāṇañcāyatanabhūmi ākiñcaññāyatanabhūmi nevasaññānāsaññāyatanabhūmi ceti **arūpabhūmi catubbidhā** hoti."
+},
+{
+"type": "p",
+"pnum": 5013,
+"label": "V.13",
+"alias": [
+"p5-13"
+],
+"text": "Puthujjanā na labbhanti, suddhāvāsesu sabbathā."
+},
+{
+"type": "p",
+"text": "Sotāpannā ca sakadāgāmino cāpi puggalā.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 5014,
+"label": "V.14",
+"alias": [
+"p5-14"
+],
+"text": "Ariyā nopalabbhanti, asaññāpāyabhūmisu."
+},
+{
+"type": "p",
+"text": "Sesaṭṭhānesu labbhanti, ariyānariyāpi ca.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Idamettha bhūmicatukkaṃ.",
+"ctr": true
+},
+{
+"type": "h",
+"text": "Paṭisandhicatukkaṃ"
+},
+{
+"type": "p",
+"pnum": 5015,
+"label": "V.15",
+"alias": [
+"p5-15"
+],
+"text": "Apāyapaṭisandhi ⟨pg:31⟩ kāmasugatipaṭisandhi rūpāvacarapaṭisandhi arūpāvacarapaṭisandhi ceti **catubbidhā paṭisandhi** nāma."
+},
+{
+"type": "p",
+"pnum": 5016,
+"label": "V.16",
+"alias": [
+"p5-16"
+],
+"text": "Tattha akusalavipākopekkhāsahagatasantīraṇaṃ apāyabhūmiyaṃ okkantikkhaṇe paṭisandhi hutvā tato paraṃ bhavaṅgaṃ pariyosāne cavanaṃ hutvā vocchijjati, **ayamekāpāyapaṭisandhi** nāma."
+},
+{
+"type": "p",
+"pnum": 5017,
+"label": "V.17",
+"alias": [
+"p5-17"
+],
+"text": "Kusalavipākopekkhāsahagatasantīraṇaṃ pana kāmasugatiyaṃ manussānañceva jaccandhādīnaṃ bhummassitānañca vinipātikāsurānaṃ paṭisandhibhavaṅgacutivasena pavattati."
+},
+{
+"type": "p",
+"pnum": 5018,
+"label": "V.18",
+"alias": [
+"p5-18"
+],
+"text": "Mahāvipākāni pana aṭṭha sabbatthāpi kāmasugatiyaṃ paṭisandhibhavaṅgacutivasena pavattanti."
+},
+{
+"type": "p",
+"pnum": 5019,
+"label": "V.19",
+"alias": [
+"p5-19"
+],
+"text": "Imā nava kāmasugatipaṭisandhiyo nāma."
+},
+{
+"type": "p",
+"pnum": 5020,
+"label": "V.20",
+"alias": [
+"p5-20"
+],
+"text": "Sā panāyaṃ dasavidhāpi kāmāvacarapaṭisandhicceva saṅkhaṃ gacchati."
+},
+{
+"type": "p",
+"pnum": 5021,
+"label": "V.21",
+"alias": [
+"p5-21"
+],
+"text": "Tesu catunnaṃ apāyānaṃ manussānaṃ vinipātikāsurānañca āyuppamāṇagaṇanāya niyamo natthi."
+},
+{
+"type": "p",
+"pnum": 5022,
+"label": "V.22",
+"alias": [
+"p5-22"
+],
+"text": "Cātumahārājikānaṃ pana devānaṃ dibbāni pañcavassasatāni āyuppamāṇaṃ, manussagaṇanāya navutivassasatasahassappamāṇaṃ hoti, tato catugguṇaṃ tāvatiṃsānaṃ, tato catugguṇaṃ yāmānaṃ, tato catugguṇaṃ tusitānaṃ, tato catugguṇaṃ nimmānaratīnaṃ, tato catugguṇaṃ paranimmitavasavattīnaṃ."
+},
+{
+"type": "p",
+"pnum": 5023,
+"label": "V.23",
+"alias": [
+"p5-23"
+],
+"text": "Navasatañcekavīsa-vassānaṃ koṭiyo tathā."
+},
+{
+"type": "p",
+"text": "Vassasatasahassāni, saṭṭhi ca vasavattisu.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 5024,
+"label": "V.24",
+"alias": [
+"p5-24"
+],
+"text": "Paṭhamajjhānavipākaṃ ⟨pg:32⟩ paṭhamajjhānabhūmiyaṃ paṭisandhibhavaṅgacutivasena pavattati."
+},
+{
+"type": "p",
+"pnum": 5025,
+"label": "V.25",
+"alias": [
+"p5-25"
+],
+"text": "Tathā dutiyajjhānavipākaṃ tatiyajjhānavipākañca dutiyajjhānabhūmiyaṃ."
+},
+{
+"type": "p",
+"pnum": 5026,
+"label": "V.26",
+"alias": [
+"p5-26"
+],
+"text": "Catutthajjhānavipākaṃ tatiyajjhānabhūmiyaṃ."
+},
+{
+"type": "p",
+"pnum": 5027,
+"label": "V.27",
+"alias": [
+"p5-27"
+],
+"text": "Pañcamajjhānavipākaṃ catutthajjhānabhūmiyaṃ."
+},
+{
+"type": "p",
+"pnum": 5028,
+"label": "V.28",
+"alias": [
+"p5-28"
+],
+"text": "Asaññasattānaṃ pana rūpameva paṭisandhi hoti. Tathā tato paraṃ pavattiyaṃ cavanakāle ca rūpameva pavattitvā nirujjhati, imā **cha rūpāvacarapaṭisandhiyo** nāma."
+},
+{
+"type": "p",
+"pnum": 5029,
+"label": "V.29",
+"alias": [
+"p5-29"
+],
+"text": "Tesu brahmapārisajjānaṃ devānaṃ kappassa tatiyo bhāgo āyuppamāṇaṃ."
+},
+{
+"type": "p",
+"pnum": 5030,
+"label": "V.30",
+"alias": [
+"p5-30"
+],
+"text": "Brahmapurohitānaṃ upaḍḍhakappo."
+},
+{
+"type": "p",
+"pnum": 5031,
+"label": "V.31",
+"alias": [
+"p5-31"
+],
+"text": "Mahābrahmānaṃ eko kappo."
+},
+{
+"type": "p",
+"pnum": 5032,
+"label": "V.32",
+"alias": [
+"p5-32"
+],
+"text": "Parittābhānaṃ dve kappāni."
+},
+{
+"type": "p",
+"pnum": 5033,
+"label": "V.33",
+"alias": [
+"p5-33"
+],
+"text": "Appamāṇābhānaṃ cattārikappāni."
+},
+{
+"type": "p",
+"pnum": 5034,
+"label": "V.34",
+"alias": [
+"p5-34"
+],
+"text": "Ābhassarānaṃ aṭṭha kappāni."
+},
+{
+"type": "p",
+"pnum": 5035,
+"label": "V.35",
+"alias": [
+"p5-35"
+],
+"text": "Parittasubhānaṃ soḷasa kappāni."
+},
+{
+"type": "p",
+"pnum": 5036,
+"label": "V.36",
+"alias": [
+"p5-36"
+],
+"text": "Appamāṇasubhānaṃ dvattiṃsa kappāni."
+},
+{
+"type": "p",
+"pnum": 5037,
+"label": "V.37",
+"alias": [
+"p5-37"
+],
+"text": "Subhakiṇhānaṃ catusaṭṭhi kappāni."
+},
+{
+"type": "p",
+"pnum": 5038,
+"label": "V.38",
+"alias": [
+"p5-38"
+],
+"text": "Vehapphalānaṃ asaññasattānañca pañcakappasatāni."
+},
+{
+"type": "p",
+"pnum": 5039,
+"label": "V.39",
+"alias": [
+"p5-39"
+],
+"text": "Avihānaṃ kappasahassāni."
+},
+{
+"type": "p",
+"pnum": 5040,
+"label": "V.40",
+"alias": [
+"p5-40"
+],
+"text": "Atappānaṃ dve kappasahassāni."
+},
+{
+"type": "p",
+"pnum": 5041,
+"label": "V.41",
+"alias": [
+"p5-41"
+],
+"text": "Sudassānaṃ cattāri kappasahassāni."
+},
+{
+"type": "p",
+"pnum": 5042,
+"label": "V.42",
+"alias": [
+"p5-42"
+],
+"text": "Sudassīnaṃ aṭṭha kappasahassāni."
+},
+{
+"type": "p",
+"pnum": 5043,
+"label": "V.43",
+"alias": [
+"p5-43"
+],
+"text": "Akaniṭṭhānaṃ ⟨pg:33⟩ soḷasa kappasahassāni."
+},
+{
+"type": "p",
+"pnum": 5044,
+"label": "V.44",
+"alias": [
+"p5-44"
+],
+"text": "Paṭhamāruppādivipākāni paṭhamāruppādibhūmīsu yathākkamaṃ paṭisandhibhavaṅgacutivasena pavattanti. Imā **catasso arūpapaṭisandhiyo** nāma."
+},
+{
+"type": "p",
+"pnum": 5045,
+"label": "V.45",
+"alias": [
+"p5-45"
+],
+"text": "Tesu pana ākāsānañcāyatanūpagānaṃ devānaṃ vīsatikappasahassāni āyuppamāṇaṃ."
+},
+{
+"type": "p",
+"pnum": 5046,
+"label": "V.46",
+"alias": [
+"p5-46"
+],
+"text": "Viññāṇañcāyatanūpagānaṃ devānaṃ cattālīsakappasahassāni."
+},
+{
+"type": "p",
+"pnum": 5047,
+"label": "V.47",
+"alias": [
+"p5-47"
+],
+"text": "Ākiñcaññāyatanūpagānaṃ devānaṃ saṭṭhikappasahassāni."
+},
+{
+"type": "p",
+"pnum": 5048,
+"label": "V.48",
+"alias": [
+"p5-48"
+],
+"text": "Nevasaññānāsaññāyatanūpagānaṃ devānaṃ caturāsītikappasahassāni."
+},
+{
+"type": "p",
+"pnum": 5049,
+"label": "V.49",
+"alias": [
+"p5-49"
+],
+"text": "Paṭisandhi bhavaṅgañca, tathā cavanamānasaṃ."
+},
+{
+"type": "p",
+"text": "Ekameva tathevekavisayañcekajātiyaṃ.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Idamettha paṭisandhicatukkaṃ.",
+"ctr": true
+},
+{
+"type": "h",
+"text": "Kammacatukkaṃ"
+},
+{
+"type": "p",
+"pnum": 5050,
+"label": "V.50",
+"alias": [
+"p5-50"
+],
+"text": "Janakaṃ upatthambhakaṃ upapīḷakaṃ upaghātakañceti **kiccavasena**."
+},
+{
+"type": "p",
+"pnum": 5051,
+"label": "V.51",
+"alias": [
+"p5-51"
+],
+"text": "Garukaṃ āsannaṃ āciṇṇaṃ kaṭattākammañceti **pākadānapariyāyena**."
+},
+{
+"type": "p",
+"pnum": 5052,
+"label": "V.52",
+"alias": [
+"p5-52"
+],
+"text": "Diṭṭhadhammavedanīyaṃ upapajjavedanīyaṃ aparāpariyavedanīyaṃ ahosikammañceti **pākakālavasena** cattāri kammāni nāma."
+},
+{
+"type": "p",
+"pnum": 5053,
+"label": "V.53",
+"alias": [
+"p5-53"
+],
+"text": "Tathā akusalaṃ kāmāvacarakusalaṃ rūpāvacarakusalaṃ arūpāvacarakusalañceti **pākaṭhānavasena**."
+},
+{
+"type": "p",
+"pnum": 5054,
+"label": "V.54",
+"alias": [
+"p5-54"
+],
+"text": "Tattha ⟨pg:34⟩ akusalaṃ kāyakammaṃ vacīkammaṃ manokammañceti kammadvāravasena tividhaṃ hoti."
+},
+{
+"type": "p",
+"pnum": 5055,
+"label": "V.55",
+"alias": [
+"p5-55"
+],
+"text": "Kathaṃ? Pāṇātipāto adinnādānaṃ kāmesumicchācāro ceti kāyaviññattisaṅkhāte kāyadvāre bāhullavuttito **kāyakammaṃ** nāma."
+},
+{
+"type": "p",
+"pnum": 5056,
+"label": "V.56",
+"alias": [
+"p5-56"
+],
+"text": "Musāvādo pisuṇavācā pharusavācā samphappalāpo ceti vacīviññattisaṅkhāte vacīdvāre bāhullavuttito **vacīkammaṃ** nāma."
+},
+{
+"type": "p",
+"pnum": 5057,
+"label": "V.57",
+"alias": [
+"p5-57"
+],
+"text": "Abhijjhā byāpādo micchādiṭṭhi ceti aññatrāpi viññattiyā manasmiṃyeva bāhullavuttito **manokammaṃ** nāma."
+},
+{
+"type": "p",
+"pnum": 5058,
+"label": "V.58",
+"alias": [
+"p5-58"
+],
+"text": "Tesu pāṇātipāto pharusavācā byāpādo ca dosamūlena jāyanti."
+},
+{
+"type": "p",
+"pnum": 5059,
+"label": "V.59",
+"alias": [
+"p5-59"
+],
+"text": "Kāmesumicchācāro abhijjhā micchādiṭṭhi ca lobhamūlena."
+},
+{
+"type": "p",
+"pnum": 5060,
+"label": "V.60",
+"alias": [
+"p5-60"
+],
+"text": "Sesāni cattāripi dvīhi mūlehi sambhavanti."
+},
+{
+"type": "p",
+"pnum": 5061,
+"label": "V.61",
+"alias": [
+"p5-61"
+],
+"text": "Cittuppādavasena panetaṃ akusalaṃ sabbathāpi dvādasavidhaṃ hoti."
+},
+{
+"type": "p",
+"pnum": 5062,
+"label": "V.62",
+"alias": [
+"p5-62"
+],
+"text": "Kāmāvacarakusalampi kāyadvāre pavattaṃ kāyakammaṃ, vacīdvāre pavattaṃ vacīkammaṃ, manodvāre pavattaṃ manokammañceti kammadvāravasena tividhaṃ hoti."
+},
+{
+"type": "p",
+"pnum": 5063,
+"label": "V.63",
+"alias": [
+"p5-63"
+],
+"text": "Tathā dānasīlabhāvanāvasena."
+},
+{
+"type": "p",
+"pnum": 5064,
+"label": "V.64",
+"alias": [
+"p5-64"
+],
+"text": "Cittuppādavasena panetaṃ aṭṭhavidhaṃ hoti."
+},
+{
+"type": "p",
+"pnum": 5065,
+"label": "V.65",
+"alias": [
+"p5-65"
+],
+"text": "Dānasīlabhāvanāpacāyanaveyyāvaccapattidānapattānumodanadhammassavanadhammadesanā diṭṭhijukammavasena dasavidhaṃ hoti."
+},
+{
+"type": "p",
+"pnum": 5066,
+"label": "V.66",
+"alias": [
+"p5-66"
+],
+"text": "Taṃ ⟨pg:35⟩ panetaṃ vīsatividhampi kāmāvacarakammamicceva saṅkhaṃ gacchati."
+},
+{
+"type": "p",
+"pnum": 5067,
+"label": "V.67",
+"alias": [
+"p5-67"
+],
+"text": "Rūpāvacarakusalaṃ pana manokammameva, tañca bhāvanāmayaṃ appanāppattaṃ, jhānaṅgabhedena pañcavidhaṃ hoti."
+},
+{
+"type": "p",
+"pnum": 5068,
+"label": "V.68",
+"alias": [
+"p5-68"
+],
+"text": "Tathā arūpāvacarakusalañca manokammaṃ, tampi bhāvanāmayaṃ appanāppattaṃ. Ārammaṇabhedena catubbidhaṃ hoti."
+},
+{
+"type": "p",
+"pnum": 5069,
+"label": "V.69",
+"alias": [
+"p5-69"
+],
+"text": "Etthākusalakammamuddhaccarahitaṃ apāyabhūmiyaṃ paṭisandhiṃ janeti, pavattiyaṃ pana sabbampi dvādasavidhaṃ sattākusalapākāni sabbatthāpi kāmaloke rūpaloke ca yathārahaṃ vipaccati."
+},
+{
+"type": "p",
+"pnum": 5070,
+"label": "V.70",
+"alias": [
+"p5-70"
+],
+"text": "Kāmāvacarakusalampi kāmasugatiyameva paṭisandhiṃ janeti, tathā pavattiyañca mahāvipākāni, ahetukavipākāni pana aṭṭhapi sabbatthāpi kāmaloke rūpaloke ca yathārahaṃ vipaccati."
+},
+{
+"type": "p",
+"pnum": 5071,
+"label": "V.71",
+"alias": [
+"p5-71"
+],
+"text": "Tatthāpi tihetukamukkaṭṭhaṃ kusalaṃ tihetukaṃ paṭisandhiṃ datvā pavatte soḷasa vipākāni vipaccati."
+},
+{
+"type": "p",
+"pnum": 5072,
+"label": "V.72",
+"alias": [
+"p5-72"
+],
+"text": "Tihetukamomakaṃ dvihetukamukkaṭṭhañca kusalaṃ dvihetukaṃ paṭisandhiṃ datvā pavatte tihetukarahitāni dvādasa vipākāni vipaccati."
+},
+{
+"type": "p",
+"pnum": 5073,
+"label": "V.73",
+"alias": [
+"p5-73"
+],
+"text": "Dvihetukamomakaṃ pana kusalaṃ ahetukameva paṭisandhiṃ deti, pavatte ca ahetukavipākāneva vipaccati."
+},
+{
+"type": "p",
+"pnum": 5074,
+"label": "V.74",
+"alias": [
+"p5-74"
+],
+"text": "Asaṅkhāraṃ sasaṅkhāra-vipākāni na paccati."
+},
+{
+"type": "p",
+"text": "Sasaṅkhāramasaṅkhāra-vipākānīti kecana.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Tesaṃ dvādasa pākāni, dasāṭṭha ca yathākkamaṃ;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Yathāvuttānusārena yathāsambhavamuddise.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 5075,
+"label": "V.75",
+"alias": [
+"p5-75"
+],
+"text": "Rūpāvacarakusalaṃ ⟨pg:36⟩ pana paṭhamajjhānaṃ parittaṃ bhāvetvā brahmapārisajjesu uppajjati."
+},
+{
+"type": "p",
+"pnum": 5076,
+"label": "V.76",
+"alias": [
+"p5-76"
+],
+"text": "Tadeva majjhimaṃ bhāvetvā brahmapurohitesu."
+},
+{
+"type": "p",
+"pnum": 5077,
+"label": "V.77",
+"alias": [
+"p5-77"
+],
+"text": "Paṇītaṃ bhāvetvā mahābrahmesu."
+},
+{
+"type": "p",
+"pnum": 5078,
+"label": "V.78",
+"alias": [
+"p5-78"
+],
+"text": "Tathā dutiyajjhānaṃ tatiyajjhānañca parittaṃ bhāvetvā parittābhesu."
+},
+{
+"type": "p",
+"pnum": 5079,
+"label": "V.79",
+"alias": [
+"p5-79"
+],
+"text": "Majjhimaṃ bhāvetvā appamāṇābhesu."
+},
+{
+"type": "p",
+"pnum": 5080,
+"label": "V.80",
+"alias": [
+"p5-80"
+],
+"text": "Paṇītaṃ bhāvetvā ābhassaresu."
+},
+{
+"type": "p",
+"pnum": 5081,
+"label": "V.81",
+"alias": [
+"p5-81"
+],
+"text": "Catutthajjhānaṃ parittaṃ bhāvetvā parittasubhesu."
+},
+{
+"type": "p",
+"pnum": 5082,
+"label": "V.82",
+"alias": [
+"p5-82"
+],
+"text": "Majjhimaṃ bhāvetvā appamāṇasubhesu."
+},
+{
+"type": "p",
+"pnum": 5083,
+"label": "V.83",
+"alias": [
+"p5-83"
+],
+"text": "Paṇītaṃ bhāvetvā subhakiṇhesu."
+},
+{
+"type": "p",
+"pnum": 5084,
+"label": "V.84",
+"alias": [
+"p5-84"
+],
+"text": "Pañcamajjhānaṃ bhāvetvā vehapphalesu."
+},
+{
+"type": "p",
+"pnum": 5085,
+"label": "V.85",
+"alias": [
+"p5-85"
+],
+"text": "Tadeva saññāvirāgaṃ bhāvetvā asaññasattesu."
+},
+{
+"type": "p",
+"pnum": 5086,
+"label": "V.86",
+"alias": [
+"p5-86"
+],
+"text": "Anāgāmino pana suddhāvāsesu uppajjanti."
+},
+{
+"type": "p",
+"pnum": 5087,
+"label": "V.87",
+"alias": [
+"p5-87"
+],
+"text": "Arūpāvacarakusalañca yathākkamaṃ bhāvetvā āruppesu uppajjantīti."
+},
+{
+"type": "p",
+"pnum": 5088,
+"label": "V.88",
+"alias": [
+"p5-88"
+],
+"text": "Itthaṃ mahaggataṃ puññaṃ, yathābhūmivavatthitaṃ."
+},
+{
+"type": "p",
+"text": "Janeti sadisaṃ pākaṃ, paṭisandhipavattiyaṃ.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Idamettha kammacatukkaṃ.",
+"ctr": true
+},
+{
+"type": "h",
+"text": "Cutipaṭisandhikkamo"
+},
+{
+"type": "p",
+"pnum": 5089,
+"label": "V.89",
+"alias": [
+"p5-89"
+],
+"text": "Āyukkhayena kammakkhayena ubhayakkhayena upacchedakakammunā ceti **catudhā maraṇuppatti** nāma."
+},
+{
+"type": "p",
+"pnum": 5090,
+"label": "V.90",
+"alias": [
+"p5-90"
+],
+"text": "Tathā ⟨pg:37⟩ ca marantānaṃ pana maraṇakāle yathārahaṃ abhimukhībhūtaṃ bhavantare paṭisandhijanakaṃ kammaṃ vā, taṃkammakaraṇakāle rūpādikamupaladdhapubbamupakaraṇabhūtañca kammanimittaṃ vā, anantaramuppajjamānabhave upalabhitabbamupabhogabhūtañca gatinimittaṃ vā kammabalena channaṃ dvārānaṃ aññatarasmiṃ paccupaṭṭhāti, tato paraṃ tameva tathopaṭṭhitaṃ ārammaṇaṃ ārabbha vipaccamānakakammānurūpaṃ parisuddhaṃ upakkiliṭṭhaṃ vā upalabhitabbabhavānurūpaṃ tatthoṇataṃva cittasantānaṃ abhiṇhaṃ pavattati bāhullena, tameva vā pana janakabhūtaṃ kammaṃ abhinavakaraṇavasena dvārappattaṃ hoti."
+},
+{
+"type": "p",
+"pnum": 5091,
+"label": "V.91",
+"alias": [
+"p5-91"
+],
+"text": "Paccāsannamaraṇassa tassa vīthicittāvasāne bhavaṅgakkhaye vā cavanavasena paccuppannabhavapariyosānabhūtaṃ cuticittaṃ uppajjitvā nirujjhati, tasmiṃ niruddhāvasāne tassānantarameva tathāgahitaṃ ārammaṇaṃ ārabbha savatthukaṃ avatthukameva vā yathārahaṃ avijjānusayaparikkhittena taṇhānusayamūlakena saṅkhārena janiyamānaṃ sampayuttehi pariggayhamānaṃ sahajātānamadhiṭṭhānabhāvena pubbaṅgamabhūtaṃ bhavantarapaṭisandhānavasena paṭisandhisaṅkhātaṃ mānasaṃ uppajjamānameva patiṭṭhāti bhavantare."
+},
+{
+"type": "p",
+"pnum": 5092,
+"label": "V.92",
+"alias": [
+"p5-92"
+],
+"text": "Maraṇāsannavīthiyaṃ panettha mandappavattāni pañceva javanāni pāṭikaṅkhitabbāni, tasmā yadi paccuppannārammaṇesu āpāthagatesu dharantesveva maraṇaṃ hoti, tadā paṭisandhibhavaṅgānampi paccuppannārammaṇatā labbhatīti katvā kāmāvacarapaṭisandhiyā chadvāraggahitaṃ kammanimittaṃ gatinimittañca paccuppannamatītārammaṇaṃ upalabbhati, kammaṃ pana atītameva, tañca manodvāraggahitaṃ, tāni pana sabbānipi parittadhammabhūtānevārammaṇāni."
+},
+{
+"type": "p",
+"pnum": 5093,
+"label": "V.93",
+"alias": [
+"p5-93"
+],
+"text": "Rūpāvacarapaṭisandhiyā pana paññattibhūtaṃ kammanimittamevārammaṇaṃ hoti."
+},
+{
+"type": "p",
+"pnum": 5094,
+"label": "V.94",
+"alias": [
+"p5-94"
+],
+"text": "Tathā ⟨pg:38⟩ arūpapaṭisandhiyā ca mahaggatabhūtaṃ paññattibhūtañca kammanimittameva yathārahamārammaṇaṃ hoti."
+},
+{
+"type": "p",
+"pnum": 5095,
+"label": "V.95",
+"alias": [
+"p5-95"
+],
+"text": "Asaññasattānaṃ pana jīvitanavakameva paṭisandhibhāvena patiṭṭhāti, tasmā te rūpapaṭisandhikā nāma."
+},
+{
+"type": "p",
+"pnum": 5096,
+"label": "V.96",
+"alias": [
+"p5-96"
+],
+"text": "Arūpā arūpapaṭisandhikā."
+},
+{
+"type": "p",
+"pnum": 5097,
+"label": "V.97",
+"alias": [
+"p5-97"
+],
+"text": "Sesā rūpārūpapaṭisandhikā."
+},
+{
+"type": "p",
+"pnum": 5098,
+"label": "V.98",
+"alias": [
+"p5-98"
+],
+"text": "Āruppacutiyā honti, heṭṭhimāruppavajjitā."
+},
+{
+"type": "p",
+"text": "Paramāruppasandhī ca, tathā kāmatihetukā.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Rūpāvacaracutiyā, aheturahitā siyuṃ;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Sabbā kāmatihetumhā, kāmesveva panetarā.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Ayamettha cutipaṭisandhikkamo.",
+"ctr": true
+},
+{
+"type": "p",
+"pnum": 5099,
+"label": "V.99",
+"alias": [
+"p5-99"
+],
+"text": "Iccevaṃ gahitapaṭisandhikānaṃ pana paṭisandhinirodhānantarato pabhuti tamevārammaṇamārabbha tadeva cittaṃ yāva cuticittuppādā asati vīthicittuppāde bhavassa aṅgabhāvena bhavaṅgasantatisaṅkhātaṃ mānasaṃ abbocchinnaṃ nadīsoto viya pavattati."
+},
+{
+"type": "p",
+"pnum": 5100,
+"label": "V.100",
+"alias": [
+"p5-100"
+],
+"text": "Pariyosāne ca cavanavasena cuticittaṃ hutvā nirujjhati."
+},
+{
+"type": "p",
+"pnum": 5101,
+"label": "V.101",
+"alias": [
+"p5-101"
+],
+"text": "Tato parañca paṭisandhādayo rathacakkamiva yathākkamaṃ eva parivattantā pavattanti."
+},
+{
+"type": "p",
+"pnum": 5102,
+"label": "V.102",
+"alias": [
+"p5-102"
+],
+"text": "Paṭisandhibhavaṅgavīthiyo, cuticeha tathā bhavantare."
+},
+{
+"type": "p",
+"text": "Puna sandhi bhavaṅgamiccayaṃ, parivattati cittasantati.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Paṭisaṅkhāyapanetamaddhuvaṃ⟨pg:39⟩, adhigantvā padamaccutaṃ budhā;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Susamucchinnasinehabandhanā, samamessanti cirāya subbatā.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Iti abhidhammatthasaṅgahe vīthimuttasaṅgahavibhāgo nāma",
+"ctr": true
+},
+{
+"type": "p",
+"text": "Pañcamo paricchedo.",
+"ctr": true
+}
+],
+"sangaha_ch": 5
+},
+{
+"num": "6",
+"label": "Chapter VI",
+"title": "6. Rūpaparicchedo — Matter",
+"blocks": [
+{
+"type": "h",
+"text": "6. Rūpaparicchedo"
+},
+{
+"type": "p",
+"pnum": 6001,
+"label": "VI.1",
+"alias": [
+"p6-1"
+],
+"text": "Ettāvatā vibhattā hi, sappabhedappavattikā."
+},
+{
+"type": "p",
+"text": "Cittacetasikā dhammā, rūpaṃ dāni pavuccati.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 6002,
+"label": "VI.2",
+"alias": [
+"p6-2"
+],
+"text": "Samuddesā vibhāgā ca, samuṭṭhānā kalāpato."
+},
+{
+"type": "p",
+"text": "Pavattikkamato ceti, pañcadhā tattha saṅgaho.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Rūpasamuddeso"
+},
+{
+"type": "p",
+"pnum": 6003,
+"label": "VI.3",
+"alias": [
+"p6-3"
+],
+"text": "Cattāri mahābhūtāni, catunnañca mahābhūtānaṃ upādāyarūpanti **duvidhampetaṃ rūpaṃ** ekādasavidhena saṅgahaṃ gacchati."
+},
+{
+"type": "p",
+"pnum": 6004,
+"label": "VI.4",
+"alias": [
+"p6-4"
+],
+"text": "Kathaṃ? Pathavīdhātu āpodhātu tejodhātu vāyodhātu **bhūtarūpaṃ** nāma."
+},
+{
+"type": "p",
+"pnum": 6005,
+"label": "VI.5",
+"alias": [
+"p6-5"
+],
+"text": "Cakkhu sotaṃ ghānaṃ jivhā kāyo **pasādarūpaṃ** nāma."
+},
+{
+"type": "p",
+"pnum": 6006,
+"label": "VI.6",
+"alias": [
+"p6-6"
+],
+"text": "Rūpaṃ saddo gandho raso āpodhātuvivajjitaṃ bhūtattayasaṅkhātaṃ phoṭṭhabbaṃ **gocararūpaṃ** nāma."
+},
+{
+"type": "p",
+"pnum": 6007,
+"label": "VI.7",
+"alias": [
+"p6-7"
+],
+"text": "Itthattaṃ purisattaṃ **bhāvarūpaṃ** nāma."
+},
+{
+"type": "p",
+"pnum": 6008,
+"label": "VI.8",
+"alias": [
+"p6-8"
+],
+"text": "Hadayavatthu **hadayarūpaṃ** nāma."
+},
+{
+"type": "p",
+"pnum": 6009,
+"label": "VI.9",
+"alias": [
+"p6-9"
+],
+"text": "Jīvitindriyaṃ **jīvitarūpaṃ** nāma."
+},
+{
+"type": "p",
+"pnum": 6010,
+"label": "VI.10",
+"alias": [
+"p6-10"
+],
+"text": "Kabaḷīkāro āhāro **āhārarūpaṃ** nāma."
+},
+{
+"type": "p",
+"pnum": 6011,
+"label": "VI.11",
+"alias": [
+"p6-11"
+],
+"text": "Iti ⟨pg:40⟩ ca aṭṭhārasavidhampetaṃ rūpaṃ sabhāvarūpaṃ salakkhaṇarūpaṃ nipphannarūpaṃ rūparūpaṃ sammasanarūpanti ca saṅgahaṃ gacchati."
+},
+{
+"type": "p",
+"pnum": 6012,
+"label": "VI.12",
+"alias": [
+"p6-12"
+],
+"text": "Ākāsadhātu **paricchedarūpaṃ** nāma."
+},
+{
+"type": "p",
+"pnum": 6013,
+"label": "VI.13",
+"alias": [
+"p6-13"
+],
+"text": "Kāyaviññatti vacīviññatti **viññattirūpaṃ** nāma."
+},
+{
+"type": "p",
+"pnum": 6014,
+"label": "VI.14",
+"alias": [
+"p6-14"
+],
+"text": "Rūpassa lahutā mudutā kammaññatā viññattidvayaṃ **vikārarūpaṃ** nāma."
+},
+{
+"type": "p",
+"pnum": 6015,
+"label": "VI.15",
+"alias": [
+"p6-15"
+],
+"text": "Rūpassa upacayo santati jaratā aniccatā **lakkhaṇarūpaṃ** nāma."
+},
+{
+"type": "p",
+"pnum": 6016,
+"label": "VI.16",
+"alias": [
+"p6-16"
+],
+"text": "Jātirūpameva panettha upacayasantatināmena pavuccatīti ekādasavidhampetaṃ rūpaṃ aṭṭhavīsatividhaṃ hoti sarūpavasena."
+},
+{
+"type": "p",
+"pnum": 6017,
+"label": "VI.17",
+"alias": [
+"p6-17"
+],
+"text": "Kathaṃ –"
+},
+{
+"type": "p",
+"text": "Bhūtappasādavisayā, bhāvo hadayamiccapi;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Jīvitāhārarūpehi, aṭṭhārasavidhaṃ tathā.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Paricchedo ca viññatti, vikāro lakkhaṇanti ca;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Anipphannā dasa ceti, aṭṭhavīsavidhaṃ bhave.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Ayamettha rūpasamuddeso.",
+"ctr": true
+},
+{
+"type": "h",
+"text": "Rūpavibhāgo"
+},
+{
+"type": "p",
+"pnum": 6018,
+"label": "VI.18",
+"alias": [
+"p6-18"
+],
+"text": "Sabbañca panetaṃ rūpaṃ ahetukaṃ sappaccayaṃ sāsavaṃ saṅkhataṃ lokiyaṃ kāmāvacaraṃ anārammaṇaṃ appahātabbamevāti ekavidhampi ajjhattikabāhirādivasena bahudhā bhedaṃ gacchati."
+},
+{
+"type": "p",
+"pnum": 6019,
+"label": "VI.19",
+"alias": [
+"p6-19"
+],
+"text": "Kathaṃ? Pasādasaṅkhātaṃ pañcavidhampi **ajjhattikarūpaṃ** nāma, itaraṃ **bāhirarūpaṃ**."
+},
+{
+"type": "p",
+"pnum": 6020,
+"label": "VI.20",
+"alias": [
+"p6-20"
+],
+"text": "Pasādahadayasaṅkhātaṃ ⟨pg:41⟩ chabbidhampi **vatthurūpaṃ** nāma, itaraṃ **avatthurūpaṃ**."
+},
+{
+"type": "p",
+"pnum": 6021,
+"label": "VI.21",
+"alias": [
+"p6-21"
+],
+"text": "Pasādaviññattisaṅkhātaṃ sattavidhampi **dvārarūpaṃ** nāma, itaraṃ advārarūpaṃ."
+},
+{
+"type": "p",
+"pnum": 6022,
+"label": "VI.22",
+"alias": [
+"p6-22"
+],
+"text": "Pasādabhāvajīvitasaṅkhātaṃ aṭṭhavidhampi **indriyarūpaṃ** nāma, itaraṃ **anindriyarūpaṃ**."
+},
+{
+"type": "p",
+"pnum": 6023,
+"label": "VI.23",
+"alias": [
+"p6-23"
+],
+"text": "Pasādavisayasaṅkhātaṃ dvādasavidhampi **oḷārikarūpaṃ santikerūpaṃ, sappaṭigharūpañca,** itaraṃ **sukhumarūpaṃ dūrerūpaṃ appaṭigharūpañca**."
+},
+{
+"type": "p",
+"pnum": 6024,
+"label": "VI.24",
+"alias": [
+"p6-24"
+],
+"text": "Kammajaṃ **upādinnarūpaṃ,** itaraṃ **anupādinnarūpaṃ**."
+},
+{
+"type": "p",
+"pnum": 6025,
+"label": "VI.25",
+"alias": [
+"p6-25"
+],
+"text": "Rūpāyatanaṃ **sanidassanarūpaṃ,** itaraṃ **anidassanarūpaṃ**."
+},
+{
+"type": "p",
+"pnum": 6026,
+"label": "VI.26",
+"alias": [
+"p6-26"
+],
+"text": "Cakkhādidvayaṃ asampattavasena, ghānādittayaṃ sampattavasenāti pañcavidhampi **gocaraggāhikarūpaṃ,** itaraṃ **agocaraggāhikarūpaṃ**."
+},
+{
+"type": "p",
+"pnum": 6027,
+"label": "VI.27",
+"alias": [
+"p6-27"
+],
+"text": "Vaṇṇo gandho raso ojā bhūtacatukkañceti aṭṭhavidhampi **avinibbhogarūpaṃ,** itaraṃ **vinibbhogarūpaṃ**."
+},
+{
+"type": "p",
+"pnum": 6028,
+"label": "VI.28",
+"alias": [
+"p6-28"
+],
+"text": "Iccevamaṭṭhavīsati-vidhampi ca vicakkhaṇā."
+},
+{
+"type": "p",
+"text": "Ajjhattikādibhedena, vibhajanti yathārahaṃ.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Ayamettha rūpavibhāgo.",
+"ctr": true
+},
+{
+"type": "h",
+"text": "Rūpasamuṭṭhānanayo"
+},
+{
+"type": "p",
+"pnum": 6029,
+"label": "VI.29",
+"alias": [
+"p6-29"
+],
+"text": "Kammaṃ cittaṃ utu āhāro ceti **cattāri rūpasamuṭṭhānāni** nāma."
+},
+{
+"type": "p",
+"pnum": 6030,
+"label": "VI.30",
+"alias": [
+"p6-30"
+],
+"text": "Tattha kāmāvacaraṃ rūpāvacarañceti pañcavīsatividhampi kusalākusalakammamabhisaṅkhataṃ ajjhattikasantāne kammasamuṭṭhānarūpaṃ paṭisandhimupādāya khaṇe khaṇe samuṭṭhāpeti."
+},
+{
+"type": "p",
+"pnum": 6031,
+"label": "VI.31",
+"alias": [
+"p6-31"
+],
+"text": "Arūpavipākadvipañcaviññāṇavajjitaṃ ⟨pg:42⟩ pañcasattatividhampi cittaṃ cittasamuṭṭhānarūpaṃ paṭhamabhavaṅgamupādāya jāyantameva samuṭṭhāpeti."
+},
+{
+"type": "p",
+"pnum": 6032,
+"label": "VI.32",
+"alias": [
+"p6-32"
+],
+"text": "Tattha appanājavanaṃ iriyāpathampi sannāmeti."
+},
+{
+"type": "p",
+"pnum": 6033,
+"label": "VI.33",
+"alias": [
+"p6-33"
+],
+"text": "Voṭṭhabbanakāmāvacarajavanābhiññā pana viññattimpi samuṭṭhāpenti."
+},
+{
+"type": "p",
+"pnum": 6034,
+"label": "VI.34",
+"alias": [
+"p6-34"
+],
+"text": "Somanassajavanāni panettha terasa hasanampi janenti."
+},
+{
+"type": "p",
+"pnum": 6035,
+"label": "VI.35",
+"alias": [
+"p6-35"
+],
+"text": "Sītuṇhotusamaññātā tejodhātu ṭhitippattāva utusamuṭṭhānarūpaṃ ajjhattañca bahiddhā ca yathārahaṃ samuṭṭhāpeti."
+},
+{
+"type": "p",
+"pnum": 6036,
+"label": "VI.36",
+"alias": [
+"p6-36"
+],
+"text": "Ojāsaṅkhāto āhāro āhārasamuṭṭhānarūpaṃ ajjhoharaṇakāle ṭhānappattova samuṭṭhāpeti."
+},
+{
+"type": "p",
+"pnum": 6037,
+"label": "VI.37",
+"alias": [
+"p6-37"
+],
+"text": "Tattha hadayaindriyarūpāni kammajāneva."
+},
+{
+"type": "p",
+"pnum": 6038,
+"label": "VI.38",
+"alias": [
+"p6-38"
+],
+"text": "Viññattidvayaṃ cittajameva."
+},
+{
+"type": "p",
+"pnum": 6039,
+"label": "VI.39",
+"alias": [
+"p6-39"
+],
+"text": "Saddo cittotujo."
+},
+{
+"type": "p",
+"pnum": 6040,
+"label": "VI.40",
+"alias": [
+"p6-40"
+],
+"text": "Lahutādittayaṃ utucittāhārehi sambhoti."
+},
+{
+"type": "p",
+"pnum": 6041,
+"label": "VI.41",
+"alias": [
+"p6-41"
+],
+"text": "Avinibbhogarūpāni ceva ākāsadhātu ca. Catūhi sambhūtāni."
+},
+{
+"type": "p",
+"pnum": 6042,
+"label": "VI.42",
+"alias": [
+"p6-42"
+],
+"text": "Lakkhaṇarūpāni na kutoci jāyanti."
+},
+{
+"type": "p",
+"pnum": 6043,
+"label": "VI.43",
+"alias": [
+"p6-43"
+],
+"text": "Aṭṭhārasa pannarasa, terasa dvādasāti ca."
+},
+{
+"type": "p",
+"text": "Kammacittotukāhāra-jāni honti yathākkamaṃ.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 6044,
+"label": "VI.44",
+"alias": [
+"p6-44"
+],
+"text": "Jāyamānādirūpānaṃ, sabhāvattā hi kevalaṃ."
+},
+{
+"type": "p",
+"text": "Lakkhaṇāni na jāyanti, kehicīti pakāsitaṃ.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Ayamettha rūpasamuṭṭhānanayo.",
+"ctr": true
+},
+{
+"type": "h",
+"text": "Kalāpayojanā"
+},
+{
+"type": "p",
+"pnum": 6045,
+"label": "VI.45",
+"alias": [
+"p6-45"
+],
+"text": "Ekuppādā ⟨pg:43⟩ ekanirodhā ekanissayā sahavuttino **ekavīsati rūpakalāpā** nāma."
+},
+{
+"type": "p",
+"pnum": 6046,
+"label": "VI.46",
+"alias": [
+"p6-46"
+],
+"text": "Tattha jīvitaṃ avinibbhogarūpañca cakkhunā saha cakkhudasakanti pavuccati. Tathā sotādīhi saddhiṃ sotadasakaṃ ghānadasakaṃ jivhādasakaṃ kāyadasakaṃ itthibhāvadasakaṃ pumbhāvadasakaṃ vatthudasakañceti yathākkamaṃ yojetabbaṃ. Avinibbhogarūpameva jīvitena saha jīvitanavakanti pavuccati. Ime **nava kammasamuṭṭhānakalāpā**."
+},
+{
+"type": "p",
+"pnum": 6047,
+"label": "VI.47",
+"alias": [
+"p6-47"
+],
+"text": "Avinibbhogarūpaṃ pana suddhaṭṭhakaṃ, tadeva kāyaviññattiyā saha kāyaviññattinavakaṃ, vacīviññattisaddehi saha vacīviññattidasakaṃ, lahutādīhi saddhiṃ lahutādekādasakaṃ, kāyaviññattilahutādidvādasakaṃ, vacīviññattisaddalahutāditerasakañceti **cha cittasamuṭṭhānakalāpā**."
+},
+{
+"type": "p",
+"pnum": 6048,
+"label": "VI.48",
+"alias": [
+"p6-48"
+],
+"text": "Suddhaṭṭhakaṃ saddanavakaṃ lahutādekādasakaṃ saddalahutādidvādasakañceti **cattāro utusamuṭṭhānakalāpā**."
+},
+{
+"type": "p",
+"pnum": 6049,
+"label": "VI.49",
+"alias": [
+"p6-49"
+],
+"text": "Suddhaṭṭhakaṃ lahutādekādasakañceti **dveāhārasamuṭṭhānakalāpā**."
+},
+{
+"type": "p",
+"pnum": 6050,
+"label": "VI.50",
+"alias": [
+"p6-50"
+],
+"text": "Tattha suddhaṭṭhakaṃ saddanavakañceti dve utusamuṭṭhānakalāpā bahiddhāpi labbhanti, avasesā pana sabbepi ajjhattikamevāti."
+},
+{
+"type": "p",
+"pnum": 6051,
+"label": "VI.51",
+"alias": [
+"p6-51"
+],
+"text": "Kammacittotukāhāra-samuṭṭhānā yathākkamaṃ."
+},
+{
+"type": "p",
+"text": "Nava cha caturo dveti, kalāpā ekavīsati.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Kalāpānaṃ pariccheda-lakkhaṇattā vicakkhaṇā;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Na kalāpaṅgamiccāhu, ākāsaṃ lakkhaṇāni ca.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Ayamettha kalāpayojanā.",
+"ctr": true
+},
+{
+"type": "h",
+"text": "Rūpapavattikkamo"
+},
+{
+"type": "p",
+"pnum": 6052,
+"label": "VI.52",
+"alias": [
+"p6-52"
+],
+"text": "Sabbānipi ⟨pg:44⟩ panetāni rūpāni kāmaloke yathārahaṃ anūnāni pavattiyaṃ upalabbhanti."
+},
+{
+"type": "p",
+"pnum": 6053,
+"label": "VI.53",
+"alias": [
+"p6-53"
+],
+"text": "Paṭisandhiyaṃ pana saṃsedajānañceva opapātikānañca cakkhusotaghānajivhākāyabhāvavatthudasakasaṅkhātāni satta dasakāni pātubhavanti ukkaṭṭhavasena, omakavasena pana cakkhusotaghānabhāvadasakāni kadācipi na labbhanti, tasmā tesaṃ vasena kalāpahāni veditabbā."
+},
+{
+"type": "p",
+"pnum": 6054,
+"label": "VI.54",
+"alias": [
+"p6-54"
+],
+"text": "Gabbhaseyyakasattānaṃ pana kāyabhāvavatthudasakasaṅkhātāni tīṇi dasakāni pātubhavanti, tatthāpi bhāvadasakaṃ kadāci na labbhati, tato paraṃ pavattikāle kamena cakkhudasakādīni ca pātubhavanti."
+},
+{
+"type": "p",
+"pnum": 6055,
+"label": "VI.55",
+"alias": [
+"p6-55"
+],
+"text": "Iccevaṃ paṭisandhimupādāya kammasamuṭṭhānā, dutiyacittamupādāya cittasamuṭṭhānā, ṭhitikālamupādāya utusamuṭṭhānā, ojāpharaṇamupādāya āhārasamuṭṭhānā ceti catusamuṭṭhānarūpakalāpasantati kāmaloke dīpajālā viya, nadīsoto viya ca yāvatāyukamabbocchinnā pavattati."
+},
+{
+"type": "p",
+"pnum": 6056,
+"label": "VI.56",
+"alias": [
+"p6-56"
+],
+"text": "Maraṇakāle pana cuticittoparisattarasamacittassa ṭhitikālamupādāya kammajarūpāni na uppajjanti, puretaramuppannāni ca kammajarūpāni cuticittasamakālameva pavattitvā nirujjhanti, tato paraṃ cittajāhārajarūpañca vocchijjati, tato paraṃ utusamuṭṭhānarūpaparamparā yāva matakaḷevarasaṅkhātā pavattanti."
+},
+{
+"type": "p",
+"pnum": 6057,
+"label": "VI.57",
+"alias": [
+"p6-57"
+],
+"text": "Iccevaṃ matasattānaṃ, punadeva bhavantare."
+},
+{
+"type": "p",
+"text": "Paṭisandhimupādāya, tathā rūpaṃ pavattati.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 6058,
+"label": "VI.58",
+"alias": [
+"p6-58"
+],
+"text": "Rūpaloke ⟨pg:45⟩ pana ghānajivhākāyabhāvadasakāni ca āhārajakalāpāni ca na labbhanti, tasmā tesaṃ paṭisandhikāle cakkhusotavatthuvasena tīṇi dasakāni jīvitanavakañceti cattāro kammasamuṭṭhānakalāpā, pavattiyaṃ cittotusamuṭṭhānā ca labbhanti."
+},
+{
+"type": "p",
+"pnum": 6059,
+"label": "VI.59",
+"alias": [
+"p6-59"
+],
+"text": "Asaññasattānaṃ pana cakkhusotavatthusaddāpi na labbhanti, tathā sabbānipi cittajarūpāni, tasmā tesaṃ paṭisandhikāle jīvitanavakameva, pavattiyañca saddavajjitaṃ utusamuṭṭhānarūpaṃ atiricchati."
+},
+{
+"type": "p",
+"pnum": 6060,
+"label": "VI.60",
+"alias": [
+"p6-60"
+],
+"text": "Iccevaṃ kāmarūpāsaññīsaṅkhātesu tīsu ṭhānesu paṭisandhipavattivasena duvidhā rūpappavatti veditabbā."
+},
+{
+"type": "p",
+"pnum": 6061,
+"label": "VI.61",
+"alias": [
+"p6-61"
+],
+"text": "Aṭṭhavīsati kāmesu, honti tevīsa rūpisu."
+},
+{
+"type": "p",
+"text": "Sattaraseva saññīnaṃ, arūpe natthi kiñcipi.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Saddo vikāro jaratā, maraṇañcopapattiyaṃ;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Na labbhanti pavatte tu, na kiñcipi na labbhati.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Ayamettha rūpapavattikkamo.",
+"ctr": true
+},
+{
+"type": "h",
+"text": "Nibbānabhedo"
+},
+{
+"type": "p",
+"pnum": 6062,
+"label": "VI.62",
+"alias": [
+"p6-62"
+],
+"text": "**Nibbānaṃ** pana lokuttarasaṅkhātaṃ catumaggañāṇena sacchikātabbaṃ maggaphalānamārammaṇabhūtaṃ vānasaṅkhātāya taṇhāya nikkhantattā nibbānanti pavuccati."
+},
+{
+"type": "p",
+"pnum": 6063,
+"label": "VI.63",
+"alias": [
+"p6-63"
+],
+"text": "Tadetaṃ sabhāvato ekavidhampi saupādisesanibbānadhātu anupādisesanibbānadhātu ceti duvidhaṃ hoti kāraṇapariyāyena."
+},
+{
+"type": "p",
+"pnum": 6064,
+"label": "VI.64",
+"alias": [
+"p6-64"
+],
+"text": "Tathā ⟨pg:46⟩ suññataṃ animittaṃ appaṇihitañceti tividhaṃ hoti ākārabhedena."
+},
+{
+"type": "p",
+"pnum": 6065,
+"label": "VI.65",
+"alias": [
+"p6-65"
+],
+"text": "Padamaccutamaccantaṃ, asaṅkhatamanuttaraṃ."
+},
+{
+"type": "p",
+"text": "Nibbānamiti bhāsanti, vānamuttā mahesayo.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Iti cittaṃ cetasikaṃ, rūpaṃ nibbānamiccapi;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Paramatthaṃ pakāsenti, catudhāva tathāgatā.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Iti abhidhammatthasaṅgahe rūpasaṅgahavibhāgo nāma",
+"ctr": true
+},
+{
+"type": "p",
+"text": "Chaṭṭho paricchedo.",
+"ctr": true
+}
+],
+"sangaha_ch": 6
+},
+{
+"num": "7",
+"label": "Chapter VII",
+"title": "7. Samuccayaparicchedo — Categories",
+"blocks": [
+{
+"type": "h",
+"text": "7. Samuccayaparicchedo"
+},
+{
+"type": "p",
+"pnum": 7001,
+"label": "VII.1",
+"alias": [
+"p7-1"
+],
+"text": "Dvāsattatividhā vuttā, vatthudhammā salakkhaṇā."
+},
+{
+"type": "p",
+"text": "Tesaṃ dāni yathāyogaṃ, pavakkhāmi samuccayaṃ.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 7002,
+"label": "VII.2",
+"alias": [
+"p7-2"
+],
+"text": "Akusalasaṅgaho missakasaṅgaho bodhipakkhiyasaṅgaho sabbasaṅgaho ceti samuccayasaṅgaho catubbidho veditabbo."
+},
+{
+"type": "h",
+"text": "Akusalasaṅgaho"
+},
+{
+"type": "p",
+"pnum": 7003,
+"label": "VII.3",
+"alias": [
+"p7-3"
+],
+"text": "Kathaṃ? **Akusalasaṅgahe** tāva cattāro āsavā – kāmāsavo bhavāsavo diṭṭhāsavo avijjāsavo."
+},
+{
+"type": "p",
+"pnum": 7004,
+"label": "VII.4",
+"alias": [
+"p7-4"
+],
+"text": "Cattāro oghā – kāmogho bhavogho diṭṭhogho avijjogho."
+},
+{
+"type": "p",
+"pnum": 7005,
+"label": "VII.5",
+"alias": [
+"p7-5"
+],
+"text": "Cattāro yogā – kāmayogo bhavayogo diṭṭhiyogo avijjāyogo."
+},
+{
+"type": "p",
+"pnum": 7006,
+"label": "VII.6",
+"alias": [
+"p7-6"
+],
+"text": "Cattāro ganthā – abhijjhākāyagantho, byāpādo kāyagantho, sīlabbataparāmāso kāyagantho, idaṃsaccābhiniveso kāyagantho."
+},
+{
+"type": "p",
+"pnum": 7007,
+"label": "VII.7",
+"alias": [
+"p7-7"
+],
+"text": "Cattāro ⟨pg:47⟩ upādānā – kāmupādānaṃ diṭṭhupādānaṃ sīlabbatupādānaṃ attavādupādānaṃ."
+},
+{
+"type": "p",
+"pnum": 7008,
+"label": "VII.8",
+"alias": [
+"p7-8"
+],
+"text": "Cha nīvaraṇāni – kāmacchandanīvaraṇaṃ byāpādanīvaraṇaṃ thinamiddhanīvaraṇaṃ uddhaccakukkuccanīvaraṇaṃ vicikicchānīvaraṇaṃ avijjānīvaraṇaṃ."
+},
+{
+"type": "p",
+"pnum": 7009,
+"label": "VII.9",
+"alias": [
+"p7-9"
+],
+"text": "Satta anusayā – kāmarāgānusayo bhavarāgānusayo paṭighānusayo mānānusayo diṭṭhānusayo vicikicchānusayo avijjānusayo."
+},
+{
+"type": "p",
+"pnum": 7010,
+"label": "VII.10",
+"alias": [
+"p7-10"
+],
+"text": "Dasa saṃyojanāni – kāmarāgasaṃyojanaṃ rūparāgasaṃyojanaṃ arūparāgasaṃyojanaṃ paṭighasaṃyojanaṃ mānasaṃyojanaṃ diṭṭhisaṃyojanaṃ sīlabbataparāmāsasaṃyojanaṃ vicikicchāsaṃyojanaṃ uddhaccasaṃyojanaṃ avijjāsaṃyojanaṃ suttante."
+},
+{
+"type": "p",
+"pnum": 7011,
+"label": "VII.11",
+"alias": [
+"p7-11"
+],
+"text": "Aparānipi dasa saṃyojanāni – kāmarāgasaṃyojanaṃ bhavarāgasaṃyojanaṃ paṭighasaṃyojanaṃ mānasaṃyojanaṃ diṭṭhisaṃyojanaṃ sīlabbataparāmāsasaṃyojanaṃ vicikicchāsaṃyojanaṃ issāsaṃyojanaṃ macchariyasaṃyojanaṃ avijjāsaṃyojanaṃ abhidhamme (vibha. 969)."
+},
+{
+"type": "p",
+"pnum": 7012,
+"label": "VII.12",
+"alias": [
+"p7-12"
+],
+"text": "Dasa kilesā – lobho doso moho māno diṭṭhi vicikicchā thinaṃ uddhaccaṃ ahirikaṃ anottappaṃ."
+},
+{
+"type": "p",
+"pnum": 7013,
+"label": "VII.13",
+"alias": [
+"p7-13"
+],
+"text": "Āsavādīsu panettha kāmabhavanāmena tabbatthukā taṇhā adhippetā, sīlabbataparāmāso idaṃsaccābhiniveso attavādupādo ca tathāpavattaṃ diṭṭhigatameva pavuccati."
+},
+{
+"type": "p",
+"pnum": 7014,
+"label": "VII.14",
+"alias": [
+"p7-14"
+],
+"text": "Āsavoghā ca yogā ca,"
+},
+{
+"type": "p",
+"text": "Tayo ganthā ca vatthuto;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Upādānā duve vuttā,",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Aṭṭha nīvaraṇā siyuṃ.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Chaḷevānusayā ⟨pg:48⟩ honti, nava saṃyojanā matā;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Kilesā dasa vuttoyaṃ, navadhā pāpasaṅgaho.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Missakasaṅgaho"
+},
+{
+"type": "p",
+"pnum": 7015,
+"label": "VII.15",
+"alias": [
+"p7-15"
+],
+"text": "**Missakasaṅgahe** cha hetū – lobho doso moho alobho adoso amoho."
+},
+{
+"type": "p",
+"pnum": 7016,
+"label": "VII.16",
+"alias": [
+"p7-16"
+],
+"text": "Satta jhānaṅgāni – vitakko vicāro pīti ekaggatā somanassaṃ domanassaṃ upekkhā."
+},
+{
+"type": "p",
+"pnum": 7017,
+"label": "VII.17",
+"alias": [
+"p7-17"
+],
+"text": "Dvādasa maggaṅgāni – sammādiṭṭhi sammāsaṅkappo sammāvācā sammākammanto sammāājīvo sammāvāyāmo sammāsati sammāsamādhi micchādiṭṭhi micchāsaṅkappo micchāvāyāmo micchāsamādhi."
+},
+{
+"type": "p",
+"pnum": 7018,
+"label": "VII.18",
+"alias": [
+"p7-18"
+],
+"text": "Bāvīsatindriyāni – cakkhundriyaṃ sotindriyaṃ ghānindriyaṃ jivhindriyaṃ kāyindriyaṃ itthindriyaṃ purisindriyaṃ jīvitindriyaṃ manindriyaṃ sukhindriyaṃ dukkhindriyaṃ somanassindriyaṃ domanassindriyaṃ upekkhindriyaṃ saddhindriyaṃ vīriyindriyaṃ satindriyaṃ samādhindriyaṃ paññindriyaṃ anaññātaññassāmītindriyaṃ aññindriyaṃ aññātāvindriyaṃ."
+},
+{
+"type": "p",
+"pnum": 7019,
+"label": "VII.19",
+"alias": [
+"p7-19"
+],
+"text": "Nava balāni – saddhābalaṃ vīriyabalaṃ satibalaṃ samādhibalaṃ paññābalaṃ hiribalaṃ ottappabalaṃ ahirikabalaṃ anottappabalaṃ."
+},
+{
+"type": "p",
+"pnum": 7020,
+"label": "VII.20",
+"alias": [
+"p7-20"
+],
+"text": "Cattāro adhipatī – chandādhipati vīriyādhipati cittādhipati vīmaṃsādhipati."
+},
+{
+"type": "p",
+"pnum": 7021,
+"label": "VII.21",
+"alias": [
+"p7-21"
+],
+"text": "Cattāro āhārā – kabaḷīkāro āhāro, phasso dutiyo, manosañcetanā tatiyā, viññāṇaṃ catutthaṃ."
+},
+{
+"type": "p",
+"pnum": 7022,
+"label": "VII.22",
+"alias": [
+"p7-22"
+],
+"text": "Indriyesu ⟨pg:49⟩ panettha sotāpattimaggañāṇaṃ anaññātaññassāmītindriyaṃ."
+},
+{
+"type": "p",
+"pnum": 7023,
+"label": "VII.23",
+"alias": [
+"p7-23"
+],
+"text": "Arahattaphalañāṇaṃ aññātāvindriyaṃ."
+},
+{
+"type": "p",
+"pnum": 7024,
+"label": "VII.24",
+"alias": [
+"p7-24"
+],
+"text": "Majjhe cha ñāṇāni aññindriyānīti pavuccanti."
+},
+{
+"type": "p",
+"pnum": 7025,
+"label": "VII.25",
+"alias": [
+"p7-25"
+],
+"text": "Jīvitindriyañca rūpārūpavasena duvidhaṃ hoti."
+},
+{
+"type": "p",
+"pnum": 7026,
+"label": "VII.26",
+"alias": [
+"p7-26"
+],
+"text": "Pañcaviññāṇesu jhānaṅgāni, avīriyesu balāni, ahetukesu maggaṅgāni na labbhanti."
+},
+{
+"type": "p",
+"pnum": 7027,
+"label": "VII.27",
+"alias": [
+"p7-27"
+],
+"text": "Tathā vicikicchācitte ekaggatā maggindriyabalabhāvaṃ na gacchati."
+},
+{
+"type": "p",
+"pnum": 7028,
+"label": "VII.28",
+"alias": [
+"p7-28"
+],
+"text": "Dvihetukatihetukajavanesveva yathāsambhavaṃ adhipati ekova labbhatīti."
+},
+{
+"type": "p",
+"pnum": 7029,
+"label": "VII.29",
+"alias": [
+"p7-29"
+],
+"text": "Cha hetū pañca jhānaṅgā, maggaṅgā nava vatthuto."
+},
+{
+"type": "p",
+"text": "Soḷasindriyadhammā ca, baladhammā naveritā.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Cattārodhipati vuttā, tathāhārāti sattadhā;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Kusalādisamākiṇṇo, vuttomissakasaṅgaho.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Bodhipakkhiyasaṅgaho"
+},
+{
+"type": "p",
+"pnum": 7030,
+"label": "VII.30",
+"alias": [
+"p7-30"
+],
+"text": "**Bodhipakkhiyasaṅgahe** cattāro satipaṭṭhānā kāyānupassanāsatipaṭṭhānaṃ vedanānupassanāsatipaṭṭhānaṃ cittānupassanāsatipaṭṭhānaṃ dhammānupassanāsatipaṭṭhānaṃ."
+},
+{
+"type": "p",
+"pnum": 7031,
+"label": "VII.31",
+"alias": [
+"p7-31"
+],
+"text": "Cattāro sammappadhānā uppannānaṃ pāpakānaṃ pahānāya vāyāmo, anuppannānaṃ pāpakānaṃ anuppādāya vāyāmo, anuppannānaṃ kusalānaṃ uppādāya vāyāmo, uppannānaṃ kusalānaṃ bhiyyobhāvāya vāyāmo."
+},
+{
+"type": "p",
+"pnum": 7032,
+"label": "VII.32",
+"alias": [
+"p7-32"
+],
+"text": "Cattāro ⟨pg:50⟩ iddhipādā – chandiddhipādo vīriyiddhipādo cittiddhipādo vīmaṃsiddhipādo."
+},
+{
+"type": "p",
+"pnum": 7033,
+"label": "VII.33",
+"alias": [
+"p7-33"
+],
+"text": "Pañcindriyāni – saddhindriyaṃ vīriyindriyaṃ satindriyaṃ samādhindriyaṃ paññindriyaṃ."
+},
+{
+"type": "p",
+"pnum": 7034,
+"label": "VII.34",
+"alias": [
+"p7-34"
+],
+"text": "Pañca balāni – saddhābalaṃ vīriyabalaṃ satibalaṃ samādhibalaṃ paññābalaṃ."
+},
+{
+"type": "p",
+"pnum": 7035,
+"label": "VII.35",
+"alias": [
+"p7-35"
+],
+"text": "Satta bojjhaṅgā – satisambojjhaṅgo dhammavicayasambojjhaṅgo vīriyasambojjhaṅgo pītisambojjhaṅgo passaddhisambojjhaṅgo samādhisambojjhaṅgo upekkhāsambojjhaṅgo."
+},
+{
+"type": "p",
+"pnum": 7036,
+"label": "VII.36",
+"alias": [
+"p7-36"
+],
+"text": "Aṭṭha maggaṅgāni – sammādiṭṭhi sammāsaṅkappo sammāvācā sammākammanto sammāājīvo sammāvāyāmo sammāsati sammāsamādhi."
+},
+{
+"type": "p",
+"pnum": 7037,
+"label": "VII.37",
+"alias": [
+"p7-37"
+],
+"text": "Ettha pana cattāro satipaṭṭhānāti sammāsati ekāva pavuccati."
+},
+{
+"type": "p",
+"pnum": 7038,
+"label": "VII.38",
+"alias": [
+"p7-38"
+],
+"text": "Tathā cattāro sammappadhānāti ca sammāvāyāmo."
+},
+{
+"type": "p",
+"pnum": 7039,
+"label": "VII.39",
+"alias": [
+"p7-39"
+],
+"text": "Chando cittamupekkhā ca, saddhāpassaddhipītiyo."
+},
+{
+"type": "p",
+"text": "Sammādiṭṭhi ca saṅkappo, vāyāmo viratittayaṃ.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Sammāsati samādhīti, cuddasete sabhāvato;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Sattatiṃsappabhedena, sattadhā tattha saṅgaho.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 7040,
+"label": "VII.40",
+"alias": [
+"p7-40"
+],
+"text": "Saṅkappapassaddhi ca pītupekkhā,"
+},
+{
+"type": "p",
+"text": "Chando ca cittaṃ viratittayañca;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Navekaṭhānā viriyaṃ navaṭṭha,",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Satī samādhī catu pañca paññā;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Saddhā duṭhānuttamasattatiṃsa-",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Dhammānameso pavaro vibhāgo.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 7041,
+"label": "VII.41",
+"alias": [
+"p7-41"
+],
+"text": "Sabbe ⟨pg:51⟩ lokuttare honti, na vā saṅkappapītiyo."
+},
+{
+"type": "p",
+"text": "Lokiyepi yathāyogaṃ, chabbisuddhipavattiyaṃ.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Sabbasaṅgaho"
+},
+{
+"type": "p",
+"pnum": 7042,
+"label": "VII.42",
+"alias": [
+"p7-42"
+],
+"text": "**Sabbasaṅgahe** pañcakkhandhā – rūpakkhandho vedanākkhandho saññākkhandho saṅkhārakkhandho viññāṇakkhandho."
+},
+{
+"type": "p",
+"pnum": 7043,
+"label": "VII.43",
+"alias": [
+"p7-43"
+],
+"text": "Pañcupādānakkhandhā – rūpupādānakkhandho vedanupādānakkhandho saññupādānakkhandho saṅkhārupādānakkhandho viññāṇupādānakkhandho."
+},
+{
+"type": "p",
+"pnum": 7044,
+"label": "VII.44",
+"alias": [
+"p7-44"
+],
+"text": "Dvādasāyatanāni – cakkhāyatanaṃ sotāyatanaṃ ghānāyatanaṃ jivhāyatanaṃ kāyāyatanaṃ manāyatanaṃ rūpāyatanaṃ saddāyatanaṃ gandhāyatanaṃ rasāyatanaṃ phoṭṭhabbāyatanaṃ dhammāyatanaṃ."
+},
+{
+"type": "p",
+"pnum": 7045,
+"label": "VII.45",
+"alias": [
+"p7-45"
+],
+"text": "Aṭṭhārasa dhātuyo – cakkhudhātu sotadhātu ghānadhātu jivhādhātu kāyadhātu rūpadhātu saddadhātu gandhadhātu rasadhātu phoṭṭhabbadhātu cakkhuviññāṇadhātu sotaviññāṇadhātu ghānaviññāṇadhātu jivhāviññāṇadhātu kāyaviññāṇadhātu manodhātu dhammadhātu manoviññāṇadhātu."
+},
+{
+"type": "p",
+"pnum": 7046,
+"label": "VII.46",
+"alias": [
+"p7-46"
+],
+"text": "Cattāri ariyasaccāni – dukkhaṃ ariyasaccaṃ, dukkhasamudayo ariyasaccaṃ, dukkhanirodho ariyasaccaṃ, dukkhanirodhagāminī paṭipadā ariyasaccaṃ."
+},
+{
+"type": "p",
+"pnum": 7047,
+"label": "VII.47",
+"alias": [
+"p7-47"
+],
+"text": "Ettha pana cetasikasukhumarūpanibbānavasena ekūnasattati dhammā dhammāyatanadhammadhātūti saṅkhaṃ gacchanti."
+},
+{
+"type": "p",
+"pnum": 7048,
+"label": "VII.48",
+"alias": [
+"p7-48"
+],
+"text": "Manāyatanameva sattaviññāṇadhātuvasena bhijjati."
+},
+{
+"type": "p",
+"pnum": 7049,
+"label": "VII.49",
+"alias": [
+"p7-49"
+],
+"text": "Rūpañca vedanā saññā, sesacetasikā tathā."
+},
+{
+"type": "p",
+"text": "Viññāṇamiti pañcete, pañcakkhandhāti bhāsitā.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 7050,
+"label": "VII.50",
+"alias": [
+"p7-50"
+],
+"text": "Pañcupādānakkhandhāti⟨pg:52⟩, tathā tebhūmakā matā."
+},
+{
+"type": "p",
+"text": "Bhedābhāvena nibbānaṃ, khandhasaṅgahanissaṭaṃ.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 7051,
+"label": "VII.51",
+"alias": [
+"p7-51"
+],
+"text": "Dvārārammaṇabhedena, bhavantāyatanāni ca."
+},
+{
+"type": "p",
+"text": "Dvārālambataduppanna-pariyāyena dhātuyo.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 7052,
+"label": "VII.52",
+"alias": [
+"p7-52"
+],
+"text": "Dukkhaṃ tebhūmakaṃ vaṭṭaṃ, taṇhā samudayo bhave."
+},
+{
+"type": "p",
+"text": "Nirodho nāma nibbānaṃ, maggo lokuttaro mato.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 7053,
+"label": "VII.53",
+"alias": [
+"p7-53"
+],
+"text": "Maggayuttā phalā ceva, catusaccavinissaṭā."
+},
+{
+"type": "p",
+"text": "Iti pañcappabhedena, pavutto sabbasaṅgaho.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Iti abhidhammatthasaṅgahe samuccayasaṅgahavibhāgo nāma",
+"ctr": true
+},
+{
+"type": "p",
+"text": "Sattamo paricchedo.",
+"ctr": true
+}
+],
+"sangaha_ch": 7
+},
+{
+"num": "8",
+"label": "Chapter VIII",
+"title": "8. Paccayaparicchedo — Conditionality",
+"blocks": [
+{
+"type": "h",
+"text": "8. Paccayaparicchedo"
+},
+{
+"type": "p",
+"pnum": 8001,
+"label": "VIII.1",
+"alias": [
+"p8-1"
+],
+"text": "Yesaṃ saṅkhatadhammānaṃ, ye dhammā paccayā yathā."
+},
+{
+"type": "p",
+"text": "Taṃ vibhāgamihedāni, pavakkhāmi yathārahaṃ.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 8002,
+"label": "VIII.2",
+"alias": [
+"p8-2"
+],
+"text": "Paṭiccasamuppādanayo paṭṭhānanayo ceti paccayasaṅgaho duvidho veditabbo."
+},
+{
+"type": "p",
+"pnum": 8003,
+"label": "VIII.3",
+"alias": [
+"p8-3"
+],
+"text": "Tattha tabbhāvabhāvībhāvākāramattopalakkhito paṭiccasamuppādanayo, paṭṭhānanayo pana āhaccapaccayaṭṭhitimārabbha pavuccati, ubhayaṃ pana vomissetvā papañcenti ācariyā."
+},
+{
+"type": "h",
+"text": "Paṭiccasamuppādanayo"
+},
+{
+"type": "p",
+"pnum": 8004,
+"label": "VIII.4",
+"alias": [
+"p8-4"
+],
+"text": "Tattha avijjāpaccayā saṅkhārā, saṅkhārapaccayā viññāṇaṃ, viññāṇapaccayā nāmarūpaṃ, nāmarūpapaccayā saḷāyatanaṃ, saḷāyatanapaccayā phasso, phassapaccayā vedanā, vedanāpaccayā taṇhā, taṇhāpaccayā upādānaṃ, upādānapaccayā bhavo⟨pg:53⟩, bhavapaccayā jāti, jātipaccayā jarāmaraṇaṃ sokaparidevadukkhadomanassupāyāsā sambhavanti. Evametassa kevalassa dukkhakkhandhassa samudayo hotīti ayamettha **paṭiccasamuppādanayo**."
+},
+{
+"type": "p",
+"pnum": 8005,
+"label": "VIII.5",
+"alias": [
+"p8-5"
+],
+"text": "Tattha tayo addhā dvādasaṅgāni vīsatākārā tisandhi catusaṅkhepā tīṇi vaṭṭāni dve mūlāni ca veditabbāni."
+},
+{
+"type": "p",
+"pnum": 8006,
+"label": "VIII.6",
+"alias": [
+"p8-6"
+],
+"text": "Kathaṃ? Avijjāsaṅkhārā atīto addhā, jātijarāmaraṇaṃ anāgato addhā, majjhe aṭṭha paccuppanno addhāti tayo addhā."
+},
+{
+"type": "p",
+"pnum": 8007,
+"label": "VIII.7",
+"alias": [
+"p8-7"
+],
+"text": "Avijjā saṅkhārā viññāṇaṃ nāmarūpaṃ saḷāyatanaṃ phasso vedanā taṇhā upādānaṃ bhavo jāti jarāmaraṇanti dvādasaṅgāni."
+},
+{
+"type": "p",
+"pnum": 8008,
+"label": "VIII.8",
+"alias": [
+"p8-8"
+],
+"text": "Sokādivacanaṃ panettha nissandaphalanidassanaṃ."
+},
+{
+"type": "p",
+"pnum": 8009,
+"label": "VIII.9",
+"alias": [
+"p8-9"
+],
+"text": "Avijjāsaṅkhāraggahaṇena panettha taṇhupādānabhavāpi gahitā bhavanti, tathā taṇhupādānabhavaggahaṇena ca avijjāsaṅkhārā, jātijarāmaraṇaggahaṇena ca viññāṇādiphalapañcakameva gahitanti katvā –"
+},
+{
+"type": "p",
+"pnum": 8010,
+"label": "VIII.10",
+"alias": [
+"p8-10"
+],
+"text": "Atīte hetavo pañca, idāni phalapañcakaṃ."
+},
+{
+"type": "p",
+"text": "Idāni hetavo pañca, āyatiṃ phalapañcakanti;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Vīsatākārā tisandhi, catusaṅkhepā ca bhavanti.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 8011,
+"label": "VIII.11",
+"alias": [
+"p8-11"
+],
+"text": "Avijjātaṇhupādānā ca kilesavaṭṭaṃ, kammabhavasaṅkhāto bhavekadeso saṅkhārā ca kammavaṭṭaṃ, upapattibhavasaṅkhāto bhavekadeso avasesā ca vipākavaṭṭanti tīṇi vaṭṭāni."
+},
+{
+"type": "p",
+"pnum": 8012,
+"label": "VIII.12",
+"alias": [
+"p8-12"
+],
+"text": "Avijjātaṇhāvasena dve mūlāni ca veditabbāni."
+},
+{
+"type": "p",
+"pnum": 8013,
+"label": "VIII.13",
+"alias": [
+"p8-13"
+],
+"text": "Tesameva ⟨pg:54⟩ ca mūlānaṃ, nirodhena nirujjhati."
+},
+{
+"type": "p",
+"text": "Jarāmaraṇamucchāya, pīḷitānamabhiṇhaso;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Āsavānaṃ samuppādā, avijjā ca pavattati.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Vaṭṭamābandhamiccevaṃ, tebhūmakamanādikaṃ;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Paṭiccasamuppādoti, paṭṭhapesi mahāmuni.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Paṭṭhānanayo"
+},
+{
+"type": "p",
+"pnum": 8014,
+"label": "VIII.14",
+"alias": [
+"p8-14"
+],
+"text": "Hetupaccayo ārammaṇapaccayo adhipatipaccayo anantarapaccayo samanantarapaccayo sahajātapaccayo aññamaññapaccayo nissayapaccayo upanissayapaccayo purejātapaccayo pacchājātapaccayo āsevanapaccayo kammapaccayo vipākapaccayo āhārapaccayo indriyapaccayo jhānapaccayo maggapaccayo sampayuttapaccayo vippayuttapaccayo atthipaccayo natthipaccayo vigatapaccayo avigatapaccayoti ayamettha **paṭṭhānanayo**."
+},
+{
+"type": "p",
+"pnum": 8015,
+"label": "VIII.15",
+"alias": [
+"p8-15"
+],
+"text": "Chadhā nāmaṃ tu nāmassa, pañcadhā nāmarūpinaṃ."
+},
+{
+"type": "p",
+"text": "Ekadhā puna rūpassa, rūpaṃ nāmassa cekadhā.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Paññattināmarūpāni, nāmassa duvidhā dvayaṃ;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Dvayassa navadhā ceti, chabbidhā paccayā kathaṃ.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 8016,
+"label": "VIII.16",
+"alias": [
+"p8-16"
+],
+"text": "Anantaraniruddhā cittacetasikā dhammā paṭuppannānaṃ cittacetasikānaṃ dhammānaṃ anantarasamanantaranatthivigatavasena, purimāni javanāni pacchimānaṃ javanānaṃ āsevanavasena, sahajātā cittacetasikā dhammā aññamaññaṃ sampayuttavaseneti ca **chadhā nāmaṃ nāmassa** paccayo hoti."
+},
+{
+"type": "p",
+"pnum": 8017,
+"label": "VIII.17",
+"alias": [
+"p8-17"
+],
+"text": "Hetujhānaṅgamaggaṅgāni sahajātānaṃ nāmarūpānaṃ hetādivasena, sahajātā cetanā sahajātānaṃ nāmarūpānaṃ, nānākkhaṇikā cetanā kammābhinibbattānaṃ nāmarūpānaṃ kammavasena, vipākakkhandhā aññamaññaṃ sahajātānaṃ rūpānaṃ vipākavaseneti ⟨pg:55⟩ ca **pañcadhā nāmaṃ nāmarūpānaṃ** paccayo hoti."
+},
+{
+"type": "p",
+"pnum": 8018,
+"label": "VIII.18",
+"alias": [
+"p8-18"
+],
+"text": "Pacchājātā cittacetasikā dhammā purejātassa imassa kāyassa pacchājātavaseneti **ekadhāva nāmaṃ rūpassa** paccayo hoti."
+},
+{
+"type": "p",
+"pnum": 8019,
+"label": "VIII.19",
+"alias": [
+"p8-19"
+],
+"text": "Cha vatthūni pavattiyaṃ sattannaṃ viññāṇadhātūnaṃ pañcārammaṇāni ca pañcaviññāṇavīthiyā purejātavaseneti **ekadhāva rūpaṃ nāmassa** paccayo hoti."
+},
+{
+"type": "p",
+"pnum": 8020,
+"label": "VIII.20",
+"alias": [
+"p8-20"
+],
+"text": "Ārammaṇavasena upanissayavaseneti ca **duvidhā paññattināmarūpāni nāmasseva** paccayā honti."
+},
+{
+"type": "p",
+"pnum": 8021,
+"label": "VIII.21",
+"alias": [
+"p8-21"
+],
+"text": "Tattha rūpādivasena chabbidhaṃ hoti ārammaṇaṃ."
+},
+{
+"type": "p",
+"pnum": 8022,
+"label": "VIII.22",
+"alias": [
+"p8-22"
+],
+"text": "Upanissayo pana tividho hoti – ārammaṇūpanissayo anantarūpanissayo pakatūpanissayo ceti."
+},
+{
+"type": "p",
+"pnum": 8023,
+"label": "VIII.23",
+"alias": [
+"p8-23"
+],
+"text": "Tattha ārammaṇameva garukataṃ ārammaṇūpanissayo."
+},
+{
+"type": "p",
+"pnum": 8024,
+"label": "VIII.24",
+"alias": [
+"p8-24"
+],
+"text": "Anantaraniruddhā cittacetasikā dhammā anantarūpanissayo."
+},
+{
+"type": "p",
+"pnum": 8025,
+"label": "VIII.25",
+"alias": [
+"p8-25"
+],
+"text": "Rāgādayo pana dhammā saddhādayo ca sukhaṃ dukkhaṃ puggalo bhojanaṃ utusenāsanañca yathārahaṃ ajjhattañca bahiddhā ca kusalādidhammānaṃ, kammaṃ vipākānanti ca bahudhā hoti pakatūpanissayo."
+},
+{
+"type": "p",
+"pnum": 8026,
+"label": "VIII.26",
+"alias": [
+"p8-26"
+],
+"text": "Adhipatisahajātaaññamaññanissayaāhāraindriyavippayuttaatthiavigatavaseneti yathārahaṃ **navadhā nāmarūpāni nāmarūpānaṃ** paccayā bhavanti."
+},
+{
+"type": "p",
+"pnum": 8027,
+"label": "VIII.27",
+"alias": [
+"p8-27"
+],
+"text": "Tattha garukatamārammaṇaṃ ārammaṇādhipativasena nāmānaṃ, sahajātādhipati catubbidhopi sahajātavasena sahajātānaṃ nāmarūpānanti ca duvidho hoti adhipatipaccayo."
+},
+{
+"type": "p",
+"pnum": 8028,
+"label": "VIII.28",
+"alias": [
+"p8-28"
+],
+"text": "Cittacetasikā dhammā ⟨pg:56⟩ aññamaññaṃ sahajātarūpānañca, mahābhūtā aññamaññaṃ upādārūpānañca, paṭisandhikkhaṇe vatthuvipākā aññamaññanti ca tividho hoti sahajātapaccayo."
+},
+{
+"type": "p",
+"pnum": 8029,
+"label": "VIII.29",
+"alias": [
+"p8-29"
+],
+"text": "Cittacetasikā dhammā aññamaññaṃ, mahābhūtā aññamaññaṃ, paṭisandhikkhaṇe vatthuvipākā aññamaññanti ca tividho hoti aññamaññapaccayo."
+},
+{
+"type": "p",
+"pnum": 8030,
+"label": "VIII.30",
+"alias": [
+"p8-30"
+],
+"text": "Cittacetasikā dhammā aññamaññaṃ sahajātarūpānañca, mahābhūtā aññamaññaṃ upādārūpānañca, cha vatthūni sattannaṃ viññāṇadhātūnanti ca tividho hoti nissayapaccayo."
+},
+{
+"type": "p",
+"pnum": 8031,
+"label": "VIII.31",
+"alias": [
+"p8-31"
+],
+"text": "Kabaḷīkāro āhāro imassa kāyassa, arūpino āhārā sahajātānaṃ nāmarūpānanti ca duvidho hoti āhārapaccayo."
+},
+{
+"type": "p",
+"pnum": 8032,
+"label": "VIII.32",
+"alias": [
+"p8-32"
+],
+"text": "Pañca pasādā pañcannaṃ viññāṇānaṃ, rūpajīvitindriyaṃ upādinnarūpānaṃ, arūpino indriyā sahajātānaṃ nāmarūpānanti ca tividho hoti indriyapaccayo."
+},
+{
+"type": "p",
+"pnum": 8033,
+"label": "VIII.33",
+"alias": [
+"p8-33"
+],
+"text": "Okkantikkhaṇe vatthu vipākānaṃ, cittacetasikā dhammā sahajātarūpānaṃ sahajātavasena, pacchājātā cittacetasikā dhammā purejātassa imassa kāyassa pacchājātavasena cha vatthūni pavattiyaṃ sattannaṃ viññāṇadhātūnaṃ purejātavaseneti ca tividho hoti vippayuttapaccayo."
+},
+{
+"type": "p",
+"pnum": 8034,
+"label": "VIII.34",
+"alias": [
+"p8-34"
+],
+"text": "Sahajātaṃ purejātaṃ, pacchājātañca sabbathā."
+},
+{
+"type": "p",
+"text": "Kabaḷīkāro āhāro, rūpajīvitamiccayanti. –",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Pañcavidho hoti atthipaccayo avigatapaccayo ca."
+},
+{
+"type": "p",
+"pnum": 8035,
+"label": "VIII.35",
+"alias": [
+"p8-35"
+],
+"text": "Ārammaṇūpanissayakammatthipaccayesu ca sabbepi paccayā samodhānaṃ gacchanti."
+},
+{
+"type": "p",
+"pnum": 8036,
+"label": "VIII.36",
+"alias": [
+"p8-36"
+],
+"text": "Sahajātarūpanti ⟨pg:57⟩ panettha sabbatthāpi pavatte cittasamuṭṭhānānaṃ, paṭisandhiyaṃ kaṭattārūpānañca vasena duvidhaṃ hotīti veditabbaṃ."
+},
+{
+"type": "p",
+"pnum": 8037,
+"label": "VIII.37",
+"alias": [
+"p8-37"
+],
+"text": "Iti tekālikā dhammā, kālamuttā ca sambhavā."
+},
+{
+"type": "p",
+"text": "Ajjhattañca bahiddhā ca, saṅkhatāsaṅkhatā tathā;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Paññattināmarūpānaṃ, vasena tividhā ṭhitā;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Paccayā nāma paṭṭhāne, catuvīsati sabbathā.",
+"ind": 2
+},
+{
+"type": "p",
+"pnum": 8038,
+"label": "VIII.38",
+"alias": [
+"p8-38"
+],
+"text": "Tattha rūpadhammā rūpakkhandhova, cittacetasikasaṅkhātā cattāro arūpino khandhā, nibbānañceti pañcavidhampi arūpanti ca nāmanti ca pavuccati."
+},
+{
+"type": "h",
+"text": "Paññattibhedo"
+},
+{
+"type": "p",
+"pnum": 8039,
+"label": "VIII.39",
+"alias": [
+"p8-39"
+],
+"text": "Tato avasesā paññatti pana paññāpiyattā paññatti, paññāpanato paññattīti ca duvidhā hoti."
+},
+{
+"type": "p",
+"pnum": 8040,
+"label": "VIII.40",
+"alias": [
+"p8-40"
+],
+"text": "Kathaṃ? Taṃtaṃbhūtavipariṇāmākāramupādāya tathā tathā paññattā bhūmipabbatādikā, sambhārasannivesākāramupādāya geharathasakaṭādikā, khandhapañcakamupādāya purisapuggalādikā, candāvaṭṭanādikamupādāya disākālādikā, asamphuṭṭhākāramupādāya kūpaguhādikā, taṃtaṃbhūtanimittaṃ bhāvanāvisesañca upādāya kasiṇanimittādikā ceti evamādippabhedā pana paramatthato avijjamānāpi atthacchāyākārena cittuppādānamārammaṇabhūtā taṃ taṃ upādāya upanidhāya kāraṇaṃ katvā tathā tathā parikappiyamānā saṅkhāyati samaññāyati voharīyati paññāpīyatīti paññattīti pavuccati. Ayaṃ paññatti paññāpiyattā paññatti nāma."
+},
+{
+"type": "p",
+"pnum": 8041,
+"label": "VIII.41",
+"alias": [
+"p8-41"
+],
+"text": "Paññāpanato paññatti pana nāmanāmakammādināmena paridīpitā, sā vijjamānapaññatti avijjamānapaññatti, vijjamānena ⟨pg:58⟩ avijjamānapaññatti, avijjamānena vijjamānapaññatti, vijjamānena vijjamānapaññatti, avijjamānena avijjamānapaññatti ceti chabbidhā hoti."
+},
+{
+"type": "p",
+"pnum": 8042,
+"label": "VIII.42",
+"alias": [
+"p8-42"
+],
+"text": "Tattha yadā pana paramatthato vijjamānaṃ rūpavedanādiṃ etāya paññāpenti, tadāyaṃ vijjamānapaññatti. Yadā pana paramatthato avijjamānaṃ bhūmipabbatādiṃ etāya paññāpenti, tadāyaṃ avijjamānapaññattīti pavuccati. Ubhinnaṃ pana vomissakavasena sesā yathākkamaṃ chaḷabhiñño, itthisaddo, cakkhuviññāṇaṃ, rājaputtoti ca veditabbā."
+},
+{
+"type": "p",
+"pnum": 8043,
+"label": "VIII.43",
+"alias": [
+"p8-43"
+],
+"text": "Vacīghosānusārena, sotaviññāṇavīthiyā."
+},
+{
+"type": "p",
+"text": "Pavatthānantaruppanna-manodvārassa gocarā.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Atthā yassānusārena, viññāyanti tato paraṃ;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Sāyaṃ paññatti viññeyyā, lokasaṅketanimmitā.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Iti abhidhammatthasaṅgahe paccayasaṅgahavibhāgo nāma",
+"ctr": true
+},
+{
+"type": "p",
+"text": "Aṭṭhamo paricchedo.",
+"ctr": true
+}
+],
+"sangaha_ch": 8
+},
+{
+"num": "9",
+"label": "Chapter IX",
+"title": "9. Kammaṭṭhānaparicchedo — Meditation subjects",
+"blocks": [
+{
+"type": "h",
+"text": "9. Kammaṭṭhānaparicchedo"
+},
+{
+"type": "p",
+"pnum": 9001,
+"label": "IX.1",
+"alias": [
+"p9-1"
+],
+"text": "Samathavipassanānaṃ, bhāvanānamito paraṃ."
+},
+{
+"type": "p",
+"text": "Kammaṭṭhānaṃ pavakkhāmi, duvidhampi yathākkamaṃ.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Samathakammaṭṭhānaṃ"
+},
+{
+"type": "p",
+"pnum": 9002,
+"label": "IX.2",
+"alias": [
+"p9-2"
+],
+"text": "Tattha **samathasaṅgahe** tāva dasa kasiṇāni, dasa asubhā, dasa anussatiyo, catasso appamaññāyo, ekā saññā, ekaṃ vavatthānaṃ, cattāro āruppā ceti sattavidhena samathakammaṭṭhānasaṅgaho."
+},
+{
+"type": "h",
+"text": "Caritabhedo"
+},
+{
+"type": "p",
+"pnum": 9003,
+"label": "IX.3",
+"alias": [
+"p9-3"
+],
+"text": "Rāgacaritā ⟨pg:59⟩ dosacaritā mohacaritā saddhācaritā buddhicaritā vitakkacaritā ceti chabbidhena caritasaṅgaho."
+},
+{
+"type": "h",
+"text": "Bhāvanābhedo"
+},
+{
+"type": "p",
+"pnum": 9004,
+"label": "IX.4",
+"alias": [
+"p9-4"
+],
+"text": "Parikammabhāvanā upacārabhāvanā appanābhāvanā ceti tisso bhāvanā."
+},
+{
+"type": "h",
+"text": "Nimittabhedo"
+},
+{
+"type": "p",
+"pnum": 9005,
+"label": "IX.5",
+"alias": [
+"p9-5"
+],
+"text": "Parikammanimittaṃ uggahanimittaṃ paṭibhāganimittañceti tīṇi nimittāni ca veditabbāni."
+},
+{
+"type": "p",
+"pnum": 9006,
+"label": "IX.6",
+"alias": [
+"p9-6"
+],
+"text": "Kathaṃ? Pathavīkasiṇaṃ āpokasiṇaṃ tejokasiṇaṃ vāyokasiṇaṃ nīlakasiṇaṃ pītakasiṇaṃ lohitakasiṇaṃ odātakasiṇaṃ ākāsakasiṇaṃ ālokakasiṇañceti imāni **dasa kasiṇāni** nāma."
+},
+{
+"type": "p",
+"pnum": 9007,
+"label": "IX.7",
+"alias": [
+"p9-7"
+],
+"text": "Uddhumātakaṃ vinīlakaṃ vipubbakaṃ vicchiddakaṃ vikkhāyitakaṃ vikkhittakaṃ hatavikkhittakaṃ lohitakaṃ puḷavakaṃ aṭṭhikañceti ime **dasa asubhā** nāma."
+},
+{
+"type": "p",
+"pnum": 9008,
+"label": "IX.8",
+"alias": [
+"p9-8"
+],
+"text": "Buddhānussati dhammānussati saṃghānussati sīlānussati cāgānussati devatānussati upasamānussati maraṇānussati kāyagatāsati ānāpānassati ceti imā **dasa anussatiyo** nāma."
+},
+{
+"type": "p",
+"pnum": 9009,
+"label": "IX.9",
+"alias": [
+"p9-9"
+],
+"text": "Mettā karuṇā muditā upekkhā ceti imā **catasso appamaññāyo** nāma, brahmavihāroti ca pavuccati."
+},
+{
+"type": "p",
+"pnum": 9010,
+"label": "IX.10",
+"alias": [
+"p9-10"
+],
+"text": "Āhārepaṭikūlasaññā **ekā saññā** nāma."
+},
+{
+"type": "p",
+"pnum": 9011,
+"label": "IX.11",
+"alias": [
+"p9-11"
+],
+"text": "Catudhātuvavatthānaṃ **ekaṃ vavatthānaṃ** nāma."
+},
+{
+"type": "p",
+"pnum": 9012,
+"label": "IX.12",
+"alias": [
+"p9-12"
+],
+"text": "Ākāsānañcāyatanādayo ⟨pg:60⟩ **cattāro āruppā** nāmāti sabbathāpi samathaniddese cattālīsa kammaṭṭhānāni bhavanti."
+},
+{
+"type": "h",
+"text": "Sappāyabhedo"
+},
+{
+"type": "p",
+"pnum": 9013,
+"label": "IX.13",
+"alias": [
+"p9-13"
+],
+"text": "Caritāsu pana dasa asubhā kāyagatāsatisaṅkhātā koṭṭhāsabhāvanā ca rāgacaritassa sappāyā."
+},
+{
+"type": "p",
+"pnum": 9014,
+"label": "IX.14",
+"alias": [
+"p9-14"
+],
+"text": "Catasso appamaññāyo nīlādīni ca cattāri kasiṇāni dosacaritassa."
+},
+{
+"type": "p",
+"pnum": 9015,
+"label": "IX.15",
+"alias": [
+"p9-15"
+],
+"text": "Ānāpānaṃ mohacaritassa vitakkacaritassa ca,"
+},
+{
+"type": "p",
+"pnum": 9016,
+"label": "IX.16",
+"alias": [
+"p9-16"
+],
+"text": "Buddhānussatiādayo cha saddhācaritassa."
+},
+{
+"type": "p",
+"pnum": 9017,
+"label": "IX.17",
+"alias": [
+"p9-17"
+],
+"text": "Maraṇaupasamasaññāvavatthānāni buddhicaritassa."
+},
+{
+"type": "p",
+"pnum": 9018,
+"label": "IX.18",
+"alias": [
+"p9-18"
+],
+"text": "Sesāni pana sabbānipi kammaṭṭhānāni sabbesampi sappāyāni, tatthāpi kasiṇesu puthulaṃ mohacaritassa, khuddakaṃ vitakkacaritassevāti."
+},
+{
+"type": "p",
+"text": "Ayamettha sappāyabhedo.",
+"ctr": true
+},
+{
+"type": "h",
+"text": "Bhāvanābhedo"
+},
+{
+"type": "p",
+"pnum": 9019,
+"label": "IX.19",
+"alias": [
+"p9-19"
+],
+"text": "**Bhāvanāsu** sabbatthāpi parikammabhāvanā labbhateva, buddhānussatiādīsu aṭṭhasu saññāvavatthānesu cāti dasasukammaṭṭhānesu upacārabhāvanāva sampajjati, natthi appanā."
+},
+{
+"type": "p",
+"pnum": 9020,
+"label": "IX.20",
+"alias": [
+"p9-20"
+],
+"text": "Sesesu pana samatiṃsakammaṭṭhānesu appanābhāvanāpi sampajjati."
+},
+{
+"type": "p",
+"pnum": 9021,
+"label": "IX.21",
+"alias": [
+"p9-21"
+],
+"text": "Tatthāpi dasa kasiṇāni ānāpānañca pañcakajjhānikāni."
+},
+{
+"type": "p",
+"pnum": 9022,
+"label": "IX.22",
+"alias": [
+"p9-22"
+],
+"text": "Dasa ⟨pg:61⟩ asubhā kāyagatāsati ca paṭhamajjhānikā."
+},
+{
+"type": "p",
+"pnum": 9023,
+"label": "IX.23",
+"alias": [
+"p9-23"
+],
+"text": "Mettādayo tayo catukkajjhānikā."
+},
+{
+"type": "p",
+"pnum": 9024,
+"label": "IX.24",
+"alias": [
+"p9-24"
+],
+"text": "Upekkhā pañcamajjhānikāti chabbīsati rūpāvacarajjhānikāni kammaṭṭhānāni."
+},
+{
+"type": "p",
+"pnum": 9025,
+"label": "IX.25",
+"alias": [
+"p9-25"
+],
+"text": "Cattāro pana āruppā āruppajjhānikāti."
+},
+{
+"type": "p",
+"text": "Ayamettha bhāvanābhedo.",
+"ctr": true
+},
+{
+"type": "h",
+"text": "Gocarabhedo"
+},
+{
+"type": "p",
+"pnum": 9026,
+"label": "IX.26",
+"alias": [
+"p9-26"
+],
+"text": "**Nimittesu** pana parikammanimittaṃ uggahanimittañca sabbatthāpi yathārahaṃ pariyāyena labbhanteva."
+},
+{
+"type": "p",
+"pnum": 9027,
+"label": "IX.27",
+"alias": [
+"p9-27"
+],
+"text": "Paṭibhāganimittaṃ pana kasiṇāsubhakoṭṭhāsaānāpānesveva labbhati, tattha hi paṭibhāganimittamārabbha upacārasamādhi appanāsamādhi ca pavattanti."
+},
+{
+"type": "p",
+"pnum": 9028,
+"label": "IX.28",
+"alias": [
+"p9-28"
+],
+"text": "Kathaṃ? Ādikammikassa hi pathavīmaṇḍalādīsu nimittaṃ uggaṇhantassa tamārammaṇaṃ parikammanimittanti pavuccati, sā ca bhāvanā parikammabhāvanā nāma."
+},
+{
+"type": "p",
+"pnum": 9029,
+"label": "IX.29",
+"alias": [
+"p9-29"
+],
+"text": "Yadā pana taṃ nimittaṃ cittena samuggahitaṃ hoti, cakkhunā passantasseva manodvārassa āpāthamāgataṃ, tadā tamevārammaṇaṃ uggahanimittaṃ nāma, sā ca bhāvanā samādhiyati."
+},
+{
+"type": "p",
+"pnum": 9030,
+"label": "IX.30",
+"alias": [
+"p9-30"
+],
+"text": "Tathā samāhitassa panetassa tato paraṃ tasmiṃ uggahanimitte parikammasamādhinā bhāvanamanuyuñjantassa yadā tappaṭibhāgaṃ vatthudhammavimuccitaṃ paññattisaṅkhātaṃ bhāvanāmayamārammaṇaṃ citte sannisannaṃ samappitaṃ hoti, tadā taṃ paṭibhāganimittaṃ samuppannanti pavuccati."
+},
+{
+"type": "p",
+"pnum": 9031,
+"label": "IX.31",
+"alias": [
+"p9-31"
+],
+"text": "Tato paṭṭhāya paripanthavippahīnā kāmāvacarasamādhisaṅkhātā upacārabhāvanā nipphannā nāma hoti."
+},
+{
+"type": "p",
+"pnum": 9032,
+"label": "IX.32",
+"alias": [
+"p9-32"
+],
+"text": "Tato ⟨pg:62⟩ paraṃ tameva paribhāganimittaṃ upacārasamādhinā samāsevantassa rūpāvacarapaṭhamajjhānamappeti."
+},
+{
+"type": "p",
+"pnum": 9033,
+"label": "IX.33",
+"alias": [
+"p9-33"
+],
+"text": "Tato paraṃ tameva paṭhamajjhānaṃ āvajjanaṃ samāpajjanaṃ adhiṭṭhānaṃ vuṭṭhānaṃ paccavekkhaṇā ceti imāhi pañcahi vasitāhi vasībhūtaṃ katvā vitakkādikamoḷārikaṅgaṃ pahānāya vicārādisukhumaṅgupattiyā padahato yathākkamaṃ dutiyajjhānādayo yathārahamappenti."
+},
+{
+"type": "p",
+"pnum": 9034,
+"label": "IX.34",
+"alias": [
+"p9-34"
+],
+"text": "Iccevaṃ pathavīkasiṇādīsu dvāvīsatikammaṭṭhānesu paṭibhāganimittamupalabbhati."
+},
+{
+"type": "p",
+"pnum": 9035,
+"label": "IX.35",
+"alias": [
+"p9-35"
+],
+"text": "Avasesesu pana appamaññā sattapaññattiyaṃ pavattanti."
+},
+{
+"type": "p",
+"pnum": 9036,
+"label": "IX.36",
+"alias": [
+"p9-36"
+],
+"text": "Ākāsavajjitakasiṇesu pana yaṃ kiñci kasiṇaṃ ugghāṭetvā laddhamākāsaṃ anantavasena parikammaṃ karontassa paṭhamāruppamappeti."
+},
+{
+"type": "p",
+"pnum": 9037,
+"label": "IX.37",
+"alias": [
+"p9-37"
+],
+"text": "Tameva paṭhamāruppaviññāṇaṃ anantavasena parikammaṃ karontassa dutiyāruppamappeti."
+},
+{
+"type": "p",
+"pnum": 9038,
+"label": "IX.38",
+"alias": [
+"p9-38"
+],
+"text": "Tameva paṭhamāruppaviññāṇābhāvaṃ pana ‘‘natthi kiñcī’’ti parikammaṃ karontassa tatiyāruppamappeti."
+},
+{
+"type": "p",
+"pnum": 9039,
+"label": "IX.39",
+"alias": [
+"p9-39"
+],
+"text": "Tatiyāruppaṃ ‘‘santametaṃ, paṇītameta’’nti parikammaṃ karontassa catutthāruppamappeti."
+},
+{
+"type": "p",
+"pnum": 9040,
+"label": "IX.40",
+"alias": [
+"p9-40"
+],
+"text": "Avasesesu ca dasasu kammaṭṭhānesu buddhaguṇādikamārammaṇamārabbha parikammaṃ katvā tasmiṃ nimitte sādhukamuggahite tattheva parikammañca samādhiyati, upacāro ca sampajjati."
+},
+{
+"type": "p",
+"pnum": 9041,
+"label": "IX.41",
+"alias": [
+"p9-41"
+],
+"text": "Abhiññāvasena ⟨pg:63⟩ pavattamānaṃ pana rūpāvacarapañcamajjhānaṃ abhiññāpādakapañcamajjhānā vuṭṭhahitvā adhiṭṭheyyādikamāvajjetvā parikammaṃ karontassa rūpādīsu ārammaṇesu yathārahamappeti."
+},
+{
+"type": "p",
+"pnum": 9042,
+"label": "IX.42",
+"alias": [
+"p9-42"
+],
+"text": "Abhiññā ca nāma –"
+},
+{
+"type": "p",
+"text": "Iddhividhaṃ dibbasotaṃ, paracittavijānanā;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Pubbenivāsānussati, dibbacakkhūti pañcadhā.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Ayamettha gocarabhedo.",
+"ctr": true
+},
+{
+"type": "p",
+"text": "Niṭṭhito ca samathakammaṭṭhānanayo.",
+"ctr": true
+},
+{
+"type": "h",
+"text": "Vipassanākammaṭṭhānaṃ"
+},
+{
+"type": "h",
+"text": "Visuddhibhedo"
+},
+{
+"type": "p",
+"pnum": 9043,
+"label": "IX.43",
+"alias": [
+"p9-43"
+],
+"text": "**Vipassanākammaṭṭhāne** pana sīlavisuddhi cittavisuddhi diṭṭhivisuddhi kaṅkhāvitaraṇavisuddhi maggāmaggañāṇadassanavisuddhi paṭipadāñāṇadassanavisuddhi ñāṇadassanavisuddhi ceti sattavidhena visuddhisaṅgaho."
+},
+{
+"type": "p",
+"pnum": 9044,
+"label": "IX.44",
+"alias": [
+"p9-44"
+],
+"text": "Aniccalakkhaṇaṃ dukkhalakkhaṇaṃ anattalakkhaṇañceti tīṇi lakkhaṇāni."
+},
+{
+"type": "p",
+"pnum": 9045,
+"label": "IX.45",
+"alias": [
+"p9-45"
+],
+"text": "Aniccānupassanā dukkhānupassanā anattānupassanā ceti tisso anupassanā."
+},
+{
+"type": "p",
+"pnum": 9046,
+"label": "IX.46",
+"alias": [
+"p9-46"
+],
+"text": "Sammasanañāṇaṃ udayabbayañāṇaṃ bhaṅgañāṇaṃ bhayañāṇaṃ ādīnavañāṇaṃ nibbidāñāṇaṃ muccitukamyatāñāṇaṃ paṭisaṅkhāñāṇaṃ saṅkhārupekkhāñāṇaṃ anulomañāṇañceti dasa vipassanāñāṇāni."
+},
+{
+"type": "p",
+"pnum": 9047,
+"label": "IX.47",
+"alias": [
+"p9-47"
+],
+"text": "Suññato vimokkho, animitto vimokkho, appaṇihito vimokkho ceti tayo vimokkhā."
+},
+{
+"type": "p",
+"pnum": 9048,
+"label": "IX.48",
+"alias": [
+"p9-48"
+],
+"text": "Suññatānupassanā ⟨pg:64⟩ animittānupassanā appaṇihitānupassānā ceti tīṇi vimokkhamukhāni ca veditabbāni."
+},
+{
+"type": "p",
+"pnum": 9049,
+"label": "IX.49",
+"alias": [
+"p9-49"
+],
+"text": "Kathaṃ? Pātimokkhasaṃvarasīlaṃ indriyasaṃvarasīlaṃ ājīvapārisuddhisīlaṃ paccayasannissitasīlañceti catupārisuddhisīlaṃ **sīlavisuddhi** nāma."
+},
+{
+"type": "p",
+"pnum": 9050,
+"label": "IX.50",
+"alias": [
+"p9-50"
+],
+"text": "Upacārasamādhi appanāsamādhi ceti duvidhopi samādhi **cittavisuddhi** nāma."
+},
+{
+"type": "p",
+"pnum": 9051,
+"label": "IX.51",
+"alias": [
+"p9-51"
+],
+"text": "Lakkhaṇarasapaccupaṭṭhānapadaṭṭhānavasena nāmarūpa pariggaho **diṭṭhivisuddhi** nāma."
+},
+{
+"type": "p",
+"pnum": 9052,
+"label": "IX.52",
+"alias": [
+"p9-52"
+],
+"text": "Tesameva ca nāmarūpānaṃ paccayapariggaho **kaṅkhāvitaraṇavisuddhi** nāma."
+},
+{
+"type": "p",
+"pnum": 9053,
+"label": "IX.53",
+"alias": [
+"p9-53"
+],
+"text": "Tato paraṃ pana tathāpariggahitesu sappaccayesu tebhūmakasaṅkhāresu atītādibhedabhinnesu khandhādinayamārabbha kalāpavasena saṅkhipitvā ‘‘aniccaṃ khayaṭṭhena, dukkhaṃ bhayaṭṭhena, anattā asārakaṭṭhenā’’ti addhānavasena santativasena khaṇavasena vā sammasanañāṇena lakkhaṇattayaṃ sammasantassa tesveva paccayavasena khaṇavasena ca udayabbayañāṇena udayabbayaṃ samanupassantassa ca –"
+},
+{
+"type": "p",
+"text": "‘‘Obhāso pīti passaddhi, adhimokkho ca paggaho;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Sukhaṃ ñāṇamupaṭṭhānamupekkhā ca nikanti ce’’ti. –",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Obhāsādivipassanupakkilesaparipanthapariggahavasena maggāmaggalakkhaṇavavatthānaṃ **maggāmaggañāṇadassanavisuddhi** nāma."
+},
+{
+"type": "p",
+"pnum": 9054,
+"label": "IX.54",
+"alias": [
+"p9-54"
+],
+"text": "Tathā paripanthavimuttassa pana tassa udayabbayañāṇato paṭṭhāya yā vānulomā tilakkhaṇaṃ vipassanāparamparāya paṭipajjantassa nava vipassanāñāṇāni **paṭipadāñāṇadassanavisuddhi** nāma."
+},
+{
+"type": "p",
+"pnum": 9055,
+"label": "IX.55",
+"alias": [
+"p9-55"
+],
+"text": "Tassevaṃ paṭipajjantassa ⟨pg:65⟩ pana vipassanāparipākamāgamma ‘‘idāni appanā uppajjissatī’’ti bhavaṅgaṃ vocchijjitvā uppannamanodvārāvajjanānantaraṃ dve tīṇi vipassanācittāni yaṃ kiñci aniccādilakkhaṇamārabbha parikammopacārānulomanāmena pavattanti."
+},
+{
+"type": "p",
+"pnum": 9056,
+"label": "IX.56",
+"alias": [
+"p9-56"
+],
+"text": "Yā sikhāppattā, sā sānulomā saṅkhārupekkhā vuṭṭhānagāminivipassanāti ca pavuccati."
+},
+{
+"type": "p",
+"pnum": 9057,
+"label": "IX.57",
+"alias": [
+"p9-57"
+],
+"text": "Tato paraṃ gotrabhucittaṃ nibbānamālambitvā puthujjanagottamabhibhavantaṃ, ariyagottamabhisambhontañca pavattati."
+},
+{
+"type": "p",
+"pnum": 9058,
+"label": "IX.58",
+"alias": [
+"p9-58"
+],
+"text": "Tassānantarameva maggo dukkhasaccaṃ parijānanto samudayasaccaṃ pajahanto, nirodhasaccaṃ sacchikaronto, maggasaccaṃ bhāvanāvasena appanāvīthimotarati."
+},
+{
+"type": "p",
+"pnum": 9059,
+"label": "IX.59",
+"alias": [
+"p9-59"
+],
+"text": "Tato paraṃ dve tīṇi phalacittāni pavattitvā bhavaṅgapātova hoti, puna bhavaṅgaṃ vocchinditvā paccavekkhaṇañāṇāni pavattanti."
+},
+{
+"type": "p",
+"pnum": 9060,
+"label": "IX.60",
+"alias": [
+"p9-60"
+],
+"text": "Maggaṃ phalañca nibbānaṃ, paccavekkhati paṇḍito."
+},
+{
+"type": "p",
+"text": "Hīne kilese sese ca, paccavekkhati vāna vā.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Chabbisuddhikamenevaṃ, bhāvetabbo catubbidho;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "**Ñāṇadassanavisuddhi,** nāma maggo pavuccati.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Ayamettha visuddhibhedo.",
+"ctr": true
+},
+{
+"type": "h",
+"text": "Vimokkhabhedo"
+},
+{
+"type": "p",
+"pnum": 9061,
+"label": "IX.61",
+"alias": [
+"p9-61"
+],
+"text": "Tattha anattānupassanā attābhinivesaṃ muñcantī suññatānupassanā nāma vimokkhamukhaṃ hoti."
+},
+{
+"type": "p",
+"pnum": 9062,
+"label": "IX.62",
+"alias": [
+"p9-62"
+],
+"text": "Aniccānupassanā ⟨pg:66⟩ vipallāsanimittaṃ muñcantī animittānupassanā nāma."
+},
+{
+"type": "p",
+"pnum": 9063,
+"label": "IX.63",
+"alias": [
+"p9-63"
+],
+"text": "Dukkhānupassanā taṇhāpaṇidhiṃ muñcantī appaṇihitānupassanā nāma."
+},
+{
+"type": "p",
+"pnum": 9064,
+"label": "IX.64",
+"alias": [
+"p9-64"
+],
+"text": "Tasmā yadi vuṭṭhānagāminivipassanā anattato vipassati, suññato vimokkho nāma hoti maggo."
+},
+{
+"type": "p",
+"pnum": 9065,
+"label": "IX.65",
+"alias": [
+"p9-65"
+],
+"text": "Yadi aniccato vipassati, animitto vimokkho nāma."
+},
+{
+"type": "p",
+"pnum": 9066,
+"label": "IX.66",
+"alias": [
+"p9-66"
+],
+"text": "Yadi dukkhato vipassati, appaṇihito vimokkho nāmāti ca maggo vipassanāgamanavasena tīṇi nāmāni labhati, tathā phalañca maggāgamanavasena maggavīthiyaṃ."
+},
+{
+"type": "p",
+"pnum": 9067,
+"label": "IX.67",
+"alias": [
+"p9-67"
+],
+"text": "Phalasamāpattivīthiyaṃ pana yathāvuttanayena vipassantānaṃ yathāsakaphalamuppajjamānampi vipassanāgamanavaseneva suññatādivimokkhoti ca pavuccati, ārammaṇavasena pana sarasavasena ca nāmattayaṃ sabbattha sabbesampi samameva ca."
+},
+{
+"type": "p",
+"text": "Ayamettha vimokkhabhedo.",
+"ctr": true
+},
+{
+"type": "h",
+"text": "Puggalabhedo"
+},
+{
+"type": "p",
+"pnum": 9068,
+"label": "IX.68",
+"alias": [
+"p9-68"
+],
+"text": "Ettha pana sotāpattimaggaṃ bhāvetvā diṭṭhivicikicchāpahānena pahīnāpāyagamano sattakkhattuparamo **sotāpanno** nāma hoti."
+},
+{
+"type": "p",
+"pnum": 9069,
+"label": "IX.69",
+"alias": [
+"p9-69"
+],
+"text": "Sakadāgāmimaggaṃ bhāvetvā rāgadosamohānaṃ tanukarattā **sakadāgāmī** nāma hoti sakideva imaṃ lokaṃ āgantvā."
+},
+{
+"type": "p",
+"pnum": 9070,
+"label": "IX.70",
+"alias": [
+"p9-70"
+],
+"text": "Anāgāmimaggaṃ ⟨pg:67⟩ bhāvetvā kāmarāgabyāpādānamanavasesappahānena **anāgāmī** nāma hoti anāgantvā itthattaṃ."
+},
+{
+"type": "p",
+"pnum": 9071,
+"label": "IX.71",
+"alias": [
+"p9-71"
+],
+"text": "Arahattamaggaṃ bhāvetvā anavasesakilesappahānena **arahā** nāma hoti khīṇāsavo loke aggadakkhiṇeyyoti."
+},
+{
+"type": "p",
+"text": "Ayamettha puggalabhedo.",
+"ctr": true
+},
+{
+"type": "h",
+"text": "Samāpattibhedo"
+},
+{
+"type": "p",
+"pnum": 9072,
+"label": "IX.72",
+"alias": [
+"p9-72"
+],
+"text": "**Phalasamāpattivīthiyaṃ** panettha sabbesampi yathāsakaphalavasena sādhāraṇāva."
+},
+{
+"type": "p",
+"pnum": 9073,
+"label": "IX.73",
+"alias": [
+"p9-73"
+],
+"text": "**Nirodhasamāpattisamāpajjanaṃ** pana anāgāmīnañceva arahantānañca labbhati, tattha yathākkamaṃ paṭhamajjhānādimahaggatasamāpattiṃ samāpajjitvā vuṭṭhāya tattha gate saṅkhāradhamme tattha tattheva vipassanto yāva ākiñcaññāyatanaṃ gantvā tato paraṃ adhiṭṭheyyādikaṃ pubbakiccaṃ katvā nevasaññānāsaññāyatanaṃ samāpajjati, tassa dvinnaṃ appanājavanānaṃ parato vocchijjati cittasantati, tato nirodhasamāpanno nāma hoti."
+},
+{
+"type": "p",
+"pnum": 9074,
+"label": "IX.74",
+"alias": [
+"p9-74"
+],
+"text": "Vuṭṭhānakāle pana anāgāmino anāgāmiphalacittaṃ, arahato arahattaphalacittaṃ ekavārameva pavattitvā bhavaṅgapāto hoti, tato paraṃ paccavekkhaṇañāṇaṃ pavattati."
+},
+{
+"type": "p",
+"text": "Ayamettha samāpattibhedo.",
+"ctr": true
+},
+{
+"type": "p",
+"text": "Niṭṭhito ca vipassanākammaṭṭhānanayo.",
+"ctr": true
+},
+{
+"type": "h",
+"text": "Uyyojanaṃ"
+},
+{
+"type": "p",
+"pnum": 9075,
+"label": "IX.75",
+"alias": [
+"p9-75"
+],
+"text": "Bhāvetabbaṃ ⟨pg:68⟩ paniccevaṃ, bhāvanādvayamuttamaṃ."
+},
+{
+"type": "p",
+"text": "Paṭipattirasassādaṃ, patthayantena sāsaneti.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Iti abhidhammatthasaṅgahe kammaṭṭhānasaṅgahavibhāgo nāma",
+"ctr": true
+},
+{
+"type": "p",
+"text": "Navamo paricchedo.",
+"ctr": true
+}
+],
+"sangaha_ch": 9
+},
+{
+"num": "10",
+"label": "Nigamana",
+"title": "The closing",
+"blocks": [
+{
+"type": "h",
+"text": "Nigamanaṃ"
+},
+{
+"type": "p",
+"text": "(Ka) cārittasobhitavisālakulodayena,",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Saddhābhivuḍḍhaparisuddhaguṇodayena;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "**Nampa**vhayena paṇidhāya parānukampaṃ,",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Yaṃ patthitaṃ pakaraṇaṃ pariniṭṭhitaṃ taṃ.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "(Kha) puññena tena vipulena tu **mūlasomaṃ**;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Dhaññādhivāsamuditoditamāyukantaṃ;",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Paññāvadātaguṇasobhitalajjibhikkhū,",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Maññantu puññavibhavodayamaṅgalāya.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Iti anuruddhācariyena racitaṃ",
+"ctr": true
+},
+{
+"type": "p",
+"text": "**Abhidhammatthasaṅgahaṃ** nāma pakaraṇaṃ.",
+"ctr": true
+}
+]
+}
+],
+"glossary": []
+}

@@ -34,6 +34,14 @@ meta = next(b for b in lib['books'] if b['slug'] == slug)
 book = json.load(open(os.path.join(ROOT, 'data', f'{slug}.json'), encoding='utf-8'))
 OUT = os.path.join(ROOT, slug, 'index.html')
 chapters = book['chapters']
+ROMAN = ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX']
+
+
+def num_label(n):
+    """§1011 -> I.11 for the books keyed by the Saṅgaha's chapter and paragraph"""
+    return f'{ROMAN[n // 1000]}.{n % 1000}' if meta.get('sangaha_keys') and n >= 1000 else str(n)
+
+
 
 
 def _eff(r):
@@ -517,7 +525,7 @@ def cross_links(n, have_any=None):
     out = []
     for osl, lab, have, full in SAME_NUM:
         if n in have:
-            out.append(f'<a class="xb" href="../{osl}/#p{n}" title="§{n} in {html.escape(full, quote=True)}">{html.escape(lab, quote=False)}</a>')
+            out.append(f'<a class="xb" href="../{osl}/#p{n}" title="§{num_label(n)} in {html.escape(full, quote=True)}">{html.escape(lab, quote=False)}</a>')
     if PTS_MAP:
         n = PTS_MAP.get(n)
         have_any = None
@@ -622,6 +630,9 @@ def pnum_span(b):
         return f'<span class="pnum">{pn}–{b["pend"]}</span>' + ''.join(f'<span class="sanchor" id="p{n}"></span>' for n in range(pn + 1, b['pend'] + 1)) + xb
     if pn is not None and b.get('pmoved'):     # Müller: a number his errata move
         return f'<span class="pnum corr errata" title="{html.escape(b["pmoved"], quote=True)}">{pn}</span>' + xb
+    if pn is not None and b.get('label'):       # the Saṅgaha's numbers: "I.11" (key 1011), with the anchor #p1-11 beside #p1011
+        alias = ''.join(f'<span class="sanchor" id="{a}"></span>' for a in b.get('alias', []))
+        return f'<span class="pnum">{html.escape(b["label"], quote=False)}</span>{alias}{xb}'
     return f'<span class="pnum">{pn}</span>{xb}' if pn is not None else ''
 
 def pali_html(x):
@@ -1170,7 +1181,7 @@ for c in chapters:
     for b in blocks:
         b['_cid'] = cid
     nums = [b['pnum'] for b in blocks if 'pnum' in b] if CID == 'ch' else []
-    rng = (f'§{nums[0]}–{nums[-1]}' if nums[0] != nums[-1] else f'§{nums[0]}') if nums else c.get('rng', '')
+    rng = (f'§{num_label(nums[0])}–{num_label(nums[-1])}' if nums[0] != nums[-1] else f'§{num_label(nums[0])}') if nums else c.get('rng', '')
     label = c.get('label') or ('Front matter' if c['num'] == '0' else f'{UNIT} {c["num"]}')
     secs = [(f'{cid}-s{i}', (f'{b["pnum"]} ' if SEC_ANCHORS and b.get('pnum') else '') + sec_title(b['text']))
             + ((' l3',) if SEC_ANCHORS and str(b.get('pnum', '')).count('.') >= 2 else ())
@@ -1258,7 +1269,7 @@ subs = {
     'BRAND': meta['short'], 'BRAND_SUB': meta.get('brand_sub', meta['author'].split()[-1] + ' · ' + meta['edition']),
     'GOTO_LABEL': meta.get('goto_label', '§'), 'GOTO_MAX': str(meta.get('goto_max', max(valid) if valid else len(chapters))),
     'GOTO_ARIA': meta.get('goto_aria', 'Go to'),
-    'GOTO_INPUT': 'type="text" inputmode="decimal" size="6"' if SEC_ANCHORS else f'type="number" min="1" max="{meta.get("goto_max", max(valid) if valid else len(chapters))}"',
+    'GOTO_INPUT': 'type="text" inputmode="decimal" size="6"' if SEC_ANCHORS or meta.get('goto_text') else f'type="number" min="1" max="{meta.get("goto_max", max(valid) if valid else len(chapters))}"',
     'DRAWER_BTN': meta.get('drawer_btn', 'Glossary'), 'DRAWER_TITLE': meta.get('drawer_title', 'Glossary'),
     'DRAWER_HINT': meta.get('drawer_hint', ''),
     'TOPTOGGLE': '<button class="iconbtn gltoggle" id="topgl" type="button" aria-pressed="true" title="Hide or show every English meaning">Hide English</button>' if GLOBAL_TOGGLE else '',

@@ -12,7 +12,7 @@
 <body>
 <div class="topbar">
   <a class="brand" href="./">{{TITLE}}<small>{{NBOOKS}}</small></a>
-  <nav class="topnav"><a href="#books">Books</a><a href="matika/">Mātikā</a><a href="terms/">Terms</a><a href="references/">References</a></nav>
+  <nav class="topnav"><a href="#books">Books</a><a href="map/">Map</a><a href="references/">References</a></nav>
   <button class="iconbtn" id="themebtn" aria-label="Toggle theme" title="Toggle light / dark"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 1 0 13z" fill="currentColor"/></svg></button>
 </div>
 <main>
@@ -25,25 +25,16 @@
     </header>
 
     <section class="shelf" id="books">
-      <div class="sechead"><h2>The books</h2><p>Ten books on four shelves, from the most approachable to the most demanding.</p></div>
+      <div class="sechead"><h2>The books</h2><p>{{NBOOKS}}: the text first, then its commentaries. The English translations will follow.</p></div>
 {{BOOKS}}
     </section>
 
     <section class="reftease">
-      <a class="teaser" href="matika/">
+      <a class="teaser" href="map/">
         <span class="tkick">Between the books</span>
-        <span class="ttitle">The mātikā map</span>
-        <span class="tdesc">The 22 triplets and the 100 + 42 couplets of the mātikā, each with the sections of every book that treat it — the common map by which the books of the library refer to one another.</span>
+        <span class="ttitle">The Saṅgaha map</span>
+        <span class="tdesc">Every paragraph of the Saṅgaha, I.1 to IX.75, with its opening words and the same place in each book — the common map by which the books of the library refer to one another.</span>
         <span class="tgo">Open the map →</span>
-      </a>
-    </section>
-
-    <section class="reftease">
-      <a class="teaser" href="terms/">
-        <span class="tkick">Between the books</span>
-        <span class="ttitle">Pāli terms</span>
-        <span class="tdesc">The Pāli words indexed in every book, in one list in the order of the Pāli alphabet, each with the sections and pages where the books treat it.</span>
-        <span class="tgo">Look up a word →</span>
       </a>
     </section>
 
@@ -51,7 +42,7 @@
       <a class="teaser" href="references/">
         <span class="tkick">Further reading</span>
         <span class="ttitle">References</span>
-        <span class="tdesc">Editions, translations, the commentaries, studies of the mātikā and the Abhidhamma, and reference works — with links to the texts where they are online.</span>
+        <span class="tdesc">Editions, translations, studies of the Saṅgaha and the Abhidhamma, and reference works — with links to the texts where they are online.</span>
         <span class="tgo">Browse the list →</span>
       </a>
     </section>
@@ -64,6 +55,7 @@
           <ul>
             <li>One part of a book per page, with its contents beside it.</li>
             <li>Each book keeps its own numbering. Enter a number in the box at the top to go straight to it.</li>
+            <li>The Saṅgaha’s paragraphs are numbered by chapter: type <b>4.6</b> for IV.6.</li>
             <li>Every numbered section and printed page can be linked to.</li>
             <li>Search finds words within a book; accents are optional, so <i>rupa</i> finds <i>rūpa</i>.</li>
             <li>A book’s own index or glossary, where it has one, opens beside the text.</li>
@@ -72,19 +64,16 @@
         <div>
           <h3>Between the books</h3>
           <ul>
-            <li>The mātikā map links each triplet and couplet to every book that treats it.</li>
-            <li>The Pāli terms list gathers the indexed words of all the books.</li>
-            <li>Sections link across books: the Sixth Council numbers (Khine, the Pāli, the commentaries, the study notes) and the PTS numbers (Müller, Rhys Davids).</li>
-            <li><i>The Expositor</i> links page by page to the Aṭṭhasālinī it translates, and back.</li>
+            <li>The Saṅgaha map lists every paragraph of the Saṅgaha with the same place in each book.</li>
+            <li>The Vibhāvinī is numbered by the Saṅgaha paragraph it explains; a chip beside each paragraph opens the other.</li>
+            <li>The Anudīpanī is numbered by the Paramatthadīpanī paragraph it explains, and linked to it the same way.</li>
           </ul>
         </div>
         <div>
           <h3>The texts</h3>
           <ul>
-            <li>Each book follows its printed edition: the author’s wording, spelling and numbering are kept.</li>
-            <li>In the published books, a correction checked against the Pāli is shown with a dotted underline; point at it, or tap it, to see what was printed and the source.</li>
-            <li>The two sets of study notes were drafts, and their corrections are made in place.</li>
-            <li><i>The Expositor</i> was transcribed from a scan and read twice against it: its own misprints are kept and marked [sic], and the few unreadable places [?].</li>
+            <li>The Pāli books are the Sixth Council text as the Vipassana Research Institute publishes it, unchanged; their paragraph and page numbers are the edition’s.</li>
+            <li>Where the edition prints a paragraph number twice or out of order, it is kept in the text and not made a link.</li>
             <li>Your reading position and settings are stored only in this browser.</li>
           </ul>
         </div>
@@ -96,11 +85,9 @@
       <p>This library is offered freely as <i>Dhamma-dāna</i>, a gift of the Dhamma. It was made only to make study easier for students of the Abhidhamma and for all <i>Dhammakāmī</i>, those who love the Dhamma. It is not sold, and it earns nothing.</p>
       <p>All rights in the texts, translations, notes and editions gathered here belong to their authors, translators, editors and publishers. These include:</p>
       <ul>
-        <li>the Pali Text Society;</li>
         <li>the Vipassana Research Institute and the Sixth Buddhist Council edition;</li>
-        <li>the International Theravāda Buddhist Missionary University, Yangon;</li>
-        <li>Sri Satguru Publications;</li>
-        <li>the individual teachers and students whose notes appear here.</li>
+        <li>the Buddhist Publication Society, Kandy;</li>
+        <li>the Pali Text Society.</li>
       </ul>
       <p>This library holds no copyright in any of these works and claims no authority over them. Its own part is limited to arranging the texts, linking them to one another, and noting corrections.</p>
       <p>Anyone who wishes to reproduce, republish, adapt or redistribute any of this material, in whole or in part and in any form, should seek permission from the rights holders concerned. This library cannot give that permission.</p>

@@ -8,12 +8,10 @@ lib = json.load(open(os.path.join(ROOT, 'data', 'library.json'), encoding='utf-8
 refs = json.load(open(os.path.join(ROOT, 'data', 'references.json'), encoding='utf-8'))
 e = lambda s: html.escape(s, quote=False)
 
-# ---- books, on four shelves: from the study notes to the sub-commentaries
+# ---- books, on shelves: the text, then its commentaries (the translations to come)
 SHELVES = [
-    ('Start here: the Mātikā', 'Study notes from the ITBMU course: the 22 triplets and 142 couplets of the mātikā, explained and tabulated.', ('dhammajeewa', 'nhulien')),
-    ('The Dhammasaṅgaṇī in English', 'Two complete translations of the text.', ('khine', 'rhysdavids')),
-    ('The Dhammasaṅgaṇī in Pāli', 'The text itself: the Sixth Council edition and the Pali Text Society edition.', ('pali', 'muller')),
-    ('The commentaries', 'Buddhaghosa’s Aṭṭhasālinī, in English and in Pāli, then the sub-commentary and the sub-sub-commentary on it.', ('expositor', 'atthasalini', 'mulatika', 'anutika')),
+    ('The Saṅgaha in Pāli', 'Ācariya Anuruddha’s text in the Sixth Council edition, whose paragraph numbers are the map of the library.', ('sangaha',)),
+    ('The commentaries', 'Sumaṅgala’s Vibhāvinī, keyed to the Saṅgaha paragraph by paragraph, and Ledi Sayadaw’s Paramatthadīpanī with his Anudīpanī on it.', ('vibhavini', 'paramattha', 'anudipani')),
 ]
 _shelf = {s: k for k, (_, _, ss) in enumerate(SHELVES) for s in ss}
 assert set(_shelf) == {b['slug'] for b in lib['books']}, 'every book needs a shelf'
@@ -23,11 +21,13 @@ nunits = nanchors = nentries = 0
 for i, b in enumerate(lib['books'], 1):
     book = json.load(open(os.path.join(ROOT, 'data', f'{b["slug"]}.json'), encoding='utf-8'))
     chapters = [c for c in book['chapters'] if c['num'] != '0' and re.fullmatch(r'[\dIVXL]+', c['num'])]
+    if any(c.get('sangaha_ch') for c in book['chapters']):      # the nine chapters of the Saṅgaha, not the opening and closing
+        chapters = [c for c in book['chapters'] if c['label'].startswith('Chapter')]
     nunits += len(chapters)
     nanchors += sum(blk.get('pend', blk['pnum']) - blk['pnum'] + 1 for c in book['chapters'] for blk in c['blocks'] if blk.get('pnum') is not None)
     nentries += len(book.get('glossary', []))
     nsec = sum(1 for c in book['chapters'] for blk in c['blocks'] if blk.get('pnum') is not None)
-    units = f'§{min(blk["pnum"] for c in book["chapters"] for blk in c["blocks"] if blk.get("pnum") is not None)}–{max(blk["pnum"] for c in book["chapters"] for blk in c["blocks"] if blk.get("pnum") is not None)}' if nsec else f'{len(chapters)} {b.get("unit", "Chapter").lower()}s'
+    units = f'§{min(blk["pnum"] for c in book["chapters"] for blk in c["blocks"] if blk.get("pnum") is not None)}–{max(blk["pnum"] for c in book["chapters"] for blk in c["blocks"] if blk.get("pnum") is not None)}' if nsec and not b.get('sangaha_keys') else f'{len(chapters)} {b.get("unit", "Chapter").lower()}s'
     k = _shelf[b['slug']]
     if i == 1 or _shelf[lib['books'][i - 2]['slug']] != k:
         if i > 1:
@@ -73,7 +73,7 @@ for a in refs['areas']:
 
 n = len(lib['books'])
 stats = ''.join(f'<li><b>{v:,}</b><span>{k}</span></li>' for v, k in [
-    (n, 'books' if n != 1 else 'book'), (nanchors, 'numbered sections'), (nentries, 'index entries')])
+    (n, 'books' if n != 1 else 'book'), (nanchors, 'numbered sections'), (nentries, 'index entries')] if v)
 nlinked = sum(1 for r in refs['refs'] if r['url'] or r.get('found') or r.get('lib'))
 nlib = sum(1 for r in refs['refs'] if r.get('lib'))
 nadded = sum(1 for r in refs['refs'] if r.get('added'))

@@ -1,0 +1,202 @@
+{
+ "areas": [
+  {
+   "id": "editions",
+   "name": "Editions of the text",
+   "blurb": "The Pāli of the Abhidhammatthasaṅgaha and of its commentaries."
+  },
+  {
+   "id": "translations",
+   "name": "Translations",
+   "blurb": "The Saṅgaha, and the Vibhāvinī, in English."
+  },
+  {
+   "id": "studies",
+   "name": "Studies and introductions",
+   "blurb": "Guides to the Saṅgaha and to Theravāda Abhidhamma thought."
+  },
+  {
+   "id": "reference",
+   "name": "Reference works",
+   "blurb": "Dictionaries and the online Tipiṭaka used alongside the text."
+  }
+ ],
+ "refs": [
+  {
+   "area": "editions",
+   "authors": "Anuruddha",
+   "year": "Chaṭṭha Saṅgāyana ed.",
+   "title": "Abhidhammatthasaṅgaho",
+   "where": "Sixth Council text; digital edition of the Vipassana Research Institute",
+   "url": "",
+   "lib": "sangaha/",
+   "found": "",
+   "label": ""
+  },
+  {
+   "area": "editions",
+   "authors": "Sumaṅgala",
+   "year": "Chaṭṭha Saṅgāyana ed.",
+   "title": "Abhidhammatthavibhāvinīṭīkā",
+   "where": "Sixth Council text; digital edition of the Vipassana Research Institute",
+   "url": "",
+   "lib": "vibhavini/",
+   "found": "",
+   "label": ""
+  },
+  {
+   "area": "editions",
+   "authors": "Ledi Sayadaw",
+   "year": "Chaṭṭha Saṅgāyana ed.",
+   "title": "Paramatthadīpanī (Saṅgaha-mahāṭīkā)",
+   "where": "Digital edition of the Vipassana Research Institute",
+   "url": "",
+   "lib": "paramattha/",
+   "found": "",
+   "label": ""
+  },
+  {
+   "area": "editions",
+   "authors": "Ledi Sayadaw",
+   "year": "Chaṭṭha Saṅgāyana ed.",
+   "title": "Anudīpanī",
+   "where": "Digital edition of the Vipassana Research Institute",
+   "url": "",
+   "lib": "anudipani/",
+   "found": "",
+   "label": ""
+  },
+  {
+   "area": "editions",
+   "authors": "Saddhātissa, H. (Ed.)",
+   "year": "1989",
+   "title": "The Abhidhammatthasaṅgaha and the Abhidhammatthavibhāvinī-ṭīkā",
+   "where": "Oxford: Pali Text Society",
+   "url": "",
+   "lib": "",
+   "found": "",
+   "label": ""
+  },
+  {
+   "area": "editions",
+   "authors": "Kosambi, D. (Ed.)",
+   "year": "1941",
+   "title": "Abhidhammattha Saṅgaho, with the Navanīta-ṭīkā",
+   "where": "Bombay: Mahabodhi Society",
+   "url": "",
+   "lib": "",
+   "found": "",
+   "label": ""
+  },
+  {
+   "area": "translations",
+   "authors": "Shwe Zan Aung & Rhys Davids, C. A. F.",
+   "year": "1910",
+   "title": "Compendium of philosophy, being a translation now made for the first time from the original Pali of the Abhidhammattha-sangaha",
+   "where": "London: Pali Text Society",
+   "url": "",
+   "lib": "",
+   "found": "",
+   "label": ""
+  },
+  {
+   "area": "translations",
+   "authors": "Nārada Thera",
+   "year": "1956",
+   "title": "A manual of Abhidhamma, being Abhidhammattha Saṅgaha of Bhadanta Anuruddhācariya",
+   "where": "Colombo; later editions Kandy: Buddhist Publication Society",
+   "url": "",
+   "lib": "",
+   "found": "",
+   "label": ""
+  },
+  {
+   "area": "translations",
+   "authors": "Bodhi, Bhikkhu (Gen. Ed.)",
+   "year": "1993",
+   "title": "A comprehensive manual of Abhidhamma: The Abhidhammattha Saṅgaha of Ācariya Anuruddha",
+   "where": "Kandy: Buddhist Publication Society (translation by Mahāthera Nārada, revised; guide by U Rewata Dhamma and U Sīlānanda)",
+   "url": "",
+   "lib": "",
+   "found": "",
+   "label": ""
+  },
+  {
+   "area": "translations",
+   "authors": "Wijeratne, R. P. & Gethin, R.",
+   "year": "2002",
+   "title": "Summary of the topics of Abhidhamma (Abhidhammatthasaṅgaha) by Anuruddha; Exposition of the topics of Abhidhamma (Abhidhammatthavibhāvinī) by Sumaṅgala",
+   "where": "Oxford: Pali Text Society",
+   "url": "",
+   "lib": "",
+   "found": "",
+   "label": ""
+  },
+  {
+   "area": "studies",
+   "authors": "Nyanaponika Thera",
+   "year": "1949",
+   "title": "Abhidhamma studies: Researches in Buddhist psychology",
+   "where": "Colombo: Frewin; 4th ed. Kandy: Buddhist Publication Society, 1998",
+   "url": "",
+   "lib": "",
+   "found": "",
+   "label": ""
+  },
+  {
+   "area": "studies",
+   "authors": "Karunadasa, Y.",
+   "year": "2010",
+   "title": "The Theravāda Abhidhamma: Its inquiry into the nature of conditioned reality",
+   "where": "Hong Kong: Centre of Buddhist Studies, University of Hong Kong",
+   "url": "",
+   "lib": "",
+   "found": "",
+   "label": ""
+  },
+  {
+   "area": "studies",
+   "authors": "Mehm Tin Mon",
+   "year": "1995",
+   "title": "The essence of Buddha Abhidhamma",
+   "where": "Yangon: Mya Mon Yadanar Publication",
+   "url": "",
+   "lib": "",
+   "found": "",
+   "label": ""
+  },
+  {
+   "area": "reference",
+   "authors": "Rhys Davids, T. W. & Stede, W. (Eds.)",
+   "year": "1921–1925",
+   "title": "The Pali Text Society’s Pali–English dictionary",
+   "where": "London: Pali Text Society",
+   "url": "",
+   "lib": "",
+   "found": "",
+   "label": ""
+  },
+  {
+   "area": "reference",
+   "authors": "Nyanatiloka",
+   "year": "1952",
+   "title": "Buddhist dictionary: Manual of Buddhist terms and doctrines",
+   "where": "Colombo: Frewin; later editions Kandy: Buddhist Publication Society",
+   "url": "",
+   "lib": "",
+   "found": "",
+   "label": ""
+  },
+  {
+   "area": "reference",
+   "authors": "Vipassana Research Institute",
+   "year": "n.d.",
+   "title": "The Pāḷi Tipiṭaka [Chaṭṭha Saṅgāyana edition, with the aṭṭhakathā and ṭīkā]",
+   "where": "Igatpuri: Vipassana Research Institute",
+   "url": "",
+   "lib": "",
+   "found": "https://tipitaka.org/",
+   "label": "Online"
+  }
+ ]
+}

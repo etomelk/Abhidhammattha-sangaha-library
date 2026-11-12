@@ -476,6 +476,7 @@ html[data-book="khine"] h3.sec{text-transform:none;letter-spacing:.01em;font-siz
 html[data-book="khine"] h4.sub{font-size:17px}
 .pgmark.pgin{margin-right:3px}
 /* Nhu Lien's notes: long Pāli compounds break where they must; the widest chart is set as cards */
+html[data-book="sangaha"] main,html[data-book="sangaha"] .side,html[data-book="vibhavini"] main,html[data-book="vibhavini"] .side,html[data-book="paramattha"] main,html[data-book="paramattha"] .side,html[data-book="anudipani"] main,html[data-book="anudipani"] .side{overflow-wrap:anywhere}
 html[data-book="nhulien"] main,html[data-book="nhulien"] .side,html[data-book="pali"] main,html[data-book="pali"] .side,html[data-book="atthasalini"] main,html[data-book="atthasalini"] .side,html[data-book="mulatika"] main,html[data-book="mulatika"] .side,html[data-book="anutika"] main,html[data-book="anutika"] .side{overflow-wrap:anywhere}
 html[data-book="nhulien"] table.gt td,html[data-book="nhulien"] table.gt th,html[data-book="dhammajeewa"] table.gt td,html[data-book="dhammajeewa"] table.gt th{overflow-wrap:normal;word-break:normal;hyphens:manual}
 .tsplit-n.tsplit-all{display:block}
