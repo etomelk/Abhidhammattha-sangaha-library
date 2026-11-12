@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en" data-book="{{SLUG}}" data-anchor="{{ANCHOR}}" data-sign="{{SIGN}}" data-goto="{{GOTO}}" data-goto-roman="{{GOTO_ROMAN}}"{{SPLIT}} style="--sign:'{{MSIGN}}'">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>{{TITLE}}</title>
+<meta name="description" content="{{DESC}}">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans+Mono:wght@400;500&family=Figtree:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../shared/reader.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="progress" id="progress" aria-hidden="true"><span></span></div>
+  <button class="iconbtn menubtn" id="menubtn" aria-label="Contents" aria-expanded="false">☰</button>
+  <a class="iconbtn libbtn" href="../" title="{{LIBRARY}}: all books" aria-label="{{LIBRARY}}"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M2 2.5h3.5v11H2zM6.5 2.5H10v11H6.5zM10.6 3.2l3.2-.7 2.3 10.7-3.2.7z"/></svg><span>Library</span></a>
+  <a class="brand" href="#home" title="Contents">{{BRAND}}<small>{{BRAND_SUB}}</small></a>
+  <div class="search">
+    <input id="q" type="search" placeholder="Search" title="Search the whole book; diacritics are optional" autocomplete="off" aria-label="Search">
+    <span class="kbd">/</span>
+  </div>
+  <div class="gotobox"><label for="goto">{{GOTO_LABEL}}</label><input id="goto" {{GOTO_INPUT}} placeholder="No." aria-label="{{GOTO_ARIA}}"></div>
+  {{TOPTOGGLE}}<button class="iconbtn" id="glossbtn" aria-pressed="false" aria-controls="gloss">{{DRAWER_BTN}}</button>
+  <button class="iconbtn" id="themebtn" aria-label="Toggle theme" title="Toggle light / dark"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 1 0 13z" fill="currentColor"/></svg></button>
+</div>
+
+<div class="frame">
+  <nav class="toc" id="toc" aria-label="Contents">
+    <a class="libline" href="../">← {{LIBRARY}}</a>
+    <ul>{{NAV}}</ul>
+    <div class="toc-foot">{{TOC_FOOT}}</div>
+  </nav>
+  <main>
+    <div class="col">
+      <div id="home" class="homeview">
+        <header class="bookhead">
+          <a class="crumb" href="../">{{LIBRARY}}</a>
+          <span class="eyebrow">{{EYEBROW}}</span>
+          <h1>{{H1}}</h1>
+          <p class="by">{{BY}}</p>
+          <p class="note">{{NOTE}}</p>
+        </header>
+        <a class="resume" id="resume" href="#" hidden><span class="rlabel">Continue reading</span><span class="rwhere" id="rwhere"></span><span class="rgo">→</span></a>
+        <div class="howto">
+          {{HOWTO}}
+        </div>
+        <h2 class="cardshead">Contents</h2>
+        <div class="cards">{{HOME}}</div>
+        <footer class="source">
+          <p class="note">{{SOURCE}}</p>
+        </footer>
+      </div>
+      {{CHAPTERS}}
+      <footer class="rightsfoot"><p class="rightsline">Offered freely as <i>Dhamma-dāna</i>, for study. All rights in these works belong to their authors, translators and publishers; this library claims none and cannot grant permission to reproduce them. <a href="../#rights">A note on rights</a></p></footer>
+    </div>
+  </main>
+</div>
+
+<button class="totop" id="totop" aria-label="Back to top" hidden>↑</button>
+
+<aside class="gloss" id="gloss" aria-label="{{DRAWER_TITLE}}" aria-hidden="true">
+  <h2>{{DRAWER_TITLE}}</h2>
+  <p class="ghint">{{DRAWER_HINT}}</p>
+  <input id="gq" type="search" placeholder="Filter" aria-label="Filter {{DRAWER_TITLE}}">
+  <dl id="gl">{{GLOSSARY}}</dl>
+</aside>
+
+<script src="../shared/reader.js"></script>
+</body>
+</html>

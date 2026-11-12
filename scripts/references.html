@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en" class="lib refpage">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>References · {{TITLE}}</title>
+<meta name="description" content="{{NREFS}} works on the Dhammasaṅgaṇī and the Abhidhamma, grouped by area, with links to the texts where they are online.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Figtree:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../shared/reader.css">
+<link rel="stylesheet" href="../shared/home.css">
+</head>
+<body>
+<div class="topbar">
+  <a class="iconbtn libbtn" href="../" title="{{TITLE}}"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 2.5h3v11H2zM6.5 2.5h3v11h-3zM11 3.2l2.9-.8 2.6 10.6-2.9.8z" fill="currentColor"/></svg><span>Library</span></a>
+  <a class="brand" href="../">{{TITLE}}<small>References</small></a>
+  <nav class="topnav"><a href="../#books">Books</a><a href="../matika/">Mātikā</a><a href="../terms/">Terms</a><a href="./" aria-current="page">References</a></nav>
+  <button class="iconbtn" id="themebtn" aria-label="Toggle theme" title="Toggle light / dark"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 1 0 13z" fill="currentColor"/></svg></button>
+</div>
+<main>
+  <div class="col">
+    <header class="hero small">
+      <a class="crumb" href="../">{{TITLE}}</a>
+      <p class="kicker">Further reading</p>
+      <h1>References</h1>
+      <p class="lede">Works on the Dhammasaṅgaṇī, its commentaries and the Abhidhamma, grouped by area. Where a text is online — a public-domain scan, an open-access article, the publisher's or author's own copy — the entry links to it. {{NLIB}} of the works are books in this library.{{ADDEDNOTE}}</p>
+      <ul class="stats"><li><b>{{NREFS}}</b><span>references</span></li><li><b>{{NAREAS}}</b><span>areas</span></li><li><b>{{NLINKED}}</b><span>with a link</span></li></ul>
+      <ul class="legend"><li><span class="rlink">Scan ↗</span><span class="rlink">Article ↗</span><span class="rlink">Borrow ↗</span><span class="rlink">Publisher ↗</span><span class="rlink">Online ↗</span> a copy online</li><li><span class="rlink lib">Read here</span> in this library</li><li><span class="rlink none">Print</span> no copy online that we know of</li></ul>
+    </header>
+    <section class="refs" id="refs">
+      <div class="reftools">
+        <input id="refq" type="search" placeholder="Filter by author, title or year" aria-label="Filter references">
+        <div class="chips" id="areachips">{{CHIPS}}</div>
+      </div>
+{{REFS}}
+      <p class="refnote" id="refnone" hidden>No references match.</p>
+    </section>
+    <footer class="source">
+      <p class="note">Every entry was checked against a library catalogue, the publisher or the scan itself. Links point only to public-domain scans (Scan), open-access articles (Article), lending-library copies (Borrow), the publisher's or author's own pages (Publisher) and free resources published by their makers (Online), never to third-party uploads of books in copyright.</p>
+      <p class="rightsline">Offered freely as <i>Dhamma-dāna</i>, for study. All rights in these works belong to their authors, translators and publishers; this library claims none and cannot grant permission to reproduce them. <a href="../#rights">A note on rights</a></p>
+    </footer>
+  </div>
+</main>
+<script>
+(function(){
+  const root=document.documentElement;
+  try{const t=localStorage.getItem('pg-theme'); if(t) root.setAttribute('data-theme',t);}catch(e){}
+  document.getElementById('themebtn').addEventListener('click',()=>{
+    const dark = root.getAttribute('data-theme')==='dark' || (!root.getAttribute('data-theme') && matchMedia('(prefers-color-scheme: dark)').matches);
+    const next = dark?'light':'dark';
+    root.setAttribute('data-theme',next);
+    try{localStorage.setItem('pg-theme',next);}catch(e){}
+  });
+  /* filter by area chip and by text (diacritics optional) */
+  const MAP={'ā':'a','ī':'i','ū':'u','ṃ':'m','ṁ':'m','ṅ':'n','ñ':'n','ṭ':'t','ḍ':'d','ṇ':'n','ḷ':'l','ṛ':'r','ś':'s','ṣ':'s','ü':'u','ö':'o'};
+  const norm=s=>s.toLowerCase().replace(/[āīūṃṁṅñṭḍṇḷṛśṣüö]/g,c=>MAP[c]||c);
+  const q=document.getElementById('refq'), chips=document.querySelectorAll('#areachips button'), groups=document.querySelectorAll('.refgroup');
+  let area='all';
+  function apply(){
+    const v=norm(q.value.trim()); let any=false;
+    groups.forEach(g=>{ let n=0; g.querySelectorAll('.ref').forEach(r=>{ const on=(area==='all'||g.dataset.area===area)&&(!v||norm(r.textContent).includes(v)); r.hidden=!on; if(on) n++; }); g.hidden=!n; any=any||n>0; });
+    document.getElementById('refnone').hidden=any;
+    chips.forEach(c=>c.setAttribute('aria-pressed',String(c.dataset.area===area)));
+  }
+  chips.forEach(c=>c.addEventListener('click',()=>{ area=c.dataset.area; apply(); history.replaceState(null,'',area==='all'?'./':'#'+area); }));
+  q.addEventListener('input',apply);
+  if(location.hash.length>1){ const c=document.querySelector('#areachips button[data-area="'+location.hash.slice(1)+'"]'); if(c) area=c.dataset.area; }
+  apply();
+})();
+</script>
+</body>
+</html>
