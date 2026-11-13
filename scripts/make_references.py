@@ -38,6 +38,7 @@ add('translations', 'Bodhi, Bhikkhu (Gen. Ed.)', '1993', 'A comprehensive manual
 add('translations', 'Wijeratne, R. P. & Gethin, R.', '2002', 'Summary of the topics of Abhidhamma (Abhidhammatthasaṅgaha) by Anuruddha; Exposition of the topics of Abhidhamma (Abhidhammatthavibhāvinī) by Sumaṅgala', 'Oxford: Pali Text Society')
 
 # --- Studies
+add('studies', 'Sīlānanda, U', '2012', 'Handbook of Abhidhamma studies (Vols. I–II)', 'Selangor: Selangor Buddhist Vipassana Meditation Society', lib='handbook/')
 add('studies', 'Nyanaponika Thera', '1949', 'Abhidhamma studies: Researches in Buddhist psychology', 'Colombo: Frewin; 4th ed. Kandy: Buddhist Publication Society, 1998')
 add('studies', 'Karunadasa, Y.', '2010', 'The Theravāda Abhidhamma: Its inquiry into the nature of conditioned reality', 'Hong Kong: Centre of Buddhist Studies, University of Hong Kong')
 add('studies', 'Mehm Tin Mon', '1995', 'The essence of Buddha Abhidhamma', 'Yangon: Mya Mon Yadanar Publication')

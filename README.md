@@ -20,6 +20,7 @@ Science*. and *Fundamental Abhidhamma* Part I. Part II needs OCR and waits.
 |---|---|---|---|
 | 1. Start here: study guides | `fundamental/` | Dr. Nandamālābhivaṃsa, *Fundamental Abhidhamma*, Part I (CBS Sagaing 2005) | PDF text layer |
 | | `tinmon/` | Dr. Mehm Tin Mon, *Buddha Abhidhamma: Ultimate Science* (BuddhaNet) | PDF text layer, old Pāli font mapped |
+| | `handbook/` | Sayādaw U Sīlānanda, *Handbook of Abhidhamma Studies*, Vols. I–II (SBVMS 2012) | PDF text layer |
 | 2. The Saṅgaha in Pāli | `sangaha/` | Abhidhammatthasaṅgaho, Sixth Council edition | VRI tipitaka-xml `abh07t.nrf.xml`, first book |
 | 4. The commentaries | `vibhavini/` | Abhidhammatthavibhāvinīṭīkā (Sumaṅgala) | VRI `abh07t.nrf.xml`, second book |
 | | `paramattha/` | Paramatthadīpanī, the Saṅgaha-mahāṭīkā (Ledi Sayadaw) | VRI `e0301n.nrf.xml` |
@@ -202,6 +203,31 @@ the Editorial Preface, one title line under "CHAPTER n"). This book's headings a
   from the page images, with the diacritics put back by hand. That is on hold. The first 105 pages of
   that copy are the same Part I.
 
+## Sayādaw U Sīlānanda — Handbook of Abhidhamma Studies, Vols. I–II (handbook/)
+
+U Sīlānanda's lectures on the Saṅgaha, edited from his American courses: *Handbook of Abhidhamma
+Studies*, Volumes I and II, first edition October 2012, © SBVMS (Selangor), printed for free
+distribution, from the PDFs (OpenOffice, 2012), taken from their text layer (Unicode).
+
+```sh
+pdftotext -layout Handbook-I.pdf work/handbook-1.txt && pdftotext -layout Handbook-II.pdf work/handbook-2.txt
+python3 scripts/tinmon/convert.py work/handbook-1.txt handbook1
+python3 scripts/tinmon/convert.py work/handbook-2.txt handbook2
+python3 scripts/tinmon/handbook.py && python3 scripts/build.py handbook
+```
+
+- Volume I: Editorial Preface, Editor's Note, Introduction, Chapters One–Three (Three only Vedanā,
+  Hetu and Kicca). Volume II: front matter, Chapters Four–Six. A third volume (Seven–Nine) is not here.
+  `handbook.py` joins the volumes into one reader; each part's label names its volume.
+- The converter is the shared one (`BOOKS['handbook1']`, `['handbook2']`): the running head at the top
+  of each page ("Chapter One") and the page numbers are dropped, and so are the contents lines with dot
+  leaders (Volume II prints its contents after the preface); the chapter titles are "Chapter One" …
+  in words. The question-and-answer passages ("Sayādaw: … / Student: …", with a hanging indent) are
+  paragraphs of their own. The prose is justified with wide gaps, so for this book only a long line of
+  six words or more with even gaps is prose, not a table row (`JUSTIFIED`); bullets are list items.
+- The lectures cite Bhikkhu Bodhi's *Comprehensive Manual* ("CMA, I, Guide to §7, p.39"); those
+  references are left as text until the CMA is in the library.
+
 ## Changes to the shared reader
 
 - `scripts/build.py`: `pnum_span` shows a block's `label` and its `alias` anchors when it has them;
@@ -215,4 +241,4 @@ the Editorial Preface, one title line under "CHAPTER n"). This book's headings a
 
 ## Checks
 
-`python3 scripts/check_site.py`: 79 pages × 3 widths, no problems (November 2026).
+`python3 scripts/check_site.py`: 88 pages × 3 widths, no problems (November 2026).

@@ -32,9 +32,19 @@ def indent(l):
     return len(l) - len(l.lstrip(' '))
 
 
+JUSTIFIED = [False]      # set per book: the book's prose is justified with wide gaps (the Handbook)
+
+
 def is_table(l):
-    t = re.sub(r'^(\d{1,2}|[ivx]{1,4}|\([a-z0-9]+\))\s+', '', l.strip())     # the gap after a list number
-    return bool(re.search(r'\S {3,}\S', t))
+    t = re.sub(r'^(•|\d{1,2}|[ivx]{1,4}|\([a-z0-9]+\)|' + SPEAKER + r')\s+', '', l.strip())     # the gap after a list number or a speaker
+    if not re.search(r'\S {3,}\S', t):
+        return False
+    gaps = [len(g) for g in re.findall(r'(?<=\S) +(?=\S)', t)]
+    words = t.split()
+    # a justified line of prose: many words, the gaps spread evenly and none very wide
+    if JUSTIFIED[0] and len(t) >= 45 and len(words) >= 6 and max(gaps) <= 6 and sum(1 for g in gaps if g >= 3) * 2 >= len(gaps) - 1:
+        return False
+    return True
 
 
 def key(t):
@@ -60,11 +70,20 @@ BOOKS = {
     'fundamental': dict(font=False, start=r'^\s*Editorial preface\s*$', chapter=r'^\s*CHAPTER (\d)\s*$', title_lines=1,
                         sangaha={1: 1, 2: 2, 3: 6, 4: 3, 5: 4}, front='Editorial Preface; About the Author; The History of Abhidhamma',
                         colon_heads=True),
+    'handbook1': dict(font=False, start=r'^\s*Editorial Preface\s*$', chapter=r'^\s*Chapter (One|Two|Three|Four|Five|Six)\s*$',
+                      title_lines=1, sangaha={1: 1, 2: 2, 3: 3}, front='Editorial Preface; Editor’s Note; Introduction',
+                      colon_heads=False, running_head=r'^\s*(Chapter (One|Two|Three|Four|Five|Six)|Introduction|Contents)\s*$'),
+    'handbook2': dict(font=False, start=r'^\s*Editorial Preface\s*$', chapter=r'^\s*Chapter (One|Two|Three|Four|Five|Six)\s*$',
+                      title_lines=1, sangaha={4: 4, 5: 5, 6: 6}, front='Editorial Preface; Editor’s Note',
+                      colon_heads=False, running_head=r'^\s*(Chapter (One|Two|Three|Four|Five|Six)|Introduction|Contents)\s*$'),
 }
+NUMWORDS = {'One': 1, 'Two': 2, 'Three': 3, 'Four': 4, 'Five': 5, 'Six': 6, 'Seven': 7, 'Eight': 8, 'Nine': 9}
+SPEAKER = r'(Sayādaw|Student|Students|Yogi|Question|Answer|Q|A)\s*:'
 
 
 def main(src, slug='tinmon'):
     cfg = BOOKS[slug]
+    JUSTIFIED[0] = slug.startswith('handbook')
     text = open(src, encoding='utf-8').read()
     if cfg['font']:
         text = text.translate(FONT)
@@ -89,7 +108,12 @@ def main(src, slug='tinmon'):
             else:
                 continue
         pl = [l.rstrip() for l in pl]
-        pl = [l for l in pl if not re.fullmatch(r'\s*\d{1,3}\s*', l)]          # page numbers
+        pl = [l for l in pl if not re.search(r'\.{6,}\s*([\d]+|[ivxIVX]+)?\s*$', l)]   # contents lines with dot leaders
+        pl = [l for l in pl if not re.fullmatch(r'\s*([\dl]{1,3}|[ivxlc]{1,6})\s*', l)]          # page numbers
+        if cfg.get('running_head'):
+            k = next((i for i, l in enumerate(pl) if l.strip()), None)
+            if k is not None and re.match(cfg['running_head'], pl[k]):
+                pl = pl[k + 1:]
         while pl and not pl[0].strip():
             pl.pop(0)
         while pl and not pl[-1].strip():
@@ -150,7 +174,7 @@ def main(src, slug='tinmon'):
         m = re.match(cfg['chapter'], l)
         if m:
             flush()
-            k = int(m.group(1))
+            k = int(m.group(1)) if m.group(1).isdigit() else NUMWORDS[m.group(1)]
             j = i + 1
             heads = []
             while j < len(lines) and len(heads) < cfg['title_lines']:
@@ -202,7 +226,12 @@ def main(src, slug='tinmon'):
             parts[-1]['blocks'].append(dict(type='h4' if s.startswith('(') else 'h', text=s))
             i += 1
             continue
-        if ind >= 2 and re.match(r'^(\d{1,2}|[ivx]{1,4}|\([a-z0-9ivx]+\)|•)\s', s):
+        if re.match(SPEAKER + r'\s', s) and ind <= 1:                         # "Sayādaw: …" with a hanging indent
+            flush()
+            cur = dict(kind='speech', ind=0, lines=[s])
+        elif cur and cur['kind'] == 'speech' and ind >= 4 and not re.match(SPEAKER, s):
+            cur['lines'].append(s)
+        elif ind >= 2 and re.match(r'^(\d{1,2}|[ivx]{1,4}|\([a-z0-9ivx]+\)|•)\s', s):
             flush()
             cur = dict(kind='item', ind=ind, lines=[s])
         elif cur and cur['kind'] == 'item' and ind > cur['ind']:
