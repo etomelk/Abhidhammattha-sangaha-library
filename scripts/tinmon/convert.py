@@ -54,7 +54,7 @@ def key(t):
 def heading_like(t):
     if t.startswith('(') and t.endswith(')') and len(t) < 90:
         return True
-    if len(t) > 70 or re.search(r'[.,;:!?’”"-]$', t) or not t[0].isupper():
+    if len(t) > 70 or re.search(r'[.,;:!?’”"-]$|\.\)$', t) or not t[0].isupper() or re.search(r'[,;]|: ', t):
         return False
     words = [w for w in re.findall(r"[^\s–—-]+", t) if w.isalpha()]
     small = {'of', 'and', 'the', 'in', 'to', 'a', 'an', 'or', 'with', 'by', 'for', 'on', 'as', 'at', 'from', 'into'}
@@ -65,7 +65,7 @@ def heading_like(t):
 # per book: the old font or not, where the body starts, the chapter line, how many title lines it has,
 # which chapter of the Saṅgaha each chapter is, and headings that end in a colon ("Abhidhamma:")
 BOOKS = {
-    'tinmon': dict(font=True, start=r'^\s*Buddha’s Teachings\s*$', chapter=r'^\s*Chapter (\d)\s*$', title_lines=2,
+    'tinmon': dict(font='tinmon', start=r'^\s*Buddha’s Teachings\s*$', chapter=r'^\s*Chapter (\d)\s*$', title_lines=2,
                    sangaha={k: k for k in range(1, 10)}, front='Preface and Introduction', colon_heads=False),
     'fundamental': dict(font=False, start=r'^\s*Editorial preface\s*$', chapter=r'^\s*CHAPTER (\d)\s*$', title_lines=1,
                         sangaha={1: 1, 2: 2, 3: 6, 4: 3, 5: 4}, front='Editorial Preface; About the Author; The History of Abhidhamma',
@@ -76,7 +76,18 @@ BOOKS = {
     'handbook2': dict(font=False, start=r'^\s*Editorial Preface\s*$', chapter=r'^\s*Chapter (One|Two|Three|Four|Five|Six)\s*$',
                       title_lines=1, sangaha={4: 4, 5: 5, 6: 6}, front='Editorial Preface; Editor’s Note',
                       colon_heads=False, running_head=r'^\s*(Chapter (One|Two|Three|Four|Five|Six)|Introduction|Contents)\s*$'),
+    'guide': dict(font='guide', start=r'^\s*Publisher’s Preface\s*$', chapter=r'^\s{12,}([IVX]{1,4})\s*$', title_lines=2,
+                  sangaha={}, front='Prefaces; Introduction', colon_heads=False, centred_caps=True,
+                  extra_parts=[(r'^\s*THE MATRIX \(MĀTIKĀ\)\s*$', 'Mātikā', 'The Matrix (Mātikā)'),
+                               (r'^\s*APPENDIX\s*$', 'Appendix', 'Dependent Origination')],
+                  running_head=r'^\s*(([\dixvlc]+)\s{3,}Guide [Tt]hrough.*|\S.{0,40}?\s{8,}[\dixvlc]+)\s*$'),
 }
+FONTS = {'tinmon': FONT,
+         # Nyanatiloka's Guide (BPS 2007): á ā, þ ṭ, ò ṅ, ó ṇ, ú ū, ì ī, í ṃ, ÿ ¿ ḷ, ð ḍ and their capitals;
+         # ø is a stray mark inside words (reølationship) and is dropped
+         'guide': str.maketrans({'á': 'ā', 'þ': 'ṭ', 'ò': 'ṅ', 'ó': 'ṇ', 'ú': 'ū', 'ì': 'ī', 'í': 'ṃ', 'ÿ': 'ḷ', '¿': 'ḷ',
+                                 'ð': 'ḍ', 'Á': 'Ā', 'Þ': 'Ṭ', 'Ò': 'Ṅ', 'Ó': 'Ṇ', 'Ú': 'Ū', 'Ì': 'Ī', 'Í': 'Ṃ',
+                                 'Ÿ': 'Ḷ', 'Ð': 'Ḍ', 'ø': None})}
 NUMWORDS = {'One': 1, 'Two': 2, 'Three': 3, 'Four': 4, 'Five': 5, 'Six': 6, 'Seven': 7, 'Eight': 8, 'Nine': 9}
 SPEAKER = r'(Sayādaw|Student|Students|Yogi|Question|Answer|Q|A)\s*:'
 
@@ -86,14 +97,16 @@ def main(src, slug='tinmon'):
     JUSTIFIED[0] = slug.startswith('handbook')
     text = open(src, encoding='utf-8').read()
     if cfg['font']:
-        text = text.translate(FONT)
+        text = text.translate(FONTS[cfg['font'] if isinstance(cfg['font'], str) else 'tinmon'])
     pages = text.split('\f')
     HYPH.update(w.lower() for w in re.findall(r'\w+-\w+', re.sub(r'-\n', ' ', text)))
     # the section titles of the book's contents ("Kāmāvacara Cittas ........ 36"): the headings
     toc = set()
     body_at = re.search(cfg['start'], text, flags=re.M).start()
-    for l in text[:body_at].split('\n'):
-        m = re.match(r'^\s*(.+?)\s*\.{3,}\s*\d+\s*$', l) or re.match(r'^\s*(\S.*?)\s{8,}\d+\s*$', l)
+    for n, l in enumerate(text.split('\n')):
+        # a contents line: with dot leaders anywhere (the Handbook prints its contents after the preface),
+        # or with a wide gap before the page number in the front of the book
+        m = re.match(r'^\s*(.+?)\s*\.{3,}\s*[\divxlc]+\s*$', l) or (n < text[:body_at].count('\n') and re.match(r'^\s*(\S.*?)\s{8,}\d+\s*$', l))
         if m:
             toc.add(key(m.group(1)))
     # the body starts after the contents (the last contents line names About the Author)
@@ -174,18 +187,29 @@ def main(src, slug='tinmon'):
         m = re.match(cfg['chapter'], l)
         if m:
             flush()
-            k = int(m.group(1)) if m.group(1).isdigit() else NUMWORDS[m.group(1)]
+            g = m.group(1)
+            k = int(g) if g.isdigit() else NUMWORDS.get(g, g)
             j = i + 1
             heads = []
             while j < len(lines) and len(heads) < cfg['title_lines']:
                 if lines[j].strip() and lines[j] != '\x00':
                     heads.append(lines[j].strip())
                 j += 1
-            title = ' '.join(w.title() if w.isupper() and len(w) > 1 else w for w in heads[0].split())
+            def tc(x):
+                small = {'Of', 'To', 'The', 'And', 'In', 'On', 'With', 'For', 'Or', 'A', 'An', 'By'}
+                ws = [w.title() if w.isupper() and len(w) > 1 else w for w in x.split()]
+                return ' '.join(w.lower() if k and w in small else w for k, w in enumerate(ws))
+            title = tc(heads[0]).rstrip(':')
             if len(heads) > 1:
-                title = f'{title} — {heads[1]}'
-            parts.append(dict(label=f'Chapter {k}', title=title, ch=cfg['sangaha'][k], blocks=[]))
+                title = f'{title} — {tc(heads[1])}'
+            parts.append(dict(label=f'Chapter {k}', title=title, ch=cfg['sangaha'].get(k), blocks=[]))
             i = j
+            continue
+        ex = next((e for e in cfg.get('extra_parts', []) if re.match(e[0], l)), None)
+        if ex:
+            flush()
+            parts.append(dict(label=ex[1], title=ex[2], ch=None, blocks=[]))
+            i += 1
             continue
         if re.fullmatch(r'Conclusion', s) and indent(l) <= 1 and parts[-1]['ch'] == 9:
             flush()
@@ -207,6 +231,14 @@ def main(src, slug='tinmon'):
         if numbered and key(numbered.group(2)) in toc and ended(i):          # "1 Four Āsavas (…)": a numbered section
             flush()
             parts[-1]['blocks'].append(dict(type='h', text=s))
+            i += 1
+            continue
+        if (cfg.get('centred_caps') and ind >= 10 and len(s) < 70 and not is_table(l) and ended(i)
+                and re.sub(r'[^A-Za-zĀĪŪṬḌṆṄÑṂḶāīūṭḍṇṅñṃḷ]', '', s).isupper()):
+            flush()                    # a centred line in capitals ("CHAPTER XIV", "THE 24 CONDITIONS")
+            t = ' '.join(w.title() if w.isupper() and len(w) > 1 and not re.fullmatch(r'[IVXL]+[.:]?', w) else w for w in s.split())
+            t = ' '.join(w.lower() if k and w in ('Of', 'To', 'The', 'And', 'In', 'On', 'With', 'For', 'Or', 'By') else w for k, w in enumerate(t.split()))
+            parts[-1]['blocks'].append(dict(type='h', text=t))
             i += 1
             continue
         if (cfg['colon_heads'] and ind >= 10 and not is_table(l) and len(s) < 60 and ended(i) and s[0].isupper() and '=' not in s
@@ -251,7 +283,7 @@ def main(src, slug='tinmon'):
     chapters = [dict(num=str(n), label=p['label'], title=p['title'], blocks=p['blocks'], **({'sangaha_ch': p['ch']} if p['ch'] else {}))
                 for n, p in enumerate(parts)]
     json.dump(dict(chapters=chapters, glossary=[]), open(os.path.join(ROOT, 'data', f'{slug}.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
-    left = sorted({c for ch in chapters for b in ch['blocks'] for c in b.get('text', '') if c in 'àãå¤õüïëóòâÀÃäæö¥'})
+    left = sorted({c for ch in chapters for b in ch['blocks'] for c in b.get('text', '') if c in ('àãå¤õüïëóòâÀÃäæö¥' if slug == 'tinmon' else 'áþòóúìíÿ¿ðÁÞÒÓÚÌÍŸÐø' if slug == 'guide' else '')})
     for c in chapters:
         print(f'  {c["label"]:11} {c["title"][:46]:46} blocks {len(c["blocks"]):4}  headings {sum(1 for b in c["blocks"] if b["type"] in ("h", "h4")):3}  tables {sum(1 for b in c["blocks"] if b["type"] == "pre"):3}', file=sys.stderr)
     print('old-font letters left:', left, file=sys.stderr)

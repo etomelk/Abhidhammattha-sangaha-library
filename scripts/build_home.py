@@ -14,6 +14,7 @@ SHELVES = [
     ('The Saṅgaha in Pāli', 'Ācariya Anuruddha’s text in the Sixth Council edition, whose paragraph numbers are the map of the library.', ('sangaha',)),
     ('The Saṅgaha in English', 'Translations with notes, section by section, linked to the Pāli.', ('narada',)),
     ('The commentaries', 'Sumaṅgala’s Vibhāvinī, keyed to the Saṅgaha paragraph by paragraph, and Ledi Sayadaw’s Paramatthadīpanī with his Anudīpanī on it.', ('vibhavini', 'paramattha', 'anudipani')),
+    ('Background: the canonical Abhidhamma', 'The seven books of the Abhidhamma Piṭaka that the Saṅgaha condenses.', ('guide',)),
 ]
 _shelf = {s: k for k, (_, _, ss) in enumerate(SHELVES) for s in ss}
 assert set(_shelf) == {b['slug'] for b in lib['books']}, 'every book needs a shelf'

@@ -413,6 +413,44 @@
    "goto_max": 174,
    "pts_map": "pd-key.json",
    "pts_label": "Anudīpanī"
+  },
+  {
+   "slug": "guide",
+   "title": "Guide Through the Abhidhamma-Piṭaka",
+   "short": "Guide Through the Abhidhamma-Piṭaka",
+   "author": "Nyanatiloka Mahāthera",
+   "cite": "Nyanatiloka",
+   "level": "Background",
+   "edition": "BPS, Kandy; 2nd rev. ed. 1957, 5th ed. 2007",
+   "by": "Nyanatiloka Mahāthera · edited by Nyanaponika Thera · Buddhist Publication Society, Kandy",
+   "blurb": "A synopsis of the seven books of the canonical Abhidhamma that the Saṅgaha condenses, from the Mātikā to the Paṭṭhāna, with an essay on Dependent Origination.",
+   "note": "The whole book, one part per page: the prefaces and introduction, the Abhidhamma Mātikā in translation, the seven books — Dhammasaṅgaṇī, Vibhaṅga, Dhātukathā, Puggalapaññatti, Kathāvatthu, Yamaka, Paṭṭhāna — and the appendix on Dependent Origination.",
+   "brand_sub": "Nyanatiloka · Guide",
+   "toc_foot": "The Mātikā, the seven books, and Dependent Origination.",
+   "source": "Source: Nyanatiloka Mahāthera, <em>Guide Through the Abhidhamma-Piṭaka</em>, second revised and enlarged edition (1957, ed. Nyanaponika), fifth edition, Buddhist Publication Society, Kandy, 2007, from the PDF, taken from its text layer. The PDF sets the Pāli in an old font that puts accented letters for the Pāli ones (á for ā, þ for ṭ, ò for ṅ, ó for ṇ …); these are turned into the Pāli letters throughout, and stray marks inside words (ø) are left out. The running heads and page numbers are left out.",
+   "desc": "Nyanatiloka’s Guide Through the Abhidhamma-Piṭaka: a synopsis of the seven books of the canonical Abhidhamma.",
+   "howto": [
+    [
+     "Find anything",
+     "Type in Search (or press <kbd>/</kbd>). Accents are optional: <i>rupa</i> finds <i>rūpa</i>."
+    ]
+   ],
+   "unit": "Part",
+   "cid": "ch",
+   "sign": "§",
+   "margin_sign": "",
+   "xrefs": false,
+   "footnotes": false,
+   "split": true,
+   "inline_markup": false,
+   "drawer_btn": "Notes",
+   "drawer_title": "Pāli terms",
+   "drawer_hint": "This book has no index of its own.",
+   "anchor": "^(ch\\d+.*)$",
+   "goto": "",
+   "goto_label": "",
+   "goto_aria": "",
+   "goto_max": 0
   }
  ]
 }

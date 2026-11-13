@@ -26,6 +26,7 @@ Science*. and *Fundamental Abhidhamma* Part I. Part II needs OCR and waits.
 | 4. The commentaries | `vibhavini/` | Abhidhammatthavibhāvinīṭīkā (Sumaṅgala) | VRI `abh07t.nrf.xml`, second book |
 | | `paramattha/` | Paramatthadīpanī, the Saṅgaha-mahāṭīkā (Ledi Sayadaw) | VRI `e0301n.nrf.xml` |
 | | `anudipani/` | Anudīpanī (Ledi Sayadaw) | VRI `e0401n.nrf.xml` |
+| 5. Background | `guide/` | Nyanatiloka, *Guide Through the Abhidhamma-Piṭaka* (BPS, 2nd ed. 1957; 5th ed. 2007) | PDF text layer, old Pāli font mapped |
 | 3. The Saṅgaha in English | `narada/` | Nārada Thera, *A Manual of Abhidhamma* (Vājirārāma; Preface 1978) | palikanon.com web edition, PDF (Word) |
 | To come | | Bhikkhu Bodhi (Gen. Ed.), *A Comprehensive Manual of Abhidhamma* (BPS 1993) | PDF |
 | | | Shwe Zan Aung & C. A. F. Rhys Davids, *Compendium of Philosophy* (PTS 1910) | scan |
@@ -171,8 +172,9 @@ python3 scripts/tinmon/convert.py work/tinmon.txt && python3 scripts/build.py ti
   columns (`pre`); page numbers are dropped and paragraphs run on over page breaks; a drop capital
   is joined to its word.
 - **Headings** are the section titles of the book's own contents (matched letter for letter, with
-  or without their number, "1 Four Āsavas …"), and other short Title-Case lines after the end of a
-  paragraph; a bracketed line under a heading is a sub-heading.
+  or without their number, "1 Four Āsavas …"; contents lines with dot leaders are read wherever they
+  stand), and other short Title-Case lines after the end of a paragraph that have no comma, semicolon
+  or colon inside; a bracketed line under a heading is a sub-heading.
 - **Line-end hyphens:** kept where the book writes the same word with the hyphen inside a line
   (*sense-sphere*, *Lobha-mūla*), joined otherwise.
 - **Not in the PDF:** the charts the book refers to as "attached at the back" (Charts 1–10).
@@ -250,6 +252,26 @@ python3 scripts/practical/convert.py Practical-Abhidhamma.pdf && python3 scripts
 - On the Saṅgaha map: Lesson 3 (Citta) → I, 4 (Cetasika) → II, 5 (Rūpa) → VI, 6 (Realms) → V,
   8 (Processes) → IV; Lesson 7 (Kamma and Natural Decisive Support) spans V and VIII and is not tied.
 
+## Nyanatiloka — Guide Through the Abhidhamma-Piṭaka (guide/)
+
+Nyanatiloka Mahāthera, *Guide Through the Abhidhamma-Piṭaka*, second revised and enlarged edition
+(1957, edited by Nyanaponika), fifth edition, Buddhist Publication Society, Kandy, 2007, from the PDF,
+taken from its text layer, with the shared converter (`BOOKS['guide']`):
+
+```sh
+pdftotext -layout Guide-Through-the-Abhidhamma-Pitaka.pdf work/guide.txt
+python3 scripts/tinmon/convert.py work/guide.txt guide && python3 scripts/build.py guide
+```
+
+- **The font.** Another old Pāli font, mixed with some Unicode Pāli: á ā, þ ṭ, ò ṅ, ó ṇ, ú ū, ì ī,
+  í ṃ, ÿ and ¿ ḷ, ð ḍ, with their capitals (`FONTS['guide']`); ø is a stray mark inside words
+  (*reølationship*, *heøtuko*) and is dropped. French words keep their é.
+- **Parts:** the prefaces and introduction, the Mātikā (“The Matrix”), the seven books (a centred
+  roman numeral and the book's title in capitals), and the Appendix on Dependent Origination. The
+  centred lines in capitals inside them (“CHAPTER XIV”, “THE 24 CONDITIONS”) are headings.
+- It is a guide to the canonical books, not to the Saṅgaha, so it sits on a shelf of its own and is
+  not on the Saṅgaha map.
+
 ## Changes to the shared reader
 
 - `scripts/build.py`: `pnum_span` shows a block's `label` and its `alias` anchors when it has them;
@@ -263,4 +285,4 @@ python3 scripts/practical/convert.py Practical-Abhidhamma.pdf && python3 scripts
 
 ## Checks
 
-`python3 scripts/check_site.py`: 102 pages × 3 widths, no problems (November 2026).
+`python3 scripts/check_site.py`: 113 pages × 3 widths, no problems (November 2026).
