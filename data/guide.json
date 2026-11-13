@@ -3172,7 +3172,7 @@
 },
 {
 "type": "h4",
-"text": "Later schools"
+"text": "Later schools (the book gives no date)"
 },
 {
 "type": "p",
@@ -9316,6 +9316,50 @@
 "title": "Tables",
 "blocks": [
 {
+"type": "img",
+"src": "fig/app2-1.png",
+"alt": "Appendix II, Tables, p. 244 of the book",
+"full": true
+},
+{
+"type": "img",
+"src": "fig/app2-2.png",
+"alt": "Appendix II, Tables, p. 245 of the book",
+"full": true
+},
+{
+"type": "img",
+"src": "fig/app2-3.png",
+"alt": "Appendix II, Tables, p. 246 of the book",
+"full": true
+},
+{
+"type": "img",
+"src": "fig/app2-4.png",
+"alt": "Appendix II, Tables, p. 247 of the book",
+"full": true
+},
+{
+"type": "img",
+"src": "fig/app2-5.png",
+"alt": "Appendix II, Tables, p. 248 of the book",
+"full": true
+},
+{
+"type": "img",
+"src": "fig/app2-6.png",
+"alt": "Appendix II, Tables, p. 249 of the book",
+"full": true
+},
+{
+"type": "h",
+"text": "The tables as text"
+},
+{
+"type": "p",
+"text": "The words of the tables above, for searching; the layout is that of the pages."
+},
+{
 "type": "p",
 "text": "TABLES Consciousness (Citta) KARMICALLY WHOLESOME (kusala)"
 },
@@ -9916,7 +9960,11 @@
 },
 {
 "type": "p",
-"text": "(73) to (80) = (1) to (8) - 3 Abstinences (81) to (89) = (9) to (17) Of Related Interest"
+"text": "(73) to (80) = (1) to (8) - 3 Abstinences (81) to (89) = (9) to (17)"
+},
+{
+"type": "h",
+"text": "Of Related Interest"
 },
 {
 "type": "h",

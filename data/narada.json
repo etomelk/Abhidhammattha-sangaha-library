@@ -2623,8 +2623,8 @@
 "text": "Imāni pañca pi Sotāpatti-maggacittāni nāma."
 },
 {
-"type": "pre",
-"text": "Tathā Sakadāgāmī-magga, Anāgāmī-magga, Arahatta-maggacittañ c'ati                    samavīsati\nmaggacittāni. Tathā phalacittāni c'ati samacattālīsa Lokuttaracittāni bhavantī'ti."
+"type": "p",
+"text": "Tathā Sakadāgāmī-magga, Anāgāmī-magga, Arahatta-maggacittañ c'ati samavīsati maggacittāni. Tathā phalacittāni c'ati samacattālīsa Lokuttaracittāni bhavantī'ti."
 },
 {
 "type": "p",
@@ -4732,8 +4732,8 @@
 "text": "(c) Appamaññāyo pana dvādasasu pañcamajjhāna vajjitamahaggatacittesu c'eva Kāmāvacarakusalesu ca sahetukakāmāvacarakiriyācittesu c'āti atthavisaticittesv' eva kadāci nānā hutvā jāyanti. Upekkhāsahagatesu pan'ettha Karunā Muditā na santī'ti keci vadanti."
 },
 {
-"type": "pre",
-"text": "(d)   Paññā   pana    dvādasasu       ñānasampayuttakāmāvacaracittesu        c'eva     sabbesu\npañcatimsamahaggatalokuttaracittesu c'āti sattacattālīsa cittesu sampayogam gacchatī'ti."
+"type": "p",
+"text": "(d) Paññā pana dvādasasu ñānasampayuttakāmāvacaracittesu c'eva sabbesu pañcatimsamahaggatalokuttaracittesu c'āti sattacattālīsa cittesu sampayogam gacchatī'ti."
 },
 {
 "type": "p",
@@ -6159,8 +6159,8 @@
 "text": "Tattha dve upekkhā-sahagata-santīranāni c'eva attha mahāvipākāni ca nava rūpārūpāvipākāni c'āti ekūnavīsati cittāni patisandhi-bhavanga-cutikiccāni nāma."
 },
 {
-"type": "pre",
-"text": "āvajjanakiccāni   pana    dve.   Tathā   dassanasavana-ghāyana-sāyana-phusana-sampaticcha-\nnakiccāni ca."
+"type": "p",
+"text": "āvajjanakiccāni pana dve. Tathā dassanasavana-ghāyana-sāyana-phusana-sampaticcha- nakiccāni ca."
 },
 {
 "type": "p",
@@ -6763,8 +6763,8 @@
 "text": "Tattha pañcadvārāvajjana - cakkhu-viññāna - sampaticchana - santīrana-votthapana-kāmā- vacarajavana-tadālambanavasena cha cattālīsa cittāni cakkhudvāre yathāraham uppajjanti. Tathā pañcadvārāvajjana-sotaviññānādivasena sotadvārādīsu' pi chacattālīs' eva bhavan-ti, Sabbathā' pi pañcadvāre catupaññāsa cittāni kāmāvacarān' evā'ti veditabbāni."
 },
 {
-"type": "pre",
-"text": "Manodvāre        pana      manodvārāvajjana-pañcapaññāsajavana          -    tadālambanavasena\nsattasatthicittāni bhavanti."
+"type": "p",
+"text": "Manodvāre pana manodvārāvajjana-pañcapaññāsajavana - tadālambanavasena sattasatthicittāni bhavanti."
 },
 {
 "type": "p",
@@ -7061,8 +7061,8 @@
 "text": "Akusalāni c'eva ñānavippayuttajavanāni c'āti lokuttara-vajjitasabbālambanāni. Ñāna- sampayutta-kāmāvacara-kusalāni c'eva pañca-majjhāna-sankhātam-abhiññā-kusalañc'āti arahatta-maggaphala vajjitāsabbālambanāni."
 },
 {
-"type": "pre",
-"text": "Ñāna-sampayutta-kāmāvacara-kriyā       c'   eva   kriyā-bhiññā-votthapanañc'āti   sabbathā'   pi\nsabbālambanāni."
+"type": "p",
+"text": "Ñāna-sampayutta-kāmāvacara-kriyā c' eva kriyā-bhiññā-votthapanañc'āti sabbathā' pi sabbālambanāni."
 },
 {
 "type": "p",
@@ -7766,16 +7766,21 @@
 "text": "Tattha vatthudvārālambanāni pubbe vuttanayen' eva."
 },
 {
-"type": "pre",
-"text": "Cakkhuviññānam,     sotaviññānam,      ghānaviññānam,       jivhaviññānam,     kāyaviññānam\nmanoviññānam c'āti cha viññānāni."
+"type": "p",
+"text": "Cakkhuviññānam, sotaviññānam, ghānaviññānam, jivhaviññānam, kāyaviññānam manoviññānam c'āti cha viññānāni."
 },
 {
 "type": "p",
 "text": "Vīthiyo pana cakkhudvāravīthi, sotadvāra vīthi, ghānadvāravīthi, jivhādvāravīthi, kāyadvāravīthi, manodvāravīthi c'āti dvāravasena vā cakkhuviññānavīthi, sotaviññānavīthi, ghānaviññānavīthi, jivhāviññānavīthi, kāyaviññānavīthi manoviññānavīthi c'āti viññānavasena vā dvārappavattā cittappavattiyo yojetabbā."
 },
 {
-"type": "pre",
-"text": "§ 3. Atimahantam, mahantam, parittam atiparittam             c'āti   pañcadvāre   manodvāre,\nvibhūtamavibhūtam c'āti chadhā visayappavatti veditabbā."
+"type": "p",
+"pnum": 4003,
+"label": "§ 3",
+"alias": [
+"p4-3"
+],
+"text": "Atimahantam, mahantam, parittam atiparittam c'āti pañcadvāre manodvāre, vibhūtamavibhūtam c'āti chadhā visayappavatti veditabbā."
 },
 {
 "type": "p",
@@ -7972,11 +7977,6 @@
 },
 {
 "type": "p",
-"pnum": 4003,
-"label": "§ 3",
-"alias": [
-"p4-3"
-],
 "text": "The sixfold presentation of objects (4) should be understood as follows:-"
 },
 {
@@ -8844,8 +8844,13 @@
 "text": "Ayam'ettha Bhūmivibhāgo."
 },
 {
-"type": "pre",
-"text": "§     17.   Icc'evam     chadvārikacittappavatti                  yathāsambhavam            bhavangantaritā\nyāvatāyukamabbhocchinnā pavattatī' ti."
+"type": "p",
+"pnum": 4017,
+"label": "§ 17",
+"alias": [
+"p4-17"
+],
+"text": "Icc'evam chadvārikacittappavatti yathāsambhavam bhavangantaritā yāvatāyukamabbhocchinnā pavattatī' ti."
 },
 {
 "type": "p",
@@ -8885,11 +8890,6 @@
 },
 {
 "type": "p",
-"pnum": 4017,
-"label": "§ 17",
-"alias": [
-"p4-17"
-],
 "text": "Thus the thought-processes connected with six doors, as they arise, continue without any break, intercepted by bavangas, while life lasts."
 },
 {
@@ -10841,8 +10841,8 @@
 "text": "Tattha kāmāvacaram rūpāvacaram ca ti pañcavīsatividham pi kusalākusalakammam abhisankhatam ajjhattika-santāne kammasamutthānarūpam patisandhim upādāya khane khane samutthāpeti."
 },
 {
-"type": "pre",
-"text": "Arūpavipākadvipañcaviññānavajjitam pañcasattatividham             picittam      cittasamuttānarūpam\npathamabhavangam upādāya jāyantam eva samutthāpeti."
+"type": "p",
+"text": "Arūpavipākadvipañcaviññānavajjitam pañcasattatividham picittam cittasamuttānarūpam pathamabhavangam upādāya jāyantam eva samutthāpeti."
 },
 {
 "type": "p",
@@ -10865,8 +10865,8 @@
 "text": "Ojā-sankhāto āhāro āhārasamutthānarūpam ajjho-haranakāle thānappatto' vā samutthāpeti."
 },
 {
-"type": "pre",
-"text": "Tattha hadaya-indriyarūpani kammajān, eva           viññattidvayam   cittajam   eva,   saddo\ncittotujo,lahutādittayam utucittāhārehi sambhoti."
+"type": "p",
+"text": "Tattha hadaya-indriyarūpani kammajān, eva viññattidvayam cittajam eva, saddo cittotujo,lahutādittayam utucittāhārehi sambhoti."
 },
 {
 "type": "p",
@@ -11175,8 +11175,8 @@
 "text": "Asañña-sattānam pana cakkhu-sota-vatthu-saddāni pi na labbhanti. Tathā sabbāni pi cittajarūpāni. Tasmā tesam patisandhikāle jīvitanavakam eva. Pavattiyañ ca saddavajjitam, utusamutthānarūpam atiricchati."
 },
 {
-"type": "pre",
-"text": "Iccevam kāmarūpāsaññi-sankhātesu          tīsu     thānesn   patisandhi-pavatti-vasena   duvidhā\nrūpappavatti veditabbā."
+"type": "p",
+"text": "Iccevam kāmarūpāsaññi-sankhātesu tīsu thānesn patisandhi-pavatti-vasena duvidhā rūpappavatti veditabbā."
 },
 {
 "type": "p",
@@ -11477,8 +11477,13 @@
 "text": "Tesam dāni yathāyogam pavakkhāmi samuccayam."
 },
 {
-"type": "pre",
-"text": "§ 2. Akusalasangaho, missakasangaho,           bodhipakkhiyasangaho,       sabbasangaho   c'āti\nsamuceayasangaho catubbidho veditabbo."
+"type": "p",
+"pnum": 7002,
+"label": "§ 2",
+"alias": [
+"p7-2"
+],
+"text": "Akusalasangaho, missakasangaho, bodhipakkhiyasangaho, sabbasangaho c'āti samuceayasangaho catubbidho veditabbo."
 },
 {
 "type": "p",
@@ -11509,16 +11514,16 @@
 "text": "(vi) Cha nīvaranāni - kāmachandanīvaranam, vyāpādanīvaranam, thīnamiddhanīvararnam, uddhaccakukkuccanīvaranam vicikicchānīvaranam, avijjānīvaranam."
 },
 {
-"type": "pre",
-"text": "(vii) Sattānusayā kāmarāgānusayo, bhavarāgānusayo,                patighānusayo,   mānānusayo,\nditthānusayo, vicikicchānusayo, avijjānusayo."
+"type": "p",
+"text": "(vii) Sattānusayā kāmarāgānusayo, bhavarāgānusayo, patighānusayo, mānānusayo, ditthānusayo, vicikicchānusayo, avijjānusayo."
 },
 {
 "type": "p",
 "text": "(viii) Dasa samyojanāni - kāmarāgasmyojanam, rūparāgasamyojanam, arūparāgasamyojanam, patighasamyojanam, mānasamyojanam, ditthisamyojanam, sīlabbataparāmāsasamyojanam, vicikicchāsamyojanam, uddhaccasamyojanam, avijjā samyojanam, suttante."
 },
 {
-"type": "pre",
-"text": "(ix)     Aparāni   dasa     samyojanāni-kāmarāgasamyojanam,    bhavarāgasamyojanam,\npatighasamyojanam, mānasamyojanam, ditthisamyojanam, sīlabbataparāmā- sasamyojanam,\nvicikicchasamyojanam,   issāsamyojanam,    macchariyasamyojanam,   avijjāsamyojanam,\nabhidhamme."
+"type": "p",
+"text": "(ix) Aparāni dasa samyojanāni-kāmarāgasamyojanam, bhavarāgasamyojanam, patighasamyojanam, mānasamyojanam, ditthisamyojanam, sīlabbataparāmā- sasamyojanam, vicikicchasamyojanam, issāsamyojanam, macchariyasamyojanam, avijjāsamyojanam, abhidhamme."
 },
 {
 "type": "p",
@@ -11558,11 +11563,6 @@
 },
 {
 "type": "p",
-"pnum": 7002,
-"label": "§ 2",
-"alias": [
-"p7-2"
-],
 "text": "The compendium of categories should be understood as fourfold:"
 },
 {
@@ -12170,11 +12170,7 @@
 "alias": [
 "p7-4"
 ],
-"text": ""
-},
-{
-"type": "pre",
-"text": "i.       Bodhipakkhiyasangahe        cattāro      satipatthānā-kāyānupassanā-satipatthānam,\nvedanānupassanā-satipatthānam,        cittānupassanā-satipatthānam,     dhammānupassanā-\nsatipatthānam."
+"text": "i. Bodhipakkhiyasangahe cattāro satipatthānā-kāyānupassanā-satipatthānam, vedanānupassanā-satipatthānam, cittānupassanā-satipatthānam, dhammānupassanā- satipatthānam."
 },
 {
 "type": "p",
@@ -12201,8 +12197,8 @@
 "text": "vii. Atthamaggangāni - sammāditthi, sammāsankappo, sammāvācā, sammākammanto, sammājīvo, sammāvāyāmo, sammāsati, sammāsamādhi."
 },
 {
-"type": "pre",
-"text": "Ettha pana cattāro satipatthānā'ti          sammā-sati   ekā'va   pavuccati.   Tathā      cattāro\nsammappadhānā'ti ca sammāvāyāmo."
+"type": "p",
+"text": "Ettha pana cattāro satipatthānā'ti sammā-sati ekā'va pavuccati. Tathā cattāro sammappadhānā'ti ca sammāvāyāmo."
 },
 {
 "type": "p",
@@ -12458,8 +12454,8 @@
 "text": "(i) Sabbasangahe - Pañcakkhandho, rūpakkhandho, vedanākkhandho, saññākkhandho, sankhārakkhandho, viññānakkhandho."
 },
 {
-"type": "pre",
-"text": "(ii)   Pañcupādānakkhandhā      -     rūpupādānakkhandho,     vedanūpādānakkhandho,\nsaññūpādānakkhandho, sankhārūpādānakkhandho, viññānupādānakkhandho."
+"type": "p",
+"text": "(ii) Pañcupādānakkhandhā - rūpupādānakkhandho, vedanūpādānakkhandho, saññūpādānakkhandho, sankhārūpādānakkhandho, viññānupādānakkhandho."
 },
 {
 "type": "p",
@@ -13881,8 +13877,8 @@
 "text": "Tattha samathasangahe tāva dasakasināni, dasa asubhā, dasa anussatiyo, catasso appamaññayo, ekā saññā, ekam vavatthānam, cattāro āruppā c'āti sattavidhena samathakammatthānasangaho"
 },
 {
-"type": "pre",
-"text": "Rāgacaritā, dosacaritā, mohacaritā,        saddhācaritā,    buddhicaritā,    vitakkacaritā,   c'āti\nchabbhidhena caritasangaho."
+"type": "p",
+"text": "Rāgacaritā, dosacaritā, mohacaritā, saddhācaritā, buddhicaritā, vitakkacaritā, c'āti chabbhidhena caritasangaho."
 },
 {
 "type": "p",
@@ -14637,8 +14633,8 @@
 "text": "Suññatānupassanā, Animittānupassanā, Appanihitānupassanā c'āti tīni Vimokkhamukhāni ca veditabbāni."
 },
 {
-"type": "pre",
-"text": "Katham? Pātimokkhasamvara Sīlam, Indriyasamvara Sīlam, ājīvapārisuddhi                     Sīlam,\nPaccayasannissita Sīlam c'āti Catupārisuddhi Sīlam Sīlavisuddhi nāma."
+"type": "p",
+"text": "Katham? Pātimokkhasamvara Sīlam, Indriyasamvara Sīlam, ājīvapārisuddhi Sīlam, Paccayasannissita Sīlam c'āti Catupārisuddhi Sīlam Sīlavisuddhi nāma."
 },
 {
 "type": "p",
@@ -15427,8 +15423,13 @@
 "text": "Samāpattibhedo"
 },
 {
-"type": "pre",
-"text": "§     9.    Phalasamāpattivīthiyam    pan'ettha   sabbesam      piyathāsakaphalavasena\nsādhāranā'va.Nirodhasamāpattisamāpajjanam pana anāgāminañ c'eva arahattānañ ca labbhati."
+"type": "p",
+"pnum": 9009,
+"label": "§ 9",
+"alias": [
+"p9-9"
+],
+"text": "Phalasamāpattivīthiyam pan'ettha sabbesam piyathāsakaphalavasena sādhāranā'va.Nirodhasamāpattisamāpajjanam pana anāgāminañ c'eva arahattānañ ca labbhati."
 },
 {
 "type": "p",
@@ -15500,11 +15501,6 @@
 },
 {
 "type": "p",
-"pnum": 9009,
-"label": "§ 9",
-"alias": [
-"p9-9"
-],
 "text": "Herein 'the Attainment to Fruition' is common to all in accordance with their respective fruits."
 },
 {

@@ -35,6 +35,9 @@ def fold(s):
 
 
 def is_table(lines):
+    if len(lines) >= 2 and not re.search(r'\S {3,}\S', lines[-1].strip()) and re.search(r'[.:?!][\'"’”]?$', lines[-1].strip()) \
+            and all(re.search(r'[a-zāīū,]', l) for l in lines) and not re.match(r'^\s*\d', lines[0]):
+        return False          # justified prose (or Pāli) whose last line is short: a paragraph, not a table
     wide = sum(1 for l in lines if re.search(r'\S {3,}\S', l.strip()))
     return len(lines) >= 2 and wide * 2 >= len(lines) or (len(lines) == 1 and re.search(r'\S {6,}\S', lines[0].strip()))
 
@@ -227,7 +230,7 @@ def diagram14(bl):
     out = []
     for r in rows:
         out.append([r[:cols[0] - 4].strip(), r[cols[0] - 4:cols[0]].strip()] + ['+' if len(r) > c and r[c] == '+' else '' for c in cols])
-    # the web edition's last rows have their marks shifted; set as the counts in its own "In" column
+    # the web edition's last rows have their marks shifted; set as the printed edition has them (p. 49), which agree with the counts
     # and the lists of Ch. VII §§3–13 have them (middha: a hindrance only; ahirika, anottappa: defilements;
     # issā, macchariya: fetters of the Abhidhamma list)
     fix = {'10': 5, '11': 8, '12': 8, '13': 7, '14': 7}

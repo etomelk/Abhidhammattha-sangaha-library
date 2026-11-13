@@ -86,7 +86,7 @@ def guide_fixes(text):
                                     'Gokulikas 18', 'Sabbatthivādins (Sabb.) 2, 6, 7, 19, 113',
                                     'Sammitiyas (Samm.) 1–5, 19, 26, 28, 29, 66, 75, 80, 82–84, 98, 106, 141, 142, 154, 161, 162, 182']),
                ('3rd century BCE', ['Bhadrayānikas 19', 'Kassapikas 8']),
-               ('Later schools', ['Hetuvādins (Het.) 148, 150–51, 153, 157, 168–69, 192, 194, 219',
+               ('Later schools (the book gives no date)', ['Hetuvādins (Het.) 148, 150–51, 153, 157, 168–69, 192, 194, 219',
                                   'Uttarāpathakas (Uttar.) 34–37, 39, 40, 45, 47, 58, 59, 74, 87, 88, 90–91, 113, 120–21, 123, 126–27, '
                                   '129–30, 132, 137–38, 159–60, 175, 178–80, 185, 189, 191, 193, 199, 205–06, 209–11, 213, 216, 219',
                                   'Andhakas (Andh.) 9, 10, 17, 19–24, 26, 28, 29, 32, 33, 41–44, 46, 48–54, 58, 60–63, 70–74, 78–81, 85, '
@@ -99,6 +99,22 @@ def guide_fixes(text):
     if n1 + n2 < 2:
         print('guide_fixes: a list was not found', n1, n2, file=sys.stderr)
     return text
+
+
+def appendix_tables(parts):
+    """The Guide's Appendix II is a set of ruled tables with braces; the text layer keeps the words but not
+    the layout. The tables are shown as the book's pages (guide/fig/app2-*.png, from sources/guide-2019.pdf
+    pp. 244–249), and their text follows for searching."""
+    p = next(p for p in parts if p['label'] == 'Appendix II')
+    bl = p['blocks']
+    end = next((i for i, b in enumerate(bl) if 'COMPREHENSIVE MANUAL' in b.get('text', '').upper()), len(bl))
+    text = bl[:end]
+    if text and text[-1].get('text', '').endswith('Of Related Interest'):
+        text[-1] = dict(text[-1], text=text[-1]['text'][:-len('Of Related Interest')].strip())
+    imgs = [dict(type='img', src=f'fig/app2-{n}.png', alt=f'Appendix II, Tables, p. {243 + n} of the book', full=True) for n in range(1, 7)]
+    p['blocks'] = (imgs + [dict(type='h', text='The tables as text')]
+                   + [dict(type='p', text='The words of the tables above, for searching; the layout is that of the pages.')]
+                   + text + [dict(type='h', text='Of Related Interest')] + bl[end:])
 
 
 def heading_like(t):
@@ -439,6 +455,8 @@ def main(src, slug='tinmon'):
             cur['lines'].append(s)
         i += 1
     flush()
+    if slug == 'guide':
+        appendix_tables(parts)
     chapters = [dict(num=str(n), label=p['label'], title=p['title'], blocks=p['blocks'], **({'sangaha_ch': p['ch']} if p['ch'] else {}))
                 for n, p in enumerate(parts)]
     json.dump(dict(chapters=chapters, glossary=[]), open(os.path.join(ROOT, 'data', f'{slug}.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
