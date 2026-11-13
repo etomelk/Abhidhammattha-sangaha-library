@@ -2,6 +2,21 @@
 
 Newest first. See AUTOPILOT.md for the standing instructions.
 
+## 2026-11-13 — Two books added to the queue (owner's request)
+
+The owner sent three PDFs. Two are added: `ocr-sources/pcm.pdf` (Rewata Dhamma, *Process of
+Consciousness and Matter*, 223 pages, Unicode text layer; © 2007 Birmingham Buddhist Vihara, sponsored
+for free distribution) and `ocr-sources/rerukane.pdf` (Rerukane Chandawimala, *Basic Facts of
+Abhidhamma*, tr. D. J. Percy Silva, 273 pages of 96 dpi images marked "Non-Commercial Distribution",
+legacy Pāli font: the mapping is in AUTOPILOT.md). They go after Fundamental Part II, by length:
+queue now Fundamental II (build) → PCM → Rerukane → Shwe Zan Aung → CMA.
+
+Not added: Y. Karunadasa, *The Theravāda Abhidhamma* (HKU Centre of Buddhist Studies 2010): its
+copyright page reads "© Y. Karunadasa. All Rights Reserved", so it cannot go on a public site without
+the author's or publisher's permission.
+
+Next: unchanged — build Fundamental Abhidhamma Part II (all its pages are proofread).
+
 ## 2026-11-13 — Fundamental Abhidhamma Part II pp. 231–247 proofread (all pages done)
 
 Proofread PDF pages 231–247 of `ocr-sources/fundamental-2.pdf` (book pp. 126–142 of Part II): the rest of

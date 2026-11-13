@@ -28,12 +28,20 @@ hold to be done **from the shortest to the longest**, one chunk per run.
 
 ## The queue (shortest first)
 
+Added on 2026-11-13 at the owner's request: Rewata Dhamma's *Process of Consciousness and Matter* (PCM,
+which the Systematization charts cite page by page) and Rerukane Chandawimala's *Basic Facts of
+Abhidhamma*, put in their place by length after Fundamental Part II. For PCM keep the book's own page
+numbers in the first line of each page file (`book page X`) and give the built book page anchors
+(`p113`), so that a chart's "PCM p113" can be found.
+
 | # | slug | Book | Source | Pages to do |
 |---|---|---|---|---|
 | 1 | `mendis` | N. K. G. Mendis, *The Abhidhamma in Practice* (BPS Wheel 322/323) | `ocr-sources/mendis.pdf`: Acrobat ClearScan text layer, full of OCR slips ("determiniflg") | 80 |
 | 2 | `fundamental` (Part II added to the existing book) | Dr. Nandamālābhivaṃsa, *Fundamental Abhidhamma*, Part II | `ocr-sources/fundamental-2.pdf`, pp. 106–247 (1–105 are Part I, already on the site); its text layer is a broken font encoding, so OCR the page images | 142 |
-| 3 | `shwezanaung` | Shwe Zan Aung & C. A. F. Rhys Davids, *Compendium of Philosophy* (PTS 1910) | `ocr-sources/shwe-zan-aung.pdf`: a scan with a poor text layer (words split one per line) | 354 |
-| 4 | `cma` | Bhikkhu Bodhi (Gen. Ed.), *A Comprehensive Manual of Abhidhamma* (BPS 1993) | `ocr-sources/cma.pdf`: a scan with no text layer. **The fold-out Tables 2.4 and 6.3 are missing from this copy**: say so on the book's first page and in README | 432 |
+| 3 | `pcm` | Bhaddanta Dr. Rewata Dhamma, *Process of Consciousness and Matter*, ed. Ven. Dr. Kumarabhivamsa (Triple Gem Publications 2004; © 2007 Birmingham Buddhist Vihara; its acknowledgement says it was sponsored “for free distribution”) | `ocr-sources/pcm.pdf`: made from Word, with a good Unicode text layer, so take the text from the layer (`pdftotext`) and proofread it against the page images like Mendis; about **40 pages a run** | 223 |
+| 4 | `rerukane` | Rerukane Chandawimala Mahāthera, *Basic Facts of Abhidhamma* (*Abhidharmaye Mūlika Karuṇu*), translated by D. J. Percy Silva (every page: “Non-Commercial Distribution”) | `ocr-sources/rerukane.pdf`: page images at 96 dpi, no text layer; render at 300 dpi before tesseract. **The book was typeset in a legacy Pāli font**, so its Pāli prints as à ā, ã ī, å ū, ñ ṭ (“Diññhi”, “Pañhavi”), õ ṇ (“aõu§”), § ṃ, and a box □ for ñ (“dãgha□ca”): write the Pāli in Unicode by this mapping, which is the author's spelling, not a correction; where a letter does not follow it (e.g. “phåla§” in a quotation where the verse has *thūlaṃ*), keep the best reading and mark it ⟨?⟩ | 273 |
+| 5 | `shwezanaung` | Shwe Zan Aung & C. A. F. Rhys Davids, *Compendium of Philosophy* (PTS 1910) | `ocr-sources/shwe-zan-aung.pdf`: a scan with a poor text layer (words split one per line) | 354 |
+| 6 | `cma` | Bhikkhu Bodhi (Gen. Ed.), *A Comprehensive Manual of Abhidhamma* (BPS 1993) | `ocr-sources/cma.pdf`: a scan with no text layer. **The fold-out Tables 2.4 and 6.3 are missing from this copy**: say so on the book's first page and in README | 432 |
 
 ## One run = one chunk
 
@@ -54,7 +62,7 @@ hold to be done **from the shortest to the longest**, one chunk per run.
    `scripts/practical/convert.py` and the chapters/blocks of any `data/*.json`: `h`, `h4`, `p` with
    `ind`/`note`, `pre`, `table`, `img`). Tie chapters to the Saṅgaha with `sangaha_ch` where a
    chapter follows one. Add the book to `data/library.json` and to a shelf in
-   `scripts/build_home.py` (Mendis and Fundamental: "Start here"; Shwe Zan Aung and Bodhi: "The
+   `scripts/build_home.py` (Mendis, Fundamental, Rewata Dhamma and Rerukane: "Start here"; Shwe Zan Aung and Bodhi: "The
    Saṅgaha in English"; Bodhi's §§ are the Saṅgaha's own numbers, so give the book a `pts_map`/
    paragraph keys like Nārada's if the map can use them), write its README section (source, how it
    was made, what is missing), remove it from the "To come" rows, then build:
@@ -70,4 +78,4 @@ hold to be done **from the shortest to the longest**, one chunk per run.
 
 - a book is built and ready to merge (say: merge `autopilot` into `main` to publish it);
 - a run is blocked (say why);
-- all four books are done.
+- all the books in the queue are done.
