@@ -1,6 +1,6 @@
 {
   "status": "running",
-  "lock": "2026-11-13T22:51:35Z",
+  "lock": null,
   "queue": [
     "mendis",
     "fundamental-2",
@@ -10,7 +10,7 @@
     "shwezanaung",
     "cma"
   ],
-  "current": "fundamental-2",
+  "current": "pcm",
   "next_page": {
     "mendis": 81,
     "fundamental-2": 248,
@@ -30,6 +30,7 @@
     "cma": 432
   },
   "built": [
-    "mendis"
+    "mendis",
+    "fundamental-2"
   ]
 }

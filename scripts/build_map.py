@@ -40,7 +40,16 @@ from build_charts import CHARTS
 charts_of = {}
 for g, title, slug, by, note in CHARTS:
     charts_of.setdefault(int(g), []).append((title, slug))
-part_of = {b['slug']: {c.get('sangaha_ch'): c['num'] for c in data[b['slug']]['chapters'] if c.get('sangaha_ch')} for b in bychapter}
+part_of = {}            # slug -> Saṅgaha chapter -> [(part num, part label)]; a book may have two (Fundamental: Part I and Part II's Vīthi)
+for b in bychapter:
+    for c in data[b['slug']]['chapters']:
+        if c.get('sangaha_ch'):
+            part_of.setdefault(b['slug'], {}).setdefault(c['sangaha_ch'], []).append((c['num'], c['label']))
+
+
+def whole_links(b, ch):
+    ps = part_of.get(b['slug'], {}).get(ch, [])
+    return [f'<a href="../{b["slug"]}/#ch{n}">{e(b["cite"])}' + (f' ({e(lab.split(" · ")[0])})' if len(ps) > 1 else '') + '</a>' for n, lab in ps]
 sections, chips = [], []
 nplaces = 0
 groups = {}
@@ -65,7 +74,7 @@ for ch in sorted(groups):
                 nplaces += 1
         lis.append(f'<li class="mi" id="s{ch}-{k % 1000}"><span class="mtag">{bl["label"]}</span><div class="mbody"><p class="mtext">{e(plain(bl["text"]))}</p>'
                    f'<ul class="cplaces">{"".join(rows)}</ul></div></li>')
-    whole = ' · '.join(f'<a href="../{b["slug"]}/#ch{part_of[b["slug"]][ch]}">{e(b["cite"])}</a>' for b in bychapter if ch in part_of[b['slug']])
+    whole = ' · '.join(x for b in bychapter for x in whole_links(b, ch))
     gid = f'c{ch}'
     charts = ' · '.join(f'<a href="../charts/#{s}">{e(t)}</a>' for t, s in charts_of.get(ch, []))
     sections.append(f'<section class="mgroup" id="{gid}"><h2>{e(CHTITLE.get(ch, "Chapter " + ROMAN[ch]))} <span class="mrng">{ROMAN[ch]}.1–{groups[ch][-1]["label"]}</span></h2>'

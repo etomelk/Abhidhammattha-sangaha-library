@@ -210,19 +210,19 @@
   },
   {
    "slug": "fundamental",
-   "title": "Fundamental Abhidhamma, Part I",
-   "short": "Fundamental Abhidhamma, Part I",
+   "title": "Fundamental Abhidhamma, Parts I–II",
+   "short": "Fundamental Abhidhamma",
    "author": "Dr. Nandamālābhivaṃsa",
    "cite": "Fundamental",
    "level": "Study guide",
    "edition": "Centre for Buddhist Studies, Sagaing, 2nd ed. 2005",
    "by": "Dr. Ashin Nandamālābhivaṃsa, Sagaing Hills · Centre for Buddhist Studies (CBS), Mahāsubodhayon Monastery, Sagaing, Myanmar",
-   "blurb": "A compact course from a Sagaing teacher: the history of the Abhidhamma, then citta, cetasika, rūpa, the miscellaneous section and the cognitive process, in tables.",
-   "note": "Part I, one chapter per page: the Editorial Preface, About the Author and The History of Abhidhamma, then the five chapters of Part I. Its chapters are in its own order — 1 Citta, 2 Cetasika, 3 Rūpa (the Saṅgaha’s chapter VI), 4 Pakiṇṇaka (III), 5 Vīthi (IV) — and the Saṅgaha map links each to the Saṅgaha’s chapter. <b>Part II</b> (from Vīthi on) is in a second copy whose text layer is unreadable; it waits for OCR.",
-   "brand_sub": "Nandamālābhivaṃsa · Part I",
-   "toc_foot": "Part I: five chapters, with the history of the Abhidhamma.",
-   "source": "Source: Dr. Nandamālābhivaṃsa, <em>Fundamental Abhidhamma, Part I</em>, 2nd extended edition, January 2005, revised November 2005, © Centre for Buddhist Studies, Sagaing, from the PDF (Acrobat from Word, 2006), taken from its text layer. The tables are kept with their columns.",
-   "desc": "Dr. Nandamālābhivaṃsa’s Fundamental Abhidhamma, Part I: citta, cetasika, rūpa, the miscellaneous section and the cognitive process.",
+   "blurb": "A compact course from a Sagaing teacher, in tables: the history of the Abhidhamma, citta, cetasika, rūpa, the miscellaneous section and the cognitive process (Part I); the mental process again in full, the process-free, causality, meditation and the compendium of categories, with colour charts (Part II).",
+   "note": "One chapter per page. Part I: the Editorial Preface, About the Author and The History of Abhidhamma, then its five chapters — 1 Citta, 2 Cetasika, 3 Rūpa (the Saṅgaha’s chapter VI), 4 Pakiṇṇaka (III), 5 Vīthi (IV). Part II begins again with Chapter 5 Vīthi in a new, longer wording, then 6 Vīthimutta (V), 7 Paccaya (VIII), 8 Kammaṭṭhāna (IX), 9 Samuccaya (VII), and the colour charts that close the book. The Saṅgaha map links each chapter to the Saṅgaha’s chapter. Part II was proofread from a scan; the book’s own misprints are kept.",
+   "brand_sub": "Nandamālābhivaṃsa · Parts I–II",
+   "toc_foot": "Part I: five chapters, with the history of the Abhidhamma. Part II: Chapters 5–9 and the charts.",
+   "source": "Source: Dr. Nandamālābhivaṃsa, <em>Fundamental Abhidhamma</em>, 2nd extended edition, January 2005, revised November 2005, © Centre for Buddhist Studies, Sagaing. Part I from the PDF (Acrobat from Word, 2006), taken from its text layer; the tables are kept with their columns. Part II from a second copy (247 pages) whose text layer is unreadable: every page was read with OCR and proofread line by line against the page image for this library, the Pāli written from the image; the colour charts at the end are shown as images of the pages, with their text. The book’s misprints are kept as printed.",
+   "desc": "Dr. Nandamālābhivaṃsa’s Fundamental Abhidhamma, Parts I–II: citta, cetasika, rūpa, the miscellaneous section, the mental process, the process-free, causality, meditation and the categories.",
    "howto": [
     [
      "Find anything",
@@ -240,7 +240,7 @@
    "xrefs": false,
    "footnotes": false,
    "split": true,
-   "inline_markup": false,
+   "inline_markup": true,
    "drawer_btn": "Notes",
    "drawer_title": "Pāli terms",
    "drawer_hint": "This book has no index of its own.",
@@ -248,7 +248,9 @@
    "goto": "",
    "goto_label": "",
    "goto_aria": "",
-   "goto_max": 0
+   "goto_max": 0,
+   "rich_cells": true,
+   "title_case_caps": true
   },
   {
    "unit": "Chapter",

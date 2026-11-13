@@ -12,15 +12,16 @@ changes that site.
 
 **Status: in progress** (November 2026). The Pāli shelf is done (the Saṅgaha and three
 commentaries), and Nārada's Manual (Chapter VIII transcribed from the 1956–57 edition), and Mehm Tin Mon's *Ultimate
-Science*. and *Fundamental Abhidhamma* Part I, and N. K. G. Mendis's *The Abhidhamma in Practice* (proofread
-from the scan). Part II of *Fundamental Abhidhamma* needs OCR and waits.
+Science*. and *Fundamental Abhidhamma* Parts I–II (Part II proofread from the scan), and N. K. G. Mendis's
+*The Abhidhamma in Practice* (proofread from the scan). The books still waiting for OCR are listed under "To
+come" below; the autopilot (`AUTOPILOT.md`) works through them.
 
 ## The books
 
 | Shelf | Folder | Book | Source of the text |
 |---|---|---|---|
 | 1. Start here: study guides | `mendis/` | Dr. N. K. G. Mendis, *The Abhidhamma in Practice* (BPS, The Wheel 322/323, 1985, repr. 2005) | scan: OCR proofread against the page images (`ocr/mendis/`) |
-| | `fundamental/` | Dr. Nandamālābhivaṃsa, *Fundamental Abhidhamma*, Part I (CBS Sagaing 2005) | PDF text layer |
+| | `fundamental/` | Dr. Nandamālābhivaṃsa, *Fundamental Abhidhamma*, Parts I–II (CBS Sagaing 2005) | Part I: PDF text layer; Part II: scan, OCR proofread against the page images (`ocr/fundamental-2/`) |
 | | `tinmon/` | Dr. Mehm Tin Mon, *Buddha Abhidhamma: Ultimate Science* (BuddhaNet) | PDF text layer, old Pāli font mapped |
 | | `handbook/` | Sayādaw U Sīlānanda, *Handbook of Abhidhamma Studies*, Vols. I–II (SBVMS 2012) | PDF text layer |
 | | `practical/` | *Practical Abhidhamma Course*, v1.1 (2016), by “Rob” | PDF (LuaTeX) read with PyMuPDF; figures as images |
@@ -238,7 +239,7 @@ python3 scripts/mendis/convert.py && python3 scripts/build.py mendis
   two footnotes are set under the paragraphs that cite them, numbered in each part.
 - No printed page numbers are carried into the reader.
 
-## Dr. Nandamālābhivaṃsa — Fundamental Abhidhamma, Part I (fundamental/)
+## Dr. Nandamālābhivaṃsa — Fundamental Abhidhamma, Parts I–II (fundamental/)
 
 *Fundamental Abhidhamma, Part I*, 2nd extended edition (January 2005, revised November 2005),
 © Centre for Buddhist Studies, Mahāsubodhayon Monastery, Sagaing, from the PDF (Acrobat from Word,
@@ -260,10 +261,41 @@ the Editorial Preface, one title line under "CHAPTER n"). This book's headings a
 - **The diagrams** are the PDF's text tables, kept with their columns. The large classification charts
   (e.g. "Citta 89/121") are set in the PDF as loose text boxes and come out in pieces; they are kept
   as they are.
-- **Part II** (247-page copy, pp. 106–247: from Chapter 5 Vīthi to Paccaya and Kammaṭṭhāna) has a text
-  layer in a broken font encoding (the words come out as symbols), so it needs OCR and proofreading
-  from the page images, with the diacritics put back by hand. That is on hold. The first 105 pages of
-  that copy are the same Part I.
+- **Part II** is in a second copy of the book (247 pages; `ocr-sources/fundamental-2.pdf`, kept out of
+  the site), whose first 105 pages are the same Part I. Its text layer is in a broken font encoding (the
+  words come out as symbols), so each page of pp. 106–247 was read with `tesseract` at 300 dpi and
+  proofread line by line against the page image by the autopilot runs (see `AUTOPILOT_LOG.md`, 13
+  November 2026), every word of Pāli written from the image, into `ocr/fundamental-2/p106.md` …
+  `p247.md` (one file per PDF page; Part II numbers its pages anew, PDF page N = book page N − 105).
+
+```sh
+python3 scripts/tinmon/convert.py work/fundamental.txt fundamental     # Part I (as above)
+python3 scripts/fundamental/part2.py                                  # Part II, joined after Part I
+python3 scripts/build.py fundamental
+```
+
+- `part2.py` keeps Part I as it is and labels its chapters "Part I · Chapter n"; Part II's parts are
+  "Part II · Chapter 5" … "Chapter 9" and "Part II · Charts" (marked `"part": 2`, replaced when the script
+  runs again), as `scripts/tinmon/handbook.py` joins the Handbook's volumes. **Part II begins again with
+  Chapter 5, Vīthi**, in a new and longer wording; both are kept, each labelled by its Part, and the map
+  links both ("Fundamental (Part I)", "(Part II)"). Part II's chapters follow the Saṅgaha's IV (5 Vīthi),
+  V (6 Vīthimutta), VIII (7 Paccaya), IX (8 Kammaṭṭhāna) and VII (9 Samuccaya), and are tied to them.
+- **The text is as printed**: misprints are kept (the log lists them page by page: *Arūpāvavara*,
+  *Viññāṇñcāyatana*, "12 Indidivuals", *Kileasa* …); no reading was left in doubt (no ⟨?⟩). The book
+  writes *saṁgaha* with ṁ in Chapter 9 and *saṅgaha* elsewhere, kept page by page.
+- The page markup: `###` headings, `####` the 24 conditions, a line wholly in bold a minor heading,
+  Markdown tables (merged cells left blank, `<br>` a line break in a cell), fenced blocks for the process
+  diagrams and the tables a Markdown table cannot hold (kept with their columns), `<!-- cont -->` where a
+  page goes on with the paragraph of the page before; the proofreaders' `<!-- … -->` notes are left out.
+  Nested bold and italics ("***Saṅkhāra*:**") are written as flat runs for the reader's markup, so the
+  book is set `inline_markup` and `rich_cells` (italics in table cells); `title_case_caps` shows Part I's
+  two headings in capitals as they were shown before.
+- **The colour charts** that close Part II (pp. 134–142: the mental process, the picture of a whole life,
+  the wheels of each citta of the eye-door process "and its conditions", the 25 sobhana and 14 akusala
+  cetasikas) cannot be set as text, so each page is shown as an image (`fundamental/fig/p239.png` …
+  `p247.png`, rendered by `part2.py` from the PDF at 200 dpi, cropped, 64 colours; 1.1 MB in all), with
+  the proofread transcription of its labels under it, for search. Their Pāli is printed without
+  diacritics and abbreviated (*Jvtdrya*, *Mnskra*), kept so.
 
 ## Sayādaw U Sīlānanda — Handbook of Abhidhamma Studies, Vols. I–II (handbook/)
 
@@ -412,10 +444,14 @@ writes the page.
 - `scripts/build_home.py`: a book tied to the Saṅgaha by chapter, or keyed by chapter × 1000, shows its
   number of chapters on its card; empty stats are left out.
 - `scripts/check_site.py` checks `map/` instead of `matika/` and `terms/`.
+- `scripts/build.py`: `title_case_caps` (Fundamental) shows a heading set in capitals in title case when the
+  book is read with its own markup (`inline_markup`).
+- `scripts/build_map.py`: a book may tie two parts to one chapter of the Saṅgaha (Fundamental's Part I and
+  Part II Vīthi); the map links both, each named by its label ("Fundamental (Part I)").
 
 ## Checks
 
-`python3 scripts/check_site.py`: 134 pages × 3 widths, no problems (13 November 2026).
+`python3 scripts/check_site.py`: 140 pages × 3 widths, no problems (13 November 2026).
 
 ## Checking the formatting
 

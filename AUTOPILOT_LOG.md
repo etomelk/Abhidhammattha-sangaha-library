@@ -2,6 +2,45 @@
 
 Newest first. See AUTOPILOT.md for the standing instructions.
 
+## 2026-11-13 — Fundamental Abhidhamma Part II built into the site (ready to merge)
+
+Built Part II of *Fundamental Abhidhamma* from the 142 proofread pages (`ocr/fundamental-2/p106.md`–`p247.md`):
+- `scripts/fundamental/part2.py` reads the pages and adds Part II to `data/fundamental.json` after Part I,
+  as `scripts/tinmon/handbook.py` joins the Handbook's volumes. **Part I's text is unchanged** (its blocks
+  compared equal; its rendered text compared word for word before and after); only its chapter labels now
+  name the Part ("Part I · Chapter 1" …). Part II: "Part II · Chapter 5 Vīthi: Mental Process" (Saṅgaha IV),
+  "6 Vīthimutta" (V), "7 Paccayasaṅgaha" (VIII), "8 Kammaṭṭhāna Saṅgaha" (IX), "9 Samuccayasaṅgaha" (VII),
+  and "Part II · Charts" (pp. 239–247). p106 (the Part II title page) is left out.
+- **Both Chapter 5s are kept**, each labelled by its Part (the reading the first Part II run proposed). The
+  Saṅgaha map now links both for chapter IV ("Fundamental (Part I)" · "Fundamental (Part II)";
+  `scripts/build_map.py` takes more than one part per chapter).
+- **The colour charts** (pp. 239–247) are shown as images of the pages (`fundamental/fig/p239.png`–`p247.png`,
+  rendered from the PDF at 200 dpi, cropped, 64 colours, 1.1 MB), each with its proofread transcription
+  under it. The wheels cannot be read as text, so the images were judged the faithful form; they are
+  figures on the site, like the Practical Course's, not the scans of text pages that AUTOPILOT.md keeps
+  out of the repository. The owner may prefer text only: drop the `img` blocks in `part2.py`.
+- Every word of the proofread pages is in the JSON and nothing else (word counts compared).
+- Markup: the pages nest bold and italics ("***Saṅkhāra*:**", "**10 *Kasiṇa***"), which the reader's
+  markup cannot read, so the converter writes them as flat runs; checked that no `*` is left in the
+  rendered chapters except the book's own asterisk marks (p220's table). The book is now
+  `inline_markup` + `rich_cells` (italics in table cells), and a new flag `title_case_caps` keeps Part I's
+  two headings in capitals shown in title case as before (`scripts/build.py`).
+- **Two page joins added**: p208 → p209 ("(Once-" / "returner)") and p214 → p215 ("have different" /
+  "modes.") go on mid-sentence but had no `<!-- cont -->`; the marker was added to p209 and p215. A join
+  after a line-end hyphen keeps the hyphen with no space ("tongue-consciousness", "Once-returner").
+- `data/library.json`: title "Fundamental Abhidhamma, Parts I–II", blurb, note, source; README: status, the
+  books table, the Fundamental section (Part II, how it was made, the charts), changes to the shared reader.
+- `python3 scripts/build.py fundamental`, `build_map.py`, `build_home.py`; `audit_format.py fundamental`: what is
+  left in Part II is the book's layout (the death/rebirth process lines, "In a mental process -" before its
+  list, a broken paragraph that the p215 join fixed is gone); `check_site.py`: **140 pages × 3 widths, 0 problems**.
+
+Words marked ⟨?⟩: none (none in Part II's pages).
+
+**For the owner:** merge `autopilot` into `main` to publish Part II.
+
+Next: Rewata Dhamma, *Process of Consciousness and Matter* (`pcm`), PDF page 1 (223 pages; text layer, about
+40 pages a run; keep "book page X" and give the built book page anchors).
+
 ## 2026-11-13 — The English Paramatthadīpanī added to the queue (owner's request)
 
 `ocr-sources/paramattha-en.pdf`: Ashin Nandamālābhivaṃsa's annotated English translation of Ledi

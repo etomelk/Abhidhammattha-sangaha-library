@@ -1013,7 +1013,10 @@ def render_block(b):
         txt = re.sub(r'^\d{1,3}[.,]?\s*', '', t) if pn is not None and not SEC_ANCHORS else t
         lvl = f' l{str(pn).count(".") + 1}' if SEC_ANCHORS and pn is not None else ''
         if INLINE:
-            return f'<h3 class="sec"{anchor}>{pnum_span(b)}{rd_inline(b["text"])}</h3>'
+            ht = b['text']
+            if meta.get('title_case_caps') and ht.isupper() and '*' not in ht and len(ht) > 3:
+                ht = ht.title()          # Fundamental Part I: its headings in capitals, shown as before Part II's markup came in
+            return f'<h3 class="sec"{anchor}>{pnum_span(b)}{rd_inline(ht)}</h3>'
         return f'<h3 class="sec{lvl}"{anchor}>{pnum_span(b)}{italics(txt) if ITALICS or PALI_TEXT else (txt.title() if txt.isupper() else txt)}</h3>'
     if b['type'] == 'h4':
         if INLINE:
