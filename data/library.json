@@ -459,13 +459,13 @@
    "author": "Nyanatiloka Mahāthera",
    "cite": "Nyanatiloka",
    "level": "Background",
-   "edition": "BPS, Kandy; 2nd rev. ed. 1957, 5th ed. 2007",
+   "edition": "BPS, Kandy; 4th ed. 2008 (newly typeset), PDF 2019",
    "by": "Nyanatiloka Mahāthera · edited by Nyanaponika Thera · Buddhist Publication Society, Kandy",
    "blurb": "A synopsis of the seven books of the canonical Abhidhamma that the Saṅgaha condenses, from the Mātikā to the Paṭṭhāna, with an essay on Dependent Origination.",
-   "note": "The whole book, one part per page: the prefaces and introduction, the Abhidhamma Mātikā in translation, the seven books — Dhammasaṅgaṇī, Vibhaṅga, Dhātukathā, Puggalapaññatti, Kathāvatthu, Yamaka, Paṭṭhāna — and the appendix on Dependent Origination.",
+   "note": "The whole book, one part per page: the publisher’s preface and the introduction, the Abhidhamma Mātikā in translation, the seven books — Dhammasaṅgaṇī, Vibhaṅga, Dhātukathā, Puggalapaññatti, Kathāvatthu, Yamaka, Paṭṭhāna — Appendix I on Dependent Origination and Appendix II, the tables.",
    "brand_sub": "Nyanatiloka · Guide",
-   "toc_foot": "The Mātikā, the seven books, and Dependent Origination.",
-   "source": "Source: Nyanatiloka Mahāthera, <em>Guide Through the Abhidhamma-Piṭaka</em>, second revised and enlarged edition (1957, ed. Nyanaponika), fifth edition, Buddhist Publication Society, Kandy, 2007, from the PDF, taken from its text layer. The PDF sets the Pāli in an old font that puts accented letters for the Pāli ones (á for ā, þ for ṭ, ò for ṅ, ó for ṇ …); these are turned into the Pāli letters throughout, and stray marks inside words (ø) are left out. The running heads and page numbers are left out.",
+   "toc_foot": "The Mātikā, the seven books, Dependent Origination and the tables.",
+   "source": "Source: Nyanatiloka Mahāthera, <em>Guide Through the Abhidhamma Piṭaka</em>, fourth edition, newly typeset, Buddhist Publication Society, Kandy, 2008 (with minor changes by Bhikkhu Bodhi to the first four chapters; first edition 1938, second revised edition 1957 ed. Nyanaponika), from the PDF (2019), taken from its text layer, which is in Unicode. The running heads and page numbers are left out; the tables are kept with their columns. The prefaces of the earlier editions are not in this edition.",
    "desc": "Nyanatiloka’s Guide Through the Abhidhamma-Piṭaka: a synopsis of the seven books of the canonical Abhidhamma.",
    "howto": [
     [

@@ -27,7 +27,7 @@ Science*. and *Fundamental Abhidhamma* Part I. Part II needs OCR and waits.
 | 4. The commentaries | `vibhavini/` | Abhidhammatthavibhāvinīṭīkā (Sumaṅgala) | VRI `abh07t.nrf.xml`, second book |
 | | `paramattha/` | Paramatthadīpanī, the Saṅgaha-mahāṭīkā (Ledi Sayadaw) | VRI `e0301n.nrf.xml` |
 | | `anudipani/` | Anudīpanī (Ledi Sayadaw) | VRI `e0401n.nrf.xml` |
-| 5. Background | `guide/` | Nyanatiloka, *Guide Through the Abhidhamma-Piṭaka* (BPS, 2nd ed. 1957; 5th ed. 2007) | PDF text layer, old Pāli font mapped |
+| 5. Background | `guide/` | Nyanatiloka, *Guide Through the Abhidhamma Piṭaka* (BPS, 4th ed. 2008, PDF 2019) | PDF text layer (Unicode) |
 | 3. The Saṅgaha in English | `narada/` | Nārada Thera, *A Manual of Abhidhamma* (Vājirārāma; Preface 1978) | palikanon.com web edition, PDF (Word) |
 | To come | | Bhikkhu Bodhi (Gen. Ed.), *A Comprehensive Manual of Abhidhamma* (BPS 1993) | PDF |
 | | | Shwe Zan Aung & C. A. F. Rhys Davids, *Compendium of Philosophy* (PTS 1910) | scan |
@@ -277,25 +277,30 @@ python3 scripts/practical/convert.py Practical-Abhidhamma.pdf && python3 scripts
 - On the Saṅgaha map: Lesson 3 (Citta) → I, 4 (Cetasika) → II, 5 (Rūpa) → VI, 6 (Realms) → V,
   8 (Processes) → IV; Lesson 7 (Kamma and Natural Decisive Support) spans V and VIII and is not tied.
 
-## Nyanatiloka — Guide Through the Abhidhamma-Piṭaka (guide/)
+## Nyanatiloka — Guide Through the Abhidhamma Piṭaka (guide/)
 
-Nyanatiloka Mahāthera, *Guide Through the Abhidhamma-Piṭaka*, second revised and enlarged edition
-(1957, edited by Nyanaponika), fifth edition, Buddhist Publication Society, Kandy, 2007, from the PDF,
-taken from its text layer, with the shared converter (`BOOKS['guide']`):
+Nyanatiloka Mahāthera, *Guide Through the Abhidhamma Piṭaka*, fourth edition, newly typeset (BPS, Kandy,
+2008; Bhikkhu Bodhi made minor changes to the first four chapters), from the PDF of 2019
+(`sources/guide-2019.pdf`), taken from its text layer, which is in Unicode, with the shared converter
+(`BOOKS['guide']`):
 
 ```sh
-pdftotext -layout Guide-Through-the-Abhidhamma-Pitaka.pdf work/guide.txt
+pdftotext -layout sources/guide-2019.pdf work/guide.txt
 python3 scripts/tinmon/convert.py work/guide.txt guide && python3 scripts/build.py guide
 ```
 
-- **The font.** Another old Pāli font, mixed with some Unicode Pāli: á ā, þ ṭ, ò ṅ, ó ṇ, ú ū, ì ī,
-  í ṃ, ÿ and ¿ ḷ, ð ḍ, with their capitals (`FONTS['guide']`); ø is a stray mark inside words
-  (*reølationship*, *heøtuko*) and is dropped. French words keep their é.
-- **Parts:** the prefaces and introduction, the Mātikā (“The Matrix”), the seven books (a centred
-  roman numeral and the book's title in capitals), and the Appendix on Dependent Origination. The
-  centred lines in capitals inside them (“CHAPTER XIV”, “THE 24 CONDITIONS”) are headings.
-- It is a guide to the canonical books, not to the Saṅgaha, so it sits on a shelf of its own and is
-  not on the Saṅgaha map.
+- This copy replaced an earlier one (the 2007 PDF of the 2nd–3rd edition text), whose Pāli was in an old
+  font and had to be mapped letter by letter (`FONTS['guide']` is kept for it). The 4th edition is the
+  better text: Unicode Pāli, revised terms, and the Appendix II tables. It does not have the prefaces of
+  the earlier editions.
+- Parts: the publisher's preface and the introduction (the body starts at the second "Publisher's
+  Preface", the first being the contents), the Mātikā, the seven books (a centred roman numeral and the
+  book's title in capitals), Appendix I (Dependent Origination) and Appendix II (Tables). The running
+  heads (the book's title on one page, the chapter's on the other) are dropped wherever they stand; a
+  title in capitals set with spaces around a dotted letter (PAṬ Ṭ HĀNA) is closed up; the few ¿ left from
+  the old font in the typesetting are ḷ (*saḷāyatana*).
+- It is a guide to the canonical books, not to the Saṅgaha, so it sits on a shelf of its own and is not
+  on the Saṅgaha map.
 
 ## Characteristic, Function, Manifestation & Proximate Cause (lakkhana/)
 
@@ -330,13 +335,16 @@ writes the page.
   outlines, the colours and lines are kept), and its viewBox is cropped to the printed area (found
   from a 72-dpi render, 1 px = 1 pt), so the chart fills the viewer and stays sharp at any zoom. A
   small PNG of the first page is the card's thumbnail; the original PDF can be downloaded.
+- **Heavy charts.** A chart whose SVG would weigh more than 2 MB (Hanh Thuong's tree, with its colour
+  gradients: 7 MB) is drawn from its PDF with pdf.js instead, like the Systematization.
 - **The text** of each page (`pdftotext -layout`) is kept under its card ("Text of this chart"), so
   that the charts can be found with the browser's search and read by a screen reader.
 - **The viewer** opens a chart full-screen: fitted to the screen; zoom with the wheel, + and −, the
   buttons, a double click or two fingers; drag to move; ← → through the pages and the charts; ⟳ or r
   turns a wide chart, and on a phone held upright a wide chart is turned to fill the screen; Esc closes.
   Every chart page has an address (`charts/#rupa_pali`, `#material_phenomena-3`).
-- **Grouped by the Saṅgaha's chapters** (`CHARTS` in build_charts.py): the four realities; I the 89/121
+- **Grouped by the Saṅgaha's chapters** (`CHARTS` in build_charts.py): the four realities (with Hanh
+  Thuong's tree of them, 2015); I the 89/121
   cittas; II the 52 cetasikas, their combination with the cittas, the aggregate of feeling; III feeling,
   roots, functions, doors, objects, bases; IV the eye-door process; V the 31 realms; VI the 28 rūpas.
   The Saṅgaha map lists each chapter's charts.

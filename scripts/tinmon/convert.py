@@ -76,11 +76,13 @@ BOOKS = {
     'handbook2': dict(font=False, start=r'^\s*Editorial Preface\s*$', chapter=r'^\s*Chapter (One|Two|Three|Four|Five|Six)\s*$',
                       title_lines=1, sangaha={4: 4, 5: 5, 6: 6}, front='Editorial Preface; Editor’s Note',
                       colon_heads=False, running_head=r'^\s*(Chapter (One|Two|Three|Four|Five|Six)|Introduction|Contents)\s*$'),
-    'guide': dict(font='guide', start=r'^\s*Publisher’s Preface\s*$', chapter=r'^\s{12,}([IVX]{1,4})\s*$', title_lines=2,
-                  sangaha={}, front='Prefaces; Introduction', colon_heads=False, centred_caps=True,
+    # Nyanatiloka's Guide, BPS 2019 copy (Unicode Pāli); the 2007 copy needed FONTS['guide']
+    'guide': dict(font=None, start=r'^\s*Publisher’s Preface\s*$', chapter=r'^\s{12,}([IVX]{1,4})\s*$', title_lines=2,
+                  sangaha={}, front='Prefaces; Introduction', colon_heads=False, centred_caps=True, start_at=2,
                   extra_parts=[(r'^\s*THE MATRIX \(MĀTIKĀ\)\s*$', 'Mātikā', 'The Matrix (Mātikā)'),
-                               (r'^\s*APPENDIX\s*$', 'Appendix', 'Dependent Origination')],
-                  running_head=r'^\s*(([\dixvlc]+)\s{3,}Guide [Tt]hrough.*|\S.{0,40}?\s{8,}[\dixvlc]+)\s*$'),
+                               (r'^\s*APPENDIX I\s*$', 'Appendix I', 'Paṭicca-samuppāda: the doctrine of dependent origination of all phenomena of existence'),
+                               (r'^\s*APPENDIX II\s*$', 'Appendix II', 'Tables')],
+                  running_head=r'^\s*(Guide [Tt]hrough the Abhidh?a?m+a Piṭaka|Paṭṭhāna|Kathāvatthu|Vibhaṅga|Yamaka|Paṭicca-samuppāda|Dhammasaṅgaṇī|The Abhidhamma Matrix|Dhātukathā|Puggalapaññatti|Appendix( II?)?)\s*$'),
 }
 FONTS = {'tinmon': FONT,
          # Nyanatiloka's Guide (BPS 2007): á ā, þ ṭ, ò ṅ, ó ṇ, ú ū, ì ī, í ṃ, ÿ ¿ ḷ, ð ḍ and their capitals;
@@ -96,6 +98,9 @@ def main(src, slug='tinmon'):
     cfg = BOOKS[slug]
     JUSTIFIED[0] = slug.startswith('handbook')
     text = open(src, encoding='utf-8').read()
+    text = re.sub(r'(?m)^(\s*)([A-ZĀĪŪṬḌṆṄÑṂḶ ()-]+)$', lambda m: m.group(1) + re.sub(r'(?<=[A-ZĀĪŪṬḌṆṄÑṂḶ]) (?=[ṬḌṆṄ])|(?<=[ṬḌṆṄ]) (?=[A-ZĀĪŪṬḌṆṄ]{2})', '', m.group(2)), text)
+    if slug == 'guide':
+        text = text.replace('¿', 'ḷ')                   # the 2008 typesetting keeps a few of the old font's ¿ (sa¿āyatana)
     if cfg['font']:
         text = text.translate(FONTS[cfg['font'] if isinstance(cfg['font'], str) else 'tinmon'])
     pages = text.split('\f')
@@ -112,10 +117,14 @@ def main(src, slug='tinmon'):
     # the body starts after the contents (the last contents line names About the Author)
     lines = []
     started = False
+    seen_start = 0
     for pg in pages:
         pl = pg.split('\n')
         if not started:
             if any(re.match(cfg['start'], l) for l in pl):
+                seen_start += 1
+                if seen_start < cfg.get('start_at', 1):
+                    continue
                 started = True
                 pl = pl[next(i for i, l in enumerate(pl) if re.match(cfg['start'], l)):]
             else:
@@ -127,6 +136,8 @@ def main(src, slug='tinmon'):
             k = next((i for i, l in enumerate(pl) if l.strip()), None)
             if k is not None and re.match(cfg['running_head'], pl[k]):
                 pl = pl[k + 1:]
+            if cfg.get('font') is None:                  # the Guide (2019): a running head may stand at the foot too
+                pl = [l for l in pl if not re.fullmatch(cfg['running_head'], l)]
         while pl and not pl[0].strip():
             pl.pop(0)
         while pl and not pl[-1].strip():

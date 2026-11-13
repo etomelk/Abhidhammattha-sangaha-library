@@ -48,7 +48,7 @@ add('studies', 'Mehm Tin Mon', 'n.d.', 'Buddha Abhidhamma: Ultimate science', 'B
 add('studies', 'Nandamālābhivaṃsa', '2005', 'Fundamental Abhidhamma, Part I (2nd ed., rev.)', 'Sagaing: Centre for Buddhist Studies, Mahāsubodhayon Monastery', lib='fundamental/')
 
 # --- Reference
-add('studies', 'Nyanatiloka Mahāthera', '1957', 'Guide through the Abhidhamma-Piṭaka (2nd rev. ed., ed. Nyanaponika)', 'Colombo: Bauddha Sahitya Sabha; later editions Kandy: Buddhist Publication Society', lib='guide/')
+add('studies', 'Nyanatiloka Mahāthera', '1957', 'Guide through the Abhidhamma Piṭaka (2nd rev. ed., ed. Nyanaponika; 4th ed. 2008)', 'Colombo: Bauddha Sahitya Sabha; later editions Kandy: Buddhist Publication Society', lib='guide/')
 add('reference', 'Rhys Davids, T. W. & Stede, W. (Eds.)', '1921–1925', 'The Pali Text Society’s Pali–English dictionary', 'London: Pali Text Society')
 add('reference', 'Nyanatiloka', '1952', 'Buddhist dictionary: Manual of Buddhist terms and doctrines', 'Colombo: Frewin; later editions Kandy: Buddhist Publication Society')
 add('reference', 'Vipassana Research Institute', 'n.d.', 'The Pāḷi Tipiṭaka [Chaṭṭha Saṅgāyana edition, with the aṭṭhakathā and ṭīkā]', 'Igatpuri: Vipassana Research Institute', found='https://tipitaka.org/', label='Online')

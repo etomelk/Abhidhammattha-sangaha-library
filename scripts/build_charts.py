@@ -80,6 +80,7 @@ SYS = [
 ]
 CHARTS = [
     ('0', 'Reality according to Abhidhamma', 'reality', AGG, 'Conventional and ultimate reality; the four ultimate realities and how they are counted (89/121 cittas, 52 cetasikas, 28 rūpas, Nibbāna); the aggregates.'),
+    ('0', 'Abhidhamma: the four ultimate realities at a glance', 'abhidhamma_hanh_thuong', 'Hanh Thuong (2015)', 'One tree of everything the Saṅgaha counts: the 89/121 cittas by plane and kind, the 52 cetasikas by group, the 28 rūpas, and Nibbāna, each in its coloured box.'),
     ('1', 'Consciousness 89 / 121', 'citta_89_121_coloured', AGG, 'The 89 (or 121) types of consciousness as coloured dots: unwholesome, rootless, beautiful; sense-sphere, fine-material, immaterial, supramundane.'),
     ('1', 'Citta 89 / 121 (Pāli)', 'citta_89_121', CBS, 'The same classification with the Pāli names of each group.'),
     ('2', 'The 52 mental factors (cetasika)', 'cetasika_en', AGG, 'The 52 cetasikas in their groups: universals, occasionals, unwholesome, beautiful; two pages.'),
@@ -138,11 +139,16 @@ def main():
         n = int(re.search(r'Pages:\s+(\d+)', run('pdfinfo', pdf)).group(1))
         shutil.copy(pdf, os.path.join(OUT, 'pdf', f'{slug}.pdf'))
         pages = []
+        heavy = False
         for p in range(1, n + 1):
-            w, h = svg_page(pdf, p, os.path.join(OUT, 'svg', f'{slug}-{p}.svg'))
+            out = os.path.join(OUT, 'svg', f'{slug}-{p}.svg')
+            w, h = svg_page(pdf, p, out)
+            if os.path.getsize(out) > 2_000_000:       # gradients and many shapes: drawn from the PDF instead
+                heavy = True
+                os.remove(out)
             text = run('pdftotext', '-layout', '-f', str(p), '-l', str(p), pdf, '-')
             text = '\n'.join(l.rstrip() for l in text.split('\n')).strip('\n')
-            pages.append(dict(src=f'svg/{slug}-{p}.svg', w=w, h=h, text=text))
+            pages.append(dict(src=f'svg/{slug}-{p}.svg', w=w, h=h, text=text, clip=list(crop_box(pdf, p))))
         total_pages += n
         run('pdftoppm', '-f', '1', '-l', '1', '-r', '60', '-png', '-singlefile', pdf, os.path.join(OUT, 'thumb', slug))
         im = Image.open(os.path.join(OUT, 'thumb', f'{slug}.png'))
@@ -151,7 +157,10 @@ def main():
         im = im.crop((int(x * k), int(y * k), int((x + w) * k), int((y + h) * k)))
         im.thumbnail((420, 300))
         im.save(os.path.join(OUT, 'thumb', f'{slug}.png'), optimize=True)
-        data.append(dict(slug=slug, title=title, by=by, pages=[dict(src=p['src'], w=p['w'], h=p['h']) for p in pages]))
+        if heavy:
+            data.append(dict(slug=slug, title=title, by=by, pdf=f'pdf/{slug}.pdf', pages=[dict(clip=p['clip'], w=p['w'], h=p['h']) for p in pages]))
+        else:
+            data.append(dict(slug=slug, title=title, by=by, pages=[dict(src=p['src'], w=p['w'], h=p['h']) for p in pages]))
         texts = ''.join(f'<details class="ctext"><summary>Text of this chart{f" — page {i}" if n > 1 else ""}</summary><pre>{e(p["text"])}</pre></details>'
                         for i, p in enumerate(pages, 1))
         cards[g].append(
