@@ -2,6 +2,48 @@
 
 Newest first. See AUTOPILOT.md for the standing instructions.
 
+## 2026-11-13 — Fundamental Abhidhamma Part II pp. 181–205 proofread
+
+Proofread PDF pages 181–205 of `ocr-sources/fundamental-2.pdf` (book pp. 76–100 of Part II: the rest of
+Chapter 7 — conditions 4/5 *Anantara*/*Samanantara* to 24 *Avigata* with their *paccaya*/*paccayuppanna*,
+the Analysis of Concepts (*atthapaññatti*, *saddapaññatti*), "The End of Chapter 7" — and Chapter 8
+*Kammaṭṭhāna Saṅgaha* from its opening through *Samatha* (the 40 objects, temperaments, stages, signs,
+*jhāna* attainment, *Abhiññā*) and *Vipassanā* (7 purifications, 10 insight knowledges, characteristics,
+contemplations, emancipations) up to "*Vipassanā* Practice in brief" (4)) into
+`ocr/fundamental-2/p181.md`–`p205.md`. Tesseract (300 dpi) for the English, the page image for every
+word of Pāli and every table.
+
+Conventions added this run (the converter should follow them):
+- The condition heads continue as `####` (p181 "#### 4. *Anantara*/5. *Samanantarapaccayo*" covers two
+  conditions in one head, as printed). Centred sub-heads "(A) **Mind to mind-matter**", "(B) ***Purejāta
+  Nissaya***" are written as one bold line "**(A) …**", as p180 did; a second centred line under them
+  ("**Mind to mind**") is its own bold line.
+- p189 ends Chapter 7 with "**The End of Chapter 7**" and a rule comment (the rule is "=======").
+- p190 opens `## CHAPTER 8`, `## *KAMMAṬṬHĀNA SAṄGAHA*` (italic small capitals), `## Meditation Subject`:
+  three `##` lines to join into one chapter title, as for Chapter 7.
+- p200: a short dashed rule closes the *Samatha* part (HTML comment) before "### (2) *Vipassanā*".
+- Left-set bold italic heads (*Asubha*, *Sīlavisuddhi*…) are `***…***` lines; left-set bold heads
+  ("**10 *Kasiṇa***", "**3 Contemplations**") are bold lines; centred heads are `###`.
+- Two-column "*Term* - gloss" lists and "Attention (*āvajjana*)," lists are one item per line.
+- Tables: p195, p196, p198, p204 as Markdown tables; p198 has merged cells (blank cells, with a note).
+- Ordinals "1st", "2nd" (superscript in the book) are plain, as in earlier pages.
+
+Words marked ⟨?⟩: none.
+
+Printed slips kept as printed (not corrected): p183 "*appamañña*s" (no long ā; checked zoomed) and
+"51 following *Javana citta*s" (capital J); p185 "(1)89" (no space); p186 "*Paccayupana*" (one p, one n),
+"*vedanā, and*" with "and" in italics; p188 "*rupa*" (no macron), "kasina", "samatha" in roman;
+p190 "*Pāḷi*" (ḷ); p194 "Appanā:" in roman; p195 the table has "8 M.O." where the text says 10 objects
+(note added); p197 "*1Ānāpāna*" (no space); p198 "M.O." and "R.S." are defined in a note but no figure
+using them is printed; p199 "*adiṭṭhāna*" (for *adhiṭṭhāna*; checked zoomed) and "*viññaṇa*" once (no
+macron on the second a; checked zoomed); p200 "*Vipassanā nāṇa*" (n for ñ; checked zoomed); p201
+"*Ñāṇadassa-visuddhi*" (for *-dassana-*); p202 "This knowledge overcome doubt"; p204 "*Suññānupassanā*";
+p205 "fearlessness (*bhaya*)" (the sense wants fearfulness; printed so).
+
+The site was not touched (`ocr/` is not published), so check_site was not needed for this push.
+
+Next: Fundamental Abhidhamma Part II, PDF page 206 (42 pages left, 206–247).
+
 ## 2026-11-13 — Fundamental Abhidhamma Part II pp. 156–180 proofread
 
 Proofread PDF pages 156–180 of `ocr-sources/fundamental-2.pdf` (book pp. 51–75 of Part II: the rest of
