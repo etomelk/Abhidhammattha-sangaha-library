@@ -2,6 +2,42 @@
 
 Newest first. See AUTOPILOT.md for the standing instructions.
 
+## 2026-11-13 — Fundamental Abhidhamma Part II pp. 156–180 proofread
+
+Proofread PDF pages 156–180 of `ocr-sources/fundamental-2.pdf` (book pp. 51–75 of Part II: the rest of
+Chapter 6 — the death/rebirth processes (2)–(8), *Paṭisandhi* after *Cuti* and its table, "The end of
+Chapter 6" — and Chapter 7 *Paccayasaṅgaha* from its opening through the way of *Paṭiccasamuppāda*
+(the 12 factors one by one, their classification), the way of *Paṭṭhāna* (24 conditions, 9 groups,
+7 ways of relation) up to *Adhipati paccayo* (B)(D)) into `ocr/fundamental-2/p156.md`–`p180.md`.
+Tesseract (300 dpi) for the English, the page image for every word of Pāli and every table.
+
+Conventions added this run (the converter should follow them):
+- p161 opens `## CHAPTER 7`, `## PACCAYASAṄGAHA` (small capitals in the book), `## (Compendium of
+  Causality)`: three `##` lines that the converter should join into one chapter title.
+- p160 ends Chapter 6 with "**The end of Chapter 6**" and a rule comment, as p132 ended Chapter 5.
+- The *paccayā* sub-heads ("*Avijjāpaccayā Saṅkhārā*" etc., left-set bold italic) are `***…***` lines;
+  left-set bold heads ("**3 Periods**", "**(1) Mind to mind**") are bold lines; centred heads are `###`.
+- From p179 the condition heads ("1. *Hetu paccayo*", "2. *Ārammaṇa paccayo*"…) are `####` (the first
+  use of `####` in this book), each followed by its centred bold subtitle ("**Mind to mind and matter**").
+- Numbered lists of conditions (p174–178) are written one item per line ("1. *Anantara*"); the book
+  restarts or continues the numbers as printed (p174–175: 1–4, 5–8, 9–15 in one list).
+- p173: the 9 groups with their numbers set as two columns are lines "(1) *Ārammaṇa* 8", with a note.
+- Tables with headers spanning two columns (p160, p164, p171) have a note; merged cells are blank in the
+  following rows.
+
+Words marked ⟨?⟩: none.
+
+Printed slips kept as printed (not corrected): p160 table "*Rūpa cuti* 4" (there are 5 *rūpa vipāka*s;
+printed so); p163 "*viññāṅa*" twice (ṅ for ṇ, checked zoomed); p164 "*Sanṭīraṇa*" (ṭ, checked zoomed);
+p162 "occuring"; p165 "*Phassa*;" (semicolon); p168 "*viñññāṇa*" (three ñ, checked zoomed); p172
+"*Anantarapaccyao*"; p173 (17) no full stop after "object"; p174 and p178 "*Vipayutta*" (one p); p179
+heading "*Paccayupanna*" and p180 "*Paccayupanna*:" (one p); p180 "*and*" set in italics; p162 "c*etanā*"
+and "c*etanā*s" with a roman c (kept so).
+
+The site was not touched (`ocr/` is not published), so check_site was not needed for this push.
+
+Next: Fundamental Abhidhamma Part II, PDF page 181 (67 pages left, 181–247).
+
 ## 2026-11-13 — Fundamental Abhidhamma Part II pp. 131–155 proofread
 
 Proofread PDF pages 131–155 of `ocr-sources/fundamental-2.pdf` (book pp. 26–50 of Part II: the end of
