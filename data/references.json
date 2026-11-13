@@ -106,7 +106,7 @@
    "title": "A manual of Abhidhamma, being Abhidhammattha Saṅgaha of Bhadanta Anuruddhācariya",
    "where": "Colombo; later editions Kandy: Buddhist Publication Society",
    "url": "",
-   "lib": "",
+   "lib": "narada/",
    "found": "",
    "label": ""
   },
@@ -162,6 +162,28 @@
    "where": "Yangon: Mya Mon Yadanar Publication",
    "url": "",
    "lib": "",
+   "found": "",
+   "label": ""
+  },
+  {
+   "area": "studies",
+   "authors": "Mehm Tin Mon",
+   "year": "n.d.",
+   "title": "Buddha Abhidhamma: Ultimate science",
+   "where": "Buddha Dharma Education Association (BuddhaNet)",
+   "url": "",
+   "lib": "tinmon/",
+   "found": "",
+   "label": ""
+  },
+  {
+   "area": "studies",
+   "authors": "Nandamālābhivaṃsa",
+   "year": "2005",
+   "title": "Fundamental Abhidhamma, Part I (2nd ed., rev.)",
+   "where": "Sagaing: Centre for Buddhist Studies, Mahāsubodhayon Monastery",
+   "url": "",
+   "lib": "fundamental/",
    "found": "",
    "label": ""
   },

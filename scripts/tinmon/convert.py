@@ -52,13 +52,28 @@ def heading_like(t):
     return len(t.split()) <= 9 and caps >= max(1, len(words) - 1)
 
 
+# per book: the old font or not, where the body starts, the chapter line, how many title lines it has,
+# which chapter of the Saṅgaha each chapter is, and headings that end in a colon ("Abhidhamma:")
+BOOKS = {
+    'tinmon': dict(font=True, start=r'^\s*Buddha’s Teachings\s*$', chapter=r'^\s*Chapter (\d)\s*$', title_lines=2,
+                   sangaha={k: k for k in range(1, 10)}, front='Preface and Introduction', colon_heads=False),
+    'fundamental': dict(font=False, start=r'^\s*Editorial preface\s*$', chapter=r'^\s*CHAPTER (\d)\s*$', title_lines=1,
+                        sangaha={1: 1, 2: 2, 3: 6, 4: 3, 5: 4}, front='Editorial Preface; About the Author; The History of Abhidhamma',
+                        colon_heads=True),
+}
+
+
 def main(src, slug='tinmon'):
-    text = open(src, encoding='utf-8').read().translate(FONT)
+    cfg = BOOKS[slug]
+    text = open(src, encoding='utf-8').read()
+    if cfg['font']:
+        text = text.translate(FONT)
     pages = text.split('\f')
     HYPH.update(w.lower() for w in re.findall(r'\w+-\w+', re.sub(r'-\n', ' ', text)))
     # the section titles of the book's contents ("Kāmāvacara Cittas ........ 36"): the headings
     toc = set()
-    for l in text[:text.find('Buddha’s Teachings', text.find('About the Author'))].split('\n'):
+    body_at = re.search(cfg['start'], text, flags=re.M).start()
+    for l in text[:body_at].split('\n'):
         m = re.match(r'^\s*(.+?)\s*\.{3,}\s*\d+\s*$', l) or re.match(r'^\s*(\S.*?)\s{8,}\d+\s*$', l)
         if m:
             toc.add(key(m.group(1)))
@@ -68,9 +83,9 @@ def main(src, slug='tinmon'):
     for pg in pages:
         pl = pg.split('\n')
         if not started:
-            if any(re.match(r'^\s*Buddha’s Teachings\s*$', l) for l in pl):
+            if any(re.match(cfg['start'], l) for l in pl):
                 started = True
-                pl = pl[next(i for i, l in enumerate(pl) if re.match(r'^\s*Buddha’s Teachings\s*$', l)):]
+                pl = pl[next(i for i, l in enumerate(pl) if re.match(cfg['start'], l)):]
             else:
                 continue
         pl = [l.rstrip() for l in pl]
@@ -80,7 +95,7 @@ def main(src, slug='tinmon'):
         while pl and not pl[-1].strip():
             pl.pop()
         lines += pl + ['\x00']                                                  # a page break
-    parts = [dict(label='Preface', title='Preface and Introduction', ch=None, blocks=[])]
+    parts = [dict(label='Front matter', title=cfg['front'], ch=None, blocks=[])]
     cur = None          # the paragraph being built: dict(kind, ind, lines)
 
     def flush():
@@ -132,18 +147,20 @@ def main(src, slug='tinmon'):
             flush()
             i += 1
             continue
-        m = re.match(r'^\s*Chapter (\d)\s*$', l)
+        m = re.match(cfg['chapter'], l)
         if m:
             flush()
             k = int(m.group(1))
             j = i + 1
             heads = []
-            while j < len(lines) and len(heads) < 2:
+            while j < len(lines) and len(heads) < cfg['title_lines']:
                 if lines[j].strip() and lines[j] != '\x00':
                     heads.append(lines[j].strip())
                 j += 1
             title = ' '.join(w.title() if w.isupper() and len(w) > 1 else w for w in heads[0].split())
-            parts.append(dict(label=f'Chapter {k}', title=f'{title} — {heads[1]}', ch=k, blocks=[]))
+            if len(heads) > 1:
+                title = f'{title} — {heads[1]}'
+            parts.append(dict(label=f'Chapter {k}', title=title, ch=cfg['sangaha'][k], blocks=[]))
             i = j
             continue
         if re.fullmatch(r'Conclusion', s) and indent(l) <= 1 and parts[-1]['ch'] == 9:
@@ -166,6 +183,18 @@ def main(src, slug='tinmon'):
         if numbered and key(numbered.group(2)) in toc and ended(i):          # "1 Four Āsavas (…)": a numbered section
             flush()
             parts[-1]['blocks'].append(dict(type='h', text=s))
+            i += 1
+            continue
+        if (cfg['colon_heads'] and ind >= 10 and not is_table(l) and len(s) < 60 and ended(i) and s[0].isupper() and '=' not in s
+                and (any(k.startswith(key(s)) for k in toc if len(key(s)) >= 6) or re.search(r'\s[–-]\s*\d+$', s))):
+            flush()                    # a centred heading: a title of the contents, or "Akusala – 12"
+            parts[-1]['blocks'].append(dict(type='h', text=s))
+            i += 1
+            continue
+        if (cfg['colon_heads'] and ind <= 1 and s.endswith(':') and len(s.split()) <= 8 and ended(i)
+                and indent(nxt) >= 3 and not re.match(r'^\d', s)):
+            flush()
+            parts[-1]['blocks'].append(dict(type='h', text=s[:-1]))
             i += 1
             continue
         if ind <= 1 and (key(s) in toc or heading_like(s)) and ended(i) and nxt.strip() and len(s) < 90:

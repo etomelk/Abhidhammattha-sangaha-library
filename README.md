@@ -12,13 +12,14 @@ changes that site.
 
 **Status: in progress** (November 2026). The Pāli shelf is done (the Saṅgaha and three
 commentaries), and Nārada's Manual (without Chapter VIII, missing from the copy), and Mehm Tin Mon's *Ultimate
-Science*. Next: *Fundamental Abhidhamma* Part I; Part II needs OCR and waits.
+Science*. and *Fundamental Abhidhamma* Part I. Part II needs OCR and waits.
 
 ## The books
 
 | Shelf | Folder | Book | Source of the text |
 |---|---|---|---|
-| 1. Start here: study guides | `tinmon/` | Dr. Mehm Tin Mon, *Buddha Abhidhamma: Ultimate Science* (BuddhaNet) | PDF text layer, old Pāli font mapped |
+| 1. Start here: study guides | `fundamental/` | Dr. Nandamālābhivaṃsa, *Fundamental Abhidhamma*, Part I (CBS Sagaing 2005) | PDF text layer |
+| | `tinmon/` | Dr. Mehm Tin Mon, *Buddha Abhidhamma: Ultimate Science* (BuddhaNet) | PDF text layer, old Pāli font mapped |
 | 2. The Saṅgaha in Pāli | `sangaha/` | Abhidhammatthasaṅgaho, Sixth Council edition | VRI tipitaka-xml `abh07t.nrf.xml`, first book |
 | 4. The commentaries | `vibhavini/` | Abhidhammatthavibhāvinīṭīkā (Sumaṅgala) | VRI `abh07t.nrf.xml`, second book |
 | | `paramattha/` | Paramatthadīpanī, the Saṅgaha-mahāṭīkā (Ledi Sayadaw) | VRI `e0301n.nrf.xml` |
@@ -174,6 +175,33 @@ python3 scripts/tinmon/convert.py work/tinmon.txt && python3 scripts/build.py ti
   (*sense-sphere*, *Lobha-mūla*), joined otherwise.
 - **Not in the PDF:** the charts the book refers to as "attached at the back" (Charts 1–10).
 
+## Dr. Nandamālābhivaṃsa — Fundamental Abhidhamma, Part I (fundamental/)
+
+*Fundamental Abhidhamma, Part I*, 2nd extended edition (January 2005, revised November 2005),
+© Centre for Buddhist Studies, Mahāsubodhayon Monastery, Sagaing, from the PDF (Acrobat from Word,
+2006; 104 pages), taken from its text layer, which is in Unicode.
+
+```sh
+pdftotext -layout Fundamental-Abhidhamma.pdf work/fundamental.txt
+python3 scripts/tinmon/convert.py work/fundamental.txt fundamental && python3 scripts/build.py fundamental
+```
+
+The converter is the one of *Ultimate Science* (`BOOKS['fundamental']`: no font map, the body from
+the Editorial Preface, one title line under "CHAPTER n"). This book's headings are also centred lines
+(a title of its contents, or a count such as "Akusala – 12") and short lines ending in a colon
+("Abhidhamma:"); both are taken as headings.
+
+- **Parts:** the Editorial Preface, About the Author and The History of Abhidhamma, then the five
+  chapters of Part I. They are in the book's own order, and each is tied to the Saṅgaha's chapter on
+  the map: 1 Citta (I), 2 Cetasika (II), 3 Rūpa (VI), 4 Pakiṇṇaka (III), 5 Vīthi (IV).
+- **The diagrams** are the PDF's text tables, kept with their columns. The large classification charts
+  (e.g. "Citta 89/121") are set in the PDF as loose text boxes and come out in pieces; they are kept
+  as they are.
+- **Part II** (247-page copy, pp. 106–247: from Chapter 5 Vīthi to Paccaya and Kammaṭṭhāna) has a text
+  layer in a broken font encoding (the words come out as symbols), so it needs OCR and proofreading
+  from the page images, with the diacritics put back by hand. That is on hold. The first 105 pages of
+  that copy are the same Part I.
+
 ## Changes to the shared reader
 
 - `scripts/build.py`: `pnum_span` shows a block's `label` and its `alias` anchors when it has them;
@@ -181,10 +209,10 @@ python3 scripts/tinmon/convert.py work/tinmon.txt && python3 scripts/build.py ti
   `goto_text` makes the § box a text field that takes `4.6`.
 - `shared/reader.css`: the four Pāli books wrap their long compounds anywhere (as the Pāli books of
   the Dhammasaṅgaṇī Library do), so nothing scrolls sideways at 320 px.
-- `scripts/build_home.py`: the cards of the Saṅgaha and the Vibhāvinī count the nine chapters; empty
-  stats are left out.
+- `scripts/build_home.py`: a book tied to the Saṅgaha by chapter, or keyed by chapter × 1000, shows its
+  number of chapters on its card; empty stats are left out.
 - `scripts/check_site.py` checks `map/` instead of `matika/` and `terms/`.
 
 ## Checks
 
-`python3 scripts/check_site.py`: 72 pages × 3 widths, no problems (November 2026).
+`python3 scripts/check_site.py`: 79 pages × 3 widths, no problems (November 2026).

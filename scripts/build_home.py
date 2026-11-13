@@ -10,7 +10,7 @@ e = lambda s: html.escape(s, quote=False)
 
 # ---- books, on shelves: the text, then its commentaries (the translations to come)
 SHELVES = [
-    ('Start here: study guides', 'Courses on the nine chapters of the Saṅgaha by teachers from Myanmar, with tables and reviews.', ('tinmon',)),
+    ('Start here: study guides', 'Courses on the nine chapters of the Saṅgaha by teachers from Myanmar, with tables and reviews.', ('fundamental', 'tinmon')),
     ('The Saṅgaha in Pāli', 'Ācariya Anuruddha’s text in the Sixth Council edition, whose paragraph numbers are the map of the library.', ('sangaha',)),
     ('The Saṅgaha in English', 'Translations with notes, section by section, linked to the Pāli.', ('narada',)),
     ('The commentaries', 'Sumaṅgala’s Vibhāvinī, keyed to the Saṅgaha paragraph by paragraph, and Ledi Sayadaw’s Paramatthadīpanī with his Anudīpanī on it.', ('vibhavini', 'paramattha', 'anudipani')),
@@ -23,13 +23,13 @@ nunits = nanchors = nentries = 0
 for i, b in enumerate(lib['books'], 1):
     book = json.load(open(os.path.join(ROOT, 'data', f'{b["slug"]}.json'), encoding='utf-8'))
     chapters = [c for c in book['chapters'] if c['num'] != '0' and re.fullmatch(r'[\dIVXL]+', c['num'])]
-    if any(c.get('sangaha_ch') for c in book['chapters']):      # the nine chapters of the Saṅgaha, not the opening and closing
-        chapters = [c for c in book['chapters'] if c['label'].startswith('Chapter')]
+    if any(c.get('sangaha_ch') for c in book['chapters']):      # the chapters of the Saṅgaha, not the front matter and closing
+        chapters = [c for c in book['chapters'] if c['label'].startswith('Chapter') or c.get('sangaha_ch') and c['label'] != 'Ganthārambha']
     nunits += len(chapters)
     nanchors += sum(blk.get('pend', blk['pnum']) - blk['pnum'] + 1 for c in book['chapters'] for blk in c['blocks'] if blk.get('pnum') is not None)
     nentries += len(book.get('glossary', []))
     nsec = sum(1 for c in book['chapters'] for blk in c['blocks'] if blk.get('pnum') is not None)
-    units = f'§{min(blk["pnum"] for c in book["chapters"] for blk in c["blocks"] if blk.get("pnum") is not None)}–{max(blk["pnum"] for c in book["chapters"] for blk in c["blocks"] if blk.get("pnum") is not None)}' if nsec and not b.get('sangaha_keys') else f'{len(chapters)} {b.get("unit", "Chapter").lower()}s'
+    units = f'§{min(blk["pnum"] for c in book["chapters"] for blk in c["blocks"] if blk.get("pnum") is not None)}–{max(blk["pnum"] for c in book["chapters"] for blk in c["blocks"] if blk.get("pnum") is not None)}' if nsec and max(blk['pnum'] for c in book['chapters'] for blk in c['blocks'] if blk.get('pnum') is not None) < 1000 else f'{len(chapters)} {b.get("unit", "Chapter").lower()}s'
     k = _shelf[b['slug']]
     if i == 1 or _shelf[lib['books'][i - 2]['slug']] != k:
         if i > 1:

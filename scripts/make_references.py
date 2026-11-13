@@ -33,7 +33,7 @@ add('editions', 'Kosambi, D. (Ed.)', '1941', 'Abhidhammattha Saṅgaho, with the
 
 # --- Translations
 add('translations', 'Shwe Zan Aung & Rhys Davids, C. A. F.', '1910', 'Compendium of philosophy, being a translation now made for the first time from the original Pali of the Abhidhammattha-sangaha', 'London: Pali Text Society')
-add('translations', 'Nārada Thera', '1956', 'A manual of Abhidhamma, being Abhidhammattha Saṅgaha of Bhadanta Anuruddhācariya', 'Colombo; later editions Kandy: Buddhist Publication Society')
+add('translations', 'Nārada Thera', '1956', 'A manual of Abhidhamma, being Abhidhammattha Saṅgaha of Bhadanta Anuruddhācariya', 'Colombo; later editions Kandy: Buddhist Publication Society', lib='narada/')
 add('translations', 'Bodhi, Bhikkhu (Gen. Ed.)', '1993', 'A comprehensive manual of Abhidhamma: The Abhidhammattha Saṅgaha of Ācariya Anuruddha', 'Kandy: Buddhist Publication Society (translation by Mahāthera Nārada, revised; guide by U Rewata Dhamma and U Sīlānanda)')
 add('translations', 'Wijeratne, R. P. & Gethin, R.', '2002', 'Summary of the topics of Abhidhamma (Abhidhammatthasaṅgaha) by Anuruddha; Exposition of the topics of Abhidhamma (Abhidhammatthavibhāvinī) by Sumaṅgala', 'Oxford: Pali Text Society')
 
@@ -41,6 +41,8 @@ add('translations', 'Wijeratne, R. P. & Gethin, R.', '2002', 'Summary of the top
 add('studies', 'Nyanaponika Thera', '1949', 'Abhidhamma studies: Researches in Buddhist psychology', 'Colombo: Frewin; 4th ed. Kandy: Buddhist Publication Society, 1998')
 add('studies', 'Karunadasa, Y.', '2010', 'The Theravāda Abhidhamma: Its inquiry into the nature of conditioned reality', 'Hong Kong: Centre of Buddhist Studies, University of Hong Kong')
 add('studies', 'Mehm Tin Mon', '1995', 'The essence of Buddha Abhidhamma', 'Yangon: Mya Mon Yadanar Publication')
+add('studies', 'Mehm Tin Mon', 'n.d.', 'Buddha Abhidhamma: Ultimate science', 'Buddha Dharma Education Association (BuddhaNet)', lib='tinmon/')
+add('studies', 'Nandamālābhivaṃsa', '2005', 'Fundamental Abhidhamma, Part I (2nd ed., rev.)', 'Sagaing: Centre for Buddhist Studies, Mahāsubodhayon Monastery', lib='fundamental/')
 
 # --- Reference
 add('reference', 'Rhys Davids, T. W. & Stede, W. (Eds.)', '1921–1925', 'The Pali Text Society’s Pali–English dictionary', 'London: Pali Text Society')

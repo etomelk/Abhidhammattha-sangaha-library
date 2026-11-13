@@ -1,0 +1,5063 @@
+{
+"chapters": [
+{
+"num": "0",
+"label": "Front matter",
+"title": "Editorial Preface; About the Author; The History of Abhidhamma",
+"blocks": [
+{
+"type": "h",
+"text": "Editorial preface"
+},
+{
+"type": "p",
+"text": "I have followed and benefited from the lectures on Abhidhamma delivered by Ven. Ashin Nandamālābhivaṃsa to the Burmese Buddhist community in the Baltimore, Maryland and Washington, D.C. area during his visits to the United States of America in 1993-94 and again in April-June 1997. This book provides the core curriculum of these lectures."
+},
+{
+"type": "p",
+"text": "Abhidhamma is, in the words of Nāradha Mahāthera “a psychology without a psyche”. Abhidhamma teaches that ultimate reality consists of four elementary constituents: Nibbāna, which is unconditioned, and citta, cetasika and rūpa (meaning consciousness, mental factors and matter, respectively) that are conditioned. They are also called dhamma. Dhamma literally means to hold its own nature and characteristics. Dhammas are natural laws that are always true. Thus, Abhidhamma describes the dhammas, their characteristics, their functions and their relations. All conceptual entities, such as self or person are resolved into their ultimates, i.e., into bare mental and material phenomena that are impermanent."
+},
+{
+"type": "p",
+"text": "Some of the laity became scared when they are invited to lectures on Abhidhamma. Some think that the lecture, as the name implies, will be “profound” and “way over their heads”, or that the lecture will be too “heavy” or “dry” (meaning boring). I would submit that Abhidhamma is within us and all around us – in the way we think, speak and act, in our interactions with those – animate and inanimate – around us, and in the purposes underlying these actions and interactions. Thus, I think that Abhidhamma is to be applied every day by every one to every conscious action (thought, speech or deed), and that Abhidhamma forms the foundation of Vipassanā mindfulness that will help us get on the Eightfold Noble Path towards Liberation."
+},
+{
+"type": "p",
+"text": "In this book, Ven. Ashin Nandamālābhivaṃsa has provided a concise and simplified, yet thorough and systematic, presentation of Abhidhamma. The chapters are written in a simple manner to give the backbone of Abhidhamma which the layman may make reference to, so that he could get an overview of Abhidhamma at the basic level. A more detailed “intermediate” level book and an in-depth “advanced” level book on Abhidhamma are planned for the near future."
+},
+{
+"type": "p",
+"text": "May all beings be able to understand and practise the Buddha’s teachings."
+},
+{
+"type": "p",
+"text": "Dr. Khin Maung U, Myanmar-Buddhist Meditation Society, Baltimore, Maryland, USA June 1997"
+},
+{
+"type": "p",
+"text": "Foreword to the second edition"
+},
+{
+"type": "p",
+"text": "The Ven. Sayadaw U Nandamāla’s “Fundamental Abhidhamma” has already benefited many students of his Abhidhamma-classes. Now-a-days, where Abhidhamma is spreading to the world, and more and more foreigners become interested in Abhidhamma – especially in connection with Vipassanā-meditation – we are in great need of basic and comprehensible Abhidhammabooks in straightforward Western languages."
+},
+{
+"type": "p",
+"text": "So, the first edition from 1997 was computerized again, a few obvious mistakes were corrected and the Pāḷi diacritic marks were complemented. Chapter 4 and 5, meanwhile written by the Ven. Sayadaw, newly could be added."
+},
+{
+"type": "p",
+"text": "Still the book on “Fundamental Abhidhamma” is not complete, but we are confident that it will be continued and published completely within the next few years."
+},
+{
+"type": "p",
+"text": "I apologize for all mistakes, which are only due to my lack of mindfulness, or my ignorance and limited knowledge."
+},
+{
+"type": "p",
+"text": "Aggañāṇī, Centre for Buddhist Studies, Sagaing Hills, Sagaing, Myanmar January 2005 - revised November 2005"
+},
+{
+"type": "p",
+"text": "A Brief Biography of"
+},
+{
+"type": "p",
+"text": "Dr. Nandamālābhivaṃsa"
+},
+{
+"type": "p",
+"text": "Ashin Nandamāla was born on 22nd"
+},
+{
+"type": "p",
+"text": "March 1940 at the village of Nyaung-bin"
+},
+{
+"type": "p",
+"text": "in Sint-ku, Mandalay, the Union of"
+},
+{
+"type": "p",
+"text": "Myanmar. His parents were U San Hla"
+},
+{
+"type": "p",
+"text": "and Daw Khin, who were pious"
+},
+{
+"type": "p",
+"text": "Buddhists."
+},
+{
+"type": "p",
+"text": "At the age of six, he was sent to the"
+},
+{
+"type": "p",
+"text": "monastic school to learn the three R’s"
+},
+{
+"type": "pre",
+"text": "                           (Elementary      reading,  writing   and"
+},
+{
+"type": "p",
+"text": "arithmetic) in the Myanmar language."
+},
+{
+"type": "p",
+"text": "He was ordained a novice at the Sagaing Hills when he was ten years old. His preceptor was Sayadaw U Canda, well-known as the “Sankin Sayadaw”, the presiding monk of the prestigious “Vipassanā” monastery. He was given the ecclesiastical name of “Nandamāla”."
+},
+{
+"type": "p",
+"text": "Ashin Nandamāla started to learn the Pāḷi language and the basic Buddhist scriptures under the tutelage of his own elder brother, Sayadaw U Nārada."
+},
+{
+"type": "p",
+"text": "Ashin Nandamāla is one of the founders of the Buddhist Teaching Centre, Mahā Subodhayon, in Sagaing, where about two hundred monks receive education in Buddhist philosophy and Buddhist literature. Ashin Nandamāla serves as a religious worker to promote and propagate the Buddha’s teaching, both in Myanmar and abroad. Since 2003 he yearly gives Abhidhamma-courses in Europe."
+},
+{
+"type": "p",
+"text": "In 1995, Ashin Nandamāla was conferred the title of the Senior Lecturer, “Aggamahā gantha vācaka paṇḍita” by the Government of Myanmar and in 2000 the title “Aggamahā paṇḍita”. He wrote his ph. D.-thesis about Jainism in Buddhist literature."
+},
+{
+"type": "p",
+"text": "He is Rector of the Sītagū International Buddhist Academy (SIBA) in Sagaing and, after being a Visiting Professor at the International Theravāda Buddhist Missionary University (ITBMU) in Yangon since its opening in 1998, in 2005 he was appointed the Rector also of this University. In 2003 he founded “Dhammavijjālaya - Centre for Buddhist Studies (CBS)” in Sagaing, connected to Mahāsubodhayon monastery."
+},
+{
+"type": "p",
+"text": "Ashin Nandamāla is the author of the following books written in Myanmar, Pāḷi and English languages:"
+},
+{
+"type": "pre",
+"text": "    1.   The Biography of the Master (1970)\n    2.   The Life and Literature of Shwehintha Sayadaw (1979)\n    3.   The 90 Years of Life of Daw Malayee (1975)\n    4.   The Hundred Verses on the Life of the Master (1970)\n    5.   The Hundred Verses on the Life of the Thera (1985)\n    6.   The Exposition of True Meaning (Paramattha dīpanī) with"
+},
+{
+"type": "p",
+"text": "Critical Introduction to the Text (Thesis for the degree of"
+},
+{
+"type": "p",
+"text": "Master of Philosophy)"
+},
+{
+"type": "pre",
+"text": " 7.      Buddhism and Vegetarianism (1990)\n 8.      The Three Meritorious Actions in Buddhism (1992)\n 9.      Mettā (1994)\n10.      The Fundamental Abhidhamma (including a chapter on the"
+},
+{
+"type": "p",
+"text": "History of Abhidhamma) (1997)"
+},
+{
+"type": "pre",
+"text": "11.      A Study of Jainism according to Buddhist Literature"
+},
+{
+"type": "p",
+"text": "(Thesis for the degree of Ph.d., 2001)"
+},
+{
+"type": "pre",
+"text": "12.      Patthann Myat Desana (Discourse on Paṭṭhāna, 2004)\n13.      The Dhamma mirror (2004)"
+},
+{
+"type": "h",
+"text": "THE HISTORY OF ABHIDHAMMA"
+},
+{
+"type": "p",
+"text": "1. Why is it called Abhidhamma?"
+},
+{
+"type": "p",
+"text": "Abhidhamma is unique in Buddhism. It is one of the Tipiṭaka Pāḷi texts which explains dhammas in detail and in an analytical way. Regarding the explanation of dhammas, it does so in more detail than Suttanta. That is why the text is called “Abhidhamma”."
+},
+{
+"type": "h",
+"text": "2. Who is the author?"
+},
+{
+"type": "p",
+"text": "The Buddha is the author of Abhidhamma. There was a controvery about the authorship. It has been said that Abhidhamma is not the teaching of the Buddha. Indeed, that it is only later work."
+},
+{
+"type": "p",
+"text": "Thera Buddhaghosa, a new commentator, advocates that Abhidhamma is the Buddha’s teaching. It is described in his commentary on Dhammasangaṇī, Atthasālinī by name:"
+},
+{
+"type": "p",
+"text": "“His heart by that world-pitying love inspired,"
+},
+{
+"type": "p",
+"text": "When, after the Twin Miracle, he dwelt."
+},
+{
+"type": "p",
+"text": "At the high mansion of the Thirty-three,"
+},
+{
+"type": "p",
+"text": "Throned – like the sun on Mount Yugandhara"
+},
+{
+"type": "p",
+"text": "On Pandukambula, his rocky seat,"
+},
+{
+"type": "p",
+"text": "Under the tree called Paricchattaka,"
+},
+{
+"type": "p",
+"text": "He by that noble insight gave discourse,"
+},
+{
+"type": "p",
+"text": "On the Abhidhamma to the spirit who came,"
+},
+{
+"type": "p",
+"text": "Led by his mother, from the myriad worlds,"
+},
+{
+"type": "p",
+"text": "And compassed him about on every side.”"
+},
+{
+"type": "p",
+"text": "(The Expositor, 2)"
+},
+{
+"type": "h",
+"text": "3. Who brought Abhidhamma to the human world?"
+},
+{
+"type": "p",
+"text": "In Theravāda Buddhist circle, it is widely accepted that Abhidhamma was taught to the deity. In the seventh year after His enlightenment, the Buddha went to the world of the deity and taught Abhidhamma for three months."
+},
+{
+"type": "p",
+"text": "During those days the Buddha came down to this world for the purpose of having meals every morning as a human. Uttarakuru, the north continent, was the place where the Buddha went for alms-food. After lunch, the Buddha rested under a big tree on the bank of the lake, Anotatta."
+},
+{
+"type": "p",
+"text": "Ven. Sāriputta, one of the chief disciples, approached and served the Buddha with water. At this meeting with Ven. Sāriputta, the Buddha briefed him about what He had taught in the deity world. Ven. Sāriputta thus learnt and brought the Abhidhamma to the human world. Then, he taught his Bhikkhu pupils the doctrine. In this way, Abhidhamma was introduced into our world. However, it should be noted that the Abhidhamma taught to the deity is in great detail and that the Abhidhamma retold by Ven. Sāriputta is in a concise form."
+},
+{
+"type": "h",
+"text": "4. The Seven Abhidhamma Texts"
+},
+{
+"type": "p",
+"text": "The Abhidhamma comprises seven texts, viz., (1) Dhammasangaṇī, the Explanation of Dhammas, (2) Vibhaṅga, the Book of Analysis, (3) Dhātukathā, the Speech on the Elements, (4) Puggalapaññatti, the Designation of Individuals, (5) Kathāvatthu, the Points of Controversy, (6) Yamaka, the Book of Pairs, and (7) Paṭṭhāna, the Book of Conditions."
+},
+{
+"type": "p",
+"text": "This is the list that is widely accepted in the Theravāda Buddhist circle. There was a controversy about the treatise, Kathāvatthu. Instead of Kathāvatthu the Abhidhamma text was enumerated as “Dhamma hadaya vibhaṅga” by some, as “Mahā dhātu kathā” by others."
+},
+{
+"type": "p",
+"text": "Ven. Buddhaghosa advocated the list of the Abhidhamma text only with “Kathāvatthu”. However, Kathāvatthu is a work of Thera Moggaliputta Tissa who made his appearance 263 years after the Buddha’s parinibbāna. Although it was so, originally the Buddha himself gave “the outline of Kathāvatthu”. Then it was detailed by Ven. Moggaliputta Tissa referring to one thousand suttas – five hundred of His own and five hundred of others. Therefore, as justified by Ven. Buddhaghosa, Kathāvatthu is a teaching of the Buddha in a manner."
+},
+{
+"type": "h",
+"text": "5. Commentaries on Abhidhamma"
+},
+{
+"type": "p",
+"text": "There are five topics that are expounded in the Abhidhamma texts, namely Citta (consciousness), Cetasika (mental concomitants), Rūpa (matter), Nibbāna (a state of freedom from attachment) and Paññatti (concept). Of them the Paññatti alone is unreal (unsubstantive) while the others are real (substantive) in the ultimate sense. They are all denoted by using the term dhamma, which is in the sense of “bearing its own nature”."
+},
+{
+"type": "p",
+"text": "The dhammas which are expounded in the Abhidhamma texts are profound. It is difficult to understand them without a complete explanation. Thus commentaries were written to explain the Abhidhamma. It is not known how many commentaries have been compiled. Mahā aṭṭhakathā could be the first commentary. It might be of Indian origin and was brought to Sri Lanka island by Ven. Mahinda who introduced Buddhism into Sri Lanka. Mahā aṭṭhakathā was written in Singhalese in order to avoid mixing of the original meaning with other sect’s views."
+},
+{
+"type": "p",
+"text": "Then Ven. Buddhaghosa condensed Mahā aṭṭhakathā and translated it into Pāḷi. Ven. Buddhaghosa’s commentaries are translated into three texts: (1.) Atthasālinī, the commentary on Dhammasangaṇī, (2.) Sammohavinodanī, the commentary on Vibhaṅga, and (3.) Pañca-pakaraṇa aṭṭhakathā, the commentary on the other five"
+},
+{
+"type": "p",
+"text": "texts."
+},
+{
+"type": "p",
+"text": "When the new commentaries appeared, the old ones gradually disappeared. As a new commentary became popular and it became necessary to explain it. Ven. Ānanda wrote a sub-commentary on the new commentary. This sub-commentary is known as Mūlaṭīkā. Ven. Ānanda’s Abhidhammic views are very high and his comments are very elucidatory. He criticized some of the views that are expounded by Ven. Buddhaghosa."
+},
+{
+"type": "p",
+"text": "Then, Anuṭīkā appeared to explain Mūlaṭīkā. It is a work of Ven. Dhammapāla who was also a commentator of Visuddhimagga Mahā Ṭīkā. He was an advocate of the opinion of Ven. Buddhaghosa, which was rejected by Ven. Ānanda."
+},
+{
+"type": "h",
+"text": "6. Abhidhamma flourished in Sri Lanka"
+},
+{
+"type": "p",
+"text": "It is believed that Abhidhamma was introduced into Sri Lanka when Ven. Mahinda, a leader of the Asoka mission, arrived on the island. During the earlier period, the study of Abhidhamma could be through the Pāḷi text and its commentary, Mahā aṭṭhakathā."
+},
+{
+"type": "p",
+"text": "Before or at the time of Ven. Buddhaghosa, there appeared celebrated Abhidhammic scholars in Sri Lanka. Their names and views are found here and there in the commentaries of Ven. Buddhaghosa. They are: (1) Tipiṭaka Cūḷānāga, (2) Moravāpivāsi Mahādatta, (3) Tipiṭaka Mahādhammarakkhita, (4) Tipiṭaka Cūḷābhaya, and (5) Abhidhammika Godatta."
+},
+{
+"type": "p",
+"text": "They are believed to be senior to Ven. Buddhaghosa, the new commentator. Their Abhidhammic views are referenced significantly in his books."
+},
+{
+"type": "p",
+"text": "Actually Abhidhamma is so profound that it is hard to understand. Students need easy access to that subject. Therefore, the Abhidhammic scholars in Sri Lanka tried to write concise books on Abhidhamma."
+},
+{
+"type": "p",
+"text": "Ven. Buddhadatta, a contemporary of Ven. Buddhaghosa, wrote two books: Abhidhammāvatāra (An Approach to Abhidhamma) and Rūpārūpa-vibhāga (The Analysis of Mind and Matter)."
+},
+{
+"type": "p",
+"text": "In about the ninth century A.D., there appeared an Abhidhammic scholar in Sri Lanka. He is Ven. Anuruddha who came from Southern India to Sri Lanka. He wrote three books on Abhidhamma: (1) Abhidhammattha Saṅgaha, Compendium of Abhidhamma, (2) Paramattha vinicchaya, the Clarification of Reality, and (3) Nāmarūpa-pariccheda, the Analysis of Mind and Matter."
+},
+{
+"type": "p",
+"text": "Through these books the study of Abhidhamma flourished and is kept alive."
+},
+{
+"type": "h",
+"text": "7. How Abhidhamma flourished in Myanmar"
+},
+{
+"type": "p",
+"text": "Perhaps Buddhism could have been introduced into Myanmar earlier than the Asoka mission that arrived in Suvaṇṇa bhūmi, a part of Myanmar. When Buddhism was introduced, the Tipiṭaka Pāḷi texts could have been brought."
+},
+{
+"type": "p",
+"text": "During the reign of King Manuhā in early 11th century A.D., there were Buddhist monks who were well-versed in Tipiṭaka in Suvaṇṇa bhūmi. When King Anawratha united the entire Myanmar people into one kingdom, Buddhism became more prevalent. The king brought Tipiṭaka books from Suvaṇṇabhūmi as well as from Sri Lanka and established a library to keep them."
+},
+{
+"type": "p",
+"text": "The study of Abhidhamma started to become popular in Myanmar. At the time of King Navapati Seethū, 1173 A.D., Ven. Saddhammajotipāla, well known as Sappada (chappada), was back from Sri Lanka after having made a long-term study. He wrote two books on Abhidhamma, Saṅkhepa vaṇṇanā (Concise Explanation) and Nāma cāradīpaka (the Exposition of Mind Appearance)."
+},
+{
+"type": "p",
+"text": "During the reign of King Kyaswā, 1234 A.D. the people of Bagan were interested in Abhidhamma. The king and other members of the royal families earnestly studied Abhidhamma. The king wrote a small book, Paramattha vindu (A Spot of Reality). Some of the women in Bagan, it was said, even those who had children, learnt a section of Paṭṭhāna by heart. It was recorded that there was a minister who was well-versed in Tipiṭaka."
+},
+{
+"type": "p",
+"text": "When the era of Pinya (1312 A.D.) started the study of Abhidhamma continued to be propagated. At the time of King Thiha Thura (1350- 1359) Ven. Ñāṇakitti wrote the two books on Abhidhamma, namely, Atthasālinī-yojanā and Sammohavinodanī yojanā. In “yojanā” book it gives Pāḷi to Pāḷi explanation."
+},
+{
+"type": "p",
+"text": "When the era of Inwa (726) dawned, the study of Abhidhamma flourished in Myanmar. The list of Abhidhamma texts that were studied in Inwa are as follows: (1) The Seven Abhidhamma Pāḷi texts (2) Commentaries on the above (3) Mūlaṭīkā (4) Anuṭīkā (5) Abhidhammattha Saṅgaha (6) Ṭīkā on the above [old] (7) Ṭīkā on the above [new] (8) Nāmarūpa-pariccheda Ṭīkā [new] (9) Paramattha-vinicchaya Ṭīkā [new] (10) Mohāvicchedani"
+},
+{
+"type": "p",
+"text": "During the reign of King Narapati (1442-1468) of Inwa, Thera Ariya vaṃsa wrote in Pāḷi a commentary on Vibhāvinī. It is named “Manisāramañjūsā”. In Ramañña Territory, lower Myanmar, the King Sinphyushin ruled Haṃsavati (Hantharwady as the Burmese pronounced). During that time (1550-1580) Thera Mahāsuvaṇṇadīpa wrote in Pāḷi Apheggusara-dīpanī, a commentary on Vibhāvinī."
+},
+{
+"type": "p",
+"text": "Also, there have been many books, Nissaya, in which word for word translation into Burmese is offered."
+},
+{
+"type": "p",
+"text": "During the reign of King Thalun (1629-1648), the Pathamapyan examinations were held. In this examination Abhidhamma was a compulsory subject. Therefore, the study of Abhidhamma was prevalent among Buddhist monks. A large number of books on Abhidhamma either in Pāḷi or in Burmese appeared in this period."
+},
+{
+"type": "p",
+"text": "During the Konbaung period 1753-1885), the study of Abhidhamma continued to be popular. In monastic examinations, Abhidhamma was a compulsory subject. At present, even lay people are interested in Abhidhamma. Abhidhamma examinations are held yearly for lay people."
+},
+{
+"type": "p",
+"text": "Mandalay, a great Buddhist study centre, was founded in 1859 by King Mindon. During the reign of King Mindon (1859-1878), there were 60,000 monk students who were studying Pāḷi and Tipiṭaka under 80 great monk teachers in Mandalay. The king honoured the teachers with the highest title, Rājagūru, and awarded provisions for food, cloths, shelter and medical treatment."
+},
+{
+"type": "p",
+"text": "In those days, monks delivered lectures on Abhidhamma using two reference books, Mūlaṭīkā and Anuṭīkā. No reference was made to the two books, Vibhāvinī and Manisaramañjūsā. Their opinion was that Vibhāvinī was full of mistakes and Manisaramañjūsā was full of unnecessary points."
+},
+{
+"type": "p",
+"text": "In Myanmar there are a large number of Abhidhamma texts that are edited and printed. There are seven Abhidhamma treatises which are of Indian origin. The commentaries and sub-commentaries which were written in Sri Lanka, number 26."
+},
+{
+"type": "p",
+"text": "In reference to those Pāḷi and Commentaries, Abhidhammic scholars in Myanmar wrote numerous books that dealt with Abhidhamma. Those which are written in Pāḷi number 43, those written in Pāḷi and Burmese number 112, and those that give general information on Abhidhamma amount to 333 books, according to the list of “Abhidhamma History” in Burmese (printed in 1965). Thus, in Myanmar, the study of Abhidhamma is still kept alive."
+},
+{
+"type": "h",
+"text": "8. The role of Abhidhammattha saṅgaha"
+},
+{
+"type": "p",
+"text": "In Myanmar Abhidhammattha saṅgaha is widely known as “Thingyo” which is derived from the Pāḷi word “saṅgaha”, or “thingaha” as Burmese people pronounce."
+},
+{
+"type": "p",
+"text": "In monastic schools in Myanmar the two books, “Thada” and “Thingyo” are very important subjects. They are compulsory in Pāḷi examinations and young novices are required to learn them by heart. Here “thada” which is derived from “sadda” is denoted “kaccayāna”, the Pāli Grammar."
+},
+{
+"type": "p",
+"text": "Thingyo or Abhidhamma saṅgaha serves as a primer of Abhidhamma in Myanmar. Its utility ranks very high, and its excessively condensed points stimulates students who wish to learn Abhidhamma with greater efforts."
+},
+{
+"type": "p",
+"text": "The way in which Burmese Abhidhamma students practice is as follows: First they learn “Thingyo” by heart, then the meaning through the “Nissaya” books in which word for word translation is given. After that students need to study the text by going into detail through commentaries, such as Vibhāvinī Ṭīkā. This is the way of learning the text at the ordinary level. At the advanced level, students need to proceed with the study of Abhidhamma through the original Pāḷi texts and their commentaries. In this way, Burmese Buddhist monks are well-versed in Abhidhamma. So Abhidhammattha saṅgaha plays a key role in study of Abhidhamma."
+},
+{
+"type": "p",
+"text": "To learn Abhidhammattha saṅgaha there needs to be commentaries in which general information are given. The following are some of Commentaries on Abhidhammattha saṅgaha:"
+},
+{
+"type": "p",
+"text": "1. Abhidhammattha saṅgaha Ṭīkā [old], by Nava"
+},
+{
+"type": "p",
+"text": "vimalabuddhi of Sri Lanka,"
+},
+{
+"type": "p",
+"text": "2. Abhidhammattha Vibhāvinī, by Sumaṅgala sāmi of Sri"
+},
+{
+"type": "p",
+"text": "Lanka,"
+},
+{
+"type": "p",
+"text": "3. Sankhepa vaṇṇanā, by Saddhamma-jotipāla of Myanmar"
+},
+{
+"type": "p",
+"text": "[1446],"
+},
+{
+"type": "p",
+"text": "4. Abhidhammattha dīpanī, by Silācāra of Myanmar [1801],"
+},
+{
+"type": "p",
+"text": "5. Paramatthadīpanī, by Ñāṇa Thera, Ledi Sayadaw, of"
+},
+{
+"type": "p",
+"text": "Myanmar [1897],"
+},
+{
+"type": "p",
+"text": "6. Aṅkura Ṭīkā, by Vimala Thera of Myanmar [1905],"
+},
+{
+"type": "p",
+"text": "7. Mahā atula Ṭīkā, by Nāgindasāmi of Myanmar [1914],"
+},
+{
+"type": "p",
+"text": "8. Abidhammattha saṅgaha vinicchaya, by Paññājota of"
+},
+{
+"type": "p",
+"text": "Myanmar [1919]."
+},
+{
+"type": "p",
+"text": "9. The role of Vibhāvinī"
+},
+{
+"type": "p",
+"text": "Vibhāvinī, as its full name Abhidhammattha Vibhāvinī, is one of the commentaries on Abhidhammattha saṅgaha. It is a work of Sumaṅgala sāmi and the most popular and most authoritative."
+},
+{
+"type": "p",
+"text": "The writing style is very simple and the explanations are elucidatory. So the Commentary is known in Myanmar as “Ṭīkā-gyaw” meaning “the famous Ṭīkā”."
+},
+{
+"type": "p",
+"text": "In Myanmar Buddhist monks have been studying Ṭīkā-gyaw since long time ago. It demands the easy access to the text and commentaries were compiled in Pāḷi or in Burmese by scholar monks."
+},
+{
+"type": "p",
+"text": "During the Konbaung period (1753-1885) there have been some Abhidhammic scholars whom criticize Vibhāvinī. They asserted that Vibhāvinī is full of mistakes."
+},
+{
+"type": "p",
+"text": "Although it is so, Vibhāvinī continues to maintain its populatity among those who study Abhidhamma in Myanmar."
+},
+{
+"type": "h",
+"text": "10. Ledi Sayadaw"
+},
+{
+"type": "p",
+"text": "The history of Abhidhamma would not be complete without mentioning Ledi Sayadaw, a great teacher of Abhidhamma, and one of his famous writings, Paramatthadīpanī, the most important book in the history of Abhidhamma."
+},
+{
+"type": "p",
+"text": "He was born in 1846 in a village, Saipyin, in Dipeyin Topwnship, upper Myanmar. The name given him by his preceptor was Ñāṇa. After he had entered into the order, he studied Pāḷi and Tipiṭaka in Mandalay. In 1886, he founded a monastery in the forest, Ledi, in the north of Monywa. It was named “Ledi” after the forest. Ven. Ñāṇa was known “Ledi Sayadaw” after the name of the monastery he founded."
+},
+{
+"type": "p",
+"text": "Ledi Sayadaw wrote over 100 books on grammar, ethical, religious and philosophical aspects of Buddhism. Of them Paramatthadīpanī is a book which is written in Pāḷi and, as mentioned before, it is the most important in the history of Abhidhamma. His fame spread beyond the borders of Myanmar. In 1911 the Government honoured him with the title of “Aggamahā paṇḍita”. In 1918 an honorary degree, D.Lit., was conferred on him by the University of Rangoon."
+},
+{
+"type": "p",
+"text": "Ledi Sayadaw passed away in Pyinmanar at the age of 77."
+},
+{
+"type": "p",
+"text": "11. Paramatthadīpanī, the critique of Vibhāvinī"
+},
+{
+"type": "p",
+"text": "Ledi Sayadw was very interested in Abhidhamma, and had been studying that doctrine with great attention. He noticed that some opinions were mistakenly informed in Abhidhamma commentaries. Especially Vibhāvinī is full of grammatical, logical and philosophical mistakes."
+},
+{
+"type": "p",
+"text": "In 1897 Ledi Sayadaw wrote Paramatthadīpanī, a commentary on Abhidhammattha saṅgaha. It offers general information of the text and correct meaning of the words. It also pointed out some mistakes which are put forward in Abhidhamma commentaries, especially in Vibhāvinī."
+},
+{
+"type": "p",
+"text": "Paramatthadīpanī made several unfavourable comments about the opinion of Vibhāvinī and presented innovative ideas."
+},
+{
+"type": "p",
+"text": "However, the innovations presented in Paramatthadīpanī had not met with general acceptance. Actually the critique aroused more controversy among the readers."
+},
+{
+"type": "p",
+"text": "The advocates of Vibhāvinī published some commentaries which were written in Pāḷi:"
+},
+{
+"type": "p",
+"text": "1. Aṅkura Ṭīkā, by Ven. Vimala, Talaigon Sayadaw, in 1905,"
+},
+{
+"type": "p",
+"text": "2. Mahā atula Ṭīkā, by Ven. Nāgindasāmi, in 1914,"
+},
+{
+"type": "p",
+"text": "3. Paramattha visodhanī, by Ven. Dīpamāla, Chaung Oo"
+},
+{
+"type": "p",
+"text": "Sayadaw,"
+},
+{
+"type": "p",
+"text": "4. Abhidhammattha Vibhāvinī yojanā, by Ven. Ñāṇindāsabha,"
+},
+{
+"type": "p",
+"text": "in 1918, and"
+},
+{
+"type": "p",
+"text": "5. Abhidhammattha-saṅgaha vinicchaya, by Ven. Paññājota,"
+},
+{
+"type": "p",
+"text": "in 1919."
+},
+{
+"type": "p",
+"text": "There were also other books and articles written in Burmese, some offering unfavourable comments and others giving favourable comments about the criticizing Vibhāvinī. But “Abhidhammattha saṅgaha vinicchaya” arbitrates between the two commentaries, Vibhāvinī and Paramatthadīpanī."
+},
+{
+"type": "p",
+"text": "In 1916, Ledi Sayadaw wrote Anudīpanī, a sub-commentary on Paramatthadīpanī, to clarify his innovation in Paramatthadīpanī."
+},
+{
+"type": "p",
+"text": "Ven. Ashin Nandamālabhivaṃsa"
+},
+{
+"type": "p",
+"text": "Mahā Subodhayon Kyaung Taik"
+},
+{
+"type": "p",
+"text": "Sagaing Hill, Sagaing, Myanmar"
+},
+{
+"type": "p",
+"text": "June 1997"
+},
+{
+"type": "p",
+"text": "THE FUNDAMENTAL ABHIDHAMMA"
+},
+{
+"type": "p",
+"text": "Namo sammāsambuddhassa"
+},
+{
+"type": "h",
+"text": "Abhidhamma"
+},
+{
+"type": "p",
+"text": "Abhidhamma, the Pāḷi term, is used for the profound dhamma. The text in which the profound dhamma is explained is also called “Abhidhamma”."
+},
+{
+"type": "p",
+"text": "The commentary gives the definition of “Abhidhamma” thus: Abhidhamma is a treatise in which the dhamma is explained in more detail and in an analytical way than Suttanta."
+},
+{
+"type": "h",
+"text": "Seven Abhidhamma Texts"
+},
+{
+"type": "p",
+"text": "There are seven treatises that compose the whole “Abhidhamma piṭaka”, meaning “the basket of philosophy”. They are comprised as follows:"
+},
+{
+"type": "pre",
+"text": "     1. Dhammasangaṇī          Classification of Dhammas\n     2. Vibhaṅga               The Book of Analysis\n     3. Dhātukathā             A Talk on the Elements\n     4. Puggala paññatti       Designation of Individuals\n     5. Kathāvatthu            Points of Controversy\n     6. Yamaka                 The Book of Pairs\n     7. Paṭṭhāna               Conditional Relation"
+},
+{
+"type": "h",
+"text": "The Two Types of Dhammas explained in Abhidhamma"
+},
+{
+"type": "p",
+"text": "There are two types of dhammas that are explained in Abhidhamma treatise. They are Paññatti and Paramattha."
+},
+{
+"type": "p",
+"text": "Paññatti comprises names and things. The names are paññatti. Because, through names we are able to know things. Things are also paññatti. Because they have to be known through names. All of the names we call and all of the words we use are “sadda paññatti”. Because, through them we have to know the things concerned. The things are “attha paññatti”. Because they have to be known by mean of names and words."
+},
+{
+"type": "p",
+"text": "Paññatti changes its designation when its form or substance changes. It is, however, conventional truth (sammuti sacca), because it is something that is generally accepted. Using the conventional truth, the Buddha gives guidelines dealing with status, obligation of human society, morality, conditions of success in life and so on."
+},
+{
+"type": "p",
+"text": "Paramattha is the ultimate reality. The dhamma of ultimate reality is that they never change (their nature or characteristic). It is real forever. The ultimate reality is abstract truth (paramattha sacca). Using the abstract truth, the Buddha expounds the wisdom of realization and emancipation (liberation)."
+},
+{
+"type": "h",
+"text": "The Four Ultimate Realities"
+},
+{
+"type": "p",
+"text": "The ultimate reality can be divided into four according to its own characteristics, namely:"
+},
+{
+"type": "pre",
+"text": "     1. Citta        Consciousness\n     2. Cetasika     Mental states\n     3. Rūpa         Matter\n     4. Nibbāna      The state of freedom from attachment"
+},
+{
+"type": "p",
+"text": "In the ultimate sense, a human being is only a concept. It is composed of mind and matter. Mind consists of consciousness and mental states."
+},
+{
+"type": "p",
+"text": "Nibbāna is a state in which mind and matter become completely extinct."
+}
+]
+},
+{
+"num": "1",
+"label": "Chapter 1",
+"title": "Citta: Consciousness",
+"blocks": [
+{
+"type": "h",
+"text": "Definition and classification"
+},
+{
+"type": "p",
+"text": "Citta, consciousness, is awareness of object. It is conscious (aware) of object, so it is called citta. All types of consciousness are the same according to the nature of being conscious of the object. But, it can be classified into 89 or 121 through the plane where it arises, type, associated dhamma, promptitude, jhāna, object that receives and magga (the constitution of the Eight Noble Paths)."
+},
+{
+"type": "p",
+"text": "Citta 89/121"
+},
+{
+"type": "pre",
+"text": "                                              lobhamūla      =8\n                          akusala   = 12      dosamūla       =2\n                                              mohamūla       =2"
+},
+{
+"type": "p",
+"text": "akusala vipāka = 7"
+},
+{
+"type": "pre",
+"text": "Kāmāvacara = 54           ahetuka = 18        kusala vipāka = 8\n                                              kriya          =3\n                                              kusala         =8"
+},
+{
+"type": "p",
+"text": "kāma"
+},
+{
+"type": "pre",
+"text": "                                  = 24        vipāka         =8"
+},
+{
+"type": "p",
+"text": "sobhana"
+},
+{
+"type": "pre",
+"text": "                                              kriya          =8\n                                              kusala         =5\nRūpāvacara    = 15                            vipāka         =5\n                                              kriya          =5\n                                              kusala         =4\nArūpāvacara = 12                              vipāka         =4\n                                              kriya          =4\n                                              magga          = 4/20\nLokuttara     = 8/ 40\n                                              phala          = 4/20"
+},
+{
+"type": "h",
+"text": "Kāmāvacara – 54"
+},
+{
+"type": "p",
+"text": "Cittas that frequent kāma plane are called “kāmāvacara” (consciousness that frequents the plane of sensual pleasure). The kāmāvacara citta is first classified into three, namely, akusala, ahetuka and sobhana."
+},
+{
+"type": "h",
+"text": "Akusala – 12"
+},
+{
+"type": "p",
+"text": "Akusala means “contradiction of kusala”. Kusala means meritorious, wholesome or moral. So akusala is demeritorious, unwholesome or immoral. All types of akusala are with fault and bring about ill (bad) results."
+},
+{
+"type": "p",
+"text": "Akusala consciousness is classified into three types by means of its root, namely:"
+},
+{
+"type": "pre",
+"text": "     1. Lobhamūla        Attachment-rooted consciousness\n     2. Dosamūla         Hatred-rooted consciousness\n     3. Mohamūla         Delusion-rooted consciousness"
+},
+{
+"type": "p",
+"text": "Note: Attachment, hatred and delusion are mental concomitants, and they are the root of all types of akusala."
+},
+{
+"type": "h",
+"text": "Lobhamūla – 8"
+},
+{
+"type": "p",
+"text": "The consciousness that is rooted in attachment is “lobhamūla”. All types of lobhamūla are the same in the nature of craving. But it is divided into eight according to feeling, association and promptitude."
+},
+{
+"type": "p",
+"text": "The lobhamūla consciousness is twofold by means of feeling: pleasant feeling and neutral feeling. Each one is twofold by means of association: with wrong view and without wrong view. So lobhamūla is four types. Again each of them is divided twofold by means of promptitude: with promptitude and without promptitude. Thus lobhamūla is classified into eight. The following is how lobhamūla can be divided into eight types:"
+},
+{
+"type": "pre",
+"text": "Feeling                 Association             Promptitude\nWith pleasant           With wrong view         Without\nWith neutral            Without wrong view      With"
+},
+{
+"type": "p",
+"text": "The meaning of Pāḷi terms:"
+},
+{
+"type": "pre",
+"text": "Somanassa-sahagata               =   accompanied by pleasure\nUpekkhā-sahagata                 =   accompanied by indifference\nDiṭṭhigata-sampayutta            =   connected with wrong view\nDiṭṭhigata-vippayutta            =   disconnected from wrong view\nAsaṅkhārika                      =   without promptitude\nSasaṅkhārika                     =   with promptitude"
+},
+{
+"type": "h",
+"text": "Dosamūla – 2"
+},
+{
+"type": "p",
+"text": "The consciousness that is rooted in hatred is “dosamūla”. All types of dosamūla are the same in feeling and association. But it is classified into two by means of promptitude: with promptitude and without promptitude."
+},
+{
+"type": "p",
+"text": "The following is how dosamūla can be divided into two types:"
+},
+{
+"type": "pre",
+"text": "Feeling                 Association             Promptitude"
+},
+{
+"type": "p",
+"text": "Without"
+},
+{
+"type": "pre",
+"text": "With displeasure        With ill will"
+},
+{
+"type": "p",
+"text": "With"
+},
+{
+"type": "p",
+"text": "Pāḷi terms and their meanings:"
+},
+{
+"type": "pre",
+"text": "Domanassa-sahagata                   = accompanied by displeasure\nPaṭīgha-sampayutta                   = connected with ill will"
+},
+{
+"type": "h",
+"text": "Mohamūla – 2"
+},
+{
+"type": "p",
+"text": "The consciousness that is rooted in delusion is “mohamūla”. All types of mohamūla are the same in feeling, indifference. It is classified into two according to association. But it cannot be divided as “with promptitude and without promptitude”."
+},
+{
+"type": "p",
+"text": "How mohamūla can be divided into two types:"
+},
+{
+"type": "pre",
+"text": "Feeling                             Association"
+},
+{
+"type": "p",
+"text": "Connected with doubt Indifference"
+},
+{
+"type": "p",
+"text": "Connected with restlessness"
+},
+{
+"type": "p",
+"text": "Pāḷi terms and their meanings:"
+},
+{
+"type": "pre",
+"text": "Upekkhā-sahagata                    = accompanied by indifference\nVicikicchā-sampayutta               = connected with doubt\nUddhacca-sampayutta                 = connected with restlessness"
+},
+{
+"type": "h",
+"text": "Ahetuka – 18"
+},
+{
+"type": "p",
+"text": "In Abhidhamma treatise, the six types of mental states, lobha = attachment, dosa = hatred, moha = delusion, alobha = non-attachment, adosa = non-hatred, and amoha = non-delusion, are described as “hetu”, meaning conditions that fortify effects concerned like the root of a tree."
+},
+{
+"type": "p",
+"text": "The consciousness that dissociates from such a “hetu” is called “ahetuka”. It means a consciousness that is absent from “hetu”."
+},
+{
+"type": "p",
+"text": "Ahetuka citta is divided into three according to “types”, namely,"
+},
+{
+"type": "pre",
+"text": "1. Akusala vipāka                   = result of akusala\n2. Kusala vipāka                    = result of kusala, and\n3. Kriya / kiriya                   = functional consciousness"
+},
+{
+"type": "h",
+"text": "Akusala vipāka – 7"
+},
+{
+"type": "p",
+"text": "The consciousness that is the result of akusala is called “akusala vipāka”. The akusala vipāka citta is classified into seven according to base where mind arises and function that mind performs."
+},
+{
+"type": "p",
+"text": "Note: The base where mind arises is six-fold; the function mind performs is 14. They will be explained later."
+},
+{
+"type": "p",
+"text": "How akusala vipāka is classified into seven:"
+},
+{
+"type": "pre",
+"text": "A.        According to base:\n 1.       Eye-consciousness accompanied by indifference, and so are\n 2.       Ear-consciousness\n 3.       Nose-consciousness\n 4.       Tongue-consciousness\n 5.       Body-consciousness accompanied by pain\nB.        According to function:\n 6.       Receiving consciousness accompanied by indifference\n 7.       Investigating consciousness accompanied by indifference"
+},
+{
+"type": "p",
+"text": "Pāḷi terms and their meanings:"
+},
+{
+"type": "pre",
+"text": "Upekkhā-sahagata                      = accompanied by indifference\nDukkha-sahagata                       = accompanied by pain\nCakkhu-viññāṇa                        = eye-consciousness\nSota-viññāṇa                          = ear-consciousness\nGhāna-viññāṇa                         = nose-consciousness\nJivhā-viññāṇa                         = tongue-consciousness\nKāya-viññāṇa                          = body-consciousness\nSampaṭicchana                         = receiving\nSantīraṇa                             = investigating"
+},
+{
+"type": "h",
+"text": "Kusala vipāka – 8"
+},
+{
+"type": "p",
+"text": "The consciousness that is the result of kusala is called “kusala vipāka”. The kusala vipāka citta is classified into eight according to base where mind arises and function that mind performs."
+},
+{
+"type": "p",
+"text": "How kusala vipāka is classified into eight:"
+},
+{
+"type": "pre",
+"text": "A.       According to base:\n 1.      Eye-consciousness accompanied by indifference, and so are\n 2.      Ear-consciousness\n 3.      Nose-consciousness\n 4.      Tongue-consciousness\n 5.      Body-consciousness accompanied by happiness\nB.       According to function:\n 6.      Receiving consciousness accompanied by indifference\n 7.      Investigating consciousness accompanied by indifference\n 8.      Investigating consciousness accompanied by pleasure"
+},
+{
+"type": "p",
+"text": "Pāḷi terms and their meanings:"
+},
+{
+"type": "pre",
+"text": "Upekkhā-sahagata                    = accompanied by indifference\nSukha-sahagata                      = accompanied by happiness"
+},
+{
+"type": "h",
+"text": "Kriya – 3"
+},
+{
+"type": "p",
+"text": "The consciousness that acts, but does not produce an effect (as kamma does) is called “kriya”. The kriya citta is classified into three according to function."
+},
+{
+"type": "p",
+"text": "How kriya is classified into three types: 1. Adverting consciousness in Five-door accompanied by indifference 2. Adverting consciousness in Mind-door accompanied by indifference 3. Smile-producing consciousness accompanied by pleasure Pāḷi terms and their meanings:"
+},
+{
+"type": "pre",
+"text": "Pañca-dvāra-āvajjana         = altering consciousness in Five-door\nMano-dvāra-āvajjana          = altering consciousness in Mind-door\nHasituppāda                  = smile-producing consciousness"
+},
+{
+"type": "h",
+"text": "Kāma-sobhana – 24"
+},
+{
+"type": "p",
+"text": "Among the kamāvacara cittas, 24 types of consciousness are called “sobhana” because they are magnificent due to being good qualities and producing good effects."
+},
+{
+"type": "p",
+"text": "The kāma-sobhana citta is classified into three types, namely, kusala, vipāka and kriya."
+},
+{
+"type": "h",
+"text": "Kusala – 8"
+},
+{
+"type": "p",
+"text": "Kusala is so-called because it eradicates evil. All types of kusala are naturally free from fault and bring about happiness."
+},
+{
+"type": "p",
+"text": "Kusala citta is classified into eight, according to feeling, association and promptitude. The following is how kusala can be divided into eight types:"
+},
+{
+"type": "pre",
+"text": "Feeling                 Association              Promptitude\nWith pleasant           With knowledge           Without\nWith neutral            Without knowledge        With"
+},
+{
+"type": "p",
+"text": "When kusala citta arises, it feels pleasant or indifferent. Each of them is two-fold: with knowledge and without knowledge. So kusala is four. Four multiplied by the two promptitudes, without or with, gives eight."
+},
+{
+"type": "p",
+"text": "The meaning of Pāḷi terms:"
+},
+{
+"type": "pre",
+"text": "Ñāṇa-sampayutta                      = connected with knowledge\nÑāṇa-vippayutta                      = disconnected from knowledge"
+},
+{
+"type": "h",
+"text": "Vipāka – 8"
+},
+{
+"type": "p",
+"text": "The consciousness that is the result of kusala is called “vipāka”. The vipāka citta is classified in the same way as kusala that is its cause. Thus, vipāka is classified into eight types similar to kusala."
+},
+{
+"type": "h",
+"text": "Kriya – 8"
+},
+{
+"type": "p",
+"text": "Kriya means mere action. It is, although similar to kusala, not operative. Nor does it bear the result of kusala. It arises within arahantas who are devoid of mental defilements and do not come to be reborn in the next life. Kriya is classified into eight types in the same way."
+},
+{
+"type": "p",
+"text": "Classification of kāmāvacara citta"
+},
+{
+"type": "p",
+"text": "1. According to feeling:"
+},
+{
+"type": "pre",
+"text": "     Citta associated with pleasure                     18\n     Citta associated with happiness                    1\n     Citta associated with displeasure                  2\n     Citta associated with pain                         1\n     Citta associated with neutral feeling              32\n                                             Total      54"
+},
+{
+"type": "p",
+"text": "2. According to type:"
+},
+{
+"type": "pre",
+"text": "     Kusala                                             8\n     Akusala                                            12\n     Vipāka                                             23\n     Kriya                                              11\n                                             Total      54"
+},
+{
+"type": "h",
+"text": "Rūpāvacara – 15"
+},
+{
+"type": "p",
+"text": "The consciousness that arises mostly in the “rūpa brahma” world is called “rūpāvacara”. The rūpāvacara citta is basically classified into five according to the five jhāna stages. Then five multiplied by the three types, kusala, vipāka and kriya, comes to 15."
+},
+{
+"type": "p",
+"text": "The constitution of jhānas"
+},
+{
+"type": "pre",
+"text": "1.   The first jhāna that is constituted by vitakka, vicāra, pīti, sukha"
+},
+{
+"type": "p",
+"text": "and ekaggatā."
+},
+{
+"type": "pre",
+"text": "2.   The second jhāna that is constituted by vicāra, pīti, sukha and"
+},
+{
+"type": "p",
+"text": "ekaggatā."
+},
+{
+"type": "pre",
+"text": "3.   The third jhāna that is constituted by pīti, sukha and ekaggatā.\n4.   The fourth jhāna that is constituted by sukha and ekaggatā.\n5.   The fifth jhāna that is constituted by upekkhā and ekaggatā."
+},
+{
+"type": "p",
+"text": "The meaning of Pāḷi terms:"
+},
+{
+"type": "pre",
+"text": "Jhāna        = Jhāna is so called because it concentrates firmly on"
+},
+{
+"type": "p",
+"text": "an object. The word jhāna is used for the unity of"
+},
+{
+"type": "p",
+"text": "jhāna factors."
+},
+{
+"type": "pre",
+"text": "Jhānaṅga     = There are 5 jhāna factors, namely, vitakka, vicara, etc.\nVitakka      = Initial application\nVicāra       = Sustained application\nPīti         = Joy\nSukha        = Happiness\nUpekkhā      = Neutral feeling\nEkaggatā     = One-pointedness of the object"
+},
+{
+"type": "p",
+"text": "Paṭhama jhāna is the constitution of five jhāna factors, and it is the first stage that is attained."
+},
+{
+"type": "p",
+"text": "Dutiya jhāna is the constitution of four jhāna factors, and it is the second stage that is attained."
+},
+{
+"type": "p",
+"text": "Tatiya jhāna is the constitutions of three jhāna factors, and is the third stage attained."
+},
+{
+"type": "p",
+"text": "Catuttha jhāna is the constitution of two jhāna factors, and it is the fourth stage that is attained."
+},
+{
+"type": "p",
+"text": "Pañcama jhāna is the constitution of two jhāna factors, and it is the fifth stage that is attained."
+},
+{
+"type": "pre",
+"text": "                        Jhānaṅgas                Jhānas\n               V      V     P     S       E        1st\n                      V     P     S       E        2nd\n                            P     S       E        3rd\n                                  S       E        4th\n                                  U       E        5th"
+},
+{
+"type": "p",
+"text": "The meaning of jhāna:"
+},
+{
+"type": "p",
+"text": "In another way, jhāna is so-called because it temporarily burns those adverse mental states. They are termed nivaraṇa in Pāḷi."
+},
+{
+"type": "h",
+"text": "Nivaraṇa – 5"
+},
+{
+"type": "p",
+"text": "The Pāḷi word, nivaraṇa, is equivalent to the English word “hindrance”. Nivaraṇa is the hindrance of merit. There are five types of mental states:"
+},
+{
+"type": "pre",
+"text": "1.   Kāmacchanda                     =   sensual desire\n2.   Byāpāda                         =   ill will\n3.   Thīna-middha                    =   sloth and torpor\n4.   Uddhacca-kukkucca               =   restlessness and remorse\n5.   Vicikicchā                      =   doubt"
+},
+{
+"type": "p",
+"text": "Those five hindrances are burnt by the five jhāna factors each:"
+},
+{
+"type": "pre",
+"text": "1.   Thīna-middha            by       vitakka\n2.   Vicikicchā              by       vicāra\n3.   Byāpāda                 by       pīti\n4.   Uddhacca-kukkucca       by       sukha\n5.   Kāmacchanda             by       ekaggatā"
+},
+{
+"type": "p",
+"text": "How rūpāvacara citta is classified into 15:"
+},
+{
+"type": "pre",
+"text": "Jhāna                             Kusala         Vipāka       Kriya\nFirst jhāna      =    3             1               1           1\nSecond jhāna     =    3             1               1           1\nThird jhāna      =    3             1               1           1\nFourth jhāna     =    3             1               1           1\nFifth jhāna      =    3             1               1           1\nTotal                15 =           5    +          5 +         5"
+},
+{
+"type": "h",
+"text": "Arūpāvacara – 12"
+},
+{
+"type": "p",
+"text": "The consciousness that mostly arises in the arūpa brahma world is called “arūpāvacara”. Arūpāvacara citta is basically classified into 4 types, according to object. Then, 4 multiplied by 3 types, namely, kusala, vipāka and kriya, comes to 12."
+},
+{
+"type": "h",
+"text": "Object - 4"
+},
+{
+"type": "p",
+"text": "The 4 objects are divided into two: Passing over and receiving."
+},
+{
+"type": "pre",
+"text": "The passed-over objects               The receiving objects\nKasiṇa device                         Infinite space\nInfinite space                        First viññāṇa\nFirst viññāṇa                         Nothingness\nNothingness                           Third viññāṇa"
+},
+{
+"type": "p",
+"text": "The meaning of terms:"
+},
+{
+"type": "pre",
+"text": "Kasiṇa           = Entirety of device. The ten kinds of entirety of"
+},
+{
+"type": "p",
+"text": "device are used as an object of rūpa jhāna. Infinite space = A space that is known by removing the entirety"
+},
+{
+"type": "p",
+"text": "of device. First viññāṇa = The consciousness that occurs depending on infinite"
+},
+{
+"type": "p",
+"text": "space. It is only the first type of arūpa cittas."
+},
+{
+"type": "pre",
+"text": "Nothingness      = It is the non-existence of the first viññāṇa of arūpa"
+},
+{
+"type": "p",
+"text": "citta. Third viññāṇa = The consciousness that occurs depending on the"
+},
+{
+"type": "p",
+"text": "non-existence of the first viññāṇa."
+},
+{
+"type": "p",
+"text": "How arūpāvacara citta is classified into 12:"
+},
+{
+"type": "pre",
+"text": "Object                                        Kusala     Vipāka      Kriya\nĀkāsānañca āyatana                 =    3       1           1          1\nViññāṇañca āyatana                 =    3       1           1          1\nĀkiñcañña āyatana                  =    3       1           1          1\nNevasaññā-nāsaññā āyatana          =    3       1           1          1\nTotal                                  12 =    4 +         4 +         4"
+},
+{
+"type": "p",
+"text": "The meaning of Pāḷi terms:"
+},
+{
+"type": "pre",
+"text": "Ākāsānañcāyatana                 =     The consciousness that has the"
+},
+{
+"type": "p",
+"text": "“infinite space” as its object."
+},
+{
+"type": "pre",
+"text": "Viññāṇañcāyatana                 =     The consciousness that has the"
+},
+{
+"type": "p",
+"text": "“infinite viññāṇa” as its object."
+},
+{
+"type": "pre",
+"text": "Ākiñcaññāyatana                  =     The consciousness that has “non-"
+},
+{
+"type": "p",
+"text": "existence of the first viññāṇa” as"
+},
+{
+"type": "p",
+"text": "its object."
+},
+{
+"type": "pre",
+"text": "Nevasaññā-nāsaññāyatana          =     The consciousness that has neither"
+},
+{
+"type": "p",
+"text": "perception nor non-perception"
+},
+{
+"type": "p",
+"text": "based on its object. Note: All types of arūpa jhāna belong to the fifth jhāna, the constitution of upekkhā and ekaggatā."
+},
+{
+"type": "h",
+"text": "Lokuttara – 8/40"
+},
+{
+"type": "p",
+"text": "These three types of worlds, kāma, rūpa and arūpa, are called “loka”, meaning “mundane”. The consciousness that goes out from “loka” or is higher than loka is called “lokuttara”, meaning “supramundane”."
+},
+{
+"type": "p",
+"text": "Magga, the constitution of the Eightfold Noble Path, is classified into four. So, lokuttara citta is classified into four according to magga."
+},
+{
+"type": "p",
+"text": "Phala, the effect of magga, is also four, according to magga that is its cause."
+},
+{
+"type": "p",
+"text": "The meaning of Pāḷi terms:"
+},
+{
+"type": "pre",
+"text": "Magga              =   By removing mental defilements, it attains"
+},
+{
+"type": "p",
+"text": "Nibbāna, so it is called magga"
+},
+{
+"type": "pre",
+"text": "Maggaṅga           =   The eight factors that compose magga: they"
+},
+{
+"type": "p",
+"text": "are described as the “Eightfold Noble Path.”"
+},
+{
+"type": "pre",
+"text": "Sammā-diṭṭhi       =   Right understanding\nSammā-saṅkappa     =   Right thought\nSammā-vācā         =   Right speech\nSammā-kammanta     =   Right action\nSammā-ājīva        =   Right livelihood\nSammā-vāyāma       =   Right effort\nSammā-sati         =   Right mindfulness\nSammā-samādhi      =   Right concentration"
+},
+{
+"type": "h",
+"text": "Four Types of Magga"
+},
+{
+"type": "p",
+"text": "Magga, the constitution of the Eightfold Noble Path, is classified into four:"
+},
+{
+"type": "pre",
+"text": " 1.   Sotāpatti    =   Magga that enters the stream to Nibbāna\n 2.   Sakadāgāmi   =   Magga of once-returner to the kāma world\n 3.   Anāgāmi      =   Magga of non-returner to the kāma world\n 4.   Arahatta     =   Magga that is the cause of arahatta fruition"
+},
+{
+"type": "h",
+"text": "Magga and saṃyojanas (fetters)"
+},
+{
+"type": "p",
+"text": "The magga of sotāpatti completely eradicates the two fetters, wrong view and doubt."
+},
+{
+"type": "p",
+"text": "The magga of sakadāgāmi causes reduction of sensual desire and hatred."
+},
+{
+"type": "p",
+"text": "The magga of anāgāmi completely eradicates the two fetters, sensual desire and hatred."
+},
+{
+"type": "p",
+"text": "The magga of arahatta completely eradicates the five fetters, desire for rūpa jhāna, desire for arūpa jhāna, conceit, mental restlessness, and ignorance."
+},
+{
+"type": "p",
+"text": "Phala = fruition"
+},
+{
+"type": "p",
+"text": "Phala is that which is the effect of magga. It belongs to vipāka citta. But “phala” is a special term for the effect of magga."
+},
+{
+"type": "h",
+"text": "Lokuttara jhāna"
+},
+{
+"type": "p",
+"text": "Lokuttara is divided twofold: without jhāna and with jhāna. If it arises without jhāna, lokuttara citta is divided into 8. If it arises with jhāna, lokuttara citta is divided into 40. The 5 jhānas multiplied by the 4 maggas make 20. The 5 jhānas multiplied by the 4 phalas is 20. Thus, 20 plus 20 becomes 40."
+},
+{
+"type": "h",
+"text": "Jhāna citta – 67"
+},
+{
+"type": "p",
+"text": "The jhāna cittas, mundane and supramundane, total 67."
+},
+{
+"type": "pre",
+"text": "                  Mundane        Supramundane          Total\nFirst jhāna          3                8                 = 11\nSecond jhāna         3                8                 = 11\nThird jhāna          3                8                 = 11\nFourth jhāna         3                8                 = 11\nFifth jhāna          15               8                 = 23\n          Total                                         = 67"
+}
+],
+"sangaha_ch": 1
+},
+{
+"num": "2",
+"label": "Chapter 2",
+"title": "Cetasika",
+"blocks": [
+{
+"type": "h",
+"text": "Definition"
+},
+{
+"type": "p",
+"text": "When citta arises, there are mental states that depend on citta. Those that have to occur depending on citta are called “cetasika”."
+},
+{
+"type": "p",
+"text": "All types of cetasika are able to arise only by depending on citta. Without citta, they are not able to arise. But citta arises without some of the cetasika."
+},
+{
+"type": "p",
+"text": "When citta and cetasika associate with one another, they have four characteristics:"
+},
+{
+"type": "pre",
+"text": " 1.   to arise together,\n 2.   to pass away together,\n 3.   to have an equal object, and\n 4.   to have an equal basis."
+},
+{
+"type": "h",
+"text": "Cetasika – 52"
+},
+{
+"type": "p",
+"text": "Cetasika is composed of 52 types. It is classified into three groups:"
+},
+{
+"type": "pre",
+"text": " 1. Aññasamāna group            13\n 2. Akusala group               14\n 3. Sobhana group               25\n           Total                52"
+},
+{
+"type": "h",
+"text": "Aññasamāna – 13"
+},
+{
+"type": "p",
+"text": "Aññasamāna, “common to others”, is classified into two: universal and particular."
+},
+{
+"type": "p",
+"text": "The universal aññasamāna that associates with all cittas is further subdivided into seven:"
+},
+{
+"type": "pre",
+"text": " 1.   Phassa          =   Contact\n 2.   Vedanā          =   Feeling\n 3.   Saññā           =   Perception\n 4.   Cetanā          =   Motivation\n 5.   Ekaggatā        =   One-pointedness\n 6.   Jīvitindriya    =   Faculty of mental life\n 7.   Manasikāra      =   Attention"
+},
+{
+"type": "p",
+"text": "The particular aññasamāna that associates with some of the cittas is further subdivided into six:"
+},
+{
+"type": "pre",
+"text": " 1.   Vitakka         =   Initial application\n 2.   Vicāra          =   Sustained application\n 3.   Adhimokkha      =   Decision\n 4.   Vīriya          =   Effort\n 5.   Pīti            =   Joy\n 6.   Chanda          =   Wish to do"
+},
+{
+"type": "h",
+"text": "Akusala cetasika – 14"
+},
+{
+"type": "p",
+"text": "Akusala cetasika, “immoral mental state” is subdivided into 14:"
+},
+{
+"type": "pre",
+"text": " 1.   Moha            =   Ignorance\n 2.   Ahirika         =   Shamelessness\n 3.   Anottappa       =   Fearlessness\n 4.   Uddhacca        =   Restlessness\n 5.   Lobha           =   Attachment\n 6.   Diṭṭhi          =   Wrong view\n 7.   Māna            =   Conceit\n 8.   Dosa            =   Hatred, fear\n 9.   Issā            =   Envy\n10.   Macchariya      =   Stinginess\n11.   Kukkucca        =   Remorse\n12. Thīna                = Sloth\n13. Middha               = Torpor\n14. Vicikicchā           = Doubt"
+},
+{
+"type": "p",
+"text": "Note: The first four are common to all types of immoral mental states. Lobha is common to all attachment-rooted consciousness and diṭṭhi and māna to some of them. The other four, dosa, etc., are common to all types of hatred-rooted consciousness. Thīna and middha associate with some of both attachment-rooted and hatred-rooted consciousness. Vicikicchā is associated with the consciousness accompanied by doubt."
+},
+{
+"type": "h",
+"text": "Sobhana cetasika – 25"
+},
+{
+"type": "p",
+"text": "The mental state that is with virtue is “sobhana”. The sobhana mental states are 25. They should be classified into four groups:"
+},
+{
+"type": "p",
+"text": "1. Sobhana-sādhāraṇa = Common to all types of sobhana cittas"
+},
+{
+"type": "pre",
+"text": " 2. Virati            = Abstinence\n 3. Appamaññā         = Illimitable (Limitless, Boundless,"
+},
+{
+"type": "p",
+"text": "Immeasurable)"
+},
+{
+"type": "pre",
+"text": " 4. Paññā             = Wisdom"
+},
+{
+"type": "h",
+"text": "Sobhana-sādhāraṇa – 19"
+},
+{
+"type": "p",
+"text": "There are 19 sobhana mental states that are common to all types of sobhana citta:"
+},
+{
+"type": "pre",
+"text": " 1.   Saddhā                  =   Faith\n 2.   Sati                    =   Mindfulness\n 3.   Hiri                    =   Moral shame\n 4.   Ottapa                  =   Moral dread\n 5.   Alobha                  =   Non-attachment\n 6.   Adosa                   =   Non-hatred\n 7.   Tatramajjhattatā        =   Equanimity\n 8.   Kāya-passaddhi          =   Tranquillity of mental factors\n 9.   Citta-passaddhi       =   Tranquillity of mind\n10.   Kāya-lahutā           =   Lightness of mental factors\n11.   Citta-lahutā          =   Lightness of mind\n12.   Kāya-mudutā           =   Pliancy of mental factors\n13.   Citta-mudutā          =   Pliancy of mind\n14.   Kāya-kammaññatā       =   Adaptability of mental factors\n15.   Citta-kammaññatā      =   Adaptability of mind\n16.   Kāya-pāguññatā        =   Proficiency of mental factors\n17.   Citta-pāguññatā       =   Proficiency of mind\n18.   Kāyu-jukatā           =   Rectitude of mental factors\n19.   Cittu-jukatā          =   Rectitude of mind"
+},
+{
+"type": "h",
+"text": "Virati cetasika – 3"
+},
+{
+"type": "p",
+"text": "Virati is a type of mental state that abstains from evil speech, action and livelihood. It is classified into three:"
+},
+{
+"type": "pre",
+"text": " 1. Sammā-vācā              = Right speech\n 2. Sammā-kammanta          = Right action\n 3. Sammā-ājīva             = Right livelihood"
+},
+{
+"type": "h",
+"text": "Appamaññā cetasika – 2"
+},
+{
+"type": "p",
+"text": "Appamaññā is a type of mental state that has limitless objects on which one must be practised. Appamaññā is divided twofold:"
+},
+{
+"type": "p",
+"text": "1. Karuṇā = Compassion 2. Muditā = Sympathetic joy"
+},
+{
+"type": "h",
+"text": "Paññā cetasika – 1"
+},
+{
+"type": "p",
+"text": "Paññā is a mental state that realizes an object. It is termed in Pāḷi, “paññindriya”, faculty of wisdom."
+},
+{
+"type": "h",
+"text": "Two Ways of Association"
+},
+{
+"type": "p",
+"text": "Cetasika arises depending only on citta. Citta associates with cetasika. Cittas and some of the cetasikas work together on the same object. When citta and cetasika associate with one another, there are two ways of association: 1. The way of sampayoga, and 2. The way of saṅgaha."
+},
+{
+"type": "h",
+"text": "The way of sampayoga"
+},
+{
+"type": "p",
+"text": "In the way of sampayoga, it describes how the cetasika associates with how many cittas."
+},
+{
+"type": "p",
+"text": "1. The seven universal mental states arise depending on all types"
+},
+{
+"type": "p",
+"text": "of cittas. 2. Vitakka arises depending on 55 types of cittas, namely, 44"
+},
+{
+"type": "p",
+"text": "kāma cittas except the 10 viññāṇa cittas, and the 11 First jhāna"
+},
+{
+"type": "p",
+"text": "cittas. Altogether, they are 55. 3. Vicāra arises depending on 66 types of cittas. It comprises the"
+},
+{
+"type": "p",
+"text": "11 Second jhāna cittas and the 55 cittas of vitakka.",
+"ind": 1
+},
+{
+"type": "p",
+"text": "4. Adhimokkha arises depending on 78 types of cittas. It"
+},
+{
+"type": "p",
+"text": "comprises the 43 kāma-cittas except the 10 viññāṇa cittas, and"
+},
+{
+"type": "p",
+"text": "1 citta of vicikicchā, 15 rūpāvacara cittas, 12 arūpāvacara",
+"ind": 1
+},
+{
+"type": "p",
+"text": "cittas and 8 lokuttara cittas. Altogether, they are 78. 5. Vīriya arises depending on 73 types of cittas: 12 akusala, 2"
+},
+{
+"type": "p",
+"text": "ahetuka, namely manodvārāvajjana and hasituppāda, and the"
+},
+{
+"type": "p",
+"text": "other 59 sobhana cittas. Altogether, they are 73. 6. Pīti arises depending on 51 types of cittas: 18 kāma cittas"
+},
+{
+"type": "p",
+"text": "accompanied by pleasure, 11 First jhānas, 11 Second jhānas"
+},
+{
+"type": "p",
+"text": "and 11 Third jhānas. Altogether, they are 51. 7. Chanda arises depending on 69 types of cittas: 10 akusala"
+},
+{
+"type": "p",
+"text": "cittas except 2 mohamūla, and 59 sobhana cittas. Altogether,"
+},
+{
+"type": "p",
+"text": "they are 69."
+},
+{
+"type": "h",
+"text": "Aññasamāna – 13"
+},
+{
+"type": "pre",
+"text": "     Cetasika           Associated citta    Dissociated citta\n     Phassa, etc.             89                  No\n     Vitakka                  55                   66\n     Vicāra                   66                   55\n     Adhimokkha               78                   11\n     Vīriya                   73                   16\n     Pīti                     51                   70\n     Chanda                   69                   20"
+},
+{
+"type": "p",
+"text": "Regarding akusala 14: 8. Moha, ahirika, anottappa and uddhacca arise depending on 12"
+},
+{
+"type": "p",
+"text": "akusala cittas. 9. Lobha arises depending on 8 lobhamūla cittas. 10. Diṭṭhi arises depending on 4 types of lobhamūla connected"
+},
+{
+"type": "p",
+"text": "with wrong view. 11. Māna arises depending on 4 types of lobhamūla disconnected"
+},
+{
+"type": "p",
+"text": "from wrong view. 12. Dosa, issā, macchariya and kukkucca arise depending on 2"
+},
+{
+"type": "p",
+"text": "dosamūlas. 13. Thīna and middha arise depending on 5 types of akusala with"
+},
+{
+"type": "p",
+"text": "promptitude. 14. Vicikicchā arises depending on only 1 citta accompanied by"
+},
+{
+"type": "p",
+"text": "doubt."
+},
+{
+"type": "h",
+"text": "Akusala – 14"
+},
+{
+"type": "pre",
+"text": "     Cetasika           Associated citta    Dissociated citta\n     Moha, etc. 4             12                   77\n     Lobha                     8                   81\n     Diṭṭhi / Māna             4                   85\n   Dosa, etc. 4                  2                   87\n   Thīna, Middha                 5                   84\n   Vicikicchā                    1                   88"
+},
+{
+"type": "p",
+"text": "Regarding sobhana 25:"
+},
+{
+"type": "p",
+"text": "15. The 19 types of sobhana mental states arise depending on 59"
+},
+{
+"type": "p",
+"text": "types of sobhana cittas. 16. The three viratis arise depending on 16 cittas: on the 8 kāma"
+},
+{
+"type": "p",
+"text": "kusalas sometimes and separately, and on the 8 lokuttara cittas"
+},
+{
+"type": "p",
+"text": "always and together. 17. The 2 types of appamaññā arise depending on the 28 types of"
+},
+{
+"type": "p",
+"text": "cittas: the 8 mahākusala cittas, the 8 mahā kriya cittas and the"
+},
+{
+"type": "p",
+"text": "12 rūpāvacara cittas except the 3 types of the fifth jhāna.",
+"ind": 1
+},
+{
+"type": "p",
+"text": "18. Paññindriya arises depending on the 47 types of cittas: the 12"
+},
+{
+"type": "p",
+"text": "types of kāma sobhana cittas connected with knowledge, the 15"
+},
+{
+"type": "p",
+"text": "rūpāvacara cittas, the 12 arūpāvacara cittas and the 8"
+},
+{
+"type": "p",
+"text": "lokuttara cittas."
+},
+{
+"type": "h",
+"text": "Sobhana – 25"
+},
+{
+"type": "pre",
+"text": "    Cetasika             Associated citta    Dissociated citta\n    Sobhana   19               59                   30\n    Virati     3               16                   73\n    Appamañña  2               28                   61\n    Paññā      1               47                   42"
+},
+{
+"type": "h",
+"text": "The Way of Saṅgaha"
+},
+{
+"type": "p",
+"text": "In the way of Saṅgaha, it describes how the citta associates with how many cetasikas."
+},
+{
+"type": "p",
+"text": "(A) Regarding the 12 akusala cittas 1. The 8 types of lobhamūla citta associate with the 22 cetasikas,"
+},
+{
+"type": "p",
+"text": "namely, the 13 aññasamāna mental states, the 4 types of"
+},
+{
+"type": "p",
+"text": "akusala mental states that are common to all immoral mental"
+},
+{
+"type": "p",
+"text": "states, and lobha, diṭṭhi, māna, thīna and middha. Altogether"
+},
+{
+"type": "p",
+"text": "they are 22."
+},
+{
+"type": "p",
+"text": "Note: The 12 aññasamāna except pīti, the 4 akusala mental states"
+},
+{
+"type": "p",
+"text": "that are common to all immoral mental states, and lobha: altogether"
+},
+{
+"type": "p",
+"text": "17 types of mental states are common to all lobhamūla cittas. The",
+"ind": 1
+},
+{
+"type": "p",
+"text": "other 5 mental states, namely, pīti, diṭṭhi, māna, thīna and middha are"
+},
+{
+"type": "p",
+"text": "common to some of the lobhamūla cittas."
+},
+{
+"type": "p",
+"text": "2. The 2 dosamūla cittas associate with the 22 cetasikas: the 12"
+},
+{
+"type": "p",
+"text": "aññasamāna except pīti, the 4 akusala mental states common"
+},
+{
+"type": "p",
+"text": "to all immoral mental states, and dosa, issā, macchariya,"
+},
+{
+"type": "p",
+"text": "kukkucca, thīna and middha. Altogether they are 22."
+},
+{
+"type": "p",
+"text": "Note: Issā, macchariya and kukkucca are sometimes and separately"
+},
+{
+"type": "p",
+"text": "associated, thīna and middha sometimes, but always together."
+},
+{
+"type": "p",
+"text": "3. The 2 mohamūla cittas associate with the 16 cetasikas: the 11"
+},
+{
+"type": "p",
+"text": "aññasamānas except pīti and chanda, the 4 akusala mental"
+},
+{
+"type": "p",
+"text": "states common to all immoral mental states, and vicikicchā."
+},
+{
+"type": "p",
+"text": "Altogether, they are 16."
+},
+{
+"type": "p",
+"text": "Therefore, the 12 types of akusala cittas associate with 27 cetasikas: namely, the 13 aññasamānas and the 12 akusala mental states. Altogether they are 27."
+},
+{
+"type": "h",
+"text": "Lobhamūla – 8"
+},
+{
+"type": "pre",
+"text": "                   Citta                Associated Cetasika\n              1st Lobhamūla                     19\n              2nd Lobhamūla                     21\n              3rd Lobhamūla                     19\n              4th Lobhamūla                     21\n              5th Lobhamūla                     18\n              6th Lobhamūla                     20\n              7th Lobhamūla                     18\n              8th Lobhamūla                     20"
+},
+{
+"type": "h",
+"text": "Dosamūla – 2"
+},
+{
+"type": "pre",
+"text": "                   Citta        Associated Cetasika\n              1st Dosamūla              20\n              2nd Dosamūla              22"
+},
+{
+"type": "h",
+"text": "Mohamūla – 2"
+},
+{
+"type": "pre",
+"text": "                  Citta             Associated Cetasika"
+},
+{
+"type": "p",
+"text": "st"
+},
+{
+"type": "pre",
+"text": "             1 Mohamūla                     15\n             2nd Mohamūla                   15\n(B)   Regarding the 18 ahetuka cittas"
+},
+{
+"type": "p",
+"text": "1. The 10 types of viññāṇa cittas associate with the 7 universal"
+},
+{
+"type": "p",
+"text": "mental states. 2. The 4 types of cittas, the 2 sampaṭicchanas and the 2"
+},
+{
+"type": "pre",
+"text": "    santīraṇas      accompanied  by    indifference and    the"
+},
+{
+"type": "p",
+"text": "pañcadvārāvajjana associate with the 10 aññasamānas except"
+},
+{
+"type": "p",
+"text": "vīriya, pīti and chanda. 3. The santīraṇa accompanied by pleasure associates with the 11"
+},
+{
+"type": "p",
+"text": "aññasamānas except chanda and vīriya. 4. The manodvārāvajjana associates with the 11 aññasamānas"
+},
+{
+"type": "p",
+"text": "except chanda and pīti. 5. The hasituppāda associates with the 12 aññasamānas except"
+},
+{
+"type": "p",
+"text": "chanda."
+},
+{
+"type": "h",
+"text": "Ahetuka – 18"
+},
+{
+"type": "pre",
+"text": "                    Citta            Associated Cetasika\n        Viññāṇa             10                7\n        Sampaṭicchana        2\n        Upekkhā santīraṇa    2               10\n        Pañcadvārāvajjana     1"
+},
+{
+"type": "p",
+"text": "Somanassa santīraṇa 1"
+},
+{
+"type": "pre",
+"text": "        Manodvārāvajjana     1\n        Hasituppāda          1               12"
+},
+{
+"type": "p",
+"text": "(C) Regarding the 24 kāma sobhana cittas 1. The 8 mahā kusala cittas associate with the 38 types of"
+},
+{
+"type": "p",
+"text": "cetasikas: the 13 aññasamānas and the 25 sobhana mental"
+},
+{
+"type": "p",
+"text": "states. Altogether they are 38. 2. The 8 mahā vipāka cittas associate with the 33 types of"
+},
+{
+"type": "p",
+"text": "cetasikas: the 13 aññasamānas and the 20 sobhana mental"
+},
+{
+"type": "p",
+"text": "states except the 3 virati and the 2 appamaññā. Altogether they"
+},
+{
+"type": "p",
+"text": "are 33. 3. The 8 mahā kriya cittas associate with the 35 types of"
+},
+{
+"type": "p",
+"text": "cetasikas: the 13 aññasamānas and the 22 sobhana mental"
+},
+{
+"type": "p",
+"text": "states except the 3 virati. Altogether they are 35."
+},
+{
+"type": "h",
+"text": "Mahākusala – 8"
+},
+{
+"type": "pre",
+"text": "                  Citta              Associated Cetasika\n                 1st, 2nd                    38\n                 3rd, 4th                    37\n                 5th, 6th                    37\n                 7th, 8th                    36"
+},
+{
+"type": "h",
+"text": "Mahākriya – 8"
+},
+{
+"type": "pre",
+"text": "                  Citta              Associated Cetasika\n                 1st, 2nd                    35\n                 3rd, 4th                    34\n                 5th, 6th                    34\n                 7th, 8th                    33"
+},
+{
+"type": "h",
+"text": "Mahāvipāka – 8"
+},
+{
+"type": "pre",
+"text": "                  Citta              Associated Cetasika\n                 1st, 2nd                    33\n                 3rd, 4th                    32\n                  5th, 6th                    32\n                  7th, 8th                    31"
+},
+{
+"type": "p",
+"text": "(D) Regarding the mundane jhāna cittas 1. The 3 first jhāna cittas associate with the 35 types of cetasikas:"
+},
+{
+"type": "p",
+"text": "the 13 aññasamānas and the 22 sobhana mental states except"
+},
+{
+"type": "p",
+"text": "the 3 virati. 2. The 3 second jhāna cittas associate with the 34 types of"
+},
+{
+"type": "p",
+"text": "cetasikas as before apart from vitakka. 3. The 3 third jhāna cittas associate with the 33 types of"
+},
+{
+"type": "p",
+"text": "cetasikas as before apart from vitakka and vicāra. 4. The 3 fourth jhāna cittas associate with the 32 types of"
+},
+{
+"type": "p",
+"text": "cetasikas as before apart from vitakka, vicāra and pīti. 5. The 3 fifth jhāna cittas associate with the 30 types of cetasikas"
+},
+{
+"type": "p",
+"text": "as the fourth jhāna citta apart from the 2 types of appamaññā."
+},
+{
+"type": "h",
+"text": "Mundane Jhāna – 27"
+},
+{
+"type": "pre",
+"text": "                  Citta              Associated Cetasika\n         1st Jhāna            3              35\n         2nd Jhāna            3              34\n         3rd Jhāna            3              33\n         4th Jhāna            3              32\n         5th Jhāna           15              30"
+},
+{
+"type": "p",
+"text": "(E) Regarding the supramundane jhāna cittas 1. The 8 first jhāna cittas associate with the 36 types of"
+},
+{
+"type": "p",
+"text": "cetasikas: the 13 aññasamānas and the 23 sobhana mental"
+},
+{
+"type": "p",
+"text": "states except the 2 appamaññās. 2. The 8 second jhāna cittas associate with the 35 types of"
+},
+{
+"type": "p",
+"text": "cetasikas as before apart from vitakka. 3. The 8 third jhāna cittas associate with the 34 types of"
+},
+{
+"type": "p",
+"text": "cetasikas as before apart from vitakka and vicāra. 4. The 8 fourth jhāna cittas associate with the 33 types of"
+},
+{
+"type": "p",
+"text": "cetasikas as before apart from vitakka, vicāra and pīti."
+},
+{
+"type": "p",
+"text": "5. The 8 fifth jhāna cittas associate with the 33 types of cetasikas"
+},
+{
+"type": "p",
+"text": "as before apart from vitakka, vicāra and pīti."
+},
+{
+"type": "h",
+"text": "Supramundane Jhāna – 40"
+},
+{
+"type": "pre",
+"text": "                  Citta             Associated Cetasika"
+},
+{
+"type": "p",
+"text": "st"
+},
+{
+"type": "pre",
+"text": "         1 Jhāna            8               36\n         2nd Jhāna          8               35\n         3rd Jhāna          8               34\n         4th Jhāna          8               33\n         5th Jhāna          8               33"
+},
+{
+"type": "h",
+"text": "Special Note"
+},
+{
+"type": "p",
+"text": "1. There are 10 types of cetasikas that differentiate the number of"
+},
+{
+"type": "p",
+"text": "cetasikas associated with cittas, namely vitakka, vicāra, pīti,"
+},
+{
+"type": "p",
+"text": "sukha, 3-virati, 2-appamaññā and paññindriya."
+},
+{
+"type": "p",
+"text": "2. There are 11 types of cetasikas that only sometimes associate"
+},
+{
+"type": "p",
+"text": "with cittas. They are as follows:"
+},
+{
+"type": "pre",
+"text": "    •   Issā, macchariya and kukkucca sometimes and separately"
+},
+{
+"type": "p",
+"text": "arise depending on dosamūla cittas."
+},
+{
+"type": "pre",
+"text": "    •   Māna sometimes arises depending on lobhamūla cittas"
+},
+{
+"type": "p",
+"text": "disconnected from wrong view."
+},
+{
+"type": "pre",
+"text": "    •   Thīna and middha sometimes, but always together, arise"
+},
+{
+"type": "p",
+"text": "depending on lobhamūla and dosamūla with promptitude."
+},
+{
+"type": "pre",
+"text": "    •   The 3 viratis and the 2 appamaññās sometimes, and"
+},
+{
+"type": "p",
+"text": "separately, arise depending on some cittas."
+},
+{
+"type": "p",
+"text": "3. There are 71 types of cittas associated with “hetu”. They are"
+},
+{
+"type": "p",
+"text": "classified into 3 types according to the hetu associated with"
+},
+{
+"type": "p",
+"text": "them. They are as follows:"
+},
+{
+"type": "p",
+"text": "(i) Ekahetuka: The cittas associated with one hetu. This comprises the 2 mohamūla cittas which have one hetu: moha.",
+"ind": 1
+},
+{
+"type": "p",
+"text": "(ii) Dvihetuka: The cittas asociated with two hetus. They are altogether 22: the 8 lobhamūlas, the 2 dosamūlas and the",
+"ind": 1
+},
+{
+"type": "p",
+"text": "12 kāma sobhana cittas disconnected from knowledge.",
+"ind": 1
+},
+{
+"type": "p",
+"text": "(iii) Tihetuka: The cittas associated with three hetus. They are altogether 47: the 12 kāma sobhana cittas associated with knowledge, the 15 rūpāvacaras, the 12 arūpāvacaras and the 8 lokuttaras.",
+"ind": 1
+}
+],
+"sangaha_ch": 2
+},
+{
+"num": "3",
+"label": "Chapter 3",
+"title": "Rūpa: Matter",
+"blocks": [
+{
+"type": "p",
+"text": "Enumeration"
+},
+{
+"type": "h",
+"text": "Rūpa"
+},
+{
+"type": "p",
+"text": "Matter is termed in Pāḷi “rūpa”, because it transforms through the influence of adverse physical conditions such as heat, cold, etc."
+},
+{
+"type": "h",
+"text": "The two types of matter"
+},
+{
+"type": "p",
+"text": "All types of matter are the same with regard to having the characteristic of transforming. But matter is basically classified into two types:"
+},
+{
+"type": "pre",
+"text": " 1. Mahā bhūta   = the great appearance"
+},
+{
+"type": "p",
+"text": "2. Upādāya rūpa = the derivative"
+},
+{
+"type": "h",
+"text": "Mahābhūta – 4"
+},
+{
+"type": "p",
+"text": "“Mahābhūta” means the great appearance. They are mentioned sometimes as “the elements” (dhātu). The mahābhūtas are classified into four:"
+},
+{
+"type": "pre",
+"text": " 1.   Pathavī        =   the element of extension\n 2.   Āpo            =   the element of cohesion\n 3.   Tejo           =   the element of heat\n 4.   Vāyo           =   the element of motion"
+},
+{
+"type": "h",
+"text": "Upādāya rūpa – 24"
+},
+{
+"type": "p",
+"text": "These are some types of matter that depend on the 4 mahābhūtas. They are termed in Pāḷi “upādāya rūpa”, meaning “derivative”. The derivative matters are classified into 24 types, being enumerated as 10 groups:"
+},
+{
+"type": "pre",
+"text": " 1.   Pasāda         =   sense-organ\n 2.   Gocara         =   object\n 3.   Bhāva          =   matter of sex\n 4.   Hadaya         =   matter of the heart\n 5.   Jīvita         =   matter of life\n 6.   Āhāra          =   matter of nutrition\n 7.   Pariccheda     =   limiting\n 8.   Viññatti       =   communicating\n 9.   Vikāra         =   distinction\n10.   Lakkhaṇa       =   characteristic"
+},
+{
+"type": "h",
+"text": "Pasāda – 5"
+},
+{
+"type": "p",
+"text": "The matter of sense-organ is described in Pāḷi “pasāda”. The word pasāda means “to clarify the elements”. These matters are sensitive and enumerated into 5 types: eye, ear, nose, tongue and the body."
+},
+{
+"type": "pre",
+"text": " 1.   cakkhupāsada   =   sensitive matter of the eye\n 2.   sotapasāda     =   sensitive matter of the ear\n 3.   ghānapasāda    =   sensitive matter of the nose\n 4.   jivhāpasāda    =   sensitive matter of the tongue\n 5.   kāyapasāda     =   sensitive matter of the body"
+},
+{
+"type": "p",
+"text": "(1) The eye (visual) matter lies at the centre of the pupil where an image forms, pervading the 7 layers of the visual sense-organ. (2) The ear (auditory) matter lies at the smooth hairs inside the inner ear. (3) The nose (olfactory) matter lies on the olfactory bulb. (4) The tongue (gustatory) matter lies at the centre of the tongue, the lotus-petal-like growth. (5) The body matter lies on the body spreading through out all parts of the body."
+},
+{
+"type": "h",
+"text": "Gocara – 7"
+},
+{
+"type": "p",
+"text": "Gocara is the object matter. It is an object of the five-viññāṇa minds. They are fivefold in type, but enumerated into 7:"
+},
+{
+"type": "pre",
+"text": " 1.   Rūpa            =   visible object (form and colour)\n 2.   Sadda           =   sound\n 3.   Gandha          =   smell\n 4.   Rasa            =   taste\n 5.   Phoṭṭhabba      =   tangibility (touchable object)"
+},
+{
+"type": "p",
+"text": "Note: Phoṭṭhabba is not a single matter, but is composed of three elements: extension, heat and motion. The element of cohesion is not tangible (touchable); so it cannot be the tangible (touchable) object."
+},
+{
+"type": "h",
+"text": "Bhāva – 2"
+},
+{
+"type": "p",
+"text": "“Bhāva” literally means the source of material quality from which the idea and the terms of male and female are derived. Bhāva, the matter of sex, is twofold:"
+},
+{
+"type": "pre",
+"text": " 1. Itthibhāva        = femininity\n 2. Pumbhāva          = masculinity"
+},
+{
+"type": "p",
+"text": "The two types of bhāva matters lie on all parts of the whole body."
+},
+{
+"type": "h",
+"text": "Hadaya – 1"
+},
+{
+"type": "p",
+"text": "The matter of the heart is a matter that lies on the blood of the heart. It is perceived as the seat of mind apart from the five-viññāṇa minds. The matter of the heart is described in Pāḷi “hadaya vatthu”, meaning the heart that is the base of the mind."
+},
+{
+"type": "p",
+"text": "In another way, “hadaya” means mind and “vatthu” means seat. Therefore, “hadaya vatthu” is the seat of mind."
+},
+{
+"type": "h",
+"text": "Jīvita – 1"
+},
+{
+"type": "p",
+"text": "Jīvita means life. It protects the kamma-born matters. The jīvita matter manages the function of protecting. Therefore, it is called “jīvitindriya”. The matter of life lies on all parts of the whole body."
+},
+{
+"type": "h",
+"text": "Āhāra – 1"
+},
+{
+"type": "p",
+"text": "The nutritive essence is called āhāra. It lies on any kind of food that is ingested by making into morsels. Therefore it is described as “kabaḷikāra”."
+},
+{
+"type": "h",
+"text": "Pariccheda – 1"
+},
+{
+"type": "p",
+"text": "The space that is non-entity is called “pariccheda”, the matter of limiting, because it limits or separates material groups."
+},
+{
+"type": "h",
+"text": "Viññatti – 2"
+},
+{
+"type": "p",
+"text": "“Viññāṭṭī” means signifying. The sign of the body and the speech cause one’s ideas to be known to others. Therefore, they are called “viññatti”. Viññatti depends on the matter and so it is included in the matter. Its duration is only one thought-moment."
+},
+{
+"type": "p",
+"text": "Viññatti is twofold: 1. Kāya viññatti = bodily intimation 2. Vāci viññatti = vocal intimation"
+},
+{
+"type": "p",
+"text": "Vikāra – 5"
+},
+{
+"type": "p",
+"text": "“Vikāra” means distinction. It deals with matters. So the distinction of matter is also called matter. The vikāra matter is classified into 5:"
+},
+{
+"type": "pre",
+"text": " 1.   Lahutā          =   physical lightness\n 2.   Mudutā          =   physical softness\n 3.   Kammaññatā      =   physical adaptability\n 4.   Kāya viññatti   =   bodily intimation\n 5.   Vāci viññatti   =   vocal intimation"
+},
+{
+"type": "p",
+"text": "Note: Herein, the last two matters, #4 and #5 are mentioned by the two names viññatti and vikāra, according to their mode."
+},
+{
+"type": "h",
+"text": "Lakkhaṇa – 4"
+},
+{
+"type": "p",
+"text": "“Lakkhaṇa” means characteristic. Here, the characteristic of matter is described as matter. The “characteristic” matter is divided fourfold:"
+},
+{
+"type": "pre",
+"text": " 1.   Upacaya         =   initial appearance\n 2.   Santati         =   continuity\n 3.   Jaratā          =   decay\n 4.   Aniccatā        =   impermanence"
+},
+{
+"type": "h",
+"text": "CLASSIFICATION OF MATTER"
+},
+{
+"type": "p",
+"text": "All types of matter dissociate from “hetus”. Hence, they are all “ahetuka”, meaning the avoidance of hetu."
+},
+{
+"type": "p",
+"text": "All types of matter are unable to perceive an object. Hence, they are called “anārammaṇa”, meaning non-awareness of object."
+},
+{
+"type": "p",
+"text": "All types of matter are not eradicated by the “path”, as mental defilements are done."
+},
+{
+"type": "p",
+"text": "All types of matter are classified into 10 groups according to their mode and function."
+},
+{
+"type": "p",
+"text": "1. Nipphanna and Anipphanna"
+},
+{
+"type": "p",
+"text": "“Nipphanna” is a matter that is produced by cause. They number 18: the bhūta 4, the pasāda 5, the gocara 4, the bhāva 2, the hadaya 1, the jīvita 1 and the āhāra 1 – altogether comprising 18."
+},
+{
+"type": "p",
+"text": "The other matters are anipphanna. They are 10 in number."
+},
+{
+"type": "p",
+"text": "2. Ajjhattika and Bāhira"
+},
+{
+"type": "p",
+"text": "“Ajjhattika” is a matter that is useful to and the main part of the body. They are composed of the 5 pasāda matters."
+},
+{
+"type": "p",
+"text": "The other matters, 23 in number, are “bāhira”, meaning external."
+},
+{
+"type": "p",
+"text": "3. Vatthu and Avatthu"
+},
+{
+"type": "p",
+"text": "“Vatthu” is matter that is a seat of mind. Vatthu matters are sixfold. The pasāda 5 and the hadaya 1 together make 6."
+},
+{
+"type": "p",
+"text": "The other matters, 22 in number, are “avatthu”."
+},
+{
+"type": "p",
+"text": "4. Dvāra and Advāra"
+},
+{
+"type": "p",
+"text": "Dvāra means door. The matters of dvāra are the door of the mind. They are 7, namely the pāsada 5 and the viññatti 2."
+},
+{
+"type": "p",
+"text": "The other matters, 21 in number, are “advāra”. 5. Indriya and Anindriya"
+},
+{
+"type": "p",
+"text": "The matters that manage the function concerned are called “indriya”. They are 8, comprising the 5 pasāda, the 2 bhāva and the jīvita (1)."
+},
+{
+"type": "p",
+"text": "The other matters, 20 in number, are “anindriya”."
+},
+{
+"type": "p",
+"text": "6. Oḷārika and Sukhuma"
+},
+{
+"type": "p",
+"text": "The matters that are gross by serving as a seat of mind and mental object are called “oḷārika”. They are 12: the pasāda 5 and the gocara 7."
+},
+{
+"type": "p",
+"text": "The other matters, 16 in number are sukhuma, meaning subtle, by not doing so."
+},
+{
+"type": "p",
+"text": "7. Santike and Dure"
+},
+{
+"type": "p",
+"text": "The matters that are near as being easily perceived are called “santike”. They are 12, similar to the 12 constituting oḷārika."
+},
+{
+"type": "p",
+"text": "The other matters, 16 in number, are “dure”, for not being so (and are the same like sukhuma)."
+},
+{
+"type": "p",
+"text": "8. Sappaṭigha and Appaṭigha"
+},
+{
+"type": "p",
+"text": "The matters that are with impingement being as the base and the object of mind are called “sappaṭigha”. They are 12, similar to the 12 constituting oḷārika."
+},
+{
+"type": "p",
+"text": "The other matters, 16 in number, are “appaṭigha”, for not being so (and are the same like sukhuma). 9. Upādinna and Anupādinna"
+},
+{
+"type": "p",
+"text": "The matters that are the result of kamma accompanied by craving and wrong view are called “upādinna”. They are 18, being composed of the pasāda 5, the bhāva 2, the hadaya 1, the jīvita 1, the avinibbhoga 8 and ākāsa 1."
+},
+{
+"type": "p",
+"text": "The other matters, 10 in number, constitute “anupādinna”."
+},
+{
+"type": "p",
+"text": "10. Sanidassana and Anidassana"
+},
+{
+"type": "p",
+"text": "The matter that is seen with eye is “sanidassana”. It is only the visible object matter."
+},
+{
+"type": "p",
+"text": "The other maters, 27 in number, are “anidassana”."
+},
+{
+"type": "p",
+"text": "11. Gocaraggāhika and Agocaraggāhika"
+},
+{
+"type": "p",
+"text": "The matters that receive an object are called “gocaraggāhika”. They are 5, being composed of the 5 pasāda matters."
+},
+{
+"type": "p",
+"text": "Note: Of these pasāda matters, eye and ear matters receive an object each that does not touch them. Therefore they are qualified as “asampatta”. The other 3 receive an object each that touches them, therefore, they are “sampatta”."
+},
+{
+"type": "p",
+"text": "The other matters, 23 in number, are called “agocaraggāhika”."
+},
+{
+"type": "p",
+"text": "12. Avinibbhoga and Vinibbhoga"
+},
+{
+"type": "p",
+"text": "The matters that are inseparable are “avinibbhoga”. They are 8 in inanimate things. The 4 mahābhūtas, colour, odour, taste and nutritive essence make up the 8. (In animate things they are 9 including jīvita.)"
+},
+{
+"type": "p",
+"text": "The other matters, 20 in number, are separable."
+},
+{
+"type": "p",
+"text": "The Four Causes and Conditions"
+},
+{
+"type": "p",
+"text": "There are four causes and conditions through which matter has to arise. They are:"
+},
+{
+"type": "pre",
+"text": " 1.   Kamma\n 2.   Citta (mind)\n 3.   Utu (heat)\n 4.   Āhāra (nutritive essence)"
+},
+{
+"type": "p",
+"text": "Herein, kamma that produced matter is enumerated to be 25: The 12 unwholesome kammas and the 8 wholesome kammas in the kāma plane, and the 5 wholesome kammas in the rūpa plane. Altogether, they are 25."
+},
+{
+"type": "p",
+"text": "Citta that produces the matter is 75, apart from the 10 dvipañca viññāṇas and the 4 results of arūpa plane."
+},
+{
+"type": "p",
+"text": "Heat and nutritive essence are only matters that produce some of the other matters."
+},
+{
+"type": "p",
+"text": "The Four Conditions and Matter The 4 conditions relate to matter in this way: 1. The kamma that is the condition of matter produces the kamma-"
+},
+{
+"type": "p",
+"text": "born matter within beings (where), starting from the moment"
+},
+{
+"type": "p",
+"text": "the paṭisandhi mind arises (when) for every mental moment"
+},
+{
+"type": "p",
+"text": "(how). 2. The citta that is the condition of matter produces the mind-born"
+},
+{
+"type": "p",
+"text": "matter within beings, starting from the moment the first"
+},
+{
+"type": "p",
+"text": "bhavaṅga mind arises, and as soon as the mind arises. 3. The utu (heat) that is the condition of matter produces the heat-"
+},
+{
+"type": "p",
+"text": "born matter within beings and inanimate things at the moment it"
+},
+{
+"type": "p",
+"text": "exists. 4. Āhāra, nutritive essence, that is the condition of matter"
+},
+{
+"type": "p",
+"text": "produces the nutriment-born matter at the moment it spreads."
+},
+{
+"type": "h",
+"text": "Matters born of Conditions"
+},
+{
+"type": "p",
+"text": "Matters are classified into 5 according to their conditions, as follows:"
+},
+{
+"type": "p",
+"text": "1. Ekaja matters: These are born of a single condition. They are"
+},
+{
+"type": "p",
+"text": "11, consisting of the 5 pasādas, the 2 bhāvas, hadaya, jīvita and"
+},
+{
+"type": "p",
+"text": "the 2 viññattis. Altogether, they are 11. Of these matters, the 2"
+},
+{
+"type": "p",
+"text": "viññattis are born of mind only."
+},
+{
+"type": "pre",
+"text": " 2. Dvija matters:      They are born of two conditions. It is"
+},
+{
+"type": "p",
+"text": "composed only of the matter sound that is born of two"
+},
+{
+"type": "p",
+"text": "conditions, mind and heat."
+},
+{
+"type": "p",
+"text": "3. Tija matters: They are born of three conditions. These matters"
+},
+{
+"type": "p",
+"text": "are lightness, softness and adaptability. They are born of the"
+},
+{
+"type": "p",
+"text": "three conditions, namely mind, heat and nutriment."
+},
+{
+"type": "p",
+"text": "4. Cattuja matters: They are matters born of four conditions."
+},
+{
+"type": "p",
+"text": "There are 9 types, consisting of the 8 inseparables"
+},
+{
+"type": "p",
+"text": "(avinibbhoga) matters and the space (ākāsa) matter.",
+"ind": 1
+},
+{
+"type": "p",
+"text": "5. Nakutocija matters: They are not born of any conditions."
+},
+{
+"type": "p",
+"text": "They are the 4 characteristic (lakkhaṇa) matters."
+},
+{
+"type": "p",
+"text": "Matter may be enumerated by their relation to the four conditions as follows:"
+},
+{
+"type": "pre",
+"text": " 1. Kammaja:     Matters that are born of kamma     = 18\n 2. Cittaja:      Matters that are born of mind     = 15\n 3. Utuja:       Matters that are born of heat      = 13\n 4. Āhāraja:     Matters that are born of nutriment = 12"
+},
+{
+"type": "p",
+"text": "Note: The list can be made up easily by reviewing the classification mentioned previously."
+},
+{
+"type": "h",
+"text": "Mental Effects"
+},
+{
+"type": "p",
+"text": "Mind, among the 4 conditions of matter, plays a key role in the performance of activities by sentient beings. Mind not only produces matter, but also physical contact."
+},
+{
+"type": "p",
+"text": "There are 5 effects of mind, namely"
+},
+{
+"type": "p",
+"text": "matter,"
+},
+{
+"type": "p",
+"text": "body posture,"
+},
+{
+"type": "p",
+"text": "intimation (viññatti),"
+},
+{
+"type": "p",
+"text": "laughter or smiling, and"
+},
+{
+"type": "p",
+"text": "crying."
+},
+{
+"type": "p",
+"text": "1. 19 types of mind composed of the 2 sampaṭicchanas, the 3"
+},
+{
+"type": "p",
+"text": "santīraṇas, the āvajjana in five-door, the 8 mahāvipākas and"
+},
+{
+"type": "p",
+"text": "the 5 rūpa vipākas produce only matter."
+},
+{
+"type": "p",
+"text": "2. 26 types of mind composed of the 10 rūpa kusalas and kriyas,"
+},
+{
+"type": "p",
+"text": "the 8 arūpa kusalas and kriyas, and the 8 lokuttaras produce"
+},
+{
+"type": "p",
+"text": "matter and sustain bodily posture."
+},
+{
+"type": "p",
+"text": "3. 32 types of mind composed of the 12 akusalas, the āvajjana in"
+},
+{
+"type": "p",
+"text": "the mind-door, the hasituppāda, the 8 mahākusalas, the 8"
+},
+{
+"type": "p",
+"text": "mahākriyas and the 2 abhiññā minds (the 5th kusala and kriya"
+},
+{
+"type": "p",
+"text": "rūpa-jhāna can produce supernormal power) produce matter,"
+},
+{
+"type": "p",
+"text": "sustain bodily posture and bring about intimation (viññatti)."
+},
+{
+"type": "p",
+"text": "4. The 13 types of mind with pleasant feeling arising from"
+},
+{
+"type": "p",
+"text": "lobhamūla (=4), hasituppāda (=1), mahākusala (=4),"
+},
+{
+"type": "p",
+"text": "mahākriya (=4) produce matter, sustain bodily posture, bring"
+},
+{
+"type": "p",
+"text": "about intimation (viññatti) and cause laughter. 5. The 2 dosamūlas produce matter, sustain bodily posture, bring"
+},
+{
+"type": "p",
+"text": "about intimation and cause crying."
+},
+{
+"type": "h",
+"text": "Material Groups"
+},
+{
+"type": "p",
+"text": "When matter arises through one of the 4 conditions, it arises in groups. The matters exist in groups according to the 4 characteristics:"
+},
+{
+"type": "p",
+"text": "1. arising together 2. ceasing together 3. having a common dependence (base) 4. co-existence"
+},
+{
+"type": "p",
+"text": "A material group comprises a minimum of 8 types of material qualities in inanimate things or external things without life."
+},
+{
+"type": "p",
+"text": "Within a sentient being, a material group comprises a minimum of 9 matters (by adding material life to the 8 types of material qualities)."
+},
+{
+"type": "p",
+"text": "The 4 Material Groups"
+},
+{
+"type": "p",
+"text": "According to the 4 conditions of matter, there are 4 material groups (kalāpa in Pāḷi):"
+},
+{
+"type": "pre",
+"text": " 1. Kammaja-kalāpa         = the group of matter born of kamma\n 2. Cittaja-kalāpa         = the group of matter born of mind\n 3. Utuja-kalāpa           = the group of matter born of heat\n 4. Āhāraja-kalāpa         = the group of matter born of nutriment"
+},
+{
+"type": "h",
+"text": "Kammaja-kalāpa – 9"
+},
+{
+"type": "p",
+"text": "The kamma-born matters are 18. A minimum of 9 types of matter form a unit of this group. These are the 8 Inseparables (avinibbhoga) and material life (jīvita). By adding the other kamma-born matters (5 pasāda, 2 bhāva, 1 hadaya) to the unit, the kammaja-kalāpa is classified into 9 units as follows:"
+},
+{
+"type": "pre",
+"text": " 1.   Jīvita-navaka            =   vital-nonad\n 2.   Cakkhu-dasaka            =   eye-decad\n 3.   Sota-dasaka              =   ear-decad\n 4.   Ghāna-dasaka             =   nose-decad\n 5.   Jivhā-dasaka             =   tongue-decad\n 6.   Kāya-dasaka              =   body-decad\n 7.   Ittibhāva-dasaka         =   female-decad\n 8.   Pumbhāva-dasaka          =   male-decad\n 9.   Vatthu-dasaka            =   basis-decad"
+},
+{
+"type": "h",
+"text": "Cittaja-kalāpa – 6"
+},
+{
+"type": "p",
+"text": "The mind-born matters are 15. Of them the 8 types of matter form one unit of this group. They are the 8 inseparable (avinibbhoga) matters born of mind. By adding the other 6 mind-born matters (sadda, 2 viññatti, 3 vikāra) to the unit, the cittaja-kalāpa is classified into 6:"
+},
+{
+"type": "pre",
+"text": " 1. Suddhaṭṭhaka          = pure octad"
+},
+{
+"type": "p",
+"text": "2. Kāyaviññatti-navaka = bodily intimation nonad 3. Vacīviññatti-dasaka = vocal intimation decad 4. Lahutādi-ekādasaka = un-decad of lightness, etc. 5. Kāyaviññatti-lahutādi-dvādasaka"
+},
+{
+"type": "p",
+"text": "= do-decad of bodily intimation, lightness, etc. 6. Vacīviññatti-sadda-lahutādi-terasaka"
+},
+{
+"type": "p",
+"text": "= tri-decad of vocal intimation, sound, lightness, etc."
+},
+{
+"type": "p",
+"text": "Note: The 1, 2, 3 and 4 groups are pure forms. By adding the 4th to the 2nd, it forms the 5th group, and by adding the 4th to the 3rd, it forms the 6th group."
+},
+{
+"type": "h",
+"text": "Utuja-kalāpa – 4"
+},
+{
+"type": "p",
+"text": "The heat-born matters are 13. Of them, 8 types of matter form a unit. By adding the other 4 heat-born matters to the unit, the utuja-kalāpa is classified into 4:"
+},
+{
+"type": "pre",
+"text": " 1.   Suddhaṭṭhaka             =        pure octad\n 2.   Sadda-navaka             =        sound-nonad\n 3.   Lahutādi-ekādasaka       =        un-decad of lightness, etc.\n 4.   Sadda-lahutādi-dvādasaka =        do-decad of sound, lightness, etc."
+},
+{
+"type": "p",
+"text": "Note: The 1, 2, and 3 groups are pure forms. By adding the 3rd to the 2nd, it forms the 4th group."
+},
+{
+"type": "h",
+"text": "Āhāraja-kalāpa – 2"
+},
+{
+"type": "p",
+"text": "The nutriment-born matters are 12. Of them, 8 types of matter form a unit. By adding the other 3 nutriment-born matters to the unit, the āhāraja-kalāpa is classified into 2:"
+},
+{
+"type": "pre",
+"text": " 1. Suddhaṭṭhaka                    = pure octad\n 2. Lahutādi-ekādasaka              = un-decad of lightness, etc."
+},
+{
+"type": "p",
+"text": "Matters that cannot be in Group"
+},
+{
+"type": "p",
+"text": "There are 5 types of matter that are not included in material groups. They are space (ākāsa) and the four characteristics (lakkhaṇa) of matter."
+},
+{
+"type": "p",
+"text": "The space (ākāsa) matter is a mere division of the two material groups."
+},
+{
+"type": "p",
+"text": "The four characteristics (lakkhaṇa) of matter are not real matter but the characteristics of all types of matter."
+},
+{
+"type": "p",
+"text": "Internal and External Matter-Groups"
+},
+{
+"type": "p",
+"text": "The material groups make up 21 units. Of them the two groups of utuja, pure octad and sound-decad are both internal and external. The other 19 groups are only internal."
+},
+{
+"type": "h",
+"text": "How Matters Arise"
+},
+{
+"type": "p",
+"text": "To know how matters arise, it must be explained according to the plane where matter arises, the time when matter arises and ceases, and the beings within whom matter is known."
+},
+{
+"type": "h",
+"text": "Plane"
+},
+{
+"type": "p",
+"text": "There are three planes where matter arises. They are the 11 kāma planes, the 15 rūpa planes and the plane of asaññāsatta."
+},
+{
+"type": "h",
+"text": "Time"
+},
+{
+"type": "p",
+"text": "There are two periods when matter arises. They are the time of rebirth (paṭisandhi) mind and the time of life-continuity."
+},
+{
+"type": "h",
+"text": "Beings"
+},
+{
+"type": "p",
+"text": "There are 4 beings dealing with the way they are born:"
+},
+{
+"type": "pre",
+"text": " 1. Aṇḍaja        = those who are born of an egg\n 2. Jaḷābuja      = those who are born in a womb"
+},
+{
+"type": "p",
+"text": "3. Saṃsedaja = those who are born in moisture 4. Opapātika = those who are born by making their appearance"
+},
+{
+"type": "p",
+"text": "Note: 1 and 2 are mostly mentioned as “gabbha seyyaka” meaning those who lie in a womb."
+},
+{
+"type": "h",
+"text": "Beings and Planes"
+},
+{
+"type": "p",
+"text": "There are 31 planes where beings are born. Of these, in some planes, only one type of beings is found, and in others, all 4 types of beings are found."
+},
+{
+"type": "p",
+"text": "In the 27 planes (the niraya, the 6 worlds of deity, the 20 Brahma worlds), only one type of being – opapātika – is found, but not the other types of beings."
+},
+{
+"type": "p",
+"text": "In the other 4 planes, all 4 types of beings can be found. However, the deities whose abode is on the soil are sometimes born in a womb. Some of the ghosts who are suffering wasting and the human beings who were born in the beginning of kappa are only opapātikas."
+},
+{
+"type": "p",
+"text": "The Arising of Matters in Kāma Planes"
+},
+{
+"type": "p",
+"text": "The 3 kamma-born material groups, the body decad, the basis-decad and the bhāva decad, arise together at the moment of the arising of rebirth (paṭisandhi) mind within those who are born in a womb. The other material groups continue to arise on the occasion of life-continuity."
+},
+{
+"type": "p",
+"text": "However, within those who are born in moisture and those born by making their appearance, there arise the 7 kamma-born material groups, eye, ear, nose, tongue, body, bhāva and the heart-based decad, altogether, at the moment the rebirth (paṭisandhi) mind arises. The other material groups continue to arise on the occasion of life-continuity."
+},
+{
+"type": "p",
+"text": "The First and the Last Moments of Matters"
+},
+{
+"type": "p",
+"text": "1. The matters born of kamma start from the moment of arising of"
+},
+{
+"type": "p",
+"text": "the rebirth (paṭisandhi) mind."
+},
+{
+"type": "p",
+"text": "2. The matters born of mind start from the moment of arising of"
+},
+{
+"type": "p",
+"text": "the first bhavaṅga just after the rebirth mind."
+},
+{
+"type": "p",
+"text": "3. The matters born of heat start from the static moment of the"
+},
+{
+"type": "p",
+"text": "rebirth mind."
+},
+{
+"type": "p",
+"text": "4. The matters born of nutriment start from the moment of"
+},
+{
+"type": "p",
+"text": "permeation (diffusion) of the nutritive essence."
+},
+{
+"type": "p",
+"text": "Note: All types of matter are continuously arising like the current of a river and the flame of a lamp starting from the time they first arise."
+},
+{
+"type": "p",
+"text": "Then,"
+},
+{
+"type": "p",
+"text": "1. The matters born of kamma cease to continue arising starting"
+},
+{
+"type": "p",
+"text": "from the static moment of the 17th mind before the death (cuti)"
+},
+{
+"type": "p",
+"text": "mind. The matters born of kamma that have already arisen cease"
+},
+{
+"type": "p",
+"text": "simultaneously with the death mind."
+},
+{
+"type": "p",
+"text": "2. The matters born of mind cease after the 48 moments when the"
+},
+{
+"type": "p",
+"text": "death mind ceases."
+},
+{
+"type": "p",
+"text": "3. The matters born of nutriment cease after death."
+},
+{
+"type": "p",
+"text": "4. The matters born of heat keep arising without ceasing."
+},
+{
+"type": "h",
+"text": "Arising of Matters in Rūpa Plane"
+},
+{
+"type": "p",
+"text": "In rūpa plane, the kamma-born material groups, eye, ear, basis, decads and life-nonad, arise together at the moment of rebirth (paṭisandhi) mind. However, the material groups born of mind and heat arise on the occasion of life-continuity."
+},
+{
+"type": "p",
+"text": "In the rūpa planes, the material groups, nose, tongue, body and bhāva decads and the material groups born of nutriment never arise."
+},
+{
+"type": "p",
+"text": "Arising of Matters in the Plane of Asaññāsatta"
+},
+{
+"type": "p",
+"text": "In the Plane of Asaññāsatta, only the life-nonad arises at the moment of rebirth (paṭisandhi) mind. However, on the occasion of life-continuity, the two material groups born of heat, the pure octad and the un-decad of lightness, etc., arises."
+},
+{
+"type": "p",
+"text": "Therefore:"
+},
+{
+"type": "p",
+"text": "1. In the kāma-plane 28 matters and 21 material groups arise"
+},
+{
+"type": "p",
+"text": "2. In the rūpa-plane arise 23 matters except three – nose, tongue"
+},
+{
+"type": "p",
+"text": "and body – matters, and the 14 material groups except the 7"
+},
+{
+"type": "p",
+"text": "material goups, namely nose, tongue, body, the 2 bhāva decads"
+},
+{
+"type": "p",
+"text": "and the 2 material groups of nutriment"
+},
+{
+"type": "p",
+"text": "3. In the plane of asaññāsatta arise 17 matters consisting of the 8"
+},
+{
+"type": "p",
+"text": "inseparable (avinibhoga) matters, the life, the lightness, the"
+},
+{
+"type": "p",
+"text": "softness, the adaptability, the 4 material characteristics, and the"
+},
+{
+"type": "p",
+"text": "3 material groups, namely the life nonad and the two material",
+"ind": 1
+},
+{
+"type": "p",
+"text": "groups born of heat."
+},
+{
+"type": "h",
+"text": "Matters at the moment of Rebirth"
+},
+{
+"type": "p",
+"text": "At the moment of rebirth, 8 types of matters do not arise. They are: sound, the 5 vikāra matters, decay and impermanence. The other 20 types of matter arise."
+}
+],
+"sangaha_ch": 6
+},
+{
+"num": "4",
+"label": "Chapter 4",
+"title": "Pakiṇṇaka: Miscellaneous",
+"blocks": [
+{
+"type": "h",
+"text": "Introduction"
+},
+{
+"type": "p",
+"text": "1. In this chapter citta and cetasika will be classified by way of"
+},
+{
+"type": "pre",
+"text": "the               following 6 points:\n     (a)    Feelings    vedanā\n     (b)    Roots       hetu\n     (c)    Functions   kicca\n     (d)    Doors       dvāra\n     (e)    Objects     ārammaṇa\n      (f)   Bases       vatthu"
+},
+{
+"type": "p",
+"text": "2. There are 53 associated mental phenomena which will be dealt"
+},
+{
+"type": "p",
+"text": "in this chapter. They run as follows:"
+},
+{
+"type": "pre",
+"text": "     (a) Citta      01\n     (b) Cetasika   52"
+},
+{
+"type": "p",
+"text": "Altogether 53"
+},
+{
+"type": "p",
+"text": "According to their intrinsic nature (sabhāva) the associated mental phenomena (citta and cetasika) are 53. Regarding this the 89 cittas are counted “one”, because they all have the same characteristic, the awareness of an object. But the cetasikas are 52, because they have their own characteristic each."
+},
+{
+"type": "p",
+"text": "1. Classification of Feeling"
+},
+{
+"type": "p",
+"text": "Feeling (vedanā) is a universal cetasika which has the characteristic of feeling. In Abhidhamma feeling is analyzed into two ways – by way of the intrinsic nature and by way of the governing faculty. (A) By way of the intrinsic nature the feeling is threefold:"
+},
+{
+"type": "pre",
+"text": "     1. Pleasant feeling          sukha\n     2. Painful feeling           dukkha"
+},
+{
+"type": "p",
+"text": "3. Feeling that is neither painful nor pleasant"
+},
+{
+"type": "p",
+"text": "adukkhamasukha"
+},
+{
+"type": "p",
+"text": "(B) By way of the governing faculty the feeling is fivefold:"
+},
+{
+"type": "pre",
+"text": "     1. Pleasure                sukha\n     2. Pain                    dukkha\n     3. Joy                     somanassa\n     4. Displeasure             domanassa\n     5. Neutral feeling         upekkhā"
+},
+{
+"type": "p",
+"text": "Classification of Citta through associated “feeling”"
+},
+{
+"type": "p",
+"text": "According to the three types of feeling citta must be classified thus:"
+},
+{
+"type": "pre",
+"text": " 1. Citta with pleasure          sukha-sahagata citta           63\n 2. Citta with pain              dukkha-sahagata                 3\n 3. Citta with neither-pleasure-nor pain                        55\n                 Altogether                                    121"
+},
+{
+"type": "p",
+"text": "According to the fivefold feeling citta must be classified thus:"
+},
+{
+"type": "pre",
+"text": " 1.   Citta with pleasure          sukha-sahagata                1\n 2.   Citta with pain              dukkha-sahagata               1\n 3.   Citta with joy               somanassa-sahagata           62\n 4.   Citta with displeasure       domanassa-sahagata            2\n 5.   Citta with neutral feeling   upekkhā-sahagata             55\n                   Altogether                                  121"
+},
+{
+"type": "p",
+"text": "Citta with pleasure is 1"
+},
+{
+"type": "pre",
+"text": "      Body-consciousness with pleasure                             1"
+},
+{
+"type": "p",
+"text": "Citta with pain is 1"
+},
+{
+"type": "pre",
+"text": "      Body-consciousness with pain                                 1"
+},
+{
+"type": "p",
+"text": "Cittas with joy are 62"
+},
+{
+"type": "pre",
+"text": "     Lobhamūla with pleasure                                       4\n     Ahetuka with pleasure                                         2\n     Kāma sobhana with pleasure                                   12\n     First jhāna                                                  11\n     Second jhāna                                                 11\n     Third jhāna                                                  11\n     Fourth jhāna                                                 11"
+},
+{
+"type": "p",
+"text": "Cittas with displeasure are 2"
+},
+{
+"type": "pre",
+"text": "     Dosamūla                                                       2"
+},
+{
+"type": "p",
+"text": "Cittas with neutral feeling are 55"
+},
+{
+"type": "pre",
+"text": "     Akusala with neutral feeling                                  6\n     Ahetuka with neutral feeling                                 14\n     Kāma sobhana with neutral feeling                            12\n     Fifth jhāna                                                  23"
+},
+{
+"type": "p",
+"text": "Note: By way of the three types of feeling the cittas with pleasure are 63, by adding those cittas with pleasure and with joy together. And the cittas with pain are 3, by adding those cittas with pain and with displeasure together."
+},
+{
+"type": "p",
+"text": "2. Classification of Roots"
+},
+{
+"type": "p",
+"text": "Roots (hetu) are all cetasikas which are analyzed into 6 by way of their intrinsic nature, namely"
+},
+{
+"type": "pre",
+"text": " 1.   Lobha        greed\n 2.   Dosa         hatred\n 3.   Moha         delusion\n 4.   Alobha       non-greed\n 5.   Adosa        non-hatred\n 6.   Amoha        non-delusion"
+},
+{
+"type": "p",
+"text": "But by way of species (jāti) they are 9:"
+},
+{
+"type": "pre",
+"text": " 1. Wholesome roots (kusala hetu) are 3:      alobha, adosa, amoha"
+},
+{
+"type": "p",
+"text": "2. Unwholesome roots (akusala hetu) are 3: lobha, dosa, moha 3. Intermediate roots (abyākata hetu) are 3: alobha, adosa, amoha"
+},
+{
+"type": "p",
+"text": "Classification of cittas through associated Roots Cittas without roots – 18 Cittas without roots are 18. They are according to the order of thought-process as follows:"
+},
+{
+"type": "pre",
+"text": "  1. Five-door adverting                                 1\n  2. Sense-consciousness                                10\n  3. Receiving                                           2\n  4. Investigating                                       3\n  5. Determining                                         1\n  6. Smiling                                             1"
+},
+{
+"type": "p",
+"text": "Cittas with one root – 2 Cittas with one root (ekahetuka) are 2:"
+},
+{
+"type": "pre",
+"text": "     cittas rooted in delusion (mohamūla)                    2"
+},
+{
+"type": "p",
+"text": "Cittas with two roots – 22 Cittas with two roots (dvihetuka) are 22:"
+},
+{
+"type": "pre",
+"text": " 1. Cittas rooted in greed (lobhamūla)                        8\n 2. Cittas rooted in hatred (dosamūla)                        2\n 3. Beautiful cittas without knowledge                       12"
+},
+{
+"type": "p",
+"text": "Cittas with three roots – 47 Cittas with three roots (tihetuka) are 47:"
+},
+{
+"type": "pre",
+"text": " 1. Beautiful kāma-cittas with knowledge                     12\n 2. Fine-material sphere (rūpāvacara)                        15\n 3. Immaterial sphere (arūpāvacara)                          12\n 4. Supramundane (lokuttara)                                  8"
+},
+{
+"type": "p",
+"text": "3. Classification of Functions There are 14 functions which cittas perform each:"
+},
+{
+"type": "pre",
+"text": " 1.   Rebirth-linking                paṭisandhi\n 2.   Life-continuum                 bhavaṅga\n 3.   Adverting                      āvajjana\n 4.   Seeing                         dassana\n 5.   Hearing                        savana\n 6.   Smelling                        ghāyana\n 7.   Tasting                         sāyana\n 8.   Touching                        phusana\n 9.   Receiving                       sampaṭicchana\n10.   Investigating                   santīraṇa\n11.   Determining                     voṭṭhabbana\n12.   Javana (dynamic)                javana\n13.   Following the javana-object     tadārammaṇa\n14.   Death                           cuti"
+},
+{
+"type": "h",
+"text": "Classification of Stages"
+},
+{
+"type": "p",
+"text": "The stages of cittas are 10:"
+},
+{
+"type": "pre",
+"text": " 1.   Rebirth-linking                 paṭisandhi\n 2.   Life-continuum                  bhavaṅga\n 3.   Adverting                       āvajjana\n 4.   Fivefold Sense Conscousness     pañcaviññāṇa\n 5.   Receiving                       sampaṭicchana\n 6.   Investigating                   santīraṇa\n 7.   Determining                     voṭṭhabbana\n 8.   Javana                          javana\n 9.   Following the javana-object     tadārammaṇa\n10.   Death                           cuti"
+},
+{
+"type": "p",
+"text": "Classification of Cittas through their Functions"
+},
+{
+"type": "p",
+"text": "Cittas are classified by way of theses 14 functions they perform."
+},
+{
+"type": "h",
+"text": "Cittas of Rebirth-linking – 19"
+},
+{
+"type": "p",
+"text": "Cittas which perform the function of rebirth-linking are 19:"
+},
+{
+"type": "pre",
+"text": "     1. Investigating with neutral feeling                  2\n     2. Great resultants (mahāvipāka)                       8\n     3. Fine-material-sphere resultants                     5\n     4. Immaterial-sphere resultants                        4"
+},
+{
+"type": "p",
+"text": "Note: Cittas of life-continuum and cittas of death are each 19. They are totally the same with the cittas of rebirth-linking."
+},
+{
+"type": "h",
+"text": "Cittas of Adverting – 2"
+},
+{
+"type": "p",
+"text": "Cittas which perform the function of adverting, etc. are two:"
+},
+{
+"type": "pre",
+"text": "     1. Five-door adverting (pañcadvārāvajjana)             1\n     2. Mind-door adverting (manodvārāvajjana)              1"
+},
+{
+"type": "h",
+"text": "Cittas of Seeing – 2"
+},
+{
+"type": "pre",
+"text": "     Eye-consciousness (cakkhuviññāṇa)                      2"
+},
+{
+"type": "h",
+"text": "Cittas of Hearing – 2"
+},
+{
+"type": "pre",
+"text": "     Ear-consciousness (sotaviññāṇa)                        2"
+},
+{
+"type": "h",
+"text": "Cittas of Smelling – 2"
+},
+{
+"type": "pre",
+"text": "     Nose-consciousness (ghānaviññāṇa)                      2"
+},
+{
+"type": "h",
+"text": "Cittas of Tasting – 2"
+},
+{
+"type": "pre",
+"text": "     Tongue-consciousness (jivhāviññāṇa)                    2"
+},
+{
+"type": "h",
+"text": "Cittas of Touching – 2"
+},
+{
+"type": "pre",
+"text": "     Body-consciousness (kāyaviññāṇa)                       2"
+},
+{
+"type": "h",
+"text": "Cittas of Receiving – 2"
+},
+{
+"type": "pre",
+"text": "     Receiving consciousness (sampaṭicchana)                2"
+},
+{
+"type": "h",
+"text": "Cittas of Investigating – 3"
+},
+{
+"type": "p",
+"text": "Cittas which perform the function of investigating are three:"
+},
+{
+"type": "pre",
+"text": "     Investigating consciousness (santīraṇa)                3"
+},
+{
+"type": "h",
+"text": "Cittas of Determining – 1"
+},
+{
+"type": "p",
+"text": "It is only the mind-door adverting consciousness which"
+},
+{
+"type": "p",
+"text": "performs the function of determining in five-door."
+},
+{
+"type": "h",
+"text": "Cittas of Javana – 55"
+},
+{
+"type": "p",
+"text": "Cittas which perform the function of javana are 55:"
+},
+{
+"type": "pre",
+"text": "     1. Unwholesome consciousness                        12\n     2. Wholesome consciousness                          21"
+},
+{
+"type": "p",
+"text": "3. Functional consciousness except the two types"
+},
+{
+"type": "pre",
+"text": "         of adverting consciousness                      18\n     4. Fruition consciousness                            4"
+},
+{
+"type": "p",
+"text": "Cittas of Following the javana-object – 11"
+},
+{
+"type": "p",
+"text": "Cittas which perform the function of following the javana-"
+},
+{
+"type": "p",
+"text": "object are 11:"
+},
+{
+"type": "pre",
+"text": "     1. Investigating consciousness (santīraṇa)            3\n     2. Great resultant consciousness (mahāvipāka)         8"
+},
+{
+"type": "p",
+"text": "Cittas with different functions"
+},
+{
+"type": "p",
+"text": "Here we should study cittas by way of the function they perform. Some of the cittas perform only one function and some several functions. They are classified thus:"
+},
+{
+"type": "p",
+"text": "Cittas with one function – 68"
+},
+{
+"type": "pre",
+"text": "     1. Fivefold sense consciousness                           10\n     2. Five-door adverting consciousness                       1\n     3. Receiving consciousness                                 2\n     4. Javana consciousness                                   55"
+},
+{
+"type": "p",
+"text": "Note: These cittas have only one function each – seeing, hearing, smelling, tasting, touching, receiving and javana function."
+},
+{
+"type": "p",
+"text": "Cittas with two functions – 2"
+},
+{
+"type": "pre",
+"text": "     1. Investigating consciousness with pleasure                1\n     2. Mind-door adverting consciousness                        1"
+},
+{
+"type": "p",
+"text": "Note: Investigating consciousness has 2 functions as investigating and following the javana-object. But mind-door adverting has 2 functions as adverting and determining."
+},
+{
+"type": "p",
+"text": "Cittas with three functions – 9"
+},
+{
+"type": "pre",
+"text": "     1. Fine-material-sphere resultant                           5\n     2. Immaterial-sphere resultant                              4"
+},
+{
+"type": "p",
+"text": "Note: They have 3 functions as rebirth-linking, lif-continuum and death."
+},
+{
+"type": "p",
+"text": "Cittas with four functions – 8"
+},
+{
+"type": "pre",
+"text": "     Great resultant consciousness (mahāvipāka)                  8"
+},
+{
+"type": "p",
+"text": "Note: They have 4 functions as rebirth-linking, lif-continuum, death and following the javana-object. Cittas with five functions – 2"
+},
+{
+"type": "pre",
+"text": "     Investigating consciousness with neutral feeling       2"
+},
+{
+"type": "p",
+"text": "Note: They have 5 functions as rebirth-linking, lif-continuum, death, following the javana-object and investigating."
+},
+{
+"type": "p",
+"text": "4. Classification of Doors"
+},
+{
+"type": "p",
+"text": "There are 6 doors through which citta interacts with the objective world. They are as follows:"
+},
+{
+"type": "pre",
+"text": " 1.   Eye-door                        cakkhudvāra\n 2.   Ear-door                        sotadvāra\n 3.   Nose-door                       ghānadvāra\n 4.   Tongue-door                     jivhādvāra\n 5.   Body-door                       kāyadvāra\n 6.   Mind-door                       manodvāra"
+},
+{
+"type": "p",
+"text": "Therein the eye itself is the “eye-door”, and so for the ear-door and the others. But the life-continuum is called “mind-door”."
+},
+{
+"type": "h",
+"text": "Classification of cittas through their doors"
+},
+{
+"type": "p",
+"text": "Through doors cittas are to be classified thus:"
+},
+{
+"type": "p",
+"text": "Cittas in eye-door are 46"
+},
+{
+"type": "p",
+"text": "Cittas that arise in eye-door are 46. They are mentioned according to the order of thought-process. They are as follows:"
+},
+{
+"type": "pre",
+"text": " 1. Five-door adverting consciousness                       1\n 2. Eye-consciousness                                       2\n 3. Receiving consciousness                                 2\n 4. Investigating consciousness                             3\n 5. Determining consciousness                               1\n 6. Kāma javana                                            29\n 7. Following the javana-object (11)                        8"
+},
+{
+"type": "p",
+"text": "Note: Cittas in ear-door, etc. are mostly similar to the cittas in eye-door except the 2 cittas “eye-consciousness”, which are specially in eye-door. Therefore we should note that ear-consciousness is only in ear-door; nose-consciousness is only in nose-door; tongue-consciousness is only in tongue-door; body-consciousness is only in body-door. The other cittas are general to all."
+},
+{
+"type": "p",
+"text": "Cittas in mind-door are 67"
+},
+{
+"type": "p",
+"text": "Cittas that arise in mind-door are 67. They are mentioned according to the order of thought-process. They are as follows:"
+},
+{
+"type": "pre",
+"text": " 1. Mind-door adverting consciousness                       1\n 2. Javana cittas                                          55\n 3. Following the javana-object                            11"
+},
+{
+"type": "p",
+"text": "Cittas that are door-free are 19"
+},
+{
+"type": "p",
+"text": "19 types of rebirth-linking consciousness are “door-free”.",
+"ind": 1
+},
+{
+"type": "p",
+"text": "Cittas in different doors"
+},
+{
+"type": "p",
+"text": "Cittas in one door are 36"
+},
+{
+"type": "p",
+"text": "Cittas that arise in one door are 36:"
+},
+{
+"type": "pre",
+"text": " 1. Sense-consciousness                                        10\n 2. Appanā javanas                                             26"
+},
+{
+"type": "p",
+"text": "Note: The ten types of sense consciousness are each in their own door as eye-consciousness in eye-door, and so on. Appanā javanas are in mind-door."
+},
+{
+"type": "p",
+"text": "Cittas in five door are 3"
+},
+{
+"type": "pre",
+"text": " 1. Receiving consciousness                                     2\n 2. Five-door adverting consciousness                           1"
+},
+{
+"type": "p",
+"text": "Cittas in six door are 31"
+},
+{
+"type": "pre",
+"text": " 1. Investigating consciousness with pleasure                   1\n 2. Determining consciousness                                   1\n 3. Kāma javanas                                               29"
+},
+{
+"type": "p",
+"text": "Cittas either in six doors or door-free are 10"
+},
+{
+"type": "pre",
+"text": " 1. Investigating consciousness with neutral feeling                2\n 2. Great resultants                                                8"
+},
+{
+"type": "p",
+"text": "Note: Investigating consciousness has 5 functions. If it performs the function of investigation or following the javana-object it is in 6 doors. If it performs one of the functions of paṭisandhi, bhavaṅga or cuti it is door-free. The great resultants have 4 functions. They are in 6 doors, if they perfom the function of following the javana-object. If they perform one of the functions of paṭisandhi, bhavaṅga or cuti they is door-free."
+},
+{
+"type": "p",
+"text": "Cittas that are ever door-free are 9"
+},
+{
+"type": "pre",
+"text": " 1. Fine-material-sphere resultant                                  5\n 2. Immaterial-sphere resultant                                     4"
+},
+{
+"type": "p",
+"text": "5. Classification of Objects"
+},
+{
+"type": "p",
+"text": "There are 6 kinds of objects corresponding to the 6 senses. They are as follows:"
+},
+{
+"type": "pre",
+"text": " 1.   Visible object                      rūpārammaṇa\n 2.   Sound                               saddārammaṇa\n 3.   Smell                               gandhārammaṇa\n 4.   Taste                               rasārammaṇa\n 5.   Tangible object                     poṭṭhabbārammaṇa\n 6.   Dhamma-object                       dhammārammaṇa"
+},
+{
+"type": "h",
+"text": "Defining of objects"
+},
+{
+"type": "p",
+"text": "Therein, visible form itself is visible object. Likewise sound, etc. are sound-object, etc. But the dhamma-object is sixfold:"
+},
+{
+"type": "pre",
+"text": " 1. Sensitive matter                  pasādarūpa             5\n 2. Subtle matter                     sukhumarūpa          16\n 3. Consciousness                     citta                89\n 4. Mental factors                    cetasika             52\n 5. Nibbāna                                                  1\n 6. Concepts                          paññatti                1"
+},
+{
+"type": "p",
+"text": "Note: ārammaṇa = where cittas delight in; ālambaṇa = where cittas hang on."
+},
+{
+"type": "p",
+"text": "Classification of Cittas through their objects"
+},
+{
+"type": "p",
+"text": "(general)"
+},
+{
+"type": "p",
+"text": "Cittas in eye-door, ect."
+},
+{
+"type": "p",
+"text": "There are 46 cittas which arise in eye-door. They have only one object as visible object that pertains only to the present. Likewise, sounds, etc., that pertain only to the present are the object of the cittas in ear-door, etc."
+},
+{
+"type": "p",
+"text": "Cittas in mind-door"
+},
+{
+"type": "p",
+"text": "There are 67 cittas which arise in mind-door. They have one of all six kinds of objects. And they are present, past, future or independent of time, according to circumstances."
+},
+{
+"type": "p",
+"text": "Cittas door-free"
+},
+{
+"type": "p",
+"text": "There are 19 cittas which are door-free. They have the six objects which are mentioned as 3 by their special terms:"
+},
+{
+"type": "pre",
+"text": " 1. Volitional action               kamma\n 2. Sign of volitional action       kamma-nimitta\n 3. Sign of destiny                 gati-nimitta"
+},
+{
+"type": "p",
+"text": "According to the situation, that object has usually been apprehended in one of the six doors in the immediately preceding existence, as either a present or past object or as a concept."
+},
+{
+"type": "p",
+"text": "Classification of Cittas through their objects"
+},
+{
+"type": "p",
+"text": "(special)"
+},
+{
+"type": "p",
+"text": "To classify in special way there are 4 types of the six kinds of objects. They are as follows:"
+},
+{
+"type": "pre",
+"text": " 1. Sense-sphere objects              kāmāvacarārammaṇa\n 2. Sublime objects                   mahaggata\n 3. Concept objects                   paññatti\n 4. Nibbāna                                   nibbānārammaṇa"
+},
+{
+"type": "p",
+"text": "Cittas with only sense-sphere objects are 25"
+},
+{
+"type": "pre",
+"text": " 1. Sense consciousness                                             10\n 2. The triple mind-element                                          3\n 3. The remaining sense-sphere resultants                           11\n 4. Smiling consciousness                                            1"
+},
+{
+"type": "p",
+"text": "Note: The term ‘triple mind-element’ (manodhātu) comprises 3 kinds of consciousness: pañcadvārāvajjana and the 2 sampaṭicchanas. The ‘remaining sense-sphere resultants’ are the 3 santīraṇa-cittas and the 8 mahāvipākas."
+},
+{
+"type": "p",
+"text": "Cittas with only sublime objects are 6"
+},
+{
+"type": "pre",
+"text": "     Immaterial-sphere consciousness (the 2nd and 4th)               6\n                             nd                          st"
+},
+{
+"type": "p",
+"text": "Note: The object of the 2 arūpāvacara-citta is the 1 arūpāvacara citta, and the object of the 4th arūpāvacara citta is the 3rd arūpāvacara citta. That applies to arūpa-kusala, -kiriya and- vipāka-cittas."
+},
+{
+"type": "p",
+"text": "Cittas with only concept objects are 21"
+},
+{
+"type": "pre",
+"text": " 1. Fine-material-sphere consciousness (rūpāvacara)                 15\n 2. Immaterial-sphere consciousness (the 1st and 3rd)                6"
+},
+{
+"type": "p",
+"text": "Note: Concept objects are 28: 10 asubha, 10 kasiṇa, ānāpāna, kāyagatāsati, 4 beings objects of the 4 noble abodes, infinite space and nothingness."
+},
+{
+"type": "pre",
+"text": "Paññatti-object        1st        2nd - 4th      5th   1st arūpa-    3rd arūpa-\nfor meditation       jhāna         jhāna       jhāna     jhāna         jhāna\n10 asubha              10\n1 kāyagatasati          1\n1 mettā                 1            1\n1 karuṇā               1             1\n1 muditā                1            1\n1 upekkhā                                        1\n10 kasiṇa             10            10           10\n1 ānāpānasati          1             1            1\n1 infinite space                                              1\n1 nothingness                                                            1\npossible objects    25       14        12          1           1"
+},
+{
+"type": "p",
+"text": "Cittas with only Nibbāna object are 8"
+},
+{
+"type": "pre",
+"text": "     Supramundane consciousness (lokuttara)               8"
+},
+{
+"type": "p",
+"text": "Classification of Cittas through their objects"
+},
+{
+"type": "p",
+"text": "(general)"
+},
+{
+"type": "p",
+"text": "Cittas with mundane objects are 20"
+},
+{
+"type": "pre",
+"text": " 1. Unwholesome consciousness (akusala)                  12\n 2. Sense-sphere javanas dissociated from knowledge       8"
+},
+{
+"type": "p",
+"text": "Cittas with all objects except path and fruition of arahantship are 5"
+},
+{
+"type": "pre",
+"text": " 1. Sense-sphere wholesome with knowledge                 4\n 2. Wholesome direct-knowledge (abhiññā)                  1"
+},
+{
+"type": "p",
+"text": "Cittas with all kinds of objects are 6"
+},
+{
+"type": "pre",
+"text": " 1. Sense-sphere functionals with knowledge               4\n 2. Functional direct-knowledge (abhiññā)                 1\n 3. Determining consciousness                             1"
+},
+{
+"type": "p",
+"text": "Cittas and their objects"
+},
+{
+"type": "pre",
+"text": "      Objects                     special     general cittas\n 1.   Sense-sphere objects         25           31\n 2.   Sublime objects               6           31\n 3.   Concept objects              21           31\n 4.   Nibbāna object                8           11"
+},
+{
+"type": "p",
+"text": "6. Classification of Bases"
+},
+{
+"type": "p",
+"text": "There are 6 bases depending on which citta arises. They are as follows:"
+},
+{
+"type": "pre",
+"text": " 1. Eye-base                       cakkhu-vatthu\n 2. Ear-base                       sota-vatthu\n 3.   Nose-base                         ghāna-vatthu\n 4.   Tongue-base                       jivhā-vatthu\n 5.   Body-base                         kāya-vatthu\n 6.   Heart-base or base of mind        (hadaya-) vatthu"
+},
+{
+"type": "p",
+"text": "Note: All these bases are found in the sense world. But in the fine-material world 3 bases – nose, tongue and body – are not found. In the immaterial world, no bases exist."
+},
+{
+"type": "p",
+"text": "Seven Elements of Cittas"
+},
+{
+"type": "pre",
+"text": " 1.   Element of eye-consciousness               cakkhuviññāṇadhātu\n 2.   Element of ear-consciousness               sotaviññāṇadhātu\n 3.   Element of nose-consciousness              ghānaviññāṇadhātu\n 4.   Element of tongue-consciousness            jivhāviññāṇadhātu\n 5.   Element of body-consciousness              kāyaviññāṇadhātu\n 6.   Element of mind                            manodhātu\n 7.   Element of mind-consciousness              manoviññāṇadhātu"
+},
+{
+"type": "p",
+"text": "In the sense-plane, there are 7 elements which are dependent on the 6 bases; in the fine-material plane 4 are dependent on 3 bases; in the immaterial plane one element is not dependent on any base."
+},
+{
+"type": "h",
+"text": "Cittas and their Bases"
+},
+{
+"type": "p",
+"text": "Cittas on the eye-base – 2"
+},
+{
+"type": "pre",
+"text": "     Eye-consciousness                  cakkhuviññāṇa            2"
+},
+{
+"type": "p",
+"text": "Cittas on the ear-base – 2"
+},
+{
+"type": "pre",
+"text": "     Ear-consciousness                  sotaviññāṇa              2"
+},
+{
+"type": "p",
+"text": "Cittas on the nose-base – 2"
+},
+{
+"type": "pre",
+"text": "     Nose-consciousness                 ghānaviññāṇa             2"
+},
+{
+"type": "p",
+"text": "Cittas on the tongue-base – 2"
+},
+{
+"type": "pre",
+"text": "     Tongue-consciousness               jivhāviññāṇa             2"
+},
+{
+"type": "p",
+"text": "Cittas on the body-base – 2"
+},
+{
+"type": "pre",
+"text": "     Body-consciousness          kāyaviññāṇa          2"
+},
+{
+"type": "p",
+"text": "Cittas on the heart-base (always) – 33"
+},
+{
+"type": "pre",
+"text": " 1. Hatred-rooted consciousness dosamūla citta         2\n 2. Receiving                       sampaṭicchana      2\n 3. Investigating                   santīraṇa          3\n 4. Five-door adverting             pañcadvārāvajjana 1\n 5. Smile-producing                 hasituppada        1\n 6. Great resultants                mahāvipāka         8\n 7. Fine-material-sphere            rūpāvacara        15\n 8. Path of stream-entry            sotāpattimagga     1"
+},
+{
+"type": "p",
+"text": "Cittas on the heart-base (sometimes) – 42"
+},
+{
+"type": "pre",
+"text": " 1. Greed-rooted consciousness lobhamūla citta        8\n 2. Delusion-rooted               mohamūla            2\n 3. Mind-door adverting           manodvārāvajjana    1\n 4. Great wholesome               mahākusala          8\n 5. Great functional              mahākriya           8\n 6. Immaterial wholesome          arūpa kusala        4\n 7. Immaterial functional         arūpa kriya         4"
+},
+{
+"type": "p",
+"text": "8. Supramundane"
+},
+{
+"type": "pre",
+"text": "     (except 1st path)            lokuttara           7"
+},
+{
+"type": "p",
+"text": "Cittas without base – 4"
+},
+{
+"type": "pre",
+"text": "     Immaterial resultant        arūpa vipāka         4"
+}
+],
+"sangaha_ch": 3
+},
+{
+"num": "5",
+"label": "Chapter 5",
+"title": "Vīthi: Mental Process",
+"blocks": [
+{
+"type": "p",
+"text": "Citta-vīthi: “Vīthi” in Pāḷi means process. A mental process is called citta-vīthi. A material process is “rūpa-vīthi”. In the life of beings the two types of process, mental and material, mostly run side by side without interruption."
+},
+{
+"type": "p",
+"text": "Vīthi and Vīthimutta: A mental process that runs with a present object coming into contact to one of the six mental bases is “vīthi”. But vīthi-mutta is a mental process that runs with an object - kamma, the conditions of kamma, and the sign of destination (gati-nimitta) - that is manifested just before death in previous life. That process is free from the present activities, so it is called “vīthi-mutta” (process-free)."
+},
+{
+"type": "p",
+"text": "80 Vīthi-citta: Cittas that deal with vīthi (process) are 80.",
+"ind": 1
+},
+{
+"type": "p",
+"text": "According to the process order these vīthi cittas are as follows:"
+},
+{
+"type": "pre",
+"text": " 1. Āvajjana              attentions            2\n 2. Viññāṇa cittas                             10\n 3. Sampaṭicchana         receiving             2\n 4. Santīraṇa             investigating         3\n 5. Javana                dynamic              55\n 6. Tadārammaṇa                                 8\n                                     total     80"
+},
+{
+"type": "p",
+"text": "19 Vīthi-mutta-cittas: The cittas that are not included in Vīthi-cittas are 19:",
+"ind": 1
+},
+{
+"type": "pre",
+"text": " 1. Upekkhā santīraṇas                            2"
+},
+{
+"type": "p",
+"text": "(that perform the function of relinking, etc.)"
+},
+{
+"type": "pre",
+"text": " 2. Mahāvipākas                                   8"
+},
+{
+"type": "p",
+"text": "(with the function of relinking, etc.)"
+},
+{
+"type": "pre",
+"text": " 3. Rūpavipākas                                   5\n 4. Arūpavipākas                                  4\n                                       total    19"
+},
+{
+"type": "p",
+"text": "Note on citta-vīthi: When a citta-vīthi runs, it depends on one of the 6 bases; it comes into contact to one of the 6 objects through one of the 6 doors. Therefore, the 6 bases, the 6 objects, the 6 doors and the 6 viññāṇa must be noted here:"
+},
+{
+"type": "pre",
+"text": "6 Viññāṇa               6 Bases         6 Doors         6 Objects\nEye-consciousness       Eye-base        Eye-door        Form\nEar-     “              Ear-base        Ear-door        Sound\nNose-    “              Nose-base       Nose-door       Smell\nTongue- “               Tongue-base     Tongue-door     Taste\nBody-     “             Body-base       Body-door       Tangibility\nMind-    “              Mind-base       Mind-door       Dhamma"
+},
+{
+"type": "p",
+"text": "6 Citta-vīthi: The citta-vīthi, mental process, is sixfold each as dealing with doors and viññāṇas. They are as follows:",
+"ind": 1
+},
+{
+"type": "pre",
+"text": "6 as Doors                           6 as Viññāṇas\nCakkhu-dvāra vīthi                   Cakkhu-viññāṇa-vīthi\nSota-dvāra vīthi                     Sota-viññāṇa-vīthi\nGhāna-dvāra vīthi                    Ghāna-viññāṇa-vīthi\nJīvha-dvāra vīthi                    Jīvha-viññāṇa-vīthi\nKāya-dvāra vīthi                     Kāya-viññāṇa-vīthi\nMano-dvāra vīthi                     Mano-viññāṇa-vīthi"
+},
+{
+"type": "p",
+"text": "6 Visayappavatti: “Visaya” here means object; “pavatti” appearance or presentation; so the ways of appearance or presentation of the six objects are called Visayappavatti. The Visayappavattis are sixfold as concerning the 5 doors 4, the mind-door 2."
+},
+{
+"type": "pre",
+"text": "6 Objects               in 5-door               in Mind-door"
+},
+{
+"type": "h",
+"text": "Form"
+},
+{
+"type": "pre",
+"text": "Sound                   Atimahanta\nSmell                   Mahanta                 Vibhūta\nTaste                   Paritta                 Avibhūta\nTangibility             Atiparitta"
+},
+{
+"type": "h",
+"text": "Dhamma"
+},
+{
+"type": "p",
+"text": "Atimahanta = very great,"
+},
+{
+"type": "pre",
+"text": "      Mahanta         = great,\n      Paritta         = small,\n      Atiparitta      = very small"
+},
+{
+"type": "p",
+"text": "dealing with a form object. If the object is a sound, it must be very loud, loud, low, very low. If smell or taste, it must be very strong, strong, little, very little. If tangibility, it must be much strike, strike, smooth, very smooth. Then, “vibhūta” means clear and “avibhūta” not clear. But the appearance of the object of vīthimutta cittas is threefold:"
+},
+{
+"type": "p",
+"text": "kamma,"
+},
+{
+"type": "p",
+"text": "kamma-nimitta, and"
+},
+{
+"type": "p",
+"text": "gati-nimitta."
+},
+{
+"type": "p",
+"text": "Citta-kkhaṇa: “Cittakkhaṇa” means mental moment. A mental moment has three sub-moments - arising (uppāda), stop (ṭhiti), and falling (bhaṅga). The three sub-moments are a life-span of a mind. But the 17 mental moments that are composed of 51 sub-moments are a life-span of 22 material qualities - 28 rūpas except the 2 viññattis and the 4 lakkhaṇas."
+},
+{
+"type": "p",
+"text": "Manifestation: The 5 objects - form, sound, smell, taste, and tangibility - , when at the moment of existence (ṭhiti-khaṇa), come into manifestation in the 5 doors respectively. The manifestation is possible when the five objects passed over one mental moment or several mental moments."
+},
+{
+"type": "p",
+"text": "75 Vīthi in 5-Door: In 5 doors 75 types of mental processes are possible:",
+"ind": 1
+},
+{
+"type": "p",
+"text": "The mental process"
+},
+{
+"type": "pre",
+"text": " 1. in eye-door          15\n 2. in ear-door          15\n 3. in nose-door         15\n 4. in tongue-door       15\n 5. in body-door         15\n               total     75"
+},
+{
+"type": "p",
+"text": "Objects"
+},
+{
+"type": "pre",
+"text": "Mental process         Very                                  Very\n                                   Great        Small\n                       great                                 small\nin eye-door              1           2             6           6\nin ear-door              1           2             6           6\nin nose-door             1           2             6           6\nin tongue-door           1           2             6           6\nin body-door             1           2             6           6"
+},
+{
+"type": "h",
+"text": "Mental Process in Eye-door"
+},
+{
+"type": "p",
+"text": "(Cakkhudvāra-vīthi)"
+},
+{
+"type": "h",
+"text": "A mental process in eye-door runs as follows"
+},
+{
+"type": "p",
+"text": "A person opens his eye to look at something. Then a very great visible object comes into manifestation in the sense eye after having passed one thought-moment. The thought moment is a Bhavaṅga moment and that Bhavaṅga is a “passed-bhavaṅga” (Atītabhavaṅga)."
+},
+{
+"type": "p",
+"text": "Bhavaṅga citta cannot be aware of a present object. Its object is the object of “maraṇāsanna javana” (preceding javana of death) in previous life."
+},
+{
+"type": "p",
+"text": "The visible object comes into contact not only to the eye, but to the mind-door also. Therefore the Bhavaṅga citta (mind-door) vibrates and then it ceases. There are two Bhavaṅga cittas: Vibrating (Bhavaṅga-calana) and ceasing (Bhavaṅga-upaccheda)."
+},
+{
+"type": "p",
+"text": "(1) Then the attending consciousness in five-door (pañca-dvārāvajjana) arises paying attention to the visible object and ceases. Thereafter the following cittas arise and cease:",
+"ind": 1
+},
+{
+"type": "p",
+"text": "(2) Eye-consciousness seeing that object,",
+"ind": 1
+},
+{
+"type": "p",
+"text": "(3) Receiving consciousness receiving that object,",
+"ind": 1
+},
+{
+"type": "p",
+"text": "(4) Enquiring consciousness enquiring that object,",
+"ind": 1
+},
+{
+"type": "p",
+"text": "(5) Determining consciousness determining that object,",
+"ind": 1
+},
+{
+"type": "p",
+"text": "(6) Then one of the 29 Javana cittas concerning the Kāma plane runs mostly for 7 times experiencing that object for 7 times and ceases.",
+"ind": 1
+},
+{
+"type": "p",
+"text": "(7) Following the Javana citta the Retentive resultant consciousness arises twice succeeding the Javana with that object and ceases.",
+"ind": 1
+},
+{
+"type": "p",
+"text": "These 7 Vīthi-cittas run with the present visible object that comes into manifestation. After that the Bhavaṅga citta runs again with the past object."
+},
+{
+"type": "p",
+"text": "Duration of object: The visible object that reflects on the sense eye starts with the past Bhavaṅga moment and ends in the second Tadārammaṇa (Retentive consciousness) moment. The life-span of the visible object is 17 mental moments."
+},
+{
+"type": "h",
+"text": "Mental Process with Very Great Object"
+},
+{
+"type": "h",
+"text": "In Eye-door"
+},
+{
+"type": "pre",
+"text": "    1. B.    = Bhavaṅga that has passed\n    2. B.    = Bhavaṅga that vibrates\n    3. B.    = Bhavaṅga that ceases\n    4. P.    = Pañcadvārāvajjana = Attending consciousness that"
+},
+{
+"type": "p",
+"text": "attends the present object coming into contact"
+},
+{
+"type": "p",
+"text": "5. C. = Cakkhuviññāṇa = Eye-consciousness that sees the"
+},
+{
+"type": "p",
+"text": "present visible object"
+},
+{
+"type": "p",
+"text": "6. S.P. = Saṃpaṭicchana = Receiving consciousness that"
+},
+{
+"type": "p",
+"text": "receives the present object"
+},
+{
+"type": "p",
+"text": "7. S.T. = Santīraṇa = Enquiring consciousness that"
+},
+{
+"type": "p",
+"text": "enquires the present object"
+},
+{
+"type": "p",
+"text": "8. V. = Voṭṭhappana = Determining consciousness that"
+},
+{
+"type": "p",
+"text": "determines the present object"
+},
+{
+"type": "pre",
+"text": " 9.-15. J.   = Javana = Energetic consciousness that experiences"
+},
+{
+"type": "p",
+"text": "the present object"
+},
+{
+"type": "pre",
+"text": "16.-17. T    = Tadārammaṇa = retentive consciousness that"
+},
+{
+"type": "p",
+"text": "succeeds the object of Javana In Ear-door, etc.:"
+},
+{
+"type": "p",
+"text": "Instead of Cakkhuviññāṇa there arise the other Viññāṇas respectively according to the door and the object. The other 16 citta are the same. They run with one of the 5 objects that come into contact to the concerning doors."
+},
+{
+"type": "pre",
+"text": "           E                  O object that appears in 2 doors"
+},
+{
+"type": "p",
+"text": "Eye-door"
+},
+{
+"type": "p",
+"text": "P C SP ST V J J J J J J J T T"
+},
+{
+"type": "pre",
+"text": "     B     B B----------------------------------B"
+},
+{
+"type": "p",
+"text": "Mind-door"
+},
+{
+"type": "p",
+"text": "To have further information about the object the other mental processes run in mind-door. Among the mental processes in mind-door the first is aware of the past object. The second catches the name or the word and the fourth knows the meaning. There arise the 3 mental processes in mind-door minimum for running with the object."
+},
+{
+"type": "p",
+"text": "(1) B B M J J J J J J J T T",
+"ind": 1
+},
+{
+"type": "p",
+"text": "(2) B B M J J J J J J J T T",
+"ind": 1
+},
+{
+"type": "p",
+"text": "(3) B B M J J J J J J J T T",
+"ind": 1
+},
+{
+"type": "p",
+"text": "Note: No. 1 just follows the object."
+},
+{
+"type": "p",
+"text": "No. 2 names the object."
+},
+{
+"type": "p",
+"text": "No. 3 catches the meaning of the object."
+},
+{
+"type": "h",
+"text": "Mental process with Great Object"
+},
+{
+"type": "p",
+"text": "Regarding the great object 2 types of mental process are possible to run with the great object. It passed 2 or 3 Bhavaṅgas and there arise no Tadārammaṇa. So it ends in Javana."
+},
+{
+"type": "h",
+"text": "Mental process with Small Object"
+},
+{
+"type": "p",
+"text": "Regarding the small object 6 types of mental process are possible to run with the small object. It passed from 4 to 9 Bhavaṅgas. It ends in Voṭṭhappana."
+},
+{
+"type": "h",
+"text": "Mental process with Very Small Object"
+},
+{
+"type": "p",
+"text": "Regarding the very small object there arise just Bhavaṅga. It makes the Bhavaṅga vibrate, but not cease. There do not arise any active minds (Vīthi-cittas)."
+},
+{
+"type": "h",
+"text": "15 Mental Process in Eye-door"
+},
+{
+"type": "p",
+"text": "Vīthi-cittas / Bhavaṅga"
+},
+{
+"type": "p",
+"text": "arising moment"
+},
+{
+"type": "p",
+"text": "manifestation"
+},
+{
+"type": "p",
+"text": "B. ceased"
+},
+{
+"type": "p",
+"text": "of object"
+},
+{
+"type": "p",
+"text": "moment object"
+},
+{
+"type": "pre",
+"text": "Very      B      B      B   P·C·Sp·St·V·J·J·J·J·J·J·J·T·T     marks"
+},
+{
+"type": "p",
+"text": "Tadāra-"
+},
+{
+"type": "pre",
+"text": "Great                                                       mmaṇa\nGreat     B.2    B      B   P·C·Sp·St·V·J·J·J·J·J·J·J (B)   Javana\n          B.3    B      B   P·C·Sp·St·V·J·J·J·J·J·J·J\nSmall     B.4    B      B   P·C·Sp·St·V·V·V·(B·B·B·B)       Voṭṭha-\n          B.5    B      B   P·C·Sp·St·V·V·V·(B·B·B)         ppana\n          B.6    B      B   P·C·Sp·St·V·V·V·(B·B)\n          B.7    B      B   P·C·Sp·St·V·V·V·(B)\n          B.8    B      B   P·C·Sp·St·V·V·V\n          B.9    B      B   P·C·Sp·St·V·V\nVery      B.10   B      B   B·B·B·B·B                       Mogha\nSmall     B.11   B      B   B·B·B·B                         (empty)\n          B.12   B      B   B·B·B\n          B.13   B      B   B·B\n          B.14   B      B   B\n          B.15   B      B"
+},
+{
+"type": "p",
+"text": "Classification: There are 15 types of mental process in the eye-door. In the mental process there occur Bhavaṅga cittas and Vīthi cittas. Regarding Vīthi cittas the classification runs as follows:"
+},
+{
+"type": "p",
+"text": "1. The number of Vīthi cittas,"
+},
+{
+"type": "p",
+"text": "2. Their arising times,"
+},
+{
+"type": "p",
+"text": "3. The total number of them."
+},
+{
+"type": "pre",
+"text": "object              number of         arising time   total number of\n                    vīthi citta                         vīthi citta\nVery Great               7                 14               46\nGreat                    6                 12               38\nSmall                    5                  7                9\nVery Small              nil                nil              nil"
+},
+{
+"type": "h",
+"text": "Mental Process in Mind-door"
+},
+{
+"type": "p",
+"text": "A mental process in mind-door runs with six objects that are either present or past or future or timeless object. The object that comes into contact to the mind-door is divided into two:"
+},
+{
+"type": "p",
+"text": "1. clear appearance (vibhūta)"
+},
+{
+"type": "p",
+"text": "2. not clear appearance (avibhūta)"
+},
+{
+"type": "h",
+"text": "Regarding the Javana there are sections"
+},
+{
+"type": "p",
+"text": "1. Kāma javana secion"
+},
+{
+"type": "p",
+"text": "2. Appanā javana section"
+},
+{
+"type": "p",
+"text": "In Kāma javana the presentation of the object is in two ways: clear and not clear. But in the section of Appanā Javana the clear appearance alone is possible."
+},
+{
+"type": "h",
+"text": "Kāma Javana Section"
+},
+{
+"type": "p",
+"text": "In the Kāma Javana Section a mental process in mind-door runs with the “clear appearance” object (vibhūta) as follows:"
+},
+{
+"type": "p",
+"text": "When the vibhūta object comes into contact to the mind-door, the running Bhavaṅga citta vibrates and then it ceases. After that the Attending consciousness in mind-door (Manodvārāvajjana) arises paying attention to the object. Then the Javana citta arises experiencing the object for 7 times. Following to the Javana the retentive consciousness arises twice succeeding the object of Javana. Then the Bhavaṅga runs again."
+},
+{
+"type": "p",
+"text": "O object"
+},
+{
+"type": "p",
+"text": "M J J J J J J J T T"
+},
+{
+"type": "pre",
+"text": "   B         B--------------------------B B B"
+},
+{
+"type": "p",
+"text": "If a mental process runs in mind door with a “not clear appearance object (Avibhūta)”, the mental process ends in Javana. The retentive consciousness does not arise. In the end of the seventh Javana the Bhavaṅga runs again."
+},
+{
+"type": "p",
+"text": "O object"
+},
+{
+"type": "p",
+"text": "M J J J J J J J"
+},
+{
+"type": "pre",
+"text": "   B         B---------------------B B B\nobject                number of      arising time    total number of\n                      vīthi citta                       vīthi citta\nVibhūta                    3              10                41\nAvibhūta                   2               8                30"
+},
+{
+"type": "h",
+"text": "Apannā Javana Section"
+},
+{
+"type": "p",
+"text": "In Apannā Javana section a mental process in mind-door runs with only clear appearance objects (Vibhūta). There arise two types of Javana:"
+},
+{
+"type": "p",
+"text": "1. Kāma javana"
+},
+{
+"type": "p",
+"text": "2. Appanā javana"
+},
+{
+"type": "p",
+"text": "Kāma-jāvana: Here Kāma-javana precedes Appanā-javana. Therefore, the Kāma-javana is only one of eight kāma-javanas with knowledge: Mahākusala with ñāṇa 4, mahākriya with ñāṇa 4."
+},
+{
+"type": "p",
+"text": "One of these eight Kāma-javanas that precedes an Appanā-javana arises three or four times with different names. If arising three times they are orderly named as: Upacāra, Anuloma and Gotrabhū. If arising four times they are orderly named as:"
+},
+{
+"type": "p",
+"text": "1. Parikamma = preparation"
+},
+{
+"type": "pre",
+"text": "     2. Upacāra   = acces"
+},
+{
+"type": "p",
+"text": "3. Anuloma = conformity"
+},
+{
+"type": "p",
+"text": "4. Gotrabhū = new lineage"
+},
+{
+"type": "p",
+"text": "Appanā-javana: There are 26 Appanā-javanas that follow the preceding kāma-javanas:"
+},
+{
+"type": "pre",
+"text": "     1. Rūpāvacara kusala         5\n     2. Rūpāvacara kriya          5\n     3. Arūpāvacara kusala        4\n     4. Arūpāvacara kriya         4\n     5. Lokuttara                 8\n                 all together    26"
+},
+{
+"type": "p",
+"text": "One of 26 Appanā-javanas that is preceded by a Kāma-javana occurs at the fourth or the fifth moment after the preceding Kāma-javana have ceased."
+},
+{
+"type": "p",
+"text": "Person and his objective: If a person is quick in understanding, the preceding kāma-javana arises within him three times. But if a person is slow in understanding, it arises four times."
+},
+{
+"type": "p",
+"text": "According to the person’s objective appanā-javana occurs. If he intends to attain Jhāna, a Jhāna appanā-javana occurs. If he intends to attain Magga and Phala, there occurs a Magga or a Phala accordingly."
+},
+{
+"type": "pre",
+"text": "         Person              Moment of           Appanā"
+},
+{
+"type": "h",
+"text": "Kāma-javana"
+},
+{
+"type": "pre",
+"text": "         Slow                   4                  5th\n         Quick                  3                  4th"
+},
+{
+"type": "p",
+"text": "The initial Attainment of Jhāna:"
+},
+{
+"type": "pre",
+"text": "Slow:    B P U A G J B"
+},
+{
+"type": "p",
+"text": "Quick: B U A G J B"
+},
+{
+"type": "p",
+"text": "The initial Attainment of Magga:"
+},
+{
+"type": "pre",
+"text": "Slow:    B P U A G M P P B"
+},
+{
+"type": "p",
+"text": "Quick: B U A G M P P P B"
+},
+{
+"type": "p",
+"text": "Preceding and Following Javanas: Regarding to Kāma-javana and Appanā-javana, the procedure is according to feeling (vedanā) and type (jāti):"
+},
+{
+"type": "p",
+"text": "According to feeling (vedanā), if a preceding kāma-javana is with pleasure, the following Appanā-javana must be with pleasure; if with neutral, the following must be neutral feeling."
+},
+{
+"type": "p",
+"text": "According to type (jāti), if a preceding Kāma-javana is a kusala, the following Appanā-javana must be kusala and the three lower Phala cittas; if a preceding Kāma-javana is a kriya, the following Appanā-javana must be kriya and the Arahatta Phala citta."
+},
+{
+"type": "pre",
+"text": "Person       Preceding             following\n                                   Rūpa-kusala with pleasure        - 4"
+},
+{
+"type": "p",
+"text": "2 Mahākusala",
+"ind": 1
+},
+{
+"type": "pre",
+"text": "                           32      Magga with pleasure              - 16"
+},
+{
+"type": "p",
+"text": "with pleasure"
+},
+{
+"type": "pre",
+"text": "Puthujjana                         Lower Phala with pleasure        - 12"
+},
+{
+"type": "p",
+"text": "Rūpa (5th Jhāna)-Arūpa-kusala"
+},
+{
+"type": "p",
+"text": "2 Mahākusala",
+"ind": 1
+},
+{
+"type": "pre",
+"text": "Sekkha                                with neutral feeling          - 5"
+},
+{
+"type": "p",
+"text": "with neutral 12"
+},
+{
+"type": "pre",
+"text": "                                   Magga with neutral feeling       - 4"
+},
+{
+"type": "p",
+"text": "feeling"
+},
+{
+"type": "p",
+"text": "Lower Phala with neutral feeling - 3"
+},
+{
+"type": "pre",
+"text": "             2 Mahākriya     8     Rūpa-kriya with pleasure         - 4\n             with pleasure         Arahatta-phala with pleasure     - 4\nAsekkha      2 Mahākriya           Rūpa (5th Jhāna)-Arūpa-kriya\n             with neutral    6        with neutral feeling          - 5\n             feeling               Arahatta-phala with neutral      - 1"
+},
+{
+"type": "h",
+"text": "Procedure"
+},
+{
+"type": "p",
+"text": "Defining: In a mental process the running cittas are defined according to their object and the preceding Javanas. They are as follows:"
+},
+{
+"type": "h",
+"text": "According to object"
+},
+{
+"type": "p",
+"text": "In a mental process the vipāka cittas - 5-Viññāṇa, Sampaṭicchana, Santīraṇa and Taddārammaṇa - must be an unwholesome result, if they run with an undesirable object."
+},
+{
+"type": "p",
+"text": "If they run with a desirable object, they must be the result of a wholesome state."
+},
+{
+"type": "p",
+"text": "However, if the object is very much desirable, the Santīraṇa and Tadārammaṇa must be only with pleasant feeling."
+},
+{
+"type": "p",
+"text": "According to Javana: In a mental process - (1) if the preceding Javana is one of the Mahā-kriya with pleasant"
+},
+{
+"type": "p",
+"text": "feeling, the following Tadārammaṇa must be with pleasant"
+},
+{
+"type": "p",
+"text": "feeling; (2) if with neutral feeling, the following Tadārammaṇa must be"
+},
+{
+"type": "p",
+"text": "with neutral feeling; (3) if the preceding Javana is one of the two Dosamūla, the"
+},
+{
+"type": "p",
+"text": "following Tadārammaṇa must be only with neutral feeling; (4) if the preceding Javana is one of the other 18 Kāma-Javanas - 8"
+},
+{
+"type": "p",
+"text": "Lobhamūla, 2 Mohāmūla, 8 Mahā-kusala - all kinds of"
+},
+{
+"type": "p",
+"text": "Tadārammaṇa are possible."
+},
+{
+"type": "h",
+"text": "Defining of Tadārammaṇa"
+},
+{
+"type": "p",
+"text": "In a mental process there arises Tadārammaṇa immediately after Javana, if the object is very great in 5-doors or clear in Mind-door. However, for the occurrence of Tadārammaṇa there are 3 conditions: 1. the preceding Javana must be a Kāma javana 2. the object must be a kāma object 3. it must be within kāma beings."
+},
+{
+"type": "h",
+"text": "Problem of Tadārammaṇa"
+},
+{
+"type": "p",
+"text": "Suppose, there is a person whose Paṭisandhi is with pleasant feeling. Within him, sometimes, one of the Dosamūla Javanas arises. Immediately after the Dosamūla Javana, the appearance of Tadārammaṇa with pleasant feeling is impossible. That person has Paṭisandhi with pleasant feeling, therefore the appearance of Tadārammaṇa with neutral feeling is impossible. To solve the natural problem, there occurs the Santīraṇa with neutral feeling depending on any experienced kāma object. Then Bhavaṅga runs."
+},
+{
+"type": "h",
+"text": "Tadārammaṇa"
+},
+{
+"type": "pre",
+"text": "          Preceding Javana                       Tadārammaṇa\n  5   Kāma-kriya with pleasant feeling       5 Tadārammaṇa with"
+},
+{
+"type": "p",
+"text": "pleasant feeling"
+},
+{
+"type": "pre",
+"text": "  4   Kāma-kriya with pleasant feeling       6 Tadārammaṇa with\n  2   Dosamūla                                 neutral feeling"
+},
+{
+"type": "p",
+"text": "Mahākusala 8"
+},
+{
+"type": "pre",
+"text": " 18   Lobhamūla    8                       11 Tadārammaṇa\n      Mohamūla     2"
+},
+{
+"type": "h",
+"text": "Analysis of Javana"
+},
+{
+"type": "p",
+"text": "Javana citta are 55. They are energetic mind. When they run in a mental process, they experience the object. Regarding to the object the final decision is the work of Javana. The Javana occurs once or several times according to their nature and condition."
+},
+{
+"type": "p",
+"text": "1. Javana with one moment:"
+},
+{
+"type": "p",
+"text": "(A) 9 Mahaggata (Jhāna) Javanas, that are the first time"
+},
+{
+"type": "p",
+"text": "(B) 2 Abhiñña Javana at any time"
+},
+{
+"type": "p",
+"text": "(C) 4 Magga Javanas occur only one mental moment."
+},
+{
+"type": "p",
+"text": "They never repeat."
+},
+{
+"type": "p",
+"text": "(D) The 2 fruition (Phala) Javanas - Anāgāmi and"
+},
+{
+"type": "p",
+"text": "Arahatta, occur once when they arise after"
+},
+{
+"type": "p",
+"text": "withdrawing from Nirodha samāpatti."
+},
+{
+"type": "p",
+"text": "2. Javana with two or three moments:"
+},
+{
+"type": "p",
+"text": "(A) The 2 Nevasaññā nāsaññāyatana javanas that"
+},
+{
+"type": "p",
+"text": "precede to attain the Nirodha-samapatti."
+},
+{
+"type": "p",
+"text": "(B) The Fruition javanas preceded by Magga javanas"
+},
+{
+"type": "p",
+"text": "arise 2 or 3 times."
+},
+{
+"type": "p",
+"text": "3. Javana with four or five moments:"
+},
+{
+"type": "p",
+"text": "The 4 Paccavekkhaṇa javanas, that are the 4 Mahākriya"
+},
+{
+"type": "p",
+"text": "javanas with knowledge within the Buddha, arise 4 or 5"
+},
+{
+"type": "p",
+"text": "moments when he creates a supernormal power as issuing"
+},
+{
+"type": "p",
+"text": "the pair of water and fire."
+},
+{
+"type": "p",
+"text": "4. Javana with five moments:"
+},
+{
+"type": "p",
+"text": "The Kāma javanas at the dying moment etc., due to"
+},
+{
+"type": "p",
+"text": "weakness of the heart base, arise for five times."
+},
+{
+"type": "p",
+"text": "5. Javana with six or seven moments:"
+},
+{
+"type": "p",
+"text": "The Kāma javanas in a Kāma mental process arise usually"
+},
+{
+"type": "p",
+"text": "6 or 7 moments.",
+"ind": 1
+},
+{
+"type": "p",
+"text": "6. Javana with unlimited moment:"
+},
+{
+"type": "p",
+"text": "In the process of Jhāna and Phala attainment, the Javanas"
+},
+{
+"type": "p",
+"text": "of Jhāna or Phala run without limitation. As long as the"
+},
+{
+"type": "p",
+"text": "attainment remains these Javanas run like the current of"
+},
+{
+"type": "p",
+"text": "Bhavaṅga citta."
+},
+{
+"type": "h",
+"text": "Division of Vīthi citta"
+},
+{
+"type": "p",
+"text": "80 Vīthi cittas are divided according to (A) plane and (B)",
+"ind": 1
+},
+{
+"type": "p",
+"text": "individual."
+},
+{
+"type": "h",
+"text": "(A) Plane"
+},
+{
+"type": "p",
+"text": "Regarding to the classification of Vīthi cittas the 4 plane-groups should be known:"
+},
+{
+"type": "p",
+"text": "(1) Kāmāvacara",
+"ind": 1
+},
+{
+"type": "p",
+"text": "(2) Rūpāvacara",
+"ind": 1
+},
+{
+"type": "p",
+"text": "(3) Arūpāvacara",
+"ind": 1
+},
+{
+"type": "p",
+"text": "(4) Asaññasatta",
+"ind": 1
+},
+{
+"type": "p",
+"text": "In the Kāmāvacara planes all 80 Vīthi cittas are possible."
+},
+{
+"type": "p",
+"text": "In the Rūpāvacara planes 64 Vīthi cittas are possible, because the 16 Vīthi cittas, 2 Dosamūla, the 6 Viññāṇa cittas - nose, tongue, body - and 8 Mahāvipāka cittas are impossible."
+},
+{
+"type": "p",
+"text": "In Arūpāvacara planes 42 Vīthi cittas are possible. They are"
+},
+{
+"type": "pre",
+"text": "         Lobhamūla                           8\n         Mohamūla                            2\n         Manodvārāvajjana                    1\n         Mahākusala                          8\n         Mahākiriya                          8\n         Arūpa kusala and kriya              8"
+},
+{
+"type": "p",
+"text": "Lokuttara except Sotāpattimagga 7"
+},
+{
+"type": "p",
+"text": "In Asaññasatta plane no cittas arise. Therefore, in that plane any kind of Vīthi citta is impossible."
+},
+{
+"type": "p",
+"text": "Vīthi citta and plane"
+},
+{
+"type": "p",
+"text": "Vīthi citta"
+},
+{
+"type": "p",
+"text": "Plane"
+},
+{
+"type": "pre",
+"text": "                               possible     impossible\n              Kāma               80              nil\n              Rūpa               64              16\n              Arūpa              42              38"
+},
+{
+"type": "p",
+"text": "(B) Individual:"
+},
+{
+"type": "p",
+"text": "There are 12 types of individuals. They are"
+},
+{
+"type": "pre",
+"text": "     1. Puthujjana         4\n     2. Ariya              8"
+},
+{
+"type": "p",
+"text": "Puthujjana: Puthu means majority. Jana means beings. So majority beings are called puthujjana."
+},
+{
+"type": "h",
+"text": "The Puthujjanas are fourfold"
+},
+{
+"type": "p",
+"text": "1. Duggati Ahetuka = a being whose paṭisandhi is without"
+},
+{
+"type": "p",
+"text": "hetu and he is in a woeful plane."
+},
+{
+"type": "p",
+"text": "2. Sugati Ahetuka = a being whose paṭisandhi is without"
+},
+{
+"type": "p",
+"text": "hetu, but he is in a blissful plane."
+},
+{
+"type": "p",
+"text": "3. Dvihetuka = a being whose paṭisandhi is with 2 hetus"
+},
+{
+"type": "p",
+"text": "(in a blissful plane)."
+},
+{
+"type": "p",
+"text": "4. Tihetuka = a being whose paṭisandhi is with 3 hetus (in"
+},
+{
+"type": "p",
+"text": "a blissful plane)."
+},
+{
+"type": "p",
+"text": "Ariya: Ariya means those who are far from mental defilements. In other way Ariyas are noble persons through their noble mind. Ariyas are eightfold:"
+},
+{
+"type": "p",
+"text": "1. Maggaṭṭha = those whose stages are the paths are 4."
+},
+{
+"type": "p",
+"text": "2. Phalaṭṭha = those whose stages are fruitions are 4."
+},
+{
+"type": "h",
+"text": "Division of Vīthi citta"
+},
+{
+"type": "p",
+"text": "Regarding to Individuals the 80 Vīthi cittas are divided accordingly. They run as follows:"
+},
+{
+"type": "p",
+"text": "(1) Duggati Ahetuka: Within such a being 37 Vīthi cittas are"
+},
+{
+"type": "p",
+"text": "possible. They are"
+},
+{
+"type": "pre",
+"text": "               Akusala                      12"
+},
+{
+"type": "p",
+"text": "Ahetuka (except Hasituppāda) 17 37"
+},
+{
+"type": "pre",
+"text": "               Mahākusala                    8"
+},
+{
+"type": "p",
+"text": "(2) Sugati Ahetuka: Within such a being 41 Vīthi cittas are"
+},
+{
+"type": "p",
+"text": "possible. They are"
+},
+{
+"type": "pre",
+"text": "                Akusala                      12\n                Ahetuka (except Hasituppāda) 17          41\n                Mahākusala                    8"
+},
+{
+"type": "p",
+"text": "Mahāvipāka without knowledge 4"
+},
+{
+"type": "p",
+"text": "(3) Dvihetuka: Within such a being 41 Vīthi cittas are possible."
+},
+{
+"type": "p",
+"text": "They are the same as abovementioned."
+},
+{
+"type": "p",
+"text": "(4) Tihetuka: Within such a being 45 Vīthi cittas are possible."
+},
+{
+"type": "p",
+"text": "They are"
+},
+{
+"type": "pre",
+"text": "                Akusala                      12\n                Ahetuka (except Hasituppāda) 17          45\n                Mahākusala                    8"
+},
+{
+"type": "p",
+"text": "Mahāvipāka without knowledge 8"
+},
+{
+"type": "p",
+"text": "If a Tihetuka person attains Jhāna, the attained Jhāna citta is also possible Therefore, if added 9 Jhāna javanas, 54 Vīthi cittas are possible."
+},
+{
+"type": "p",
+"text": "Maggaṭṭa - 4: There are 4 Maggaṭṭhas. They are"
+},
+{
+"type": "p",
+"text": "1. Sotāpatti Maggaṭṭha"
+},
+{
+"type": "p",
+"text": "2. Sakadāgāmi Maggaṭṭha"
+},
+{
+"type": "p",
+"text": "3. Anāgāmi Maggaṭṭha"
+},
+{
+"type": "p",
+"text": "4. Arahatta Maggaṭṭha Within these persons the concerning Magga-citta alone is possible."
+},
+{
+"type": "p",
+"text": "Phalaṭṭha - 4: There are 4 Phalaṭṭhas. They are"
+},
+{
+"type": "p",
+"text": "1. Sotāpatti Phalaṭṭha"
+},
+{
+"type": "p",
+"text": "2. Sakadāgāmi Phalaṭṭha"
+},
+{
+"type": "p",
+"text": "3. Anāgāmi Phalaṭṭha"
+},
+{
+"type": "p",
+"text": "4. Arahatta Phalaṭṭha"
+},
+{
+"type": "p",
+"text": "Sotāpatti Phalaṭṭha: Within such a person 41 Vīthi cittas are possible. They are"
+},
+{
+"type": "p",
+"text": "Akusala (except 4 Diṭṭhi-"
+},
+{
+"type": "p",
+"text": "sampayutta, 1 vicikiccha) 7"
+},
+{
+"type": "p",
+"text": "Ahetuka (except Hasituppāda) 17"
+},
+{
+"type": "pre",
+"text": "                Mahākusala                     8\n                Mahāvipāka                     8\n                Sotāpatti phala                1"
+},
+{
+"type": "p",
+"text": "If he attains a Jhāna, there will be more Vīthi cittas. If added 9 Jhāna javanas to the 41, the number will be 50."
+},
+{
+"type": "p",
+"text": "Sakadāgāmi Phalaṭṭha: Within such a person the 41 Vīthi cittas, if attained Jhāna, by adding 9 Jhāna kusala javanas, 50 Vīthi cittas, are possible as in the Sotāpatti Phalaṭṭha (Sotāpanna) respectively."
+},
+{
+"type": "p",
+"text": "Anāgāmi Phalaṭṭha: Within such a person 39 Vīthi cittas, if attained Jhāna, by adding 9 Jhāna kusala javanas, 48 Vīthi cittas, are possible. The 39 Vīthi cittas are as follows:"
+},
+{
+"type": "pre",
+"text": "                Diṭṭhi-vippayutta lobhamūla      4\n                Uddhacca-sampayutta              1"
+},
+{
+"type": "p",
+"text": "Ahetuka (except Hasituppāda) 17"
+},
+{
+"type": "pre",
+"text": "                Mahākusala                       8\n                Mahāvipāka                       8\n                Anāgāmi phala                    1"
+},
+{
+"type": "p",
+"text": "Arahatta Phalaṭṭha: Within such a person (Arahanta) 35 Vīthi cittas, if attained Jhāna, by adding 9 Jhāna kriya javanas, 44 Vīthi cittas, are possible. The 35 Vīthi cittas are as follows:"
+},
+{
+"type": "pre",
+"text": "                  Ahetuka                            18\n                  Mahākriya                           8\n                  Mahāvipāka                          8\n                  Arahatta phala                      1"
+},
+{
+"type": "h",
+"text": "Tihetuka in other planes"
+},
+{
+"type": "p",
+"text": "Tihetuka is a person whose paṭisandhi citta is with 3 hetus: Alobha, Adosa and Amoha. The Tihetuka persons are ninefold: 1 Puthujjana and 8 Ariyas. They are not only in kāma-sugati planes, but in some of the Brahmā planes also."
+},
+{
+"type": "p",
+"text": "The possible Vīthi cittas within those 9 persons that were mentioned above belong to only Kāma-sugati. If they are in a Rūpa-plane or an Arūpa-plane the possible Vīthi cittas will be different in number."
+},
+{
+"type": "p",
+"text": "In the Brahmā planes the following Vīthi cittas are impossible:"
+},
+{
+"type": "pre",
+"text": "                Dosamūla                          2\n                Nose-consciousness                2\n                Tongue-consciousness              2\n                Body-consciousness                2\n                Mahāvipāka                        8"
+},
+{
+"type": "p",
+"text": "These 16 Vīthi cittas must be removed from each of those numbers."
+},
+{
+"type": "p",
+"text": "Some cittas are impossible in Arūpa-planes. They must be removed."
+},
+{
+"type": "p",
+"text": "Being, plane, Vīthi cittas"
+},
+{
+"type": "pre",
+"text": "      being                     plane                   possible"
+},
+{
+"type": "p",
+"text": "Vīthi cittas"
+},
+{
+"type": "pre",
+"text": "      Duggati Ahetuka           4 woeful planes                   37"
+},
+{
+"type": "p",
+"text": "- Human"
+},
+{
+"type": "pre",
+"text": "      Sugati Ahetuka            - Cātumahārājika                  41"
+},
+{
+"type": "p",
+"text": "- Asaññasatta"
+},
+{
+"type": "p",
+"text": "Human"
+},
+{
+"type": "pre",
+"text": "      Dvihetuka                                                   41"
+},
+{
+"type": "p",
+"text": "6 Deity planes",
+"ind": 1
+},
+{
+"type": "p",
+"text": "9 Tihetuka",
+"ind": 1
+},
+{
+"type": "pre",
+"text": "      being                     plane                   possible"
+},
+{
+"type": "p",
+"text": "Vīthi cittas"
+},
+{
+"type": "pre",
+"text": "                                Kāma-sugati                  45 / 54"
+},
+{
+"type": "p",
+"text": "Tihetuka"
+},
+{
+"type": "pre",
+"text": "                                Rūpa                              38"
+},
+{
+"type": "p",
+"text": "Puthujjana"
+},
+{
+"type": "pre",
+"text": "                                Arūpa                             23\n                                Kāma-sugati                  41 / 50"
+},
+{
+"type": "p",
+"text": "Sotāpanna,"
+},
+{
+"type": "pre",
+"text": "                                Rūpa                              34"
+},
+{
+"type": "p",
+"text": "Sakadāgāmi"
+},
+{
+"type": "pre",
+"text": "                                Arūpa                             19\n                                Kāma-sugati                  39 / 48\n      Anāgāmi                   Rūpa                              34\n                                Arūpa                             19\n                                Kāma-sugati                  35 / 44\n      Arahanta                  Rūpa                              30\n                                Arūpa                             14"
+},
+{
+"type": "p",
+"text": "Note: In the Rūpa- and Arūpa-plane the respective rūpa- and arūpavipāka cittas also appear but only with the function of paṭisandhi, bhavaṅga and cuti. They are vīthimutta cittas (process-freed consciousness) and the next chapter will deal with them. If all possible cittas are mentioned, they must be added to the given numbers."
+}
+],
+"sangaha_ch": 4
+}
+],
+"glossary": []
+}
