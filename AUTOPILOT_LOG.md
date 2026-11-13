@@ -2,6 +2,34 @@
 
 Newest first. See AUTOPILOT.md for the standing instructions.
 
+## 2026-11-13 — Mendis built into the site (ready to merge)
+
+Built *The Abhidhamma in Practice* from the 80 proofread pages:
+- `scripts/mendis/convert.py` reads `ocr/mendis/p*.md` and writes `data/mendis.json` (9 parts: Front
+  matter/Preface with the imprint, Introduction, The Cittas, The Cetasikas, Rūpa, Planes of Existence,
+  Causality, Nibbāna, About the Author). Cover, title page and contents page (p001, p002, p004) left out.
+  `<!-- cont -->` joins a page's first paragraph or verse to the page before, except where a list goes on
+  over the page ((b)/(c)/(d) items on p028, p037, p038; "iii." on p027; the ditto table on p034), which
+  stay blocks of their own. The ditto table (p034) is a two-column table; verse as lines; the two
+  footnotes (p048, p057) under the paragraphs that cite them (the p057 note belongs to the last
+  paragraph of Planes of Existence, before the CAUSALITY heading).
+- Checked: every word of the proofread pages is in the JSON and nothing else (word counts compared; the
+  only extras are the `###` headings, which the comparison left out of the pages).
+- Saṅgaha map: The Cittas → I, The Cetasikas → II, Rūpa → VI, Planes of Existence → V, Causality → VIII.
+- `data/library.json` (before Fundamental), shelf "Start here" in `scripts/build_home.py` (first), README
+  section and status/table rows. Mendis was not among the README's "To come" rows, so none was removed.
+- `python3 scripts/build.py mendis`, `build_map.py`, `build_home.py`; `audit_format.py mendis`: 6
+  "broken", all list items ending "; and" before the next lettered item (the book's layout, not faults);
+  `check_site.py`: **134 pages × 3 widths, 0 problems**.
+
+Words marked ⟨?⟩ (shown on the site as marked): p007 "were not⟨?⟩ uttered"; p037 "(c)⟨?⟩ to clench the
+teeth".
+
+For the owner: merge `autopilot` into `main` to publish Mendis. The "Start here" shelf's blurb still says
+"by teachers from Myanmar"; it was left as it is.
+
+Next: Fundamental Abhidhamma Part II, PDF page 106 (`ocr-sources/fundamental-2.pdf`, pp. 106–247).
+
 ## 2026-11-13 — Mendis pp. 51–80 proofread (all pages done)
 
 Proofread PDF pages 51–80 of `ocr-sources/mendis.pdf` (book pp. 46–74 plus the unnumbered

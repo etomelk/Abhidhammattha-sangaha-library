@@ -12,13 +12,15 @@ changes that site.
 
 **Status: in progress** (November 2026). The Pāli shelf is done (the Saṅgaha and three
 commentaries), and Nārada's Manual (Chapter VIII transcribed from the 1956–57 edition), and Mehm Tin Mon's *Ultimate
-Science*. and *Fundamental Abhidhamma* Part I. Part II needs OCR and waits.
+Science*. and *Fundamental Abhidhamma* Part I, and N. K. G. Mendis's *The Abhidhamma in Practice* (proofread
+from the scan). Part II of *Fundamental Abhidhamma* needs OCR and waits.
 
 ## The books
 
 | Shelf | Folder | Book | Source of the text |
 |---|---|---|---|
-| 1. Start here: study guides | `fundamental/` | Dr. Nandamālābhivaṃsa, *Fundamental Abhidhamma*, Part I (CBS Sagaing 2005) | PDF text layer |
+| 1. Start here: study guides | `mendis/` | Dr. N. K. G. Mendis, *The Abhidhamma in Practice* (BPS, The Wheel 322/323, 1985, repr. 2005) | scan: OCR proofread against the page images (`ocr/mendis/`) |
+| | `fundamental/` | Dr. Nandamālābhivaṃsa, *Fundamental Abhidhamma*, Part I (CBS Sagaing 2005) | PDF text layer |
 | | `tinmon/` | Dr. Mehm Tin Mon, *Buddha Abhidhamma: Ultimate Science* (BuddhaNet) | PDF text layer, old Pāli font mapped |
 | | `handbook/` | Sayādaw U Sīlānanda, *Handbook of Abhidhamma Studies*, Vols. I–II (SBVMS 2012) | PDF text layer |
 | | `practical/` | *Practical Abhidhamma Course*, v1.1 (2016), by “Rob” | PDF (LuaTeX) read with PyMuPDF; figures as images |
@@ -204,6 +206,35 @@ python3 scripts/tinmon/convert.py work/tinmon.txt && python3 scripts/build.py ti
   (*sense-sphere*, *Lobha-mūla*), joined otherwise.
 - **Not in the PDF:** the charts the book refers to as "attached at the back" (Charts 1–10).
 
+## Dr. N. K. G. Mendis — The Abhidhamma in Practice (mendis/)
+
+Dr. N. K. G. Mendis, *The Abhidhamma in Practice*, Buddhist Publication Society, Kandy, The Wheel
+Publication No. 322/323, first edition 1985, reprinted 2005, from a scanned PDF (80 pages;
+`ocr-sources/mendis.pdf`, kept out of the site). Its text layer (Acrobat ClearScan) was too scrambled to
+use, so each page was read with `tesseract` at 300 dpi and proofread line by line against the page image
+by the autopilot runs (see `AUTOPILOT_LOG.md`, 12–13 November 2026), into `ocr/mendis/p001.md` …
+`p080.md` (one file per PDF page; PDF page N = book page N − 5 from p006 on).
+
+```sh
+python3 scripts/mendis/convert.py && python3 scripts/build.py mendis
+```
+
+- **The text is as printed.** The book's own misprints are kept (*presense*, *orgination*,
+  *spheer*, "hed him" for "led him" …; the log lists them page by page). Two readings that the scan
+  leaves in doubt are marked ⟨?⟩: "were not⟨?⟩ uttered" (Introduction) and "(c)⟨?⟩ to clench the teeth"
+  (The Cetasikas: the fifth of five methods, where (e) is surely meant). The Pāli diacritics are the
+  book's own; "Pali" and "Sangha" are printed without them.
+- **Parts:** the imprint and the Preface, the Introduction (with the homage under the book's title),
+  The Cittas, The Cetasikas, Rūpa, Planes of Existence, Causality, Nibbāna and About the Author. The
+  cover, the title page and the contents page are left out (the reader has its own). On the Saṅgaha map:
+  The Cittas → I, The Cetasikas → II, Rūpa → VI, Planes of Existence → V, Causality → VIII.
+- `<!-- cont -->` in a page file joins its first paragraph (or verse) to the page before, except where a
+  list goes on over the page (its next item stays a paragraph of its own). The book's italic sub-heads
+  are headings; verse (Dhammapada 288–289, the formula "When THIS is present …", the Visuddhimagga verse)
+  is set in lines; the ditto table of the six pairs of beautiful factors is a table of two columns. The
+  two footnotes are set under the paragraphs that cite them, numbered in each part.
+- No printed page numbers are carried into the reader.
+
 ## Dr. Nandamālābhivaṃsa — Fundamental Abhidhamma, Part I (fundamental/)
 
 *Fundamental Abhidhamma, Part I*, 2nd extended edition (January 2005, revised November 2005),
@@ -373,7 +404,7 @@ writes the page.
 
 ## Checks
 
-`python3 scripts/check_site.py`: 115 pages × 3 widths, no problems (November 2026).
+`python3 scripts/check_site.py`: 134 pages × 3 widths, no problems (13 November 2026).
 
 ## Checking the formatting
 

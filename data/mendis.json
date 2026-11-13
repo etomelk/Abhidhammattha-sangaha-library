@@ -1,0 +1,1886 @@
+{
+ "chapters": [
+  {
+   "num": "0",
+   "label": "Front matter",
+   "title": "Preface",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "SL ISSN 0049 - 7541"
+    },
+    {
+     "type": "p",
+     "text": "*First Edition, 1985*"
+    },
+    {
+     "type": "p",
+     "text": "*Reprinted, 2005*"
+    },
+    {
+     "type": "p",
+     "text": "THE WHEEL PUBLICATION No. 322/323"
+    },
+    {
+     "type": "p",
+     "text": "This book is not a synopsis of the Abhidhamma which, in itself, comprises seven volumes of the Pali Canon. Here, some aspects of the Abhidhamma have been related to practice. If this little book helps the reader to appreciate that the teachings of the Enlightened One are never mere theories but always stand to reason and can be verified in the crucible of his or her experience, then its purpose will have been served."
+    },
+    {
+     "type": "p",
+     "text": "The writer wishes to place on record:"
+    },
+    {
+     "type": "p",
+     "text": "a) The inspiration gained from Dhamma discussions with the Venerable D. Piyananda Mahāthera and the Venerable H. Gunaratana Mahāthera, respectively the former and present chief incumbents of the Washington Buddhist Vihāra in the U. S. A."
+    },
+    {
+     "type": "p",
+     "text": "b) The deepest gratitude to the Venerable Bhikkhu Bodhi of the same Vihāra who, with great patience and compassion, gave instruction and guidance to get the facts straight and to present them in a readable style."
+    },
+    {
+     "type": "p",
+     "text": "c) Grateful thanks to Mrs. Norma Cooke who, with, devotion to the Dhamma, typed the manuscript."
+    },
+    {
+     "type": "p",
+     "text": "Dr. N. K. G. Mendis"
+    },
+    {
+     "type": "p",
+     "text": "Isaacs Harbour,"
+    },
+    {
+     "type": "p",
+     "text": "Nova Scotia,"
+    },
+    {
+     "type": "p",
+     "text": "Canada."
+    }
+   ]
+  },
+  {
+   "num": "1",
+   "label": "Introduction",
+   "title": "Introduction",
+   "blocks": [
+    {
+     "type": "lines",
+     "verse": true,
+     "items": [
+      "Namo Sammāsambuddhassa",
+      "Homage to the Supremely Enlightened One",
+      "Namo Saddhammassa",
+      "Homage to the Sublime Teaching",
+      "Namo Buddhasanghassa",
+      "Homage to the Buddha's Community of Monks"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "The Abhidhamma forms the third part of the Pali Canon, the Tipiṭaka. The other two parts are the Vinaya Piṭaka, the code of discipline for monks and nuns, and the Sutta Piṭaka, which contains the Buddha's discourses. The word \"Abhidhamma\" means the higher teaching because it treats subjects exclusively in an ultimate sense (*paramatthasacca*), differing from the Sutta Piṭaka where there is often the use of expressions valid only from the standpoint of conventional truth (*vohārasacca*). In the Abhidhamma the philosophical standpoint of the Buddha is given in a pure form without admixture of personalities, anecdotes, or discussions. It deals with realities in detail and consists of numerous classifications. These may at first discourage the prospective student. However, if one perseveres one will be able to derive much benefit in life-situations from the practical application of the knowledge gained through study of the Abhidhamma."
+    },
+    {
+     "type": "p",
+     "text": "*Origins.* Theravāda tradition holds that the Buddha conceived the Abhidhamma in the fourth week after his enlightenment, while still sitting in the vicinity of the Bodhi tree. Tradition also has it that he first preached the Abhidhamma to the assembly of deities in the Tāvatiṁsa heaven; his mother, reborn as a deity, was present in the assembly. This can be taken to mean that the Buddha, by intense concentration, transcended the earth-bound mentality and rose mentally to the world of the deities, a feat made possible by his attainment of higher powers (*abhiññā*) through utmost perfection in mental concentration. Having preached the Abhidhamma to the deities, he returned to earth, that is, to normal human consciousness, and preached it to the venerable Sāriputta the arahat disciple most advanced in wisdom."
+    },
+    {
+     "type": "p",
+     "text": "From ancient times doubts have been expressed as to whether the Abhidhamma was really taught by the Buddha. What is important for us is to experience the realities described in the Abhidhamma. Then one will realize for oneself that such profound truths can emanate only from a source of supreme enlightenment, from a Buddha. Much of what is contained in the Abhidhamma is also found in the Sutta Piṭaka and such sermons had never been heard by anyone until they were uttered by the Buddha. Therefore those who deny that the source of the Abhidhamma was the Buddha will then have to say that the discourses also were not⟨?⟩ uttered by the Buddha. At any rate, according to the Theravāda tradition, the essence of the Abhidhamma, the fundamentals, the framework, is ascribed to the Buddha. The tabulations and classifications may have been the work of later scholars. What is important is the essence; it is this that we should try to experience for ourselves."
+    },
+    {
+     "type": "p",
+     "text": "The question is also raised whether the Abhidhamma is essential for Dhamma practice. The answer to this will depend on the individual who undertakes the practice. People vary in their levels of understanding and spiritual development Ideally all the different spiritual faculties should be harmonized, but some people are quite content with devotional practice based on faith, while others are keen on developing penetrative insight. The Abhidhamma is most useful to those who want to understand, who want to know the Dhamma in depth and in detail. It aids the development of insight into the three characteristics of existence—impermanence, unsatisfactoriness, and no-self. It will be found useful not only during the periods devoted to formal meditation, but also during the rest of the day when we are engaged in various chores. When we experience realities then we are deriving benefit from the study of the Abhidhamma. A comprehensive knowledge of the Abhidhamma is further useful to those engaged in teaching and explaining the Dhamma to others."
+    },
+    {
+     "type": "p",
+     "text": "*The Ultimate Realities.* The Abhidhamma deals with realities existing in an ultimate sense, called in Pali *paramattha dhammā*. There are four such realities:"
+    },
+    {
+     "type": "p",
+     "text": "(1) *Citta*, mind or consciousness, defined as that which knows or experiences an object. *Citta* occurs as distinct momentary states of consciousness."
+    },
+    {
+     "type": "p",
+     "text": "(2) *Cetasikas*, the mental factors that arise and occur along with the cittas."
+    },
+    {
+     "type": "p",
+     "text": "(3) *Rūpa*, physical phenomena, or material form."
+    },
+    {
+     "type": "p",
+     "text": "(4) *Nibbāna*."
+    },
+    {
+     "type": "p",
+     "text": "Citta, the cetasikas, and rūpa are conditioned realities. They arise because of conditions and disappear when their conditions cease to sustain them. Therefore they are impermanent. Nibbāna is an unconditioned reality. It does not arise and therefore does not fall away. These four realities can be experienced regardless of what name we give them. Any other thing — be it within ourselves or without, past, present, or future, coarse or subtle, low or lofty, far or near — is a concept and not an ultimate reality."
+    },
+    {
+     "type": "p",
+     "text": "Citta, cetasikas, and nibbāna are also called *nāma*. The two conditioned nāmas, citta and cetasikas, together with rūpa make up *nāma-rūpa*, the psycho-physical organism. Each of us, in the ultimate sense, is a *nāma-rūpa*, a compound of mental and material phenomena, and nothing more. Apart from these three realities that go to form the nāma-rūpa compound there is no ego, self, or soul. The nāma part of the compound is what experiences an object. The rūpa part does not experience anything. When the body is injured it is not the body, which is rūpa, that feels the pain, but nāma, the mental side. When we are hungry it is not the stomach that feels the hunger but again the nāma. However, nāma cannot eat the food to ease the hunger. The nāma, the mind and its factors, makes the rūpa, the body, ingest the food. Thus neither the nāma nor the rūpa has any efficient power of its own. One is dependent on the other; one supports the other. Both nāma and rūpa arise because of conditions and perish immediately, and this is happening every moment of our lives. By studying and experiencing these realities we will get insight into: (1) what we truly are; (2) what we find around us; (3) how and why we react to what is within and around us; and (4) what we should aspire to reach as a spiritual goal."
+    }
+   ]
+  },
+  {
+   "num": "2",
+   "label": "The Cittas",
+   "title": "The Cittas",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Awareness is the process of cittas experiencing objects. For a citta to arise it must have an object (*ārammaṇa*). The object may be a color, sound, smell, taste, something tangible, or a mental object. These are the six external objects. Strictly speaking a mental object can be an internal phenomenon, such as a feeling, a thought, or an idea, but as forming the objective sphere of experience they are all classed as external. Corresponding to these external objects there are six internal sense faculties, called \"doors\" since they are the portals through which the objects enter the field of cognition. These are the eye, ear, nose, tongue, body and mind. Each of the five physical sense faculties can receive only its appropriate object; the mind door, however, can receive both its own proper mental objects as well as the objects of the five physical senses. When a door receives its object, there arises a corresponding state of consciousness, such as eye-consciousness, ear-consciousness, etc. The union of the object, the door or sense faculty, and the consciousness is called \"contact\" (*phassa*). There can be no awareness without contact. For contact to occur all three components must be present — object, door, and consciousness. If one is missing there will be no contact. The process of the arising of consciousness and the subsequent train of events is analyzed in detail in the Abhidhamma. A study of this analysis will show that only \"bare phenomena\" are taking place and that there is no \"self\" involved in this process. This is the no-self characteristic of existence."
+    },
+    {
+     "type": "p",
+     "text": "*The Arising of the Cittas.* Cittas are classified various ways. One such classification is according their nature (*jāti*). In this classification we have:"
+    },
+    {
+     "type": "p",
+     "text": "1. Cittas which are resultant states of consciousness, *vipāka*, the effects of previous kamma."
+    },
+    {
+     "type": "p",
+     "text": "2. Cittas which are causes for action (*kamma*) through body, speech, or mind. We may call these \"causative cittas.\" A wholesome citta (*kusala citta*) will issue in wholesome action and an unwholesome one (*akusala citta*) in unwholesome action."
+    },
+    {
+     "type": "p",
+     "text": "3. Cittas which are neither kamma nor its result. These are called *kiriya cittas*. They are kammically ineffective, being merely functional. Some kiriya cittas perform simple functions in the process of consciousness, others represent the actions and thoughts of arahats, who no longer generate fresh kamma."
+    },
+    {
+     "type": "p",
+     "text": "When we see a form, hear a sound, smell, taste, or touch, it is a vipāka citta, a resultant consciousness, that functions as the actual sense-consciousness. This citta is the result of some previous kamma. Thus, for example, when we hear an unpleasant sound, the ear-consciousness which actually hears the sound is the result of an unwholesome deed (*kamma*) previously done by that coninuum of experience called a \"person\"; it is an akusala-vipāka citta. If one sees a pleasant sight it is the result of a wholesome deed; the eye-consciousness that sees it is a kusala-vipāka citta. This is a \"bare phenomenon\" that is taking place and there is no power that can stop the arising of this resultant citta. However, this resultant citta, having arisen, perishes in a moment."
+    },
+    {
+     "type": "p",
+     "text": "To be aware of the momentariness of this vipāka citta is of great practical importance. If one does not recognize the disappearance of this citta — and this can be done only by the practice of mindfulness — then subsequent cognitive processes having the same object as the vipāka citta (which has already passed) can occur in the mind-door, bringing defilements into play. If the vipāka citta had an unpleasant object, aversion can arise; and if the vipāke citta had a pleasant object, attachment can arise. To make spiritual progress one should try to avoid the arising of those causative cittas associated with either aversion or attachment, which are both unwholesome mental factors building up further unwholesome kamma. Mindfulness of the instant perishing of the vipāka citta after it has arisen is of immense practical value. Only one citta can exist at a time. Thus the citta with mindfulness, occurring through the mind-door, taking the perished vipāka citta as its object, will prevent the arising of causative unwholesome cittas that lead to future suffering."
+    },
+    {
+     "type": "p",
+     "text": "When the mind is not experiencing objects through the five sense doors — the eye, ear nose, tongue, and body — it can still be active through the \"mind door\", taking as its object either something previously experienced through the five sense doors, recently or long ago, or some idea or image peculiar to itself. Past experiences are registered in the life-continuum (*bhavaṅga*) in a subliminal form, where from time to time they can surface through the mind-door to serve as objects for the citta. Kammically active cittas can follow this mental activity, and here again the practice of mindfulness — that is, being aware that there is thinking — will prevent the arising of unwholesome causative cittas. On the other hand, if mindfulness is absent there can be unwholesome mental activity, such as longing for things of the past, worry, remorse, regret, grudge, and doubt."
+    },
+    {
+     "type": "p",
+     "text": "Cittas exhibit certain other interesting features which are dealt with in the Abhidhamma. Some of these are as follows:"
+    },
+    {
+     "type": "p",
+     "text": "*Association with \"roots\".* Cittas may be associated with certain mental factors called \"roots\" (*hetu, mūla*), or they may be dissociated from roots. The former kind of cittas are called *sahetuka cittas*, the latter *ahetuka cittas*; these are, respectively, rooted and rootless states of consciousness. The roots are particular mental factors (*cetasikas*) that arise together with the citta, often giving it a determinate ethical quality. Because the citta and its constituent factors, the *cetasikas*, arise together and because both have the same object and base, it is difficult to appreciate the subtle differences in their characteristics unless one's mindfulness and insight are very sharp."
+    },
+    {
+     "type": "p",
+     "text": "There are six roots. Three are kammically unwholesome (*akusala*); the other three may be either kammically wholesome (*kusala*) or indeterminate (*abyākata*), depending on the type of consciousness they arise in. The unwholesome roots are greed (*lobha*), hatred (*dosa*) and delusion (*moha*). The three roots which are wholesome in some cittas and indeterminate in others are greedlessness (*alobha*), hatelessness (*adosa*), and undeludedness (*amoha*). Though these last three roots are expressed negatively they have positive manifestations. Greedlessness manifests as generosity and renunciation, hatelessness as loving-kindness, and undeludedness as wisdom or understanding."
+    },
+    {
+     "type": "p",
+     "text": "In the ordinary unenlightened worldling these six roots can occur in various combinations. When one enters the path leading to enlightenment, the unwholesome roots are eradicated in stages until final emancipation is achieved. For the arahat, the liberated one, the cittas that arise in him can no longer be associated with any unwholesome roots. The cittas that the arahat experiences are neither wholesome nor unwholesome, as he does not generate any further kamma; his cittas are exclusively indeterminate. These indeterminate cittas can be functional (*kiriya*), as on occasions when he is mentally active, or resultants (*vipāka*) when he is experiencing the effects of past kamma or abiding in the meditative attainment of fruition."
+    },
+    {
+     "type": "p",
+     "text": "For spiritual progress it is important to be aware of the roots associated with the citta that we are experiencing at any particular moment. This is possible only by the practice of mindfulness as expounded in the Mahā Satipaṭṭhāna Sutta. This awareness helps us get rid of the unwholesome roots and cultivate the wholesome roots. This practice will enable one to purify moral virtue, to develop concentration, and to achieve insight."
+    },
+    {
+     "type": "p",
+     "text": "*Association with feeling.* Cittas differ according to the feeling associated with them. Every citta has a concomitant feeling, but the quality of this feeling differs from citta to citta. Some cittas are accompanied by a pleasant feeling (*sukhā vedanā*), some by a painful feeling (*dukkhā vedanā*), some by an indifferent feeling (*upekkhā vedanā*)."
+    },
+    {
+     "type": "p",
+     "text": "It is important to recognize the feeling that accompanies each citta, for feelings serve as a condition for defilements to arise. The mind's natural tendency is to develop attachment to a pleasant feeling and aversion to an unpleasant one. Any attachment will eventually cause suffering; for everything within and around us is impermanent, so when inevitable separation takes place, if there is attachment the result will be sorrow, lamentation, and despair. Aversion, apart from giving further nourishment to the unwholesome roots, is a totally futile response. We cannot change the essentially unsatisfactory nature of saṁsāra, but we can alter our reactions to our experiences in saṁsāra. Therefore, the sanest attitude would be neither to get attached to anything pleasant nor react with aversion to anything displeasing. This would be an attitude of indifference. Indifference, however, is of two kinds. One is the callous indifference which is a total disregard for one's own well-being and that of others. This type of indifference is born of the unwholesome roots and obviously should not be cultivated by the spiritual seeker. The other type of indifference is a highly refined mental state which might be better referred to as equanimity. This attitude, born of wisdom pertaining to the real nature of phenomena, is an attitude of mental calmness amidst all the vicissitudes of life. This is the kind of indifference that we must try to cultivate."
+    },
+    {
+     "type": "p",
+     "text": "*Prompted and unprompted cittas.* A prompted citta (*sasankhārika citta*) is an act of consciousness that arises either as a result of deliberation and premeditation on one's own part or through the inducement of another. If it is an unwholesome citta resulting in unwholesome action, then the result of such action will rebound on the agent in proportion to the degree of deliberation involved; for the one who induced it, his unwholesome cittas will also rebound on him, causing him future suffering. Therefore it is important not only that one should refrain from unwholesome deeds oneself, but that one also refrain from inciting others to perform such deeds."
+    },
+    {
+     "type": "p",
+     "text": "If the prompted citta is a wholesome one resulting from one's own wise consideration, the actions issuing from such a citta will bear good results for the doer; if it was induced by one with good intenions, his wholesome cittas will bring good results for him. Therefore, whenever possible, we should not only foster our own welfare by performing wholesome deeds but whenever possible should also try to bring out the goodness in others."
+    },
+    {
+     "type": "p",
+     "text": "An unprompted citta (*asankhārika-citta*) is one which arises spontaneously, without deliberation or premeditation on our own part and without inducement by others. These unprompted cittas, too, may be unwholesome or wholesome."
+    },
+    {
+     "type": "p",
+     "text": "There are some people in whom greed and hate are so strong that the cittas that arise in them need no prompting from within or without. They spontaneously cling to what they think they possess and try to enhance their belongings by exploiting others. They do not know what generosity is, they are quick to criticize others; if they get a chance they will destroy everything that stands in the way of their attempts to boost their own ego. On the other hand, there are others who give willingly and joyfully, who do not hesitate to help their needy fellow beings, and who will even risk their own lives to save those in distress."
+    },
+    {
+     "type": "p",
+     "text": "These divers characters — the misers, tyrants, murderers, heroes, and benefactors — are what they are because of their past tendencies built up in previous lives. However, the law of kamma and its fruit prevails at all times and a change can occur for the better or worse, as in the cases of Angulimāla and Devadatta. The former started off as a vicious murderer but later became an enlightened saint; the latter, the Buddha's cousin, entered the Order as a monk but later attempted to kill the Buddha and take control of the Sangha himself."
+    },
+    {
+     "type": "h",
+     "text": "Mind in its passive and active forms"
+    },
+    {
+     "type": "p",
+     "text": "The mind occurs in both passive and active modes. The passive gives way to the active when a stimulus is received through one of the sense doors. The passive state of mind is called bhavaṅga, cuti or paṭisandhi, according to the occasion."
+    },
+    {
+     "type": "p",
+     "text": "*Bhavaṅga.* The bhavaṅga citta, mentioned earlier, is the primary form of mind. It flows from conception to death except when interrupted by a stimulus through one of the sense doors. When a stimulus enters, consciousness becomes active, launching into a thought process (citta vīthi). Thought processes have been analysed in great detail in the Abhidhamma."
+    },
+    {
+     "type": "p",
+     "text": "A complete thought process, occurring through the physical sense doors, is made up of seventeen thought moments (citta khaṇa). These are:"
+    },
+    {
+     "type": "p",
+     "text": "1. A bhavaṅga that flows by in a passive state when one of the five physical sense organs comes in contact with its object (atīta bhavaṅga)."
+    },
+    {
+     "type": "p",
+     "text": "2. A bhavaṅga that vibrates for one thought moment (bhavaṅga calana)."
+    },
+    {
+     "type": "p",
+     "text": "3. A bhavaṅga that cuts off the flow (bhavaṅga upaccheda)."
+    },
+    {
+     "type": "p",
+     "text": "4. A citta that turns towards the object through the sense door that has been stimulated (pañcadvāravajjana)."
+    },
+    {
+     "type": "p",
+     "text": "5. The appropriate sense consciousness; in the case of the eye, for example, eye consciousness (cakkhu viññāṇa)."
+    },
+    {
+     "type": "p",
+     "text": "6. Next a thought moment — the sampaṭicchana citta — which has the function of receiving the object."
+    },
+    {
+     "type": "p",
+     "text": "7. When the object has been received another thought moment, called the santīrana citta, arises performing the function of investigating the object."
+    },
+    {
+     "type": "p",
+     "text": "8. The object having been investigated, a thought moment called the votthapana citta occurs, determining the nature of the object. This stage has been described as 'the gateway to a moral or immoral thought process'. The thought-moments 1-8 are all ahetuka and either kiriya or vipāka. That is, they have no ethical roots and are either purely functional or resultants."
+    },
+    {
+     "type": "p",
+     "text": "9 to 15. The object having been determined, the most important stage from an ethical standpoint follows. This stage, called javana, consists of seven consecutive thought moments all having an identical nature. It is at this stage that good or evil is done, depending on whether the cittas have wholesome or unwholesome roots. Therefore, these javana thought moments have roots and also produce new kamma."
+    },
+    {
+     "type": "p",
+     "text": "16 and 17. Following the seventh javana the registering stage occurs, composed of two thought moments called tadālambana. When the second registering citta has perished, the bhavaṅga follows, flowing on until interrupted by another thought process."
+    },
+    {
+     "type": "p",
+     "text": "These thought moments follow one another in extremely rapid succession; each depends on the previous one and all share the same object. There is no self or soul directing this process. The process occurs so rapidly that mindfulness has to be alert and brisk to recognise at least the determining thought moment — the votthapana — so that one can govern the javana thought moments by wholesome volition."
+    },
+    {
+     "type": "p",
+     "text": "When the mind-door receives a mind-object, the sequence of events is a little different from that occurring through the physical senses. The mind-door-adverting citta is the same type of citta as the determining moment — the votthapana — that arises in a sensory process. This mind-door-adverting thought moment can cognize an object previously seen, heard, smelt, tasted or touched, thus making memories possible Since the mind-object here has already been received and investigated, these functions need not be performed again and the mind-door-adverting thought moment gives way immediately to the javanas. These are, again, of great ethical significance. For example, unpleasant words previously heard can suddenly come to mind and, unless proper mindfulness (sammā sati) is practised, call up javana cittas rooted in hatred, i.e. unwholesome kamma."
+    },
+    {
+     "type": "p",
+     "text": "*The mind at the time of death.* When a person is about to die the bhavaṅga is interrupted, vibrates for one moment and passes away. The interruption is caused by an object which presents itself to the mind-door. As a result of this a mind-door-adverting citta arises. This is followed by five javana thought moments which are weak, lack reproductive power and serve only to determine the nature of rebirth consciousness. The javanas may or may not be followed by two registering thought moments (tadālambana). After this comes the death consciousness (cuti citta) which is identical in constitution and object to the bhavaṅga citta. The cuti citta merely serves the function of signalling the end of life. It is important to appreciate the difference between the cuti citta and the javanas that precede it. The cuti citta is the end of the bhavaṅga flow of an existence and does not determine the nature of rebirth. The javanas that occur just before the cuti citta arises form a kammic process and determine the nature of the rebirth consciousness."
+    },
+    {
+     "type": "p",
+     "text": "The object that presents itself to the mind-door, just before death, is determined by kamma on a priority basis as follows:"
+    },
+    {
+     "type": "p",
+     "text": "First — Some weighty action performed earlier by the dying person. This may be meritorious such as a jhānic ecstasy, or it may be demeritorious, some heinous crime. Either of these would be so powerful as to eclipse all other kammas in determining rebirth. This is called garuka kamma."
+    },
+    {
+     "type": "p",
+     "text": "Second — If there is no such weighty action, what has been done habitually — either good or bad — will ripen. This is called āciṇṇa kamma."
+    },
+    {
+     "type": "p",
+     "text": "Third — If habitual kamma does not ripen what is called death-proximate kamma fructifies. In this case the thought that was experienced at the time of a good or bad action in the recent past recurs at the time of death. This is referred to as āsanna kamma."
+    },
+    {
+     "type": "p",
+     "text": "Fourth — If the first three are lacking, some stored up kamma from the past will ripen. This is called kaṭatta kamma."
+    },
+    {
+     "type": "p",
+     "text": "Dependent on one of the above mentioned four types of kamma, the object that presents itself to the mind-door could be one of three kinds:"
+    },
+    {
+     "type": "p",
+     "text": "1. The act (*kamma*) itself, especially if it was a weighty one."
+    },
+    {
+     "type": "p",
+     "text": "2. Some sign of the act (*kammanimitta*); for example, a butcher may see a knife, a hunter may see a gun or the slain animal, a pious devotee may see flowers at a shrine or the giving of alms to a monk."
+    },
+    {
+     "type": "p",
+     "text": "3. A sign of the place where the dying person will be reborn (*gati nimitta*), a vision of heaven, hell, etc."
+    },
+    {
+     "type": "p",
+     "text": "This brief account of what will happen to us at death should impress on us the urgency of avoiding all evil acts by deed, word or thought and of performing wholesome meritorious acts. If we do not do so now, we cannot do so at the moment of death which may come quite unexpectedly. As the Dhammapada states in verses 288 and 289:"
+    },
+    {
+     "type": "lines",
+     "verse": true,
+     "items": [
+      "There are no sons for one's protection,",
+      "Neither father nor even kinsmen;",
+      "For one who is overcome by death",
+      "No protection is to be found among kinsmen.",
+      "Realizing this fact,",
+      "Let the virtuous and wise person",
+      "Swiftly clear the way",
+      "That to nibbāna leads."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "*Rebirth Consciousness.* This is called *paṭisandhi citta*, literally 'relinking consciousness'. The paṭisandhi citta is the act of consciousness which arises at the first moment of life, the moment of conception. It is determined by the last kammic citta of the preceding life."
+    },
+    {
+     "type": "p",
+     "text": "This kammic factor for the arising of a being operates through the paṭisandhi. The accumulated tendencies of past lives are carried on to the paṭisandhi and so the process of being born, dying and being born again goes on. Each paṭisandhi citta is a new one, not the continuation of the old one in the previous life. Thus there is no place for a soul concept in rebirth. In the course of one particular life there is only one paṭisandhi citta. Once the function of linking two existences has been performed by the paṭisandhi, consciousness in the newly formed embryo immediately goes into the bhavaṅga state. This flows along in the new existence with infinite interruptions by various stimuli and ends as the cuti citta of that particular existence."
+    },
+    {
+     "type": "p",
+     "text": "The practice of chanting Buddhst scriptures in the presence of a dying person is intended to evoke kusala kamma cittas in him so that the last thought process will be a wholesome one and lead to a favourable rebirth."
+    },
+    {
+     "type": "p",
+     "text": "Regardless of the conditions into which humans are born, be they handicapped or favoured in various ways, birth in the human plane is the result of kusala kamma. It is only in the human plane that one can make a start to end all suffering. The Buddha has told us that, having left this human existence, not many will return to it for a long, long time. Therefore, it is up to us to make the most of this opportunity we have as human beings."
+    },
+    {
+     "type": "p",
+     "text": "*The Jhāna cittas.* The cittas that occur through the five physical sense doors, and the mind-door cittas taking sense objects, belong to the sensuous plane of consciousness. They are called *kāmāvacara cittas*. The jhāna cittas are meditative states of consciousness. Their object is not a sense impression but a meditation object experienced through the mind-door. The jhāna citta may depend on subtle materiality (*rūpāvacara citta*) or, if more refined, may be independent of materiality (*arūpāvacara citta*)."
+    },
+    {
+     "type": "p",
+     "text": "There are five stages of rūpa jhāna and four of arūpa jhāna. No attempt will be made to analyse these stages except to state that each is more refined than its predecessor."
+    },
+    {
+     "type": "p",
+     "text": "It is extremely difficult to attain even the first stage of jhāna. To do so one has to be well established in virtue (sīla) and eliminate the five mental hindrances, at least temporarily. These five hindrances are: (1) sense desire — *kāmacchanda*; (2) ill-will — *vyāpāda*; (3) sloth and torpor — *thīna and middha*; (4) restlessness and worry — *uddhacca and kukkucca*; (5) doubt — *vicikicchā*."
+    },
+    {
+     "type": "p",
+     "text": "Though difficult, it is well worth attempting to attain jhāna by regular and ardent practice of *samatha bhāvanā*, i.e. concentration-meditation. Even if we do not reach the first stage of jhāna, even a brief elimination of the five mental hindrances will give us a taste of a happiness which far surpasses that derived from the senses. When restlessness, anxiety and worry try to overwhelm us in our daily lives we will benefit by sitting for a period and developing concentration. We will realise that nothing is more satisfying than the ability to keep a check on the frivolous, fickle mind."
+    },
+    {
+     "type": "p",
+     "text": "*Lokuttara cittas.* The word *lokuttara* is derived from *loka* and *uttara*. In this context *loka* refers to the five aggregates; *uttara* means beyond. Thus lokuttara applies to those states of consciousness that transcend the world of mind and body, i.e. they are supra-mundane."
+    },
+    {
+     "type": "p",
+     "text": "These states of supra-mundane consciousness are possessed by those who have developed insight into the three aspects of existence — impermanence, unsatisfactoriness and no-self. As a result of this insight, such a person passes beyond the level of a worldling (*puthujjana*) and becomes a Noble One (*ariya puggala*). With this transformation there is a radical change in the person's life and nature because a determinate number of defilements is totally eradicated never to arise again. These defilements go to form the ten fetters (*saṁyojanā*) that bind a person down to the wheel of existence. They are eradicated in stages as one becomes, in succession, a Stream-winner (*sotāpanna*), Once-returner (*sakadāgāmī*), Non-returner (*anāgāmi*) and an Arahat. We shall refer to these states of supra-mundane consciousness again when we discuss nibbāna."
+    }
+   ],
+   "sangaha_ch": 1
+  },
+  {
+   "num": "3",
+   "label": "The Cetasikas",
+   "title": "The Cetasikas",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The second reality or paramattha dhamma is the cetasikas. The cetasikas are the mental factors or concomitants that arise and perish together with consciousness (citta), sharing its object and basis."
+    },
+    {
+     "type": "p",
+     "text": "The Abhidhamma lists 52 kinds of cetasikas. One is feeling (*vedanā*), another is perception (*saññā*). The remaining 50 are grouped together under the term *saṅkhārā*."
+    },
+    {
+     "type": "h",
+     "text": "Feeling (*vedanā*)"
+    },
+    {
+     "type": "p",
+     "text": "In the Abhidhamma context the word 'feeling' signifies the affective experience of an object; it does not imply emotion, which comes under a different heading. Feeling is associated with every type of consciousness. Like the citta itself it is of momentary duration, arising and perishing in an instant. This arising and perishing occur in rapid succession, so much so that they create an illusion of compactness and stability obscuring the momentariness. But the momentariness can be experienced through the practice of mindfulness. It will then be realised that there is no self or agent that experiences the feeling. There is only the arising and disappearing of an impersonal process. As long as we do not see how this impersonal process occurs we will be led to believe that feeling is the self, or the self possesses feeling, or feeling is in the self, or the self is in feeling. These beliefs keep us bound to suffering — to sorrow, lamentation, pain, grief and despair."
+    },
+    {
+     "type": "p",
+     "text": "Feelings are commonly classified into three types: pleasant, unpleasant and neutral. Pleasant feeling, in the absence of wise consideration (*yoniso manasikāra*), leads to attachment, unpleasant feeling to repugnance, and neutral feeling to ignorance. A pleasant feeling is pleasant while it lasts but when it changes, as it must, it yields to displeasure — i.e. an unpleasant feeling. An unpleasant feeling is unpleasant while it lasts, but when it passes a shallow satisfaction arises which misleads the average person into thinking: 'Now, I am all right.' A neutral feeling, in the absence of wise attention, can foster ignorance and a callous indifference to one's own and others' welfare. If, however, one has developed wholesome awareness based on insight, when a neutral feeling arises the mind remains in equanimity, undisturbed in all circumstances. This balanced state of mind is one of the highest forms of happiness."
+    },
+    {
+     "type": "p",
+     "text": "Relevant to the Abhidhamma, two other classifications of vedanā must be mentioned."
+    },
+    {
+     "type": "p",
+     "text": "*Five Kinds:*"
+    },
+    {
+     "type": "p",
+     "text": "i. bodily agreeable feeling — kāyikā sukhā vedanā (sukha)"
+    },
+    {
+     "type": "p",
+     "text": "ii. bodily disagreeable feeling — kāyikā dukkhā vedanā (dukkha)"
+    },
+    {
+     "type": "p",
+     "text": "iii. mentally agreeable feeling — cetasikā sukhā vedanā (somanassa)"
+    },
+    {
+     "type": "p",
+     "text": "iv. mentally disagreeable feeling — cetasikā dukkhā vedanā (domanassa)"
+    },
+    {
+     "type": "p",
+     "text": "v. indifferent or neutral feeling — adukkha-m-asukhā vedanā (upekkhā)"
+    },
+    {
+     "type": "p",
+     "text": "*Six Kinds:*"
+    },
+    {
+     "type": "p",
+     "text": "Feelings born of eye-contact, ear-contact, nose-contact, tongue-contact, body-contact and mind-contact."
+    },
+    {
+     "type": "h",
+     "text": "Perception (*saññā*)"
+    },
+    {
+     "type": "p",
+     "text": "Perception is awareness of an object's distinctive features. It becomes six-fold in relation to the five physical sense objects (colour, sound, smell, taste, touch), and mental objects. It is saññā that enables us to recognise an object previously perceived."
+    },
+    {
+     "type": "p",
+     "text": "As in the case of feeling, perception is an impersonal process which arises and perishes in a moment. If the momentariness and impersonal nature of perception are not appreciated by insight, here again, wrong conceptions will result that perception is the self, or the self possesses perception, or perception is in the self, or the self is in perception."
+    },
+    {
+     "type": "p",
+     "text": "There are four perversions (*vipallāsa*) that distort perception — the perversions of regarding:"
+    },
+    {
+     "type": "p",
+     "text": "(a) what is impermanent (*anicca*) as permanent (*nicca*),"
+    },
+    {
+     "type": "p",
+     "text": "(b) what is unsatisfactory (*dukkha*) as pleasant or happiness-yielding (*sukha*),"
+    },
+    {
+     "type": "p",
+     "text": "(c) what is without self (*anattā*) as self (*attā*),"
+    },
+    {
+     "type": "p",
+     "text": "(d) what is impure (*asubha*) as pure (*subha*)."
+    },
+    {
+     "type": "p",
+     "text": "These distortions, born of ignorance, increase craving, grasping and suffering. Only by the practice of mindfulness can one see through these perversions and avoid them."
+    },
+    {
+     "type": "p",
+     "text": "*Perception and memory.* Memory occurs not through a single factor but through a complex process in which perception plays the most important role. When the mind first cognizes an object through the senses, perception 'picks out' the object's distinctive mark. When the same object is met with on a subsequent occasion, perception again notices that its distinctive mark is identical with the previous one. It 'grasps' the identity of the distinctive marks. This 'grasping' is a complex series of thought processes, one of which connects the present object with the previous one and another attaches to the present object the previous one's name. Memory will be good if this 'grasping' functions well, and 'grasping' will function well if the initial 'picking out' of the object's distinctive marks was clear, not obscured by irrelevant thoughts. Clear perception comes through attention. As the Buddha says: 'In what is seen there must be just the seen, in what is heard there must be just the heard, in what is sensed there must be just the sensed, in what is thought there must be just the thought.'"
+    },
+    {
+     "type": "p",
+     "text": "*Saṅkhārā.* Saṅkhārā is a collective term for the other fifty cetasikas."
+    },
+    {
+     "type": "p",
+     "text": "These fall into four groups:"
+    },
+    {
+     "type": "p",
+     "text": "1. Universal mental factors (*sabba citta sādhāraṇā*)"
+    },
+    {
+     "type": "p",
+     "text": "2. Particular mental factors (*pakiṇṇakā*)"
+    },
+    {
+     "type": "p",
+     "text": "3. Unwholesome mental factors (*akusalā*)"
+    },
+    {
+     "type": "p",
+     "text": "4. Beautiful mental factors (*sobhanā*)."
+    },
+    {
+     "type": "p",
+     "text": "*The universal mental factors.* There are seven mental factors which are called universals because they are common to every state of consciousness. Two are feeling and perception mentioned above. The order in which the other five are given has no sequential significance as they all co-exist in any state of consciousness. They are:"
+    },
+    {
+     "type": "p",
+     "text": "1. Contact (*phassa*), the coming together of the sense organ, object and appropriate consciousness."
+    },
+    {
+     "type": "p",
+     "text": "2. Concentration (*ekaggatā*), the mental focus on one object to the exclusion of all other objects."
+    },
+    {
+     "type": "p",
+     "text": "3. Attention (*manasikāra*), the mind's spontaneous turning to the object which binds the associated mental factors to it."
+    },
+    {
+     "type": "p",
+     "text": "4. Psychic life (*Jīvitindriya*), the vital force supporting and maintaining the other mental factors."
+    },
+    {
+     "type": "p",
+     "text": "5. Volition (*cetanā*), the act of willing. From a psychological standpoint, volition determines the activities of the associated states; from an ethical standpoint it determines its inevitable consequences. Volition leads to action by body, speech and mind and thus becomes the principal factor behind kamma. Therefore the Buddha said: 'cetanāhaṁ bhikkhave kammaṁ vadāmi' - 'Volition, O monks, is kamma, I declare.' Thus wholesome or unwholesome acts, wilfully done, are followed at some time by their appropriate consequences. But if one unintentionally steps on an insect and kills it, such an act has no moral or kammic significance as volition is absent. The Buddha's position here contrasts with that of his contemporary, Nigaṇṭha Nātaputta, the founder of Jainism. Nātaputta taught that even involuntary actions constitute kamma, thus release from saṁsāra (the round of rebirths) can be achieved only by abstaining from all activities."
+    },
+    {
+     "type": "p",
+     "text": "*The particular mental factors.* Six mental factors are called particulars for, unlike the universals, they need not exist in every citta. The six are:"
+    },
+    {
+     "type": "p",
+     "text": "1. Initial application (*vitakka*), which applies the other mental factors to the object when attention has brought it into range."
+    },
+    {
+     "type": "p",
+     "text": "2. Continued application (*vicāra*), which makes the mental factors dwell on the object."
+    },
+    {
+     "type": "p",
+     "text": "3. Resolution (*adhimokka*), which prevents the mental factors from wavering and makes a decision."
+    },
+    {
+     "type": "p",
+     "text": "4. Effort (*viriya*), which energises the mental factors and opposes idleness."
+    },
+    {
+     "type": "p",
+     "text": "5. Joy (*pīti*), which creates an interest in the object giving the mind buoyancy."
+    },
+    {
+     "type": "p",
+     "text": "6. Wish-to-do (*chanda*), the desire to act, the wish to achieve an aim."
+    },
+    {
+     "type": "p",
+     "text": "The universals and particulars are, in themselves, ethically indeterminate but become wholesome, unwholesome or neither, depending on the state of consciousness in which they occur."
+    },
+    {
+     "type": "p",
+     "text": "*The unwholesome mental factors.* There are fourteen unwholesome mental factors. The first four listed below are present in all unwholesome states of consciousness. The others are variable."
+    },
+    {
+     "type": "p",
+     "text": "1. Delusion (*moha*) is synonymous with ignorance regarding the Four Noble Truths."
+    },
+    {
+     "type": "p",
+     "text": "2. Shamelessness of evil (*ahirika*) is lack of conscience, not as a mysterious inner voice, but as an abhorrence towards evil."
+    },
+    {
+     "type": "p",
+     "text": "3. Fearlessness of evil (*anottappa*) is moral recklessness resulting from ignorance about the moral law."
+    },
+    {
+     "type": "p",
+     "text": "4. Restlessness (*uddhacca*) is a state of excitement that characterises all unwholesome acts, contrasting with the peace that accompanies wholesome acts."
+    },
+    {
+     "type": "p",
+     "text": "5. Attachment (*lobha*), synonymous with craving, is one of the three unwholesome roots, occurring in both gross and subtle forms."
+    },
+    {
+     "type": "p",
+     "text": "6. False view (*diṭṭhi*) is seeing things in a distorted way. There are several kinds of false views:"
+    },
+    {
+     "type": "p",
+     "text": "i. the view of a truly existent self (*sakkāya diṭṭhi*);"
+    },
+    {
+     "type": "p",
+     "text": "ii. eternalism (*sassata diṭṭhi*) or nihilism (*uccheda diṭṭhi*);"
+    },
+    {
+     "type": "p",
+     "text": "iii. the view denying the efficacy or fruits of kamma (*natthi diṭṭhi*), causality (*ahetuka diṭṭhi*), and the moral law (*akiriya diṭṭhi*)."
+    },
+    {
+     "type": "p",
+     "text": "7. Conceit (*māna*) is self-evaluation which arises from comparing oneself with another as better, equal or inferior."
+    },
+    {
+     "type": "p",
+     "text": "8. Hatred (*dosa*), another unwholesome root, is a negative response to the object ranging from a slight aversion to destructive rage."
+    },
+    {
+     "type": "p",
+     "text": "9. Envy (*issā*) is the inability to endure the prosperity of others; this is associated with hate."
+    },
+    {
+     "type": "p",
+     "text": "10. Selfishness (*macchariya*) is the wish to exclude others from one's own prosperity; this too is associated with hate."
+    },
+    {
+     "type": "p",
+     "text": "11. Worry (*kukkkucca*) is remorse, brooding and repenting over evil acts done in the past or good acts left undone."
+    },
+    {
+     "type": "p",
+     "text": "12. and 13. Sloth (*thīna*) and torpor (*middha*): this pair indicates laziness or boredom, a frequent hindrance to spiritual progress."
+    },
+    {
+     "type": "p",
+     "text": "14. Doubt (*vicikicchā*) is the undecided frame of mind."
+    },
+    {
+     "type": "p",
+     "text": "*The beautiful mental factors.* There are twenty-five beautiful factors. Ninteen are common to all beautiful thoughts, six are variable. The latter are the three 'abstinence factors', two 'illimitables' and the wisdom factor."
+    },
+    {
+     "type": "p",
+     "text": "*The common beautiful factors* (*sobhanā sādhāraṇā*) are as follows:"
+    },
+    {
+     "type": "p",
+     "text": "1. Confidence (*saddhā*), also called faith, which for a Buddhist means trust in the Three Jewels - the Buddha, Dhamma and Sangha, and in the principles of the Buddha's teachings."
+    },
+    {
+     "type": "p",
+     "text": "2. Mindfulness (*sati*): this is alertness, which makes us aware of what is happening to us, from moment to moment, through the five physical senses and the mind. Mindfulness is essential to insight meditation, when it must be conjoined with a clear comprehension of the suitability, purpose and conformity with reality of any action. Then it is called right mindfulness (*sammā sati*). Usually the average person acts without any form of mindfulness; his acts are prompted by force of habit. Right mindfulness has two functions: one is to increase the power of recollection and the other is to evaluate what is wholesome and what is unwholesome. Right mindfulness is a spiritual faculty that maintains a proper balance of the other faculties - faith, energy, concentration and wisdom."
+    },
+    {
+     "type": "p",
+     "text": "3-4. Shame of evil (*hiri*) and fear of evil (*ottappa*) are the opposites of the second and third unwholesome mental factors, already discussed."
+    },
+    {
+     "type": "p",
+     "text": "5. Non-attachment (*alobha*) restrains attachment and fosters generosity."
+    },
+    {
+     "type": "p",
+     "text": "6. Good-will (*adosa*) is synonymous with loving kindness (*mettā*). It keeps a person free from resentment and anger."
+    },
+    {
+     "type": "p",
+     "text": "7. Equanimity (*tatramajjhattā, upekkhā*) is balance of mind, a quality of neutrality free from attachment and repulsion."
+    },
+    {
+     "type": "p",
+     "text": "8-19. The other twelve common beautiful factors fall into six pairs, one member affecting the 'body' of mental factors (*kāya*), the other affecting consciousness as a whole (*citta*). The six are as follows, the terms themselves indicating their nature:"
+    },
+    {
+     "type": "table",
+     "rows": [
+      [
+       "a) composure (passaddhi)",
+       "of the mental factors and consciousness"
+      ],
+      [
+       "b) buoyancy (lahutā)",
+       "\" \" \" \""
+      ],
+      [
+       "c) pliancy (mudutā)",
+       "\" \" \" \""
+      ],
+      [
+       "d) efficiency (kammaññatā)",
+       "\" \" \" \""
+      ],
+      [
+       "e) proficiency (paguññatā)",
+       "\" \" \" \""
+      ],
+      [
+       "f) rectitude (ujukatā)",
+       "\" \" \" \""
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": "*The abstinence factors* (*virati*) restrain a person from committing evil acts. These are three in number:"
+    },
+    {
+     "type": "p",
+     "text": "20. Right speech (*sammā vacā*) is abstinence from lying, slandering, abusive language and idle talk."
+    },
+    {
+     "type": "p",
+     "text": "21. Right action (*sammā kammantā*) is abstinence from killing, taking what is not given and wrong conduct with regard to sense pleasures."
+    },
+    {
+     "type": "p",
+     "text": "22. Right livelihood (*sammā ājīva*) is abstinence from any livelihood that brings harm to other living beings."
+    },
+    {
+     "type": "p",
+     "text": "*The illimitable factors* (*appamaññā*) are compassion and sympathetic joy; they are called illimitable because they are boundless and extend to all living beings."
+    },
+    {
+     "type": "p",
+     "text": "23. Compassion (*karuṇā*) has the nature of being moved by the suffering of others. The sadness we might experience over the suffering or loss of a loved one is not true compassion. Such sadness is sentimental, a manifestation of grief. Real compassion arises when the mind, detached from self-referential concerns, is stirred by the suffering of others, feeling the suffering as its own."
+    },
+    {
+     "type": "p",
+     "text": "24. Sympathetic joy (*muditā*) has the nature of rejoicing in others' happiness. Usually people rejoice at the success of someone who is near and dear to them, but it is rare for them to rejoice when success and prosperity are enjoyed by someone unknown, not to speak of an adversary. Muditā embraces all beings and cannot coexist with the unwholesome mental factor of jealousy."
+    },
+    {
+     "type": "p",
+     "text": "Compassion and sympathetic joy, together with goodwill and equanimity, form the Four Sublime Abodes (*brahma vihāra*). Goodwill and equanimity were mentioned under the common beautiful factors."
+    },
+    {
+     "type": "p",
+     "text": "25. *The wisdom factor* (*paññā*) enables one to see things as they truly are, that is, in the light of impermanence, unsatisfactoriness and selflessness."
+    },
+    {
+     "type": "p",
+     "text": "It is important to know the unwholesome and wholesome mental factors that operate in our minds. If we do not know them for what they are we will not be able to recognize them when they arise. But when our insight develops, we can understand that it is not a 'self' that commits unwholesome and wholesome acts but just these mental factors."
+    },
+    {
+     "type": "p",
+     "text": "In Dhamma practice our aim should be to get rid of the unwholesome factors and cultivate the wholesome ones. This has been outlined by the Buddha under Right Effort (*sammā vāyāma*), the fifth factor of the Noble Eightfold Path, in terms of four practices. The disciple rouses his will, makes an effort, stirs up energy, exerts the mind and strives to:"
+    },
+    {
+     "type": "p",
+     "text": "a) prevent the arising of unarisen evil, unwholesome thoughts;"
+    },
+    {
+     "type": "p",
+     "text": "b) abandon evil, unwholesome thoughts that have arisen;"
+    },
+    {
+     "type": "p",
+     "text": "c) produce wholesome thoughts that have not yet arisen;"
+    },
+    {
+     "type": "p",
+     "text": "d) maintain the wholesome factors that have arisen and not let them disappear, but bring them to growth, maturity and full perfection of development."
+    },
+    {
+     "type": "p",
+     "text": "Regarding unwholesome thoughts, to prevent them from arising or to abandon them as soon as they have arisen, we have to be mindful of the state of the mind, i.e. whether the mind is with greed, hate and delusion or not. By the constant practice of mindfulness we can learn to catch the unwholesome mental factors as soon as they arise. This mere recognition is often enough to prevent them from gaining ground, from leading to action by deed, word or thought. If this is done on a regular basis, these unwholesome thoughts can become attenuated and eventually cease."
+    },
+    {
+     "type": "p",
+     "text": "Sometimes, however, unwholesome thoughts keep recurring and mere observation of the state of the mind may not be enough to deal with them. In such situations there are five methods proposed by the Buddha, described in the 20th Middle Length Discourse (*Majjhima Nikāya*). These are, briefly, as follows:"
+    },
+    {
+     "type": "p",
+     "text": "(a) to give one's attention to a different object of a wholesome nature;"
+    },
+    {
+     "type": "p",
+     "text": "(b) to reflect on the danger in those unwholesome thoughts;"
+    },
+    {
+     "type": "p",
+     "text": "(c) to try not to give any attention to them;"
+    },
+    {
+     "type": "p",
+     "text": "(d) to give attention to the removal of the source of those thoughts;"
+    },
+    {
+     "type": "p",
+     "text": "(c)⟨?⟩ to clench the teeth, press the tongue against the palate and restrain, subdue and suppress the mind with the mind."
+    },
+    {
+     "type": "p",
+     "text": "Meditation is an important aspect of Buddhist practice. There are forty subjects of *Samādhi* meditation to suit different individual temperaments and also many types of insight meditation. To select a suitable subject of meditation it is best to seek the help of a competent teacher. If such a teacher is not available, then one has to make a sincere and honest search of one's temperament and character and find guidance in a standard book on meditation. A few examples are given below:"
+    },
+    {
+     "type": "p",
+     "text": "(a) The four sublime abodes - loving kindness for those with ill will; compassion for those with a streak of cruelty; sympathetic joy for those with envy, jealousy, aversion and boredom; equanimity for those with lust and greed."
+    },
+    {
+     "type": "p",
+     "text": "(b) For the conceited - meditation on the absence of an abiding self in all bodily and mental phenomena of existence."
+    },
+    {
+     "type": "p",
+     "text": "(c) For those with sexual obsession - meditation on the unattractive nature of the body."
+    },
+    {
+     "type": "p",
+     "text": "(d) For those with wavering confidence - meditation on the Buddha, the Dhamma and the Sangha."
+    },
+    {
+     "type": "p",
+     "text": "The ultimate aim should be to develop wisdom (*paññā*). This is achieved by insight meditation (*vipassanā bhāvanā*) which leads to fully comprehending by direct experience the three characteristics of existence - impermanence, unsatisfactoriness and selflessness."
+    }
+   ],
+   "sangaha_ch": 2
+  },
+  {
+   "num": "4",
+   "label": "Rūpa",
+   "title": "Rūpa",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The third Reality or paramattha dhamma is *rūpa*, matter or material form. In its analysis of matter the Abhidhamma recognises twenty-eight kinds of material phenomena. Four of these are called primary, twenty-four secondary. The secondary kinds are dependent on the primary."
+    },
+    {
+     "type": "p",
+     "text": "*The Four Primary Elements* (*cattāri mahā bhūtāni*). These are metaphorically referred to under their ancient names but signify distinct properties of matter:"
+    },
+    {
+     "type": "p",
+     "text": "1. The Earth element = solidity - (*paṭhavi dhātu*)"
+    },
+    {
+     "type": "p",
+     "text": "2. The Water element = adhesion - (*āpo dhātu*)"
+    },
+    {
+     "type": "p",
+     "text": "3. The Fire element = heat - (*tejo dhātu*)"
+    },
+    {
+     "type": "p",
+     "text": "4. The Wind element = motion - (*vāyo dhātu*)."
+    },
+    {
+     "type": "p",
+     "text": "There is no unit of matter that does not contain these four elements in varying proportions. The preponderance of one element over the other three gives the material object its main characteristic."
+    },
+    {
+     "type": "p",
+     "text": "The solid element gives consistency to matter varying from hardness to softness. The more predominant the solid element, the firmer the object. This is also the element of extension by virtue of which objects occupy space. It has the function of supporting the other material phenomena."
+    },
+    {
+     "type": "p",
+     "text": "The adhesion element has a cohesive function. It holds the particles of matter together and prevents them from scattering. It predominates in liquids because, unlike solids, liquids unite when brought together. This adhesion element is intangible."
+    },
+    {
+     "type": "p",
+     "text": "The heat element accounts for an object's temperature. An object is hot or cold depending on the amount of heat element. This element has the function of maturing or vitalizing. It accounts for preservation and decay."
+    },
+    {
+     "type": "p",
+     "text": "The motion element imparts motion and causes expansion and contraction."
+    },
+    {
+     "type": "p",
+     "text": "In the *Mahā Rāhulovāda Sutta* (Discourse No. 63 of the Majjhima Nikāya) the Buddha explains these four elements in concrete terms to his son, the Venerable Rāhula. He says:"
+    },
+    {
+     "type": "p",
+     "text": "'The earth element may be internal (i.e. referable to an individual) or it may be external. Regarding the internal, whatever is hard, solid and derived therefrom, such as hair of the head, hair of the body, nails, teeth, skin, flesh, sinews, bones and various organs, is the earth element. Whatever is an internal earth element and whatever is an external earth element are just earth element."
+    },
+    {
+     "type": "p",
+     "text": "'The water element may be internal or external. Regarding the internal, whatever is liquid and derived therefrom, such as bile, phlegm, pus and blood is the water element. Whatever is an internal water element and whatever is an external water element are just water element."
+    },
+    {
+     "type": "p",
+     "text": "'The fire element may be internal or external. Regarding the internal, whatever is heat, warmth and derived therefrom, such as that by which one is vitalised, consumed or burnt up, and that by which the ingested food is digested, this is the fire element. Whatever is an internal fire element and whatever is an external fire element are just fire element."
+    },
+    {
+     "type": "p",
+     "text": "'The wind element may be internal or external. Regarding the internal, whatever is motion, wind, and derived therefrom, such as the winds going up and down, winds in the belly, winds that shoot across the limbs, inbreathing and outbreathing, is the wind element. Whatever is an internal wind element and whatever is an external wind element are just wind element.'"
+    },
+    {
+     "type": "p",
+     "text": "In this sutta the Buddha also describes the space element (*ākāsa dhātu*) which, he says, may likewise be internal or external: 'Regarding the internal, whatever is space, spacious and derived therefrom, such as the different orifices and cavities in the body, is the space element. Whatever is the internal space element and whatever is the external space element are just space element.'"
+    },
+    {
+     "type": "p",
+     "text": "It will be noted that in each instance the Buddha pointed out a fundamental identity between the internal and the external elements. The significance of this will be discussed later."
+    },
+    {
+     "type": "p",
+     "text": "*The Secondary Elements* (*upādāya rūpāni*). The twenty-four secondary elements are divided into two groups. Like the four primary elements, fourteen are directly caused (*nipphanna*). These are essentially particles of matter. The other ten are indirectly caused (*anipphanna*). These are only the properties of the directly caused elements and are not particles of matter. Therefore, this classification covers both the physical and functional aspects of matter."
+    },
+    {
+     "type": "p",
+     "text": "*Directly caused secondary elements* comprise the following:"
+    },
+    {
+     "type": "p",
+     "text": "1. Five sensory receptors (*pasāda rūpāni*): the sensory matter of the eye (*cakkhu pasāda*), ear (*sota pasāda*), nose (*ghāna pasāda*), tongue (*jivhā pasāda*), and body (*kāya pasāda*)."
+    },
+    {
+     "type": "p",
+     "text": "2. Four stimulating elements (*gocara rūpāni*): colour (*vaṇṇa*) sound (*sadda*), odour (*gandha*), and taste (*rasa*). Tactile sensation is not mentioned in this group because, unlike the others, tactile sense is not a unique sensory element but three of the four primary elements - solidity, heat and motion - which account for the object's pressure, texture, heat and resistance. The exception is the element of adhesion which is far too subtle to create any tactile impression. Whereas tactile stimuli evoke either pain or pleasure, the other four stimuli arouse only a neutral feeling."
+    },
+    {
+     "type": "p",
+     "text": "3. Two sex elements (*bhāva rūpāni*): the male (*purisa bhāva*) or the female (*itthi bhāva*), which comes into being at the moment of conception determining the person's sex. This sex determination is related to kamma."
+    },
+    {
+     "type": "p",
+     "text": "4. The heart or mind-base element (*hadaya vatthu*): in the Buddha's time the view was held that the heart forms the seat of consciousness. The Buddha never accepted or rejected this theory. He referred to the basis of consciousness indirectly as: 'yaṁ rūpaṁ nissāya' - 'that material thing depending on which mind-element and mind-consciousness-element arise.' Since mind and matter are inter-dependent, it is reasonable to conclude that by the phrase 'that material thing' the Buddha intended any tissue in the body that can function as a basis for consciousness, except those serving as the basis for sensory consciousness. We can understand it as the living nerve cell."
+    },
+    {
+     "type": "p",
+     "text": "5. The life element (*jīvitindriya*): just as the psychic life faculty, one of the universal mental factors, vitalizes the mind and its factors, the physical life faculty vitalizes the organic matter of the body. Born of kamma, it is reproduced from moment to moment. Both psychic life and physical life cease with death."
+    },
+    {
+     "type": "p",
+     "text": "6. The nutriment element (*āhāra rūpa*): is the nutritive essence which sustains the body."
+    },
+    {
+     "type": "p",
+     "text": "*Indirectly caused secondary elements* are:"
+    },
+    {
+     "type": "p",
+     "text": "1. The space element (*ākāsa dhātu*): this is what keeps the material units apart and prevents their fusion. It is not an objective reality but a concept that results from the coming into being of the material units."
+    },
+    {
+     "type": "p",
+     "text": "2. Two intimating elements (*viññatti*): these are bodily intimation (*kāya viññatti*) and verbal intimation (*vaci viññatti*), responsible respectively for bodily communication and verbal communication. They are called 'intimation' because they make possible communication between beings. These two elements occur seventeen times more rapidly than the other physical elements, being equal in duration to a thought unit. In physiological terms they probably correspond to nerve impulses."
+    },
+    {
+     "type": "p",
+     "text": "3. Three alterable elements (*vikāra rūpāni*):"
+    },
+    {
+     "type": "p",
+     "text": "(a) buoyancy (*lahutā*)"
+    },
+    {
+     "type": "p",
+     "text": "(b) pliancy (*mudutā*)"
+    },
+    {
+     "type": "p",
+     "text": "(c) efficiency (*kammaññatā*)"
+    },
+    {
+     "type": "p",
+     "text": "These elements are responsible for health, vigour and activity of the body. They are brought about by wholesome thought, moderation in eating habits and favourable climate."
+    },
+    {
+     "type": "p",
+     "text": "4. Four phase elements (*lakkhaṇa rūpāni*):"
+    },
+    {
+     "type": "p",
+     "text": "(a) initial arising (*upacaya*)"
+    },
+    {
+     "type": "p",
+     "text": "(b) subsequent genesis (*santati*)"
+    },
+    {
+     "type": "p",
+     "text": "(c) decay (*jaratā*)"
+    },
+    {
+     "type": "p",
+     "text": "(d) ceasing (*aniccatā*)"
+    },
+    {
+     "type": "p",
+     "text": "These are stages in the life duration of an element in a continual process of change."
+    },
+    {
+     "type": "h",
+     "text": "The Arising of Material Form (*samuṭṭhāna*)"
+    },
+    {
+     "type": "p",
+     "text": "The material elements never occur in isolation but in groups or clusters called *kalāpas*. A kalāpa can contain from eight to thirteen material elements. There is no cluster of matter without at least eight elements, the four primary elements and four secondary elements, namely colour, taste, smell and nutriment. A unit containing only these is called a Pure Octad."
+    },
+    {
+     "type": "p",
+     "text": "Material phenomena arise through four causes - kamma, consciousness, heat and nutriment."
+    },
+    {
+     "type": "p",
+     "text": "a) Kamma conditions the physical organism at conception. At the moment of conception three kalāpas are generated through kamma - the decads of sex, body and the mind-base. The sex decad (*bhāva dasaka*) has the essential octad plus the sex element, either male or female, and the life element. The body decad (*kāya dasaka*) is made up of the essential octad plus the element of bodily sensitivity and the life element. The mind-base decad (*vatthu dasaka*) is made up of the essential octad plus the mind-base element and the life element. After the embryo has been formed through these three decads, from about the eleventh week of gestation onwards, the decads of the other four sense organs begin to form. Kamma causes and sustains these material phenomena through the whole course of life."
+    },
+    {
+     "type": "p",
+     "text": "b) Consciousness (*citta*). The mind can not only influence matter but also produce material phenomena. Psychosomatic illnesses like duodenal ulcers, high blood pressure and asthma indicate such operations. Other examples are levitation, telekinesis and fire-walking. In the normal course of events consciousness is responsible for volitional bodily action and speech, the postures, respiration, production of sweat and tears, and the three alterable elements - buoyancy, pliancy and efficiency."
+    },
+    {
+     "type": "p",
+     "text": "c) Heat (*utu*). The heat element (*tejo*), one of the four primaries present in all clusters of matter, can itself cause different kinds of matter to arise, both simple octads and more complex formations."
+    },
+    {
+     "type": "p",
+     "text": "d) Nutriment (*āhāra*). The nutriment element (*ojā*), present in all clusters, when supported by external nutriment, has the capacity to produce different kinds of material phenomena which in turn have reproductive power. These begin to arise from the time the mother's nutriment circulates in the foetus. This nutritive element is one of the causes of long life."
+    },
+    {
+     "type": "h",
+     "text": "Decay of Material Form (*jarā*)"
+    },
+    {
+     "type": "p",
+     "text": "The proximate cause of ageing or decay is the maturing of matter, which occurs through the continuing action of the heat element on the kalāpas generated at various times. There are two forms of decay. One which is invisible occurs continuously in each cluster from its arising to its ceasing. The other, which is visible, manifests itself as decrepitude, brokeness of the teeth, grey hair, wrinkled skin, etc. Material decay is parallelled by a failing of the sense faculties and the dwindling of the life span as the Buddha points out in the suttas."
+    },
+    {
+     "type": "h",
+     "text": "Death of Material Form"
+    },
+    {
+     "type": "p",
+     "text": "Like decay, death too has two forms. One is the continual dissolution of matter which is invisible; the other is the visible form of death (*maraṇa*), characterised by the vanishing of the life element, the heat element and consciousness."
+    },
+    {
+     "type": "p",
+     "text": "Physical death may be due to one of the following four causes:"
+    },
+    {
+     "type": "p",
+     "text": "(a) Exhaustion of the reproductive kammic energy (*kammakkhaya*). The reproductive (*janaka*) kamma is responsible for the arising and continuation of the material phenomena essential to life. When the reproductive kamma is exhausted, the production of these vital phenomena ceases and death results."
+    },
+    {
+     "type": "p",
+     "text": "(b) Expiration of the life span (*āyukkhaya*). Life in different planes of existence has its own maximum duration. When this maximum is reached, death occurs even if the reproductive kammic force is not exhausted. Any reproductive kamma left unexpended will re-materialise a new life in the same plane."
+    },
+    {
+     "type": "p",
+     "text": "(c) Simultaneous exhaustion of the reproductive kammic energy and the expiration of the life span (*ubhayakkhaya*)."
+    },
+    {
+     "type": "p",
+     "text": "(d) The interference of a stronger opposing kamma (*upacchedaka kamma*) which obstructs the flow of the reproductive kamma causing death before the life term expires. This cause accounts for sudden 'untimely' deaths, seen especially in children."
+    },
+    {
+     "type": "p",
+     "text": "The first three causes are responsible for 'timely' deaths (*kāla maraṇa*), the fourth for 'untimely' deaths (*ākāla maraṇa*). The four may be illustrated by the extinguishing of an oil lamp, which may be due to any of four causes: exhaustion of the wick, exhaustion of the oil, simultaneous exhaustion of both wick and oil, or some extraneous cause like a gust of wind."
+    },
+    {
+     "type": "h",
+     "text": "The Five Groups (*pañcakkhandhā*)"
+    },
+    {
+     "type": "p",
+     "text": "The word *khandha* means group, mass or aggregate. The Buddha often described a 'person' as a composite of the five groups of existence. He qualified the description with the term *upādāna*, meaning 'grasping' or 'clinging'. So we have the term *pañcūpādānakkhandhā*, translated as 'the five groups of existence which form the objects of clinging'. The five are:"
+    },
+    {
+     "type": "p",
+     "text": "1. Corporeality group - *rūpakkhandha*"
+    },
+    {
+     "type": "p",
+     "text": "2. Feeling group - *vedanākkhandha*"
+    },
+    {
+     "type": "p",
+     "text": "3. Perception group - *saññākkhandha*"
+    },
+    {
+     "type": "p",
+     "text": "4. Mental formation group - *saṅkhārakkhandha*"
+    },
+    {
+     "type": "p",
+     "text": "5. Consciousness group - *viññāṇakkhandha*"
+    },
+    {
+     "type": "p",
+     "text": "The Buddha described each group as being connected with the *āsavas*. An āsava is a canker, taint, corruption, intoxicant or bias. There are four āsavas namely, that of sense desire (*kāmāsava*). desire for existence (*bhavāsava*), wrong views (*diṭṭhāsava*) and ignorance (*avijjāsava*)."
+    },
+    {
+     "type": "p",
+     "text": "It must be emphasised that these five groups do not exist in their totality simultaneously. They form a classificatory scheme filled only by single members that are evanescent and occur in various combinations at any particular time. The Buddha illustrated the emptiness and insubstantial nature of each group by comparing corporeality to a lump of froth, feeling to a bubble, perception to a mirage, mental formations to a coreless plantain stem and consciousness to a conjuring trick (Saṁyutta Nikāya III, 140)."
+    },
+    {
+     "type": "h",
+     "text": "Materiality and Meditation"
+    },
+    {
+     "type": "p",
+     "text": "Earlier we saw that the Buddha stressed the uniformity of the four great primary elements by stating that the internal and external both share the same nature. He then said: \"By means of perfect intuitive wisdom it should be seen as it really is, thus: 'this is not mine, this I am not, this is not my self.' \" This instruction shows that there is nothing special about this body we are accustomed to think of as 'mine' and sometimes believe to be a special creation. It is, in essence, the same as the outer material world."
+    },
+    {
+     "type": "p",
+     "text": "The Venerable Sāriputta, one of the Buddha's two chief disciples, makes the same point in a different way.[^1] Having described the four great primary elements as the Buddha did, he then declares that there comes a time when each of the external elements gets agitated and destroyed, so 'what of this short lived body derived from craving?'"
+    },
+    {
+     "type": "p",
+     "note": 1,
+     "text": "The Greater Discourse on the Simile of the Elephant's Foot Print (Majjhima Nikāya No. 28). Translated in 'The Wheel' No. 101."
+    },
+    {
+     "type": "p",
+     "text": "When the solid element in the body gets agitated all kinds of growths form, from a wart to a cancerous tumour. When the fluid element is agitated dropsy results - swelling due to an accumulation of fluid. The heat element causes fever, frost bite, etc., the wind element flatulence and colic. The geologist tries to find the reasons for physical disturbances and the medical researcher the causes for bodily disorders. But, wherever the four primary elements are found, agitation is, too, and the result is dis-ease - a state of disorder. Regarding the space element, the Venerable Sāriputta said: \"Just as, dependent on stakes, creepers, grass and clay, space is enclosed and the designation 'a dwelling' is used, in the same way, dependent on bones, sinews, flesh and skin, space is enclosed and the designation 'material form' (body) is used.\""
+    },
+    {
+     "type": "p",
+     "text": "The parts of the body also serve as a subject of meditation. Such meditation gives understanding of the body's nature without morbidity or fascination. The contemplation of the body mentions thirty-two parts none of which, considered separately, is the least bit attractive, not even the hair, skin, nails and teeth, which are generally tended for personal beautification. Though a man considers a woman to be beautiful on account of her 'lovely hair', if he should find one of her hairs in his breakfast cereal, he will find it repulsive rather than attractive. Since none of these parts has beauty of its own, it is impossible that they can make an attractive whole. The meditation on the parts of the body aims to dispel the common perverted perception (*saññā vipallāsa*) of seeing the unattractive as attractive. It is practised not to repress desires or to build up an emotional revulsion but solely to help us understand the body's nature."
+    },
+    {
+     "type": "p",
+     "text": "Another meditation, the analysis of the body into the four primary elements, helps to dispel the delusion of the body's compactness. The Mahāsatipaṭṭhāna Sutta gives a simile of a butcher who, having slaughtered a cow and cut it into various parts, sits at the junction of four high roads. The butcher, the commentary explains, thinks in terms of a 'cow' even after the animal has been slaughtered, as long as he sees the carcass on the floor. But when he cuts up the carcass, divides it into parts, and sits at the cross roads, the 'cow percept' disappears and the perception 'meat' arises. He does not think he is selling 'cow' but 'meat'. In the same way, if one reflects on the body by way of the elements, the 'person-percept' will disappear, replaced by the perception of the elements."
+    },
+    {
+     "type": "p",
+     "text": "Once an elderly householder named Nakulapitā approached the Buddha and said: \"Venerable Sir, I am an old man, far-gone in years, I have reached life's end, I am sick and always ailing.\" He wanted the Buddha to instruct and advise him. The Buddha said: \"So it is, householder, so it is, householder! Your body is sick and cumbered! Householder, he who, carrying this body around, would consider that it is healthy even for a moment, what else is he but a fool? Therefore, householder, this is how you must train yourself - 'My body may be sick but my mind shall not be sick' - thus, householder, should you train yourself.\""
+    },
+    {
+     "type": "p",
+     "text": "Pondering on these incontrovertible truths about the body will help us:"
+    },
+    {
+     "type": "p",
+     "text": "(1) To get rid of complexes, whether superior or inferior, relating to the body."
+    },
+    {
+     "type": "p",
+     "text": "(2) To adopt a sensible attitude towards it, neither pampering it nor molesting it."
+    },
+    {
+     "type": "p",
+     "text": "(3) To regard its fate - decay, disease and death - with realism and detachment."
+    },
+    {
+     "type": "p",
+     "text": "(4) To gain insight into the no-self (anattā) aspect of all phenomena."
+    }
+   ],
+   "sangaha_ch": 6
+  },
+  {
+   "num": "5",
+   "label": "Planes of Existence",
+   "title": "Planes of Existence",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "According to the Abhidhamma there are thirty-one planes of existence, only two of which are commonly visible to us - the animal and human planes. In order to understand the nature of the other planes of existence it is necessary to:"
+    },
+    {
+     "type": "p",
+     "text": "a) dispel the notion that there is something special in human beings that is not found in other forms of sentient life;"
+    },
+    {
+     "type": "p",
+     "text": "b) dispel the delusion that there exists even a minute degree of stability or compactness in the psycho-physical complex referred to as a 'being';"
+    },
+    {
+     "type": "p",
+     "text": "c) accept that a human being is a group of five aggregates each of which is evanescent and devoid of any substantiality;"
+    },
+    {
+     "type": "p",
+     "text": "d) realise that in certain planes of existence one or more of the aggregates may not be manifest; and"
+    },
+    {
+     "type": "p",
+     "text": "e) realise that these planes do not exist at different physical heights, from an abysmal purgatory to a heaven in the sky, but appear in response to our kamma. Most do not appear to us because of variations in spatial dimensions, relativity of the time factor, and different levels of consciousness."
+    },
+    {
+     "type": "p",
+     "text": "The thirty-one planes of existence go to form *saṁsāra*, he 'perpetual wandering' through the round of birth and death we have been caught in with no conceivable beginning. These planes fall into three main spheres:"
+    },
+    {
+     "type": "p",
+     "text": "1. The sense desire sphere (*kāma loka*)"
+    },
+    {
+     "type": "p",
+     "text": "2. The fine material sphere (*rūpa loka*)"
+    },
+    {
+     "type": "p",
+     "text": "3. The immaterial or formless sphere (*arūpa loka*)."
+    },
+    {
+     "type": "p",
+     "text": "*The sense desire sphere* (*kāma loka*) comprises eleven planes as follows:"
+    },
+    {
+     "type": "p",
+     "text": "A. Four planes of misery:"
+    },
+    {
+     "type": "p",
+     "text": "a) *niraya* - hell (1)"
+    },
+    {
+     "type": "p",
+     "text": "b) *asura yoni* - demons (2)"
+    },
+    {
+     "type": "p",
+     "text": "c) *peta yoni* - here the beings have deformed bodies and are usually consumed by hunger and thirst (3)"
+    },
+    {
+     "type": "p",
+     "text": "d) *tiracchāna yoni* - the world of animals (4)"
+    },
+    {
+     "type": "p",
+     "text": "Rebirth into these planes takes place on account of unwholesome kamma. Beings reborn there have no moral sense and generally cannot create good kamma. However, when the unwholesome kamma that brought them to these planes is exhausted, some stored up good kamma can bring them rebirth in some other plane. Only Stream-enterers and other ariyans can be sure they will never again be born in these planes of misery."
+    },
+    {
+     "type": "p",
+     "text": "B. The human plane - birth in this plane results from good kamma of middling quality. This is the realm of moral choice where destiny can be guided. (5)"
+    },
+    {
+     "type": "p",
+     "text": "C. Six heavenly planes:"
+    },
+    {
+     "type": "p",
+     "text": "a) *cātummahārājika* - deities of the four quarters (6)"
+    },
+    {
+     "type": "p",
+     "text": "b) *tāvatiṁsa* - realm of the 33 devas (7)"
+    },
+    {
+     "type": "p",
+     "text": "c) *yāma* (8)"
+    },
+    {
+     "type": "p",
+     "text": "d) *tusita* - realm of delight (9)"
+    },
+    {
+     "type": "p",
+     "text": "e) *nimmānarati*-deities who enjoy their creations (10)"
+    },
+    {
+     "type": "p",
+     "text": "f) *paranimmita-vasa-vatti* - deities controlling the creations of other (11)."
+    },
+    {
+     "type": "p",
+     "text": "Birth into these heavenly planes takes place through wholesome kamma. These devas enjoy aesthetic pleasures, long life, beauty and certain powers. The heavenly planes are not reserved only for good Buddhists. Anyone who has led a wholesome life can be born in them. People who believe in an 'eternal heaven' may carry their belief to the deva plane and take the long life span there to be an eternal existence. Only those who have known the Dhamma will realise that, as these planes are impermanent, some day these sentient beings will fall away from them and be reborn elsewhere. The devas can help people by inclining their minds to wholesome acts, and people can help the devas by inviting them to rejoice in their meritorious deeds."
+    },
+    {
+     "type": "p",
+     "text": "*The fine material sphere* (*rūpa loka*) consists of sixteen planes. Beings take rebirth into these planes as a result of attaining the jhānas. They have bodies made of fine matter. The sixteen planes correspond to the attainment of the four jhānas as follows:"
+    },
+    {
+     "type": "p",
+     "text": "A. Three as a result of attaining the First Jhāna:"
+    },
+    {
+     "type": "p",
+     "text": "a) *brahma parisajjā* - realm of Brahma's retinue (12)"
+    },
+    {
+     "type": "p",
+     "text": "b) *brahma purohitā* - realm of Brahma's ministers (13)"
+    },
+    {
+     "type": "p",
+     "text": "c) *mahā brahmā* - realm of great Brahmā (14)."
+    },
+    {
+     "type": "p",
+     "text": "B. Three as a result of attaining the Second Jhāna:"
+    },
+    {
+     "type": "p",
+     "text": "a) *parittābhā* - realm of minor lustre (15)"
+    },
+    {
+     "type": "p",
+     "text": "b) *appamānābhā* - realm of infinite lustre (16)"
+    },
+    {
+     "type": "p",
+     "text": "c) *ābhassarā* - realm of radiant lustre (17)."
+    },
+    {
+     "type": "p",
+     "text": "C. Three as a result of attaining the Third Jhāna:"
+    },
+    {
+     "type": "p",
+     "text": "a) *paritta subhā* - realm of minor aura (18)"
+    },
+    {
+     "type": "p",
+     "text": "b) *appamānasubhā* - realm of infinite aura (19)"
+    },
+    {
+     "type": "p",
+     "text": "c) *subha kiṇhā* - realm of steady aura (20)"
+    },
+    {
+     "type": "p",
+     "text": "D. Two as a result of attaining the Fourth Jhāna:"
+    },
+    {
+     "type": "p",
+     "text": "a) *vehapphalā* - realm of great reward (21)"
+    },
+    {
+     "type": "p",
+     "text": "b) *asaññasattā* - realm of mindless beings who have only bodies without consciousness. Rebirth into this plane results from a meditative practice aimed at the suppression of consciousness. Those who take up this practice assume release from suffering can be achieved by attaining unconsciousness. However, when the life span in this realm ends, the beings pass away and are born in other planes where consciousness returns. (22)"
+    },
+    {
+     "type": "p",
+     "text": "E. Five as a result of attaining the Fruit of Non-returning (anāgāmiphala), the third level of sanctity:"
+    },
+    {
+     "type": "p",
+     "text": "a) *avihā brahmā* - the durable realm (23)"
+    },
+    {
+     "type": "p",
+     "text": "b) *atappā brahmā* - the serene realm (24)"
+    },
+    {
+     "type": "p",
+     "text": "c) *sudassā brahmā* - the beautiful realm (25)"
+    },
+    {
+     "type": "p",
+     "text": "d) *sudassī brahmā* - the clear-sighted realm (26)"
+    },
+    {
+     "type": "p",
+     "text": "e) *akaniṭṭhā brahmā* - the highest realm (27)."
+    },
+    {
+     "type": "p",
+     "text": "These five realms, called *suddhāvāsā* or Pure Abodes, are accessible only to those who have destroyed the lower five fetters - self-view, sceptical doubt, clinging to rites and ceremonies, sense desires and ill-will. They will destroy their remaining fetters - craving for fine material existence, craving for immaterial existence, conceit, restlessness and ignorance - during their existence in the Pure Abodes. Those who take rebirth here are called 'non-returners' because they do not return from that world, but attain final nibbāna there without coming back."
+    },
+    {
+     "type": "p",
+     "text": "*The immaterial or formless sphere* (*arūpa loka*) includes four planes into which beings are born as a result of attaining the formless meditations:"
+    },
+    {
+     "type": "p",
+     "text": "a) *ākāsānañcāyatana* - sphere of infinity of space (28)"
+    },
+    {
+     "type": "p",
+     "text": "b) *viññāṇañcāyatana* - sphere of infinity of consciousness (29)"
+    },
+    {
+     "type": "p",
+     "text": "c) *ākiñcaññāyatana* - sphere of nothingness (30)"
+    },
+    {
+     "type": "p",
+     "text": "d) *neva-saññā-nāsaññāyatana* - sphere of neither perception or non-perception (31)."
+    },
+    {
+     "type": "p",
+     "text": "Many may doubt the existence of these planes, but this is not surprising. Such doubt was known even in the Buddha's time. The Saṁyutta Nikāya (II, 54) records that once, when the venerable Lakkhana and the venerable Mahā Moggallāna were descending Vulture's Peak Hill, the latter smiled at a certain place. The venerable Lakkhana asked the reason for the smile but the venerable Mahā Moggallāna told him it was not the right time to ask and suggested he repeat the question in the Buddha's presense. Later when they came to the Buddha, the venerable Lakkhana asked again. The venerable Mahā Moggallāna said: \"At the time I smiled I saw a skeleton going through the air. Vultures, crows and hawks followed it and plucked at it between the ribs while it uttered cries of pain. It occurred to me: 'How strange and astonishing, that a being can have such a shape, that the individuality can have such a shape!'\" 'The Buddha then said:' \"I too had seen that being but I did not speak about it because others would not have believed me. That being used to be a cattle butcher in Rajagaha.\""
+    },
+    {
+     "type": "p",
+     "text": "The question may be asked how we can develop super-normal hearing and super-normal vision so as to perceive sounds and sights beyond normal range. To understand how, we must consider three factors - spatial dimensions, the relativity of time, and the levels of consciousness. Every object in our plane of existence must possess at least four dimensions. The first three are length, width and depth. It is as if a point were to first trace a line giving length, then turn off at a level angle giving area, then turn off at a vertical angle giving volume. Each deviation from course brings not only a change of direction but also a new dimension with new attributes. But these three dimensions are not exhaustive for no object is totally static. Even an object apparently still will reveal, at an atomic level, at urbulent mass of activity. Therefore, a fourth dimension is necessary - time. The dimension of time turns 'being' into 'becoming' - a passage through the phases of past, present and future. Our sense of the passage of time does not depend on 'clock time', but results from the activity of the senses and the mind. The incessant arising and passing of thoughts is sufficient to give a cue to time's movement. Even in the absence of sensory stimulation the flow of thoughts would create the sense of time and keep us geared to this plane of existence. But if thoughts could be stilled, as they are in the higher jhanās, the sense of time would cease to exist. A different kind of awareness would replace it - a level of awareness expanded far beyond the one we are tied to under ordinary conditions. This new awareness can be called the fifth dimension. As in the case of the other four dimensions, this new one would add a new dimension, a new direction, and new attributes. For such an expanded awareness sounds and sights would be perceived, unknown and inaccessible to us locked up in our limited sense of time.[^1]"
+    },
+    {
+     "type": "p",
+     "note": 1,
+     "text": "See E. H. Shattock, An Experiment in Mindfulness, Chapter 8."
+    }
+   ],
+   "sangaha_ch": 5
+  },
+  {
+   "num": "6",
+   "label": "Causality",
+   "title": "Causality",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The Abhidhamma teaches us that:"
+    },
+    {
+     "type": "p",
+     "text": "a) there are natural laws which govern the universe (*niyāma dhammā*):"
+    },
+    {
+     "type": "p",
+     "text": "b) our mental and physical states arise dependent on causes - dependent origination (*paṭicca samuppāda*); and"
+    },
+    {
+     "type": "p",
+     "text": "c) conditioning and influencing relationships exist between these effects and their causes (*paccaya*)."
+    },
+    {
+     "type": "p",
+     "text": "Awareness of these three principles gives us a clearer understanding of the Buddha's teaching which will, in turn, aid us in our practice."
+    },
+    {
+     "type": "h",
+     "text": "The Natural Laws"
+    },
+    {
+     "type": "p",
+     "text": "The Buddhist texts recognize five laws holding sway over the natural order."
+    },
+    {
+     "type": "p",
+     "text": "a) *Physical inorganic law* (*utuniyāma*). This law governs inorganic processes, working through variations in heat to bring about changes in the body and the outer world. In the body it governs decay and illness, in the outer world wind and rain, the regular sequence of seasons, differences of climate, etc."
+    },
+    {
+     "type": "p",
+     "text": "b) *Physical organic law* (*bījaniyāma*). This law operates in both the animal and vegetable kingdoms to account for heredity, genetics and the tendency of like to beget like."
+    },
+    {
+     "type": "p",
+     "text": "c) *Law of kamma* (*kammaniyāma*). Kamma is volitional action, bodily, verbal or mental. Such action produces a result appropriate to itself. The result is not a reward or punishment meted out by some overseer but an inherent consequence of the aotion itself. Good actions bring happiness, bad actions bring suffering."
+    },
+    {
+     "type": "p",
+     "text": "d) *Law of the mind* (*cittaniyāma*) governs the order of consciousness and mental processes and also makes possible such feats as telepathy, telekinesis, clairvoyance, clairaudience and recollection of past lives."
+    },
+    {
+     "type": "p",
+     "text": "e) *Law of the dhamma* (*dhammaniyāma*) accounts for the phenomena that occur at the last birth of a bodhisatta and also the happenings during the life and at the death of the Buddhas."
+    },
+    {
+     "type": "h",
+     "text": "Dependent Origination"
+    },
+    {
+     "type": "p",
+     "text": "The doctrine of dependent origination shows that the sentient being is nothing but a flow of mental and physical phenomena which arises and continues in dependence on conditions. The layout of these conditions brings to light the cause of suffering and shows how suffering can be ended."
+    },
+    {
+     "type": "p",
+     "text": "The doctrine is based on the following principle:"
+    },
+    {
+     "type": "lines",
+     "verse": true,
+     "items": [
+      "When THIS is present, there is THAT,",
+      "With the arising of THIS, THAT arises.",
+      "When THIS is not present. there isn't THAT,",
+      "With the cessation of THIS, THAT ceases."
+     ]
+    },
+    {
+     "type": "p",
+     "text": "Dependent origination is set forth in a series of relations:"
+    },
+    {
+     "type": "p",
+     "text": "1. Dependent on ignorance there are activities (*avijjāpaccayā soṁkhārā*);"
+    },
+    {
+     "type": "p",
+     "text": "2. Dependent on activities there is consciousness (*saṁkhārapaccayā viññāṇaṁ*);"
+    },
+    {
+     "type": "p",
+     "text": "3. Dependent on consciousness there is mentality-materiality (*viññāṇapaccayā nāma-rūpaṁ*);"
+    },
+    {
+     "type": "p",
+     "text": "4. Dependent on mentality-materiality there are the six bases (*nāmarūpapaccayā saḷāyatanaṁ*);"
+    },
+    {
+     "type": "p",
+     "text": "5. Dependent on the six bases there is contact (*saḷāyatanapaccayā phasso*);"
+    },
+    {
+     "type": "p",
+     "text": "6. Dependent on contact there is feeling (*phassapaccayā vedanā*);"
+    },
+    {
+     "type": "p",
+     "text": "7. Dependent on feeling there is craving (*vedanāpaccayā taṇhā*);"
+    },
+    {
+     "type": "p",
+     "text": "8. Dependent on craving there is clinging (*taṇhāpoccayā upādānaṁ*);"
+    },
+    {
+     "type": "p",
+     "text": "9. Dependent on clinging there is becoming (*upādānapaccayā bhavo*);"
+    },
+    {
+     "type": "p",
+     "text": "10. Dependent on becoming there is birth (*bhavapaccayā jāti*);"
+    },
+    {
+     "type": "p",
+     "text": "11. Dependent on birth there is old age and death (*jātipaccayā jarā maraṇaṁ*)."
+    },
+    {
+     "type": "p",
+     "text": "The sequence of events covered by the doctrine falls into three existences - the immediately past, the present and the future one. The first two factors in the sequence refer to the past life, the last two to the future life and the rest to this present existence. However, these events intersect, so the factors assigned to the past and future existences also can be found in the present. The doctrine indicates how and why we came into this present existence and where we came from, confuting two erroneous interpretations of our nature and destiny:"
+    },
+    {
+     "type": "p",
+     "text": "a) that there is a soul, either uncreated or of divine origin, lasting eternally into the future; and"
+    },
+    {
+     "type": "p",
+     "text": "b) that we came into existence from nowhere and face nothing but annihilation at death."
+    },
+    {
+     "type": "p",
+     "text": "*Dependent on ignorance there are activities*: From an inconceivable beginning we have performed activities of body, speech and mind dominated by ignorance. Ignorance is lack of insight into the Four Noble Truths. Any volitional action performed through ignorance becomes kamma with a potential to react, to bring about rebirth and other consequences in accordance with the kammic law. Only the arahat, who has ended ignorance, can perform volitional acts without forming kamma."
+    },
+    {
+     "type": "p",
+     "text": "*Dependent on activities there is consciousness*: After death the five aggregates disintegrate but kamma remains with its potential intact. This residual kamma helps form the embryo in the new existence. It is responsible for the rebirth consciousness, the first citta of the new life. The ovum and the sperm constitute the body of the embryo, kamma contributes the mind and mental functions. A kamma formation of the previous existence manifests itself as the passive consciousness which, from the very first moment of conception, receives all the potentialities resulting from past volitional actions. No consciousness passes over from one existence to the next but the stream of consciousness goes on, a flux, constantly becoming."
+    },
+    {
+     "type": "p",
+     "text": "*Dependent on consciousness there is mentality-materiality*: The union of the ovum, sperm and rebirth consciousness brings the mental-material compound into being. Mentality (*nāma*) signifies the mental factors conascent with passive consciousness-feeling (*vedanā*), perception (*saññā*), volition (*cetanā*), contact (*phassa*), and attention (*manasikāra*). Materiality (*rūpa*) comprises the four primary elements of matter and their derivatives, described earlier. It must be noted that kamma plays a role in the arising of materiality too. At the moment of conception kamma generates three units of matter: the decads of sex, body and the mind-basis. In the course of life kamma causes and sustains the functioning of the senses and vitality. Rebirth consciousness is a conascent condition for the arising of materiality. Thereafter, consciousness conditions materiality via a number of relationships, to be given in the section on conditioning relationships below. Thus mentality and materiality are mutually dependent."
+    },
+    {
+     "type": "p",
+     "text": "*Dependent on mentality-materiality there are the six bases*: Once generated and nourished by the mother, the embryo starts to grow. As it grows it acquires four other physical sense bases - the eye, ear, nose and tongue. The body base appeared at conception as did the sixth sense organ, the mind-base (a collective term for all forms of consciousness)."
+    },
+    {
+     "type": "p",
+     "text": "*Dependent on the six sense bases there is contact*: Each physical sense base can be stimulated only by its appropriate sense object, i.e. eye-base by forms, ear-base by sounds, nose-base by smells, tongue base by tastes and the tactile-base by touch. The mind-base can be stimulated by any thought or idea whether past, present, future or timeless, whether real or imaginary, sensuous or abstract. When the sense base is stimulated, conditions are present for the appropriate consciousness to arise. The combination of the three - base, object, and consciousness - is called 'contact'."
+    },
+    {
+     "type": "p",
+     "text": "*Dependent on contact there is feeling*: When contact is made with an object through the senses, feeling must also arise Contact is a conascent condition for feeling. The feeling may be agreeable, disagreeable or neither. It is through feeling that we reap the results of previous kamma. Since kamma resultants differ from one person to another we each experience different feelings."
+    },
+    {
+     "type": "p",
+     "text": "*Dependent on feeling there is craving*: Craving is of three kinds - craving for sense pleasures (*kāmataṇhā*), craving for existence (*bhavataṇhā*), and craving for non-existence (*vibhavataṇhā*). We crave pleasant sensations experienced through the senses. When one pleasant object passes, as it must, we seek another, thirsting for a new pleasant sensation to replace the old. So the search goes on as craving knows no satiation. Besides pleasures, we also crave existence. In our ignorance we believe there is an abiding self within. Thence we strive and struggle to preserve this self and to provide it with the best conditions. But, at times, we also crave non-existence, as when in a mood of dejection we wish for annihilation, thinking death to be the end. Even if this craving does not become so drastic, it still springs up as the desire to destroy the causes of our distress."
+    },
+    {
+     "type": "p",
+     "text": "*Dependent on craving there is clinging*: Clinging is an intensified form of craving. It has the nature of grasping and takes on four forms:"
+    },
+    {
+     "type": "p",
+     "text": "a) clinging to sense pleasures (*kām' upādāna*);"
+    },
+    {
+     "type": "p",
+     "text": "b) clinging to wrong views, principally eternalism and nihilism (*diṭṭh'upādāna*);"
+    },
+    {
+     "type": "p",
+     "text": "c) clinging to rites and rituals (*sīlabbat'upādāna*); and"
+    },
+    {
+     "type": "p",
+     "text": "d) clinging to a doctrine of self (*attavād'upādāna*). This is the most tenacious form of clinging, abandoned only when the stage of stream-entry is attained."
+    },
+    {
+     "type": "p",
+     "text": "*Dependent on clinging there is becoming*: Clinging conditions volitional activities, unwholesome and wholesome, which set the stage for a new existence where they can ripen."
+    },
+    {
+     "type": "p",
+     "text": "*Dependent on clinging there is birth*: The unexhausted kammic activities of this life bring about birth into a new existence, finding appropriate conditions to manifest themselves."
+    },
+    {
+     "type": "p",
+     "text": "*Dependent on birth there is old age and death*: Once a person is born, decay and death inevitably follow, bringing in their trail sorrow, lamentation, pain, grief and despair."
+    },
+    {
+     "type": "p",
+     "text": "In order to cure any disease its cause must be known and removed. All other treatments are symptomatic. The Buddha taught dependent origination to point out the cause of suffering and to show how it can be uprooted."
+    },
+    {
+     "type": "p",
+     "text": "To end suffering the cycle of causal orgination must be broken at the right link. We cannot end suffering by destroying the psycho-physical organism we inherited as a result of past kamma; this is not the answer to the problem. We cannot prevent the contact of the senses with their objects, nor the arising of feeling from contact. But our reactions to the feelings we experience, that is different, that is something we can control. We can control them through wisdom. If we understand the feelings that arise to be momentary and without a self, we will not react to them with craving. Thus the right link in the sequence that can be broken is the link between feeling and craving. Suffering ends with the destruction of craving."
+    },
+    {
+     "type": "p",
+     "text": "The complete destruction of craving is a formidable task. But, though difficult, it can be approached by degrees. Craving can be gradually weakened and this will start us on the path towards the ideal. The less we crave, the fewer the disappointments; the less the suffering, the greater the peace. In the Four Noble Truths the Buddha teaches us all we need to know: the cause of suffering is craving, the end of suffering is the destruction of craving, the way to achieve this is to follow the Noble Eightfold Path."
+    },
+    {
+     "type": "h",
+     "text": "Modes of Conditioning"
+    },
+    {
+     "type": "p",
+     "text": "Buddhism teaches that all phenomena, mental and physical, arise through conditions. In the Abhidhamma the modes of conditionality are analysed into twenty-four types of realationship, each representing a tie between a condition and the phenomena it conditions. A brief account of these is as follows:"
+    },
+    {
+     "type": "p",
+     "text": "1. *Root condition* (*hetu paccaya*). The three unwholesome roots - greed, hate and delusion - are root conditions for their associated unwholesome mental states and the material form they originate. Likewise, for the wholesome and indeterminate states - greedlessness, hatelessness and undeludedness."
+    },
+    {
+     "type": "p",
+     "text": "2. *Object condition* (*ārammaṇa paccaya*). Any state that is an object for consciousness and its factors is an object condition. Consciousness is of six kinds by way of eye, ear, nose, tongue, body and mind; each can arise only with its appropriate object."
+    },
+    {
+     "type": "p",
+     "text": "3. *Predominance condition* (*adhipati paccaya*). This assists in the manner of being foremost, thereby exercising a dominating role over the other mental states. It may be a conascent mental state or it may be an object which is given special importance by the mind."
+    },
+    {
+     "type": "p",
+     "text": "4 & 5. *Proximity and Contiguity conditions* (*anantara paccaya, samanantara paccaya*). In our analysis of a thought process we saw that seventeen thought moments follow each other in rapid succession. Each thought moment, with its factors, stands to the next thought moment and its factors in the relation of proximity condition and contiguity condition. These two modes of conditioning are different only in name but not in essence."
+    },
+    {
+     "type": "p",
+     "text": "6. *Conascence condition* (*sahajāta paccaya*). When a number of phenomena arise simultaneously, each will function as a conascent condition for the others. For example, feeling arises as a conascent condition for its concomitants - perception, mental formations and consciousness - and each of these for the other three. The four primary elements are conascent conditions for each other and secondary matter. So too are mind and matter at conception."
+    },
+    {
+     "type": "p",
+     "text": "7. *Mutuality condition* (*aññamañña paccaya*). Just as each leg of a tripod helps support the other two, mentality and materiality help each other at the moment of birth. At all times the concomitant mental states are mutuality conditions for each other, as are the co-existent primary material elements."
+    },
+    {
+     "type": "p",
+     "text": "8. *Support condition* (*nissaya paccaya*). This serves as a base or foundation for the arising of some other state. All conascent conditions are also support conditions but, further, any sense organ is a support condition for the appropriate consciousness and its mental factors."
+    },
+    {
+     "type": "p",
+     "text": "9. *Decisive support condition* (*upanissaya paccaya*). This gives stronger support than the previous type of condition, one that acts as a decisive inducement."
+    },
+    {
+     "type": "p",
+     "text": "10. *Pre-nascence condition* (*purejāta paccaya*), This refers to a state that has already arisen and, while still present, serves as a condition for something else that arises later. A particular sense consciousness arises because the pre-arisen sense organ and object are already present. Thus the organ and object are prenascent conditions for consciousness."
+    },
+    {
+     "type": "p",
+     "text": "11. *Post-nascence condition* (*pacchājāta paccaya*). This signifies a subsequently arisen state that sustains something already in existence. Hunger, for example, is a post-nascence condition for the preservation of the body as it results in food intake."
+    },
+    {
+     "type": "p",
+     "text": "12. *Repetition condition* (*āsevana paccaya*). Each javana thought moment - wholesome, unwholesome or indeterminate - conditions and strengthens the subsequent ones. Thus each is a repetition condition for its successor. By analogy, the recitation of a verse becomes easier the more frequently it is repeated."
+    },
+    {
+     "type": "p",
+     "text": "13. *Kamma condition* (*kamma paccaya*). This refers to a volition that conditions other states. It is of two kinds. One is wholesome or unwholesome volition that conditions the resultant mental states and material form produced by kamma. The other is conascent volition that conditions its concomitant mental states and material form originated by that volition. Thus kamma condition may be prior to or simultaneous with the states it conditions."
+    },
+    {
+     "type": "p",
+     "text": "14. *Kamma result condition* (*vipāka paccaya*). Any mental phenomenon, citta or cetasika, that results from kamma is a kamma result condition for its associated mental phenomena and the kinds of material form it originates."
+    },
+    {
+     "type": "p",
+     "text": "15. *Nutriment condition* (*āhāra paccya*). Four kinds of phenomena are called nutriments in the sense that they are strong conditions for other phenomena:"
+    },
+    {
+     "type": "p",
+     "text": "a) material food sustains the physical body;"
+    },
+    {
+     "type": "p",
+     "text": "b) contact conditions feeling;"
+    },
+    {
+     "type": "p",
+     "text": "c) volition conditions rebirth consciousness; and"
+    },
+    {
+     "type": "p",
+     "text": "d) rebirth consciousness serves as a nutriment for mind and materiality."
+    },
+    {
+     "type": "p",
+     "text": "16. *Faculty condition* (*indriya paccya*). There are twenty-two faculties; six sense bases; two sexes; the life faculty; five feelings; five spiritual faculties and three supra-mundane faculties. Except for the two sexes, the other twenty can exercise control in their respective spheres on the co-existent mental states and the material phenomena they originate. For example, mindfulness - one of the five spiritual faculties - has a controlling influence on the other four co-adjuncts during meditation."
+    },
+    {
+     "type": "p",
+     "text": "17. *Jhāna condition* (*jhāna paccaya*). This refers to the seven jhāna factors - initial thinking, discursive thinking, rapture, happiness, sadness, equanimity and concentration - that condition their associated mental phenomena and the material phenomena they originate."
+    },
+    {
+     "type": "p",
+     "text": "18. *Path condition* (*magga paccaya*). This comprises twelve factors. Four that lead to woeful states - the wrong path - are: wrong views, wrong aspiration, wrong effort and wrong concentration. Eight that lead to blissful states - the right path - are: right understanding, right aspiration, right speech, right action, right livelihood, right effort, right mindfulness and right concentration. These eight make up the Noble Eightfold Path."
+    },
+    {
+     "type": "p",
+     "text": "19. *Associated condition* (*sampayutta paccaya*). The four mental groups - feeling, perception, mental formations and consciousness - that aid each other because they arise and perish together and have an identical object and base, are association conditions for each other."
+    },
+    {
+     "type": "p",
+     "text": "20. *Dissociation condition* (*vippayutta paccaya*). This refers to one phenomenon that aids another by not mixing with it, by being separate from it. Thus mental and material phenomena are dissociation conditions for one another as they aid each other's genesis by remaining distinct."
+    },
+    {
+     "type": "p",
+     "text": "21. *Presence condition* (*atthi paccaya*). This refers to phenomena that condition other phenomena only in their presence either as conascent, prenascent or postnascent conditions. To give an analogy, objects can be seen only if there is light."
+    },
+    {
+     "type": "p",
+     "text": "22. *Absence condition* (*natthi paccaya*). This refers to one phenomenon which can condition the arising of another only when it has ceased. Specifically it refers to the cittas and mental factors which have to cease for their successors to arise. By analogy, light must disappear for darkness to prevail."
+    },
+    {
+     "type": "p",
+     "text": "23. *Disappearance condition* (*vigata paccaya*). This is identical with 22."
+    },
+    {
+     "type": "p",
+     "text": "24. *Non-disappearance condition* (*avigata paccaya*). This is identical with 21."
+    },
+    {
+     "type": "p",
+     "text": "The doctrine of dependent origination (*paṭicca samuppāda*) teaches us that our mental and physical components are effects resulting from causes. The conditions (*paccayas*) show that a veriety of specific relationships obtain between these effects and their causes. A few examples will be given to illustrate how this knowledge helps us to understand the Buddha's teaching and to put it into practice."
+    },
+    {
+     "type": "p",
+     "text": "A. In relation to the teaching:"
+    },
+    {
+     "type": "p",
+     "text": "a) *First Cause*: Buddhism does not postulate a first cause. The world is beginningless, a continuous arising and passing away of phenomena dependent on conditions. The assumption that the world must have had a beginning is due to our limited understanding. Buddhism teaches that the world consists of a countless number of world-systems arising, evolving and disintegrating in accordance with natural laws. To this cosmic process there is no first point or outside cause. As the Buddha says: \"Inconceivable, O monks, is this *saṁsāra*. Not to be discovered is any first beginning of beings, who obstructed by ignorance and ensnared by craving, are hurrying and hastening through this round of rebirths.\" In fact, it is our ignorance, resulting in craving, that creates us over and over again."
+    },
+    {
+     "type": "p",
+     "text": "b) *Ignorance*: Though in the doctrine of dependent origination ignorance was given as the first link, it must not be taken as a first cause. The commentator, Venerable Buddhaghosa, states in the *Visuddhi Magga* (translated by Bhikkhu Nānamoli):"
+    },
+    {
+     "type": "lines",
+     "verse": true,
+     "items": [
+      "'Nor from a single cause arise",
+      "One fruit or many, nor one fruit from many;",
+      "'Tis helpful, though, to utilise",
+      "One cause and one fruit as representative.'"
+     ]
+    },
+    {
+     "type": "p",
+     "text": "The twenty-four conditions are so intricately related that nothing can stand by itself as a sufficient cause. Even ignorance arises and continues through conditions such as wrong companionship and wrong views. It is placed first, not because it is temporally first, but because it is the most fundamental condition for suffering."
+    },
+    {
+     "type": "p",
+     "text": "c) *Selflessness*: In a doctrine that teaches all phenomena to be conditionally arisen there is no place for any form of abiding personality. Until, by insight meditation, one penetrates this truth, the delusion of a self will persist, obscuring the Four Noble Truths."
+    },
+    {
+     "type": "p",
+     "text": "d) *Free Will*: Someone might say: \"If all phenomena are conditionally arisen, then Buddhism is a form of fatalism, for we have no free will to control our destiny.\" Such a statement would not be correct. Will is volition (*cetanā*), a mental state, determined ethically by its root condition (*hetu paccaya*). If the root is unwholesome, we can either restrain or indulge the volition; if the root is wholesome, we can encourage it or neglect it. In this exercise of will lies our freedom to guide our destiny."
+    },
+    {
+     "type": "p",
+     "text": "B. *Application in practice*"
+    },
+    {
+     "type": "p",
+     "text": "a) *Root condition*: Buddhist training is directed towards eliminating the defilements (*kilesā*). The foremost defilements are the three unwholesome roots - greed, hate and delusion. From these spring others: conceit (*māna*), speculative views (*diṭṭhi*), sceptical doubt (*vicikicchā*), mental torpor (*thīna*), restlessness (*uddhacca*), shamelessness (*ahirika*), lack of moral fear or conscience (*anottappa*). These defilements function at three levels:"
+    },
+    {
+     "type": "p",
+     "text": "1. Transgression (*vītikkama*) leading to evil bodily and verbal acts. This is checked by the practice of morality, observing the five precepts."
+    },
+    {
+     "type": "p",
+     "text": "2. Obsession (*pariyuṭṭhāna*) when the defilements come to the conscious level and threaten to lead to transgression if not restrained by the practice of mindfulness."
+    },
+    {
+     "type": "p",
+     "text": "3. Latency (*anusaya*) where they remain as tendencies ready to surface through the impact of sensory stimuli. Security from the defilements can be obtained only by destroying the three roots - greed, hate and delusion - at the level of latency. This requires insight-wisdom (*vipassanā-paññā*), the decisive liberating factor in Buddhism."
+    },
+    {
+     "type": "p",
+     "text": "b) *Predominance condition*: This is of two kinds, a mental state or an object."
+    },
+    {
+     "type": "p",
+     "text": "1. A mental state: Zeal (*chanda*), energy (*viriya*), purity of consciousness (*citta*) or investigating of phenomena (*vīmaṁsā*) can, as a conascent mental state, dominate other mental states and the material phenomena they originate. Only one of these four can predominate at a time. We may illustrate how these four, in sequence, are applicable in practice. A meditator resolves to 'achieve that which has not been achieved so far'. At that time zeal becomes the predominant mental factor. Then energy dominates to bring forth right effort to suppress the mental hindrances. Free from the hindrances the purified mind is dominant. When the mind is pure and unified, the investigating factor takes over to gain insight into the three characteristics of existence - impermanence, unsatisfactoriness and selflessness."
+    },
+    {
+     "type": "p",
+     "text": "2. An object: A Buddhist venerates an image of the Buddha, recollecting the supreme qualities of the Enlightened One, and aspires to acquire similar virtues. At that time faith (*saddhā*) in the Buddha, the Dhamma and the Sangha becomes the predominant mental state. This faith, reasoned and rooted in understanding, inspires the mind with confidence and determination to pursue the practice. This is the principle behind the veneration of the Buddha image, which the uninformed call 'idol worship'."
+    },
+    {
+     "type": "p",
+     "text": "c) *Decisive-support condition*: This acts by virtue of its cogency. It is of three kinds:"
+    },
+    {
+     "type": "p",
+     "text": "1. By way of an object (*ārammaṇa upanissaya paccaya*). The image of the Buddha, at the time of veneration, forms an object decisive support condition for the establishment of faith by way of conviction."
+    },
+    {
+     "type": "p",
+     "text": "2. Proximate decisive support (*anantara upanissaya paccaya*). When one thought gives way to the next, the conviction in one stands as a decisive support for the thought that follows."
+    },
+    {
+     "type": "p",
+     "text": "3. Natural decisive support (*pakati upanissaya paccaya*). Faith, virtue, generosity and learning, by way of cogency, stand as natural decisive supports for the repeated arising of these wholesome factors. A good environment and companionship with the wise are natural decisive supports for wholesome mental states."
+    },
+    {
+     "type": "p",
+     "text": "These three types of decisive support conditions have a bearing on our practice if we wish to fulfill the four preliminary conditions to stream entry (*sotāpattiyanga*). These are: (i) companionship with those of merit and good character (*sappurisa saṁseva*); (ii) hearing the Dhamma (*saddhamma savana*); (iii) wise reflection (*yoniso manasikāra*); and (iv) living in conformity with the Dhamma (*dhammānudhammapatipatti*)."
+    }
+   ],
+   "sangaha_ch": 8
+  },
+  {
+   "num": "7",
+   "label": "Nibbāna",
+   "title": "Nibbāna",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Nibbāna is the fourth ultimate reality (*paramattha dhamma*). Whereas the other three realities - consciousness (*citta*), mental formations (*cetasikā*) and material phenomena (*rūpa*) - are conditioned, nibbāna is not. It is neither created nor formed."
+    },
+    {
+     "type": "p",
+     "text": "When the wanderer Jambukhādaka asked his uncle, the Venerable Sāriputta, what the word 'nibbāna' means, the Venerable Sāriputta replied that nibbāna is the extinction of greed, hate and delusion. But nibbāna is not the mere extinction of these defilements. It is a state to be attained in this very existence by the extinction of greed, hate and delusion."
+    },
+    {
+     "type": "p",
+     "text": "Nibbāna is the summum bonum of Buddhist practice, to be achieved only by following the Noble Eightfold Path. For most of us the journey along the Path will be long and arduous, but there are sign-posts on the way that will indicate we are going in the right direction. We will recognize these sign-posts when the fetters that bind us are broken in succession. When the first three fetters - personality view, doubt and clinging to mere rules and rituals - are broken one becomes a 'Stream Enterer' (*sotāpanna*), one who has entered the stream to nibbāna. The fetters, once broken, will never bind such a person again. This is the truth he knows without uncertainty. The stream-enterer will not be reborn in the four lower planes of existence. He will take rebirth seven times at the most, either in the human or heavenly planes."
+    },
+    {
+     "type": "p",
+     "text": "When the next two fetters - sensuous craving and ill-will - are attenuated, one becomes a 'Once Returner' (*sakadāgāmī*), due to return only once to the sense spheer world and then attain nibbāna."
+    },
+    {
+     "type": "p",
+     "text": "When all the lower five fetters are eradicated, the disciple becomes a 'Non-Returner' (*anāgāmī*), who will never return to the sense sphere world but, after death, will be reborn in a pure divine abode and attain nibbāna there."
+    },
+    {
+     "type": "p",
+     "text": "One who takes the next major step and eradicates the five higher fetters - desire for existence in fine material planes, desire for existence in the immaterial planes, conceit, restlessness and ignorance - reaches the final goal. He is the *arahat*, free from all future becoming."
+    },
+    {
+     "type": "p",
+     "text": "Each of these four supramundane stages involves two phases. One is the 'Path' (*magga*) that eradicates the fetters, the other is the 'Fruit' (*phala*), moments of supramundane consciousness that result from the path, made possible by the path's work of eradication. The fruit is the enjoyment made available by the work of the path. The fruit can be entered and enjoyed many times after the appropriate path has been reached. The noble disciple determines to enter the fruit, then develops insight until he does so. The highest fruit is the fruit of arahatship. The arahat knows with certainty that his mind is devoid of defilements. He has penetrated the Four Noble Truths. He becomes neither despondent nor elated through contact with the eight worldly conditions - gain and loss, honour and dishonour, happiness and misery, praise and blame. He is free from sorrow, stainless and safe. \"Free from sorrow\" because he no more weeps and laments; \"stainless\" because he has no more defilements; \"safe\" because there is no more birth for him."
+    },
+    {
+     "type": "p",
+     "text": "Though the mind of the arahat is free from defilements, his body is still subject to decay, disease and injury, to pain and discomfort. He can overcome these by inducing supramundane consciousness, which is always at his disposal, but it would be impracticable for him to do so for any length of time. Therefore, during life, the arahat can enjoy only an intermittent release from suffering. This is called *sa-upādi-sesa-nibbāna*, nibbāna with the groups of existence still remaining, since he still exists as an individualised personality subject to the results of residual kamma. Thus, the Buddha met a foot injury when Devadatta hurled a rock at him, the Venerable Mahā Moggallāna was battered to death by professional criminals, and the Venerable Angulimāla was hit by sticks and stones while on his alms round."
+    },
+    {
+     "type": "p",
+     "text": "When the arahat dies he attains *an-upādi-sesa nibbāna*, nibbāna without the aggregates remaining. He will not be reborn anywhere. Earlier he severed the chain of dependent origination at the link where feeling is followed by craving. Now he severs it at the link where becoming leads to new birth."
+    },
+    {
+     "type": "p",
+     "text": "There has been much speculation as to what happens to the arahat after death - whether he exists, or does not exist, or both, or neither. This confusion arises from thinking in terms of an abiding entity that passes from life to life. The Buddha taught that such an abiding entity does not exist. It is an illusion. Life is a process of becoming, perishing at every moment, generated by kamma. Since there is no ego-entity, there is nothing to be annihilated and nothing to enter a state of eternal existence. When the arahat dies, the physico-mental process comes to an end for lack of the 'fuel' needed to keep it going. This fuel is craving (*taṇhā*) which leads to grasping, which in turn leads to further becoming. If craving is totally extinguished, there can be no further becoming. When the body dies at the expiration of the life span, no new rebirth takes place. If there is no rebirth in any plane, then there is no decay, disease and death; there is no sorrow, lamentation, pain, grief or despair. This is the end of suffering."
+    },
+    {
+     "type": "p",
+     "text": "To conclude we shall recall those four existential aspects mentioned at the outset:"
+    },
+    {
+     "type": "p",
+     "text": "1. *What are we?* Each of us is a mind-body combination whose constituent parts arise and perish from moment to moment, depending on conditions. There is no abiding entity found in this process of becoming. The mind and the body are reciprocal. With death, the body disintegrates into the four primary elements but the flow of consciousness goes on finding a material base in another existence in accordance with kamma. We are owners of our kamma, heirs to our kamma, kamma is the womb from which we are born, kamma is our friend, our refuge, The present mind-body combination will last as long as the reproductive kamma supports it, but this could be cut off at any time by a strong opposing kamma. In spite of the transient happiness we enjoy, there is no means by which we can avoid decay, ill-health, association with the unpleasant, dissociation from the pleasant, and not getting what we desire."
+    },
+    {
+     "type": "p",
+     "text": "2. *What do we find around us?* Around are sentient and non-sentient objects which provide stimuli for our senses and minds. The material nature of our bodies is the same as that of the objects around us, all made up of the four primary elements and their derivatives."
+    },
+    {
+     "type": "p",
+     "text": "3. *How and why do we react to what is within and around us?* We react in response to the six kinds of stimuli that we make contact with through the eyes, ears, nose, tongue, body and mind. The nature of our reaction depends on our defilements which manifest as craving and grasping."
+    },
+    {
+     "type": "p",
+     "text": "4. *What should we aspire to reach as a spiritual goal?* We should aspire to eliminate craving and thereby end this process of repeated becoming, always fraught with suffering. This is the attainment of *nibbāna*. The way is the Noble Eightfold Path."
+    },
+    {
+     "type": "p",
+     "text": "The arahat Raṭṭhapāla told King Koravya why he went forth from the home life into homelessness. He said that life in any world is:"
+    },
+    {
+     "type": "p",
+     "text": "a) unstable and is swept away;"
+    },
+    {
+     "type": "p",
+     "text": "b) has no shelter and no protector;"
+    },
+    {
+     "type": "p",
+     "text": "c) has nothing of its own, it has to leave everything and pass on; and"
+    },
+    {
+     "type": "p",
+     "text": "d) is incomplete, insatiate and the slave of craving."
+    },
+    {
+     "type": "p",
+     "text": "Facts are stubborn, often unpalatable. No purpose is served by behaving like the proverbial ostrich or by sweetening the true taste of existence with a sprinkling of ambrosia. But there is no need to be despondent. Peace and happiness are possible, always available to us, if we make the effort to find them. To find them we have to get to know 'things as they really are'. 'Things as they really are' is the subject dealt with in the Abhidhamma. By studying the Abhidhamma and turning these studies into personal experience by meditation, we can reach the liberating knowledge that gives peace."
+    }
+   ]
+  },
+  {
+   "num": "8",
+   "label": "About the Author",
+   "title": "About the Author",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Dr. N. K. G. Mendis graduated from the Medical Faculty of the University of Sri Lanka in 1946 and did his post-graduate training in India and the U. K. He is a Fellow of the Royal College of Surgeons of Edinburgh and of the Royal College of Surgeons of England. He specialised in thoracic surgery and practised in Sri Lanka, England and Ghana. Since 1972 he has been in general practice in Nova Scotia, Canada. He acknowledges that, though born to devout Buddhist parents, he has been devoted to Dhamma practice only since 1975, when the circumstances of his life hed him to seek refuge in the Triple Gem. He is a supporter of the Buddhist Vihāras in Washington D. C. and Toronto, and is the author of Wheel Nos. 268 and 279."
+    }
+   ]
+  }
+ ],
+ "glossary": []
+}
