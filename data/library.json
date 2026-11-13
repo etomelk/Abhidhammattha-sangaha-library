@@ -167,6 +167,48 @@
    "goto_max": 0
   },
   {
+   "slug": "mendis",
+   "title": "The Abhidhamma in Practice",
+   "short": "The Abhidhamma in Practice",
+   "author": "Dr. N. K. G. Mendis",
+   "cite": "Mendis",
+   "level": "Introduction",
+   "edition": "Buddhist Publication Society, The Wheel No. 322/323 (1985; reprinted 2005)",
+   "by": "Dr. N. K. G. Mendis · Buddhist Publication Society, Kandy (The Wheel No. 322/323)",
+   "blurb": "A short introduction by a surgeon and meditator: citta, cetasikas, rūpa, the planes of existence, causality and Nibbāna, each related to practice.",
+   "note": "The whole booklet, one chapter per page: the Preface and Introduction, then The Cittas, The Cetasikas, Rūpa, Planes of Existence, Causality and Nibbāna. The Saṅgaha map links the chapters on citta, cetasikas, rūpa, the planes and causality to the Saṅgaha’s chapters I, II, VI, V and VIII. Its two footnotes are set under the paragraphs that cite them. Where a word of the scan could not be read with certainty it is marked ⟨?⟩; the book’s own misprints are kept.",
+   "brand_sub": "Mendis · Wheel 322/323",
+   "toc_foot": "Seven chapters, with the Preface and About the Author.",
+   "source": "Source: Dr. N. K. G. Mendis, <em>The Abhidhamma in Practice</em>, Buddhist Publication Society, Kandy, The Wheel Publication No. 322/323, first edition 1985, reprinted 2005, from a scanned PDF. Its text layer (Acrobat ClearScan) was not usable, so every page was read with OCR and proofread line by line against the page image for this library; the Pāli diacritics are the book’s own. The book’s misprints are kept as printed; doubtful readings are marked ⟨?⟩.",
+   "desc": "Dr. N. K. G. Mendis’s The Abhidhamma in Practice (BPS Wheel 322/323): the Abhidhamma related to practice.",
+   "howto": [
+    [
+     "Find anything",
+     "Type in Search (or press <kbd>/</kbd>). Accents are optional: <i>rupa</i> finds <i>rūpa</i>."
+    ],
+    [
+     "Between the books",
+     "The <a href=\"../map/\">Saṅgaha map</a> links the chapters to the same chapters of the Saṅgaha in the other books."
+    ]
+   ],
+   "unit": "Chapter",
+   "cid": "ch",
+   "sign": "§",
+   "margin_sign": "",
+   "xrefs": false,
+   "footnotes": true,
+   "split": true,
+   "inline_markup": true,
+   "drawer_btn": "Notes",
+   "drawer_title": "Pāli terms",
+   "drawer_hint": "This book has no index of its own.",
+   "anchor": "^(ch\\d+.*)$",
+   "goto": "",
+   "goto_label": "",
+   "goto_aria": "",
+   "goto_max": 0
+  },
+  {
    "slug": "fundamental",
    "title": "Fundamental Abhidhamma, Part I",
    "short": "Fundamental Abhidhamma, Part I",

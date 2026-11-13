@@ -1,0 +1,26 @@
+{
+  "status": "running",
+  "lock": null,
+  "queue": [
+    "mendis",
+    "fundamental-2",
+    "shwezanaung",
+    "cma"
+  ],
+  "current": "fundamental-2",
+  "next_page": {
+    "mendis": 81,
+    "fundamental-2": 231,
+    "shwezanaung": 1,
+    "cma": 1
+  },
+  "last_page": {
+    "mendis": 80,
+    "fundamental-2": 247,
+    "shwezanaung": 354,
+    "cma": 432
+  },
+  "built": [
+    "mendis"
+  ]
+}
