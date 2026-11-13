@@ -2,6 +2,14 @@
 
 Newest first. See AUTOPILOT.md for the standing instructions.
 
+## 2026-11-13 — The English Paramatthadīpanī added to the queue (owner's request)
+
+`ocr-sources/paramattha-en.pdf`: Ashin Nandamālābhivaṃsa's annotated English translation of Ledi
+Sayadaw's Paramatthadīpanī, chapters 1–4 (M.Phil. thesis, University of Kelaniya, July 1996; 281
+pages). The owner, a student of the author at ITBMU, states that he has the author's permission to
+publish it; the book's first page and README must say so. Queue now: Fundamental II (build) → PCM →
+Rerukane → Paramatthadīpanī (English) → Shwe Zan Aung → CMA.
+
 ## 2026-11-13 — Two books added to the queue (owner's request)
 
 The owner sent three PDFs. Two are added: `ocr-sources/pcm.pdf` (Rewata Dhamma, *Process of
