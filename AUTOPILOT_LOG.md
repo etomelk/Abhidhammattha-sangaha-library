@@ -2,6 +2,44 @@
 
 Newest first. See AUTOPILOT.md for the standing instructions.
 
+## 2026-11-13 — Fundamental Abhidhamma Part II pp. 106–130 proofread
+
+Proofread PDF pages 106–130 of `ocr-sources/fundamental-2.pdf` (the Part II title page and book pp. 2–25
+of Part II: Chapter 5 *Vīthi*, from the opening to the *Anāgāmi Phalaṭṭha* list) into
+`ocr/fundamental-2/p106.md`–`p130.md`. The PDF's text layer is unusable (most glyphs lost), so each
+page was read from `tesseract` at 300 dpi and, above all, from the page image itself: tesseract drops
+every diacritic, so all Pāli was written from the image (the print is clean and its diacritics are clear).
+
+Conventions (for this book; the converter should follow them):
+- The comment line is `<!-- page NNN, book page X -->`; Part II restarts its page numbers (PDF p107 =
+  book p. 2). p106 is the Part II title page (`# FUNDAMENTAL ABHIDHAMMA` / `# PART II`).
+- `## CHAPTER 5` and `## *VĪTHI*: MENTAL PROCESS` are the chapter title; the centred bold heads are `###`.
+- Bold run-in heads ("**Citta-vīthi**:", "**Manifestation:**") are `**…**`; the book sets them bold
+  (often bold italic), so bold marks them and italics inside them are not kept.
+- `<!-- cont -->` on p110 and p112 (the page begins mid-paragraph).
+- Ruled tables are Markdown tables (a `<br>` where a cell has two lines; merged cells left blank in the
+  following rows, p122); tables with spanning cells or columns that a Markdown table cannot hold (p109
+  objects/doors, p111 objects per door, p116 the 15 processes) and the process diagrams (p114, p118,
+  p121) are fenced blocks keeping the columns, the diagrams with an `<!-- figure: … -->` note of what
+  the arrows and arcs show. J¹… superscripts kept as Unicode superscripts; "5th" for 5<sup>th</sup>.
+- Ditto marks in the p108 table written “ as printed. "\#" (p125–126) is the book's own bullet sign.
+
+Words marked ⟨?⟩: none.
+
+Printed slips kept as printed (not corrected): p108 "*Arūpāvavara vipāka*s"; p109 "*Jīvha*-dvāra/-viññāṇa"
+(the book's spelling); p112 "*sanṭīraṇa*" (ṭ); p113 "*Saṃpaṭicchana*"; p119 "**Kāma-jāvana:**"; p124 table:
+the second row reads "4 *Kāma-kriya* with pleasant feeling" (the sense wants neutral feeling — printed so);
+p125 "*nirodha-samapatti*" (no macrons); p127 "*viññāāṇa citta*s" (double ā, checked zoomed); p130 "1 *vicikiccha*".
+
+For the owner: Part II opens with its own "Chapter 5 *Vīthi*: Mental Process" in a new, longer wording,
+while the site's Part I (from the Part I PDF) already ends with a chapter 5 *Vīthi*. When Part II is
+built, the two will need a decision (keep both, labelled by part, is the reading the build run should take
+unless the owner says otherwise).
+
+The site was not touched (`ocr/` is not published), so check_site was not needed for this push.
+
+Next: Fundamental Abhidhamma Part II, PDF page 131 (117 pages left, 131–247).
+
 ## 2026-11-13 — Mendis built into the site (ready to merge)
 
 Built *The Abhidhamma in Practice* from the 80 proofread pages:
