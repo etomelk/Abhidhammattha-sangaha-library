@@ -2,6 +2,47 @@
 
 Newest first. See AUTOPILOT.md for the standing instructions.
 
+## 2026-11-13 — Fundamental Abhidhamma Part II pp. 231–247 proofread (all pages done)
+
+Proofread PDF pages 231–247 of `ocr-sources/fundamental-2.pdf` (book pp. 126–142 of Part II): the rest of
+Chapter 9 — 3. *Bodhipakkhiya Saṁgaha* (*Sammappadhāna*, *Iddhipāda*, *Indriya*, *Bala*, *Bojjhaṁga*,
+*Maggaṁga*, Special Note, Way of Participation and its table), 4. *Sabba Saṁgaha* (*Khandha*,
+*Upādānakkhanda*, *Āyatana*, *Dhātu*, *Ariyasacca*), "The End of chapter 9" (p238) — and the eight pages
+of colour charts that close the PDF (pp. 239–247: "Mental Process", "Picture of Whole Life", the
+"… and its conditions" wheels for each citta of the eye-door process, "Javana", "Sobhana cetasika - 25",
+"Akusala cetasika - 14") into `ocr/fundamental-2/p231.md`–`p247.md`. Tesseract (300 dpi) for the English,
+the page image (zoomed where small) for every word of Pāli and every chart label.
+
+**Every page of Part II is now proofread.** The next run builds Part II into `data/fundamental.json`.
+
+Notes for the build:
+- Chapter 9 ends on p238; pp. 239–247 are an appendix of colour charts with no chapter head. Suggest a
+  closing section (e.g. "Charts") after Chapter 9, or the page images as `img` blocks: the charts are
+  in colour and only partly expressible as text. Each chart is transcribed as a fenced block (the
+  wheel's neighbours above/left/right/below, then its rings "Centre / Inner ring / Middle ring / Outer
+  ring", cells read clockwise from the top, blank cells left out) with a `<!-- figure … -->` note; the
+  converter may keep the text, use images, or both (page images are not committed — render them from
+  the PDF at build time if wanted).
+- p239's "Mental Process" and "Picture of Whole Life", p243's "Javana" and p247's two titles are `###`;
+  each wheel's title ("Bhavanga and its conditions") is a bold line.
+- p247 has two braced groups; the brace text is a plain line followed by `<!-- braced to the four above -->`.
+- p234's table has a header row ("14 *Dhamma* | Position").
+- The charts' Pāli is printed without diacritics and abbreviated (Jvtdrya, Mnskra, Ekagta, S-vaca,
+  S-kmta, S-ajva, Kukkca, Maccrya, Vicikcha); kept as printed.
+
+Words marked ⟨?⟩: none.
+
+Printed slips kept as printed (not corrected): p232 "*Sati sambojjhaṁga* - faith that is a factor of
+enlightenment" ("faith" for mindfulness; comment added); p235 head "*Upādānakkhanda*" (no h) and
+"cetasikas" in roman in (4); p237 "‘*Dhatu*’" (no macron) in the first line, (6) "Rūpa" in roman,
+(7) "*Saddha dhātu*" (for *Sadda*), no space before the dash in (12), (14), (15); p238 "sati" in roman;
+p240 the "Bhavanga and its conditions" wheel has "Bhavanga Upaccheda" in its centre; p247 "Ottapa",
+"Kaya-mudita"/"Citta-mudita" (for -muduta), "Cittu-jukata".
+
+The site was not touched (`ocr/` is not published), so check_site was not needed for this push.
+
+Next: build Fundamental Abhidhamma Part II (pages 106–247 all in `ocr/fundamental-2/`) into the site.
+
 ## 2026-11-13 — Fundamental Abhidhamma Part II pp. 206–230 proofread
 
 Proofread PDF pages 206–230 of `ocr-sources/fundamental-2.pdf` (book pp. 101–125 of Part II: the end of
