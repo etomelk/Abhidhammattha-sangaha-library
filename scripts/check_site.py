@@ -47,7 +47,7 @@ def main():
     httpd, port = serve()
     base = f'http://127.0.0.1:{port}/'
     lib = json.load(open(os.path.join(ROOT, 'data', 'library.json'), encoding='utf-8'))
-    urls = [base, base + 'references/'] + [base + d + '/' for d in ('map',) if os.path.exists(os.path.join(ROOT, d, 'index.html'))]
+    urls = [base, base + 'references/'] + [base + d + '/' for d in ('map', 'charts') if os.path.exists(os.path.join(ROOT, d, 'index.html'))]
     for b in lib['books']:
         urls.append(base + b['slug'] + '/')
         data = json.load(open(os.path.join(ROOT, 'data', b['slug'] + '.json'), encoding='utf-8'))

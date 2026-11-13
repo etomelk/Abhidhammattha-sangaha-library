@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en" class="lib refpage">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Charts · {{TITLE}}</title>
+<meta name="description" content="{{NCHARTS}} charts of the Abhidhammatthasaṅgaha — consciousness, mental factors, the miscellaneous section, the cognitive process, the realms and matter — sharp at any zoom.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Figtree:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../shared/reader.css">
+<link rel="stylesheet" href="../shared/home.css">
+<style>
+.cgroup{margin:0 0 44px}
+.cgroup h2{font:400 26px/1.2 var(--serif);margin:0 0 6px}
+.charts{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px;margin-top:16px}
+.chart{border:1px solid var(--rule);border-radius:14px;background:var(--paper-2);overflow:hidden;display:flex;flex-direction:column;scroll-margin-top:80px}
+.cthumb{position:relative;display:flex;align-items:center;justify-content:center;height:210px;background:#fff;border-bottom:1px solid var(--rule);overflow:hidden}
+.cthumb img{max-width:100%;max-height:100%;object-fit:contain;transition:transform .2s}
+.cthumb:hover img{transform:scale(1.03)}
+.czoom{position:absolute;right:10px;bottom:10px;font:600 12px var(--ui);background:var(--accent);color:#fff;border-radius:999px;padding:4px 10px;opacity:.9}
+.cbody{padding:14px 16px 16px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.cbody h3{font:600 17px/1.3 var(--serif);margin:0}
+.cbody h3 a{color:var(--ink);text-decoration:none}
+.cbody h3 a:hover{color:var(--accent-ink)}
+.cby{margin:0;font:500 12.5px var(--ui);color:var(--ink-3)}
+.cnote{margin:0;font:14.5px/1.5 var(--serif);color:var(--ink-2)}
+.clinks{margin:4px 0 0;font:600 13px var(--ui)}
+.clinks a{color:var(--accent-ink)}
+.ctext summary{cursor:pointer;font:500 12.5px var(--ui);color:var(--ink-3);margin-top:4px}
+.ctext pre{font:11px/1.35 ui-monospace,Menlo,Consolas,monospace;white-space:pre;overflow:auto;max-height:280px;background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:8px;margin:6px 0 0}
+html[data-theme="dark"] .cthumb{background:#e9e6df}
+/* the viewer */
+.chv{position:fixed;inset:0;z-index:100;background:#1b1b1b;display:flex;flex-direction:column}
+.chv[hidden]{display:none}
+.chvbar{display:flex;align-items:center;gap:8px;padding:8px 10px;color:#eee;font:500 14px var(--ui);flex-wrap:wrap}
+.chvtitle{flex:1 1 200px;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.chvtitle small{color:#aaa;margin-left:8px}
+.chvbar button,.chvbar a{appearance:none;border:1px solid #555;background:#2a2a2a;color:#eee;border-radius:8px;min-width:36px;height:34px;padding:0 10px;font:600 14px var(--ui);cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center}
+.chvbar button:hover,.chvbar a:hover{background:#3a3a3a}
+.chvstage{position:relative;flex:1;overflow:hidden;touch-action:none;cursor:grab}
+.chvstage.drag{cursor:grabbing}
+.chvpage{position:absolute;left:0;top:0;transform-origin:0 0;background:#fff;box-shadow:0 6px 30px rgba(0,0,0,.5)}
+.chvpage img{display:block;width:100%;height:100%;user-select:none;-webkit-user-drag:none}
+.chvhint{position:absolute;left:50%;bottom:12px;transform:translateX(-50%);color:#bbb;font:12.5px var(--ui);background:rgba(0,0,0,.5);padding:4px 10px;border-radius:999px;pointer-events:none}
+@media (max-width:600px){.chvhint{display:none}.chvbar{gap:5px}.chvtitle{flex-basis:100%;font-size:13px}.chvtitle small{display:none}.chvbar button,.chvbar a{min-width:34px;height:34px;padding:0 8px;flex:1}}
+</style>
+</head>
+<body>
+<div class="topbar">
+  <a class="iconbtn libbtn" href="../" title="{{TITLE}}"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 2.5h3v11H2zM6.5 2.5h3v11h-3zM11 3.2l2.9-.8 2.6 10.6-2.9.8z" fill="currentColor"/></svg><span>Library</span></a>
+  <a class="brand" href="../">{{TITLE}}<small>Charts</small></a>
+  <nav class="topnav"><a href="../#books">Books</a><a href="../map/">Map</a><a href="./" aria-current="page">Charts</a><a href="../references/">References</a></nav>
+  <button class="iconbtn" id="themebtn" aria-label="Toggle theme" title="Toggle light / dark"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 1 0 13z" fill="currentColor"/></svg></button>
+</div>
+<main>
+  <div class="col">
+    <header class="hero small">
+      <a class="crumb" href="../">{{TITLE}}</a>
+      <p class="kicker">To see at a glance</p>
+      <h1>Charts</h1>
+      <p class="lede">The tables and diagrams of the Abhidhamma that students in Myanmar draw and learn by heart — the 89 and 121 types of consciousness, the 52 mental factors and their combinations, the miscellaneous section, the cognitive process, the realms and matter — in the order of the Saṅgaha’s chapters. Open a chart to see it full-screen: it stays sharp at any zoom.</p>
+      <ul class="stats"><li><b>{{NCHARTS}}</b><span>charts</span></li><li><b>{{NPAGES}}</b><span>pages</span></li></ul>
+    </header>
+    <nav class="mchips" aria-label="Chapters">{{CHIPS}}</nav>
+    {{SECTIONS}}
+    <footer class="source">
+      <p class="note">The charts are drawn by Aggañāṇī (© 2005, with the Centre for Buddhist Studies, Sagaing, for the course of <i>Fundamental Abhidhamma</i>; updated 2008) and by Dr. Rewata Dhamma (the realms and the eye-door process). Each is shown from its own PDF as a vector drawing, cropped to its printed area and unchanged; its words are given under it as text, and the PDF can be downloaded. In the viewer: scroll or pinch to zoom, drag to move, ← → for the next page or chart, ⟳ (or r) to turn a wide chart, Esc to close. On a phone held upright, wide charts are turned to fill the screen.</p>
+      <p class="rightsline">Offered freely as <i>Dhamma-dāna</i>, for study. All rights in these works belong to their authors, translators and publishers; this library claims none and cannot grant permission to reproduce them. <a href="../#rights">A note on rights</a></p>
+    </footer>
+  </div>
+</main>
+<div class="chv" id="chv" hidden role="dialog" aria-modal="true" aria-labelledby="chvtitle">
+  <div class="chvbar">
+    <span class="chvtitle" id="chvtitle"></span>
+    <button id="chvprev" title="Previous (←)" aria-label="Previous">‹</button>
+    <button id="chvnext" title="Next (→)" aria-label="Next">›</button>
+    <button id="chvout" title="Zoom out (−)" aria-label="Zoom out">−</button>
+    <button id="chvfit" title="Fit (0)">Fit</button>
+    <button id="chvrot" title="Turn the chart (r)" aria-label="Turn the chart">⟳</button>
+    <button id="chvin" title="Zoom in (+)" aria-label="Zoom in">+</button>
+    <a id="chvpdf" href="#" download title="Download the PDF">PDF</a>
+    <button id="chvclose" title="Close (Esc)" aria-label="Close">✕</button>
+  </div>
+  <div class="chvstage" id="chvstage"><div class="chvpage" id="chvpage"><img id="chvimg" alt=""></div><span class="chvhint">Scroll or pinch to zoom · drag to move · ← → next · r turns · Esc to close</span></div>
+</div>
+<script>
+(function(){
+  const root=document.documentElement;
+  try{const t=localStorage.getItem('pg-theme'); if(t) root.setAttribute('data-theme',t);}catch(e){}
+  document.getElementById('themebtn').addEventListener('click',()=>{
+    const dark = root.getAttribute('data-theme')==='dark' || (!root.getAttribute('data-theme') && matchMedia('(prefers-color-scheme: dark)').matches);
+    const next = dark?'light':'dark'; root.setAttribute('data-theme',next); try{localStorage.setItem('pg-theme',next);}catch(e){}
+  });
+
+  const DATA={{DATA}};
+  const seq=[]; DATA.forEach(c=>c.pages.forEach((p,i)=>seq.push({c,i,p})));
+  const $=id=>document.getElementById(id);
+  const chv=$('chv'), stage=$('chvstage'), page=$('chvpage'), img=$('chvimg');
+  let k=-1, s=1, x=0, y=0, rot=0, lastFocus=null;
+  function apply(){ const h=seq[k].p.h; page.style.transform=`translate(${x}px,${y}px) scale(${s})`+(rot?` translate(${h}px,0) rotate(90deg)`:''); }
+  function fit(){
+    const it=seq[k], W=stage.clientWidth, H=stage.clientHeight, m=16;
+    page.style.width=it.p.w+'px'; page.style.height=it.p.h+'px';
+    const w=rot?it.p.h:it.p.w, h=rot?it.p.w:it.p.h;
+    s=Math.min((W-2*m)/w,(H-2*m)/h);
+    x=(W-w*s)/2; y=(H-h*s)/2; apply();
+  }
+  function zoomAt(f,cx,cy){
+    const ns=Math.max(.1,Math.min(s*f,40));
+    x=cx-(cx-x)*ns/s; y=cy-(cy-y)*ns/s; s=ns; apply();
+  }
+  function show(n){
+    k=(n+seq.length)%seq.length; const it=seq[k];
+    img.src=it.p.src; img.alt=it.c.title;
+    $('chvtitle').innerHTML='';
+    $('chvtitle').append(it.c.title);
+    const sm=document.createElement('small'); sm.textContent=(it.c.pages.length>1?`page ${it.i+1} of ${it.c.pages.length} · `:'')+it.c.by; $('chvtitle').append(sm);
+    $('chvpdf').href='pdf/'+it.c.slug+'.pdf';
+    const h='#'+it.c.slug+(it.i?'-'+(it.i+1):'');
+    if(location.hash!==h) history.replaceState(null,'',h);
+    // a landscape chart on a portrait screen is turned to fill it (the ⟳ button turns it back)
+    rot=(it.p.w>it.p.h*1.15 && stage.clientHeight>stage.clientWidth*1.2)?90:0;
+    fit();
+  }
+  function open(slug,pg){
+    const n=seq.findIndex(t=>t.c.slug===slug&&t.i===(pg||0));
+    if(n<0) return;
+    lastFocus=document.activeElement; chv.hidden=false; document.body.style.overflow='hidden';
+    show(n); $('chvclose').focus();
+  }
+  function close(){
+    chv.hidden=true; document.body.style.overflow='';
+    const slug=seq[k].c.slug; history.replaceState(null,'','#'+slug);
+    const el=document.getElementById(slug); if(el) el.scrollIntoView({block:'center'});
+    if(lastFocus) lastFocus.focus();
+  }
+  document.querySelectorAll('[data-open]').forEach(a=>a.addEventListener('click',ev=>{ev.preventDefault(); open(a.dataset.open,0);}));
+  $('chvclose').onclick=close; $('chvfit').onclick=fit;
+  $('chvrot').onclick=()=>{ rot=rot?0:90; fit(); };
+  $('chvprev').onclick=()=>show(k-1); $('chvnext').onclick=()=>show(k+1);
+  $('chvin').onclick=()=>zoomAt(1.4,stage.clientWidth/2,stage.clientHeight/2);
+  $('chvout').onclick=()=>zoomAt(1/1.4,stage.clientWidth/2,stage.clientHeight/2);
+  addEventListener('keydown',ev=>{
+    if(chv.hidden) return;
+    if(ev.key==='Escape') close();
+    else if(ev.key==='ArrowRight') show(k+1);
+    else if(ev.key==='ArrowLeft') show(k-1);
+    else if(ev.key==='+'||ev.key==='=') $('chvin').click();
+    else if(ev.key==='-') $('chvout').click();
+    else if(ev.key==='0') fit();
+    else if(ev.key==='r') $('chvrot').click();
+  });
+  addEventListener('resize',()=>{ if(!chv.hidden) fit(); });
+  stage.addEventListener('wheel',ev=>{ev.preventDefault(); const r=stage.getBoundingClientRect(); zoomAt(Math.exp(-ev.deltaY*0.0015),ev.clientX-r.left,ev.clientY-r.top);},{passive:false});
+  // drag with one pointer, pinch with two
+  const pts=new Map(); let pinch=null;
+  stage.addEventListener('pointerdown',ev=>{stage.setPointerCapture(ev.pointerId); pts.set(ev.pointerId,{x:ev.clientX,y:ev.clientY}); stage.classList.add('drag');
+    if(pts.size===2){const [a,b]=[...pts.values()]; pinch={d:Math.hypot(a.x-b.x,a.y-b.y)};}});
+  stage.addEventListener('pointermove',ev=>{
+    if(!pts.has(ev.pointerId)) return;
+    const prev=pts.get(ev.pointerId); const cur={x:ev.clientX,y:ev.clientY}; pts.set(ev.pointerId,cur);
+    if(pts.size===2&&pinch){const [a,b]=[...pts.values()]; const d=Math.hypot(a.x-b.x,a.y-b.y); const r=stage.getBoundingClientRect();
+      zoomAt(d/pinch.d,(a.x+b.x)/2-r.left,(a.y+b.y)/2-r.top); pinch.d=d;}
+    else if(pts.size===1){x+=cur.x-prev.x; y+=cur.y-prev.y; apply();}
+  });
+  const up=ev=>{pts.delete(ev.pointerId); if(pts.size<2) pinch=null; if(!pts.size) stage.classList.remove('drag');};
+  stage.addEventListener('pointerup',up); stage.addEventListener('pointercancel',up);
+  stage.addEventListener('dblclick',ev=>{const r=stage.getBoundingClientRect(); zoomAt(2,ev.clientX-r.left,ev.clientY-r.top);});
+  // an address such as #rupa_pali or #material_phenomena-3 opens the chart
+  function fromHash(){ const m=location.hash.slice(1).match(/^(.+?)(?:-(\d+))?$/); if(m&&DATA.some(c=>c.slug===m[1])) open(m[1],m[2]?+m[2]-1:0); }
+  if(location.hash) fromHash();
+})();
+</script>
+</body>
+</html>

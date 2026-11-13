@@ -39,6 +39,7 @@ github.com/VipassanaTech/tipitaka-xml, `romn/`). The order of the books and the 
 index.html              library home: the shelves, About this library, A note on rights
 <slug>/                 one split reader per book: index.html + c/<part>.html, ids.json, search.json
 map/index.html          the Saṅgaha map (scripts/build_map.py)
+charts/                 the charts: index.html, svg/, thumb/, pdf/ (scripts/build_charts.py, scripts/charts.html)
 references/index.html   the reference list (built from data/references.json)
 shared/                 reader.css, reader.js, home.css: shared by every page
 data/library.json       the books and their reader settings, in shelf order
@@ -295,6 +296,28 @@ python3 scripts/tinmon/convert.py work/guide.txt guide && python3 scripts/build.
 - It is a guide to the canonical books, not to the Saṅgaha, so it sits on a shelf of its own and is
   not on the Saṅgaha map.
 
+## The charts (charts/)
+
+Seventeen charts (23 pages) from the course of *Fundamental Abhidhamma* and its teachers: Aggañāṇī
+(© 2005, with the Centre for Buddhist Studies, Sagaing; updated 2008) and Dr. Rewata Dhamma (the 31
+realms, the eye-door process). The PDFs are in `sources/charts/`; `python3 scripts/build_charts.py`
+writes the page.
+
+- **Vector, not pictures.** Every page is converted to SVG with `pdftocairo -svg` (the text becomes
+  outlines, the colours and lines are kept), and its viewBox is cropped to the printed area (found
+  from a 72-dpi render, 1 px = 1 pt), so the chart fills the viewer and stays sharp at any zoom. A
+  small PNG of the first page is the card's thumbnail; the original PDF can be downloaded.
+- **The text** of each page (`pdftotext -layout`) is kept under its card ("Text of this chart"), so
+  that the charts can be found with the browser's search and read by a screen reader.
+- **The viewer** opens a chart full-screen: fitted to the screen; zoom with the wheel, + and −, the
+  buttons, a double click or two fingers; drag to move; ← → through the pages and the charts; ⟳ or r
+  turns a wide chart, and on a phone held upright a wide chart is turned to fill the screen; Esc closes.
+  Every chart page has an address (`charts/#rupa_pali`, `#material_phenomena-3`).
+- **Grouped by the Saṅgaha's chapters** (`CHARTS` in build_charts.py): the four realities; I the 89/121
+  cittas; II the 52 cetasikas, their combination with the cittas, the aggregate of feeling; III feeling,
+  roots, functions, doors, objects, bases; IV the eye-door process; V the 31 realms; VI the 28 rūpas.
+  The Saṅgaha map lists each chapter's charts.
+
 ## Changes to the shared reader
 
 - `scripts/build.py`: a numbered paragraph does not hang an opening “(1)” in the margin, which holds its
@@ -309,4 +332,4 @@ python3 scripts/tinmon/convert.py work/guide.txt guide && python3 scripts/build.
 
 ## Checks
 
-`python3 scripts/check_site.py`: 114 pages × 3 widths, no problems (November 2026).
+`python3 scripts/check_site.py`: 115 pages × 3 widths, no problems (November 2026).

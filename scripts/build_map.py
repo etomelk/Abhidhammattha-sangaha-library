@@ -2,6 +2,7 @@
 with its opening words and the place of that paragraph in every book of the library that is keyed to it;
 the books keyed by their own numbers (the Paramatthadīpanī, the Anudīpanī) are linked chapter by chapter."""
 import html
+import sys
 import json
 import os
 import re
@@ -34,6 +35,11 @@ for b in lib['books']:
             inv.setdefault(v, (int(k), lab.get(int(k), k)))
         tied.append((b, inv))
 bychapter = [b for b in bychapter if not any(b is t for t, _ in tied)]
+sys.path.insert(0, HERE)
+from build_charts import CHARTS
+charts_of = {}
+for g, title, slug, by, note in CHARTS:
+    charts_of.setdefault(int(g), []).append((title, slug))
 part_of = {b['slug']: {c.get('sangaha_ch'): c['num'] for c in data[b['slug']]['chapters'] if c.get('sangaha_ch')} for b in bychapter}
 sections, chips = [], []
 nplaces = 0
@@ -61,8 +67,10 @@ for ch in sorted(groups):
                    f'<ul class="cplaces">{"".join(rows)}</ul></div></li>')
     whole = ' · '.join(f'<a href="../{b["slug"]}/#ch{part_of[b["slug"]][ch]}">{e(b["cite"])}</a>' for b in bychapter if ch in part_of[b['slug']])
     gid = f'c{ch}'
+    charts = ' · '.join(f'<a href="../charts/#{s}">{e(t)}</a>' for t, s in charts_of.get(ch, []))
     sections.append(f'<section class="mgroup" id="{gid}"><h2>{e(CHTITLE.get(ch, "Chapter " + ROMAN[ch]))} <span class="mrng">{ROMAN[ch]}.1–{groups[ch][-1]["label"]}</span></h2>'
-                    + (f'<p class="mgloss">The whole chapter in {whole}.</p>' if whole else '') + f'<ol class="mlist">{"".join(lis)}</ol></section>')
+                    + (f'<p class="mgloss">The whole chapter in {whole}.</p>' if whole else '')
+                    + (f'<p class="mgloss">Charts: {charts}.</p>' if charts else '') + f'<ol class="mlist">{"".join(lis)}</ol></section>')
     chips.append(f'<a class="mchip" href="#{gid}">{ROMAN[ch]}</a>')
 nitems = sum(len(v) for v in groups.values())
 
@@ -81,7 +89,7 @@ page = f'''<!doctype html>
 <div class="topbar">
   <a class="iconbtn libbtn" href="../" title="{e(lib["title"])}"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 2.5h3v11H2zM6.5 2.5h3v11h-3zM11 3.2l2.9-.8 2.6 10.6-2.9.8z" fill="currentColor"/></svg><span>Library</span></a>
   <a class="brand" href="../">{e(lib["title"])}<small>Saṅgaha map</small></a>
-  <nav class="topnav"><a href="../#books">Books</a><a href="./" aria-current="page">Map</a><a href="../references/">References</a></nav>
+  <nav class="topnav"><a href="../#books">Books</a><a href="./" aria-current="page">Map</a><a href="../charts/">Charts</a><a href="../references/">References</a></nav>
   <button class="iconbtn" id="themebtn" aria-label="Toggle theme" title="Toggle light / dark"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.5a6.5 6.5 0 0 1 0 13z" fill="currentColor"/></svg></button>
 </div>
 <main>
