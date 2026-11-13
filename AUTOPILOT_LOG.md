@@ -2,6 +2,43 @@
 
 Newest first. See AUTOPILOT.md for the standing instructions.
 
+## 2026-11-13 — Fundamental Abhidhamma Part II pp. 131–155 proofread
+
+Proofread PDF pages 131–155 of `ocr-sources/fundamental-2.pdf` (book pp. 26–50 of Part II: the end of
+Chapter 5 — *Arahatta Phalaṭṭha*, *Tihetuka* in other planes, the tables of being/plane/*vīthicitta* —
+and Chapter 6 *Vīthimutta*: the *Bhūmi* section, the *Paṭisandhi* section, the *Kamma* section, the
+conditions of death and the death-and-rebirth processes up to the eye-door and mind-door diagrams)
+into `ocr/fundamental-2/p131.md`–`p155.md`. As before, tesseract (300 dpi) for the English and the page
+image for every word of Pāli and every table.
+
+Conventions added this run (the converter should follow them):
+- p132 ends Chapter 5 with "**The end of Chapter 5**" and a short dashed rule (kept as an HTML comment).
+- p133 opens `## CHAPTER 6` / `## *VĪTHIMUTTA*: PASSIVE MENTAL PROCESS`; the section heads
+  "(1) *BHŪMI* SECTION", "(2) *Paṭisandhi* Section", "(3) *KAMMA* SECTION" are `###` as printed (the
+  book sets the first and third in small capitals).
+- Left-set bold sub-heads that are not centred ("**3 *Kāya kamma***", "**1st *Jhāna* planes (3)**",
+  "**(1) *Kāmāvacara kusala kamma***") are bold lines, not `###`.
+- Lists set as "*Term* - gloss" in two columns are written as Markdown lists in one line each.
+- Two small sums with an underlined last figure (p143, p146) are fenced blocks with a ‾ line and a note.
+- Tables with a header spanning two columns (p137, p140) have the header in the first of the two and
+  an HTML-comment note; merged cells are left blank in the following rows (p132, p147, with a note).
+- p155: the death/rebirth process lines with J¹… as Unicode superscripts, as in Chapter 5.
+
+Words marked ⟨?⟩: none.
+
+Printed slips kept as printed (not corrected): p135 "*Viññāṇñcāyatana*" (an "a" missing; checked zoomed);
+p137 table header "12 Indidivuals"; p140 the 3rd *arūpa vipāka* is said to be the *paṭisandhi* of the
+"*ākāsānañcāyatana* plane" (the sense wants *ākiñcaññāyatana* — printed so, checked zoomed); p142 item 1
+has no closing parenthesis; p147 the first "*patisandhi*" has no dot under the t (checked zoomed);
+p148 "*parittāsubhā*"/"*appamāṇāsubhā*" (long ā, against p135 "*Parittasubhā*"/"*Appamāṇasubhā*");
+p149 "*Upathambhaka*" in the list but p150 "*Upatthambhaka*"; p150 "*āsana kamma*" (one n);
+p133 "*kāmasugati*" lower-case at the start of a sentence; p136 items 2–4 have "hetu", "paṭisandhi",
+"hetus" in roman type.
+
+The site was not touched (`ocr/` is not published), so check_site was not needed for this push.
+
+Next: Fundamental Abhidhamma Part II, PDF page 156 (92 pages left, 156–247).
+
 ## 2026-11-13 — Fundamental Abhidhamma Part II pp. 106–130 proofread
 
 Proofread PDF pages 106–130 of `ocr-sources/fundamental-2.pdf` (the Part II title page and book pp. 2–25
