@@ -2,6 +2,57 @@
 
 Newest first. See AUTOPILOT.md for the standing instructions.
 
+## 2026-11-13 — Fundamental Abhidhamma Part II pp. 206–230 proofread
+
+Proofread PDF pages 206–230 of `ocr-sources/fundamental-2.pdf` (book pp. 101–125 of Part II: the end of
+Chapter 8 — Attainment of Path and Fruition with its process figure, Reviewing Knowledge, Analysis of
+Emancipation, of Individuals and of Attainment (*Nirodha-samāpatti*), "The End of Chapter 8" — and
+Chapter 9 *Samuccayasaṅgaha* from its opening through 1. *Akusalasaṅgaha* (the 9 categories, their
+tables), 2. *Missaka saṁgaha* (*Hetu*, *Jhānaṁga*, *Maggaṁga*, 22 *Indriyas*, *Bala*, *Adhipati*,
+*Āhāra*, the Special note, "*Dhamma* and Categories" and its table) and 3. *Bodhipakkhiya Saṁgaha* up to
+*Satipaṭṭhāna*) into `ocr/fundamental-2/p206.md`–`p230.md`. Tesseract (300 dpi) for the English, the
+page image for every word of Pāli and every table.
+
+Note for the build: the book goes on past Chapter 8 — p211 opens a **Chapter 9** (`## CHAPTER 9`,
+`## SAMUCCAYASAṄGAHA`, `## Compendium of Category`: three `##` lines to join into one title, as for
+Chapters 7 and 8). Its `sangaha_ch` is 7 (the Saṅgaha's own chapter 7 is the Samuccaya), as Chapter 8
+here follows the Saṅgaha's chapter 9 — the converter should map by content, not by number.
+
+Conventions added this run (the converter should follow them):
+- p206 and p207: the process rows are fenced blocks (as p114); p206's figure (circled S and N with
+  arrows) is drawn in the block, with a figure comment.
+- p210 ends Chapter 8 with "**The End of Chapter 8**" and a rule comment; the rest of the page is blank.
+- Centred heads (bold or bold italic: "4 Compendiums", "1. *Akusalasaṅgaha*", "*Āsava*", "6 *Hetu*"…)
+  are `###`; left-set bold heads ("**Reviewing Knowledge**", "**Special note**", "**Categories**") are
+  bold lines; left-set bold italic run-in heads are written as on earlier pages.
+- Two-column "*Term* - gloss" lists are one item per line, the column wraps joined (p216
+  "*Sīlabbataparāmā*/*sa*" joined to *Sīlabbataparāmāsa*).
+- Tables without a header row (p211, p214, p221, p225) have an empty header `| | |` (as p107);
+  "altogether" rows are plain rows with a note that the sum is boxed.
+- p220: the 14 × 9 table of *akusala cetasikas* marks cells with asterisks, written escaped `\*` —
+  the converter must unescape them. p229's table marks cells with `/`, as printed.
+- The book writes *saṁgaha*/*Saṁgha*/*-aṁga* with ṁ (m with dot above) in this chapter and
+  *saṅgaha* in others; kept as printed page by page.
+
+Words marked ⟨?⟩: none.
+
+Printed slips kept as printed (not corrected): p207 "the contemplation of soul" (for non-soul) and
+‘The contemplation of signlessness” (single opening quote); p208 "(appaṇihita)" in roman, "*vīcikicchā*"
+(long ī, so throughout this chapter), heading "*Sakadāgāmi*" but text "*Sakadāgāmī*"; p209 "*Arūppa*"
+and p210 "*Anāgāmi*"; p212 "*Nīvaraṇa*" (long ī, so throughout), "*Thina*" (no macron); p213 "*Bhavogha*
+-Craving" (no space); p215 "*Sīlabbatupāda*" (for -*upādāna*), "*Byāpada*" in the list but "*Byāpāda*"
+in the text; p216 "-Doubt", "-Ignorance" (no space); p218 "*Kilesa* mean", "*Upādana*" (short a);
+p219 "*Kileasa*" and "*Ahirika* and *Anottappa* belong to 1, as *Saṁyojana*" (the table on p220 puts
+them under *Kilesa*); p220 "*Ahīrika*" (long ī) in the table, list items (3)–(7) in roman; p224
+"*Jīvindriya*" for the tongue faculty (for *Jivhindriya*; checked zoomed); p226 "sati" in roman,
+"(*paṭisandh*i)" with a roman i; p227 "*Kabalīkāra*" (l, not ḷ); p228 "*Vīcāra*" (long ī), "Āhāra" in
+roman; p229 the table heads "*Jhānañga*", "*Maggañga*" (ñ for ṅ; checked zoomed) and the "3 *Viratī*"
+row marked under *Jhānañga* (p228 says *Maggaṁga*), noted in a comment.
+
+The site was not touched (`ocr/` is not published), so check_site was not needed for this push.
+
+Next: Fundamental Abhidhamma Part II, PDF page 231 (17 pages left, 231–247).
+
 ## 2026-11-13 — Fundamental Abhidhamma Part II pp. 181–205 proofread
 
 Proofread PDF pages 181–205 of `ocr-sources/fundamental-2.pdf` (book pp. 76–100 of Part II: the rest of
