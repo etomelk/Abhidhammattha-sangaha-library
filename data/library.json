@@ -129,6 +129,44 @@
    "goto_max": 0
   },
   {
+   "slug": "lakkhana",
+   "title": "Characteristic, Function, Manifestation & Proximate Cause",
+   "short": "Lakkhaṇa-rasa-paccupaṭṭhāna-padaṭṭhāna",
+   "author": "(compiler not named)",
+   "cite": "Lakkhaṇādi",
+   "level": "Reference tables",
+   "edition": "Study notes, PDF 2018",
+   "by": "Lakkhaṇa-rasa-paccupaṭṭhāna-padaṭṭhāna · study notes from the commentaries (DhsA, Vism); the compiler is not named",
+   "blurb": "Every ultimate reality defined by its four devices — characteristic, function, manifestation and proximate cause — in English with the Pāli of the commentaries beside it: the 28 rūpas, the types of consciousness, feeling, perception and the 52 cetasikas.",
+   "note": "The whole document, one aggregate per page: matter (28), consciousness, feeling, perception and formations (the cetasikas, by their groups). Each reality is a small table: its characteristic, function, manifestation and proximate cause, the English beside the commentaries’ Pāli, with the references (DhsA, Vs.) under it.",
+   "brand_sub": "Four defining devices",
+   "toc_foot": "The five aggregates, each reality with its four defining devices.",
+   "source": "Source: <em>Characteristic, Function, Manifestation & Proximate Cause (lakkhaṇa-rasa-paccupaṭṭhāna-padaṭṭhāna)</em>, 22 pages, PDF from Word (Mac, 2018); the compiler is not named. Taken from its text layer: the Pāli is set in the old Mac font “Norman”, whose letters are turned into the Pāli ones (å ā, ˆ ṇ, Ë ū, ¥ ī, ∫ ṅ, ¬ ḷ, ∂ ḍ, ◊ ṃ; its ṭ, which the text layer gives as a space, is put back by the Pāli words of the Sixth Council texts). The English is as printed, without diacritics where the document has none.",
+   "desc": "The four defining devices of every ultimate reality — characteristic, function, manifestation, proximate cause — in English and Pāli.",
+   "howto": [
+    [
+     "Find anything",
+     "Type in Search (or press <kbd>/</kbd>). Accents are optional: <i>rupa</i> finds <i>rūpa</i>."
+    ]
+   ],
+   "unit": "Part",
+   "cid": "ch",
+   "sign": "§",
+   "margin_sign": "",
+   "xrefs": false,
+   "footnotes": false,
+   "split": true,
+   "inline_markup": false,
+   "drawer_btn": "Notes",
+   "drawer_title": "Pāli terms",
+   "drawer_hint": "This document has no index of its own.",
+   "anchor": "^(ch\\d+.*)$",
+   "goto": "",
+   "goto_label": "",
+   "goto_aria": "",
+   "goto_max": 0
+  },
+  {
    "slug": "fundamental",
    "title": "Fundamental Abhidhamma, Part I",
    "short": "Fundamental Abhidhamma, Part I",

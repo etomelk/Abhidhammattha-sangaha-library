@@ -22,6 +22,7 @@ Science*. and *Fundamental Abhidhamma* Part I. Part II needs OCR and waits.
 | | `tinmon/` | Dr. Mehm Tin Mon, *Buddha Abhidhamma: Ultimate Science* (BuddhaNet) | PDF text layer, old Pāli font mapped |
 | | `handbook/` | Sayādaw U Sīlānanda, *Handbook of Abhidhamma Studies*, Vols. I–II (SBVMS 2012) | PDF text layer |
 | | `practical/` | *Practical Abhidhamma Course*, v1.1 (2016), by “Rob” | PDF (LuaTeX) read with PyMuPDF; figures as images |
+| | `lakkhana/` | *Characteristic, Function, Manifestation & Proximate Cause* (compiler not named, 2018) | PDF text layer, Mac “Norman” font mapped |
 | 2. The Saṅgaha in Pāli | `sangaha/` | Abhidhammatthasaṅgaho, Sixth Council edition | VRI tipitaka-xml `abh07t.nrf.xml`, first book |
 | 4. The commentaries | `vibhavini/` | Abhidhammatthavibhāvinīṭīkā (Sumaṅgala) | VRI `abh07t.nrf.xml`, second book |
 | | `paramattha/` | Paramatthadīpanī, the Saṅgaha-mahāṭīkā (Ledi Sayadaw) | VRI `e0301n.nrf.xml` |
@@ -295,6 +296,28 @@ python3 scripts/tinmon/convert.py work/guide.txt guide && python3 scripts/build.
   centred lines in capitals inside them (“CHAPTER XIV”, “THE 24 CONDITIONS”) are headings.
 - It is a guide to the canonical books, not to the Saṅgaha, so it sits on a shelf of its own and is
   not on the Saṅgaha map.
+
+## Characteristic, Function, Manifestation & Proximate Cause (lakkhana/)
+
+*Characteristic, Function, Manifestation & Proximate Cause (lakkhaṇa-rasa-paccupaṭṭhāna-padaṭṭhāna)*,
+22 pages, PDF from Word (Mac, 2018); the compiler is not named. Each ultimate reality — the 28 kinds of
+matter, the types of consciousness, feeling, perception and the cetasikas by their groups — with its
+four defining devices in English and the Pāli of the commentaries (DhsA, Vism).
+
+```sh
+python3 scripts/lakkhana/convert.py sources/lakkhana.pdf && python3 scripts/build.py lakkhana
+```
+
+- Read from `pdftotext -layout` (the PDF draws its diacritics and some words twice as separate pieces,
+  so its spans are not usable); each line is split at the gap before the Pāli column (column 60 on).
+- The Pāli font "Norman": å ā, ˆ ṇ, Ë ū, ¥ ī, ∫ ṅ, ¬ ḷ, ∂ ḍ, ◊ ṃ; its ṭ is a no-break space, which the
+  text layer gives as a plain space (*paccupa håna*): a space between two Pāli letters in the Pāli column
+  is put back as ṭṭ or ṭ, whichever gives a word of the Sixth Council texts (ṭṭ before h otherwise).
+- Each reality is a heading and a table (Characteristic, Function, Manifestation, Proximate cause ×
+  English, Pāli), its references under it; the groups of cetasikas ("The Universals - 7") are
+  sub-headings; the notes on abbreviations at the feet of the pages are gathered at the end.
+- In item (1) the document sets the Pāli in two lines (the device's name above, the compound below,
+  *sampaṭicchana-paccupa…*); it is kept as it reads.
 
 ## The charts (charts/)
 

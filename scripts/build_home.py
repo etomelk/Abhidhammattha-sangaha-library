@@ -10,7 +10,7 @@ e = lambda s: html.escape(s, quote=False)
 
 # ---- books, on shelves: the text, then its commentaries (the translations to come)
 SHELVES = [
-    ('Start here: study guides', 'Courses on the nine chapters of the Saṅgaha by teachers from Myanmar, with tables and reviews.', ('fundamental', 'tinmon', 'handbook', 'practical')),
+    ('Start here: study guides', 'Courses on the nine chapters of the Saṅgaha by teachers from Myanmar, with tables and reviews.', ('fundamental', 'tinmon', 'handbook', 'practical', 'lakkhana')),
     ('The Saṅgaha in Pāli', 'Ācariya Anuruddha’s text in the Sixth Council edition, whose paragraph numbers are the map of the library.', ('sangaha',)),
     ('The Saṅgaha in English', 'Translations with notes, section by section, linked to the Pāli.', ('narada',)),
     ('The commentaries', 'Sumaṅgala’s Vibhāvinī, keyed to the Saṅgaha paragraph by paragraph, and Ledi Sayadaw’s Paramatthadīpanī with his Anudīpanī on it.', ('vibhavini', 'paramattha', 'anudipani')),
