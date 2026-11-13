@@ -11,18 +11,19 @@ the build scripts and the checks were copied from it and adapted, not linked, an
 changes that site.
 
 **Status: in progress** (November 2026). The Pāli shelf is done (the Saṅgaha and three
-commentaries), and Nārada's Manual (without Chapter VIII, missing from the copy). More English
-translations and the study guides are next.
+commentaries), and Nārada's Manual (without Chapter VIII, missing from the copy), and Mehm Tin Mon's *Ultimate
+Science*. Next: *Fundamental Abhidhamma* Part I; Part II needs OCR and waits.
 
 ## The books
 
 | Shelf | Folder | Book | Source of the text |
 |---|---|---|---|
-| 1. The Saṅgaha in Pāli | `sangaha/` | Abhidhammatthasaṅgaho, Sixth Council edition | VRI tipitaka-xml `abh07t.nrf.xml`, first book |
-| 3. The commentaries | `vibhavini/` | Abhidhammatthavibhāvinīṭīkā (Sumaṅgala) | VRI `abh07t.nrf.xml`, second book |
+| 1. Start here: study guides | `tinmon/` | Dr. Mehm Tin Mon, *Buddha Abhidhamma: Ultimate Science* (BuddhaNet) | PDF text layer, old Pāli font mapped |
+| 2. The Saṅgaha in Pāli | `sangaha/` | Abhidhammatthasaṅgaho, Sixth Council edition | VRI tipitaka-xml `abh07t.nrf.xml`, first book |
+| 4. The commentaries | `vibhavini/` | Abhidhammatthavibhāvinīṭīkā (Sumaṅgala) | VRI `abh07t.nrf.xml`, second book |
 | | `paramattha/` | Paramatthadīpanī, the Saṅgaha-mahāṭīkā (Ledi Sayadaw) | VRI `e0301n.nrf.xml` |
 | | `anudipani/` | Anudīpanī (Ledi Sayadaw) | VRI `e0401n.nrf.xml` |
-| 2. The Saṅgaha in English | `narada/` | Nārada Thera, *A Manual of Abhidhamma* (Vājirārāma; Preface 1978) | palikanon.com web edition, PDF (Word) |
+| 3. The Saṅgaha in English | `narada/` | Nārada Thera, *A Manual of Abhidhamma* (Vājirārāma; Preface 1978) | palikanon.com web edition, PDF (Word) |
 | To come | | Bhikkhu Bodhi (Gen. Ed.), *A Comprehensive Manual of Abhidhamma* (BPS 1993) | PDF |
 | | | Shwe Zan Aung & C. A. F. Rhys Davids, *Compendium of Philosophy* (PTS 1910) | scan |
 
@@ -144,6 +145,35 @@ Chapter VII straight to Chapter IX. A complete copy is wanted.
 - A short line standing alone is a heading when it is in English or in brackets; a line of Pāli verse
   standing alone stays text. A list number standing alone joins the line after it.
 
+## Dr. Mehm Tin Mon — Buddha Abhidhamma: Ultimate Science (tinmon/)
+
+*Buddha Abhidhamma: Ultimate Science* by Dr. Mehm Tin Mon (Buddha Dharma Education Association,
+BuddhaNet), from the PDF (PageMaker, 2003; 448 pages), taken from its text layer.
+
+```sh
+pdftotext -layout Buddha-Abhidhamma-Ultimate-Science.pdf work/tinmon.txt
+python3 scripts/tinmon/convert.py work/tinmon.txt && python3 scripts/build.py tinmon
+```
+
+- **The font.** The PDF is set in an old Pāli font that puts accented Latin letters where the Pāli
+  ones belong. `FONT` turns them back: à ā, ã ī, å ū, ¤ ñ, ñ ṭ, õ ṇ, ü ṃ, ï ṅ, ë ḷ, ó ṭ, ò Ṭ,
+  â/À/Ã Ā, ä Ī, æ Ū, ö Ṇ, ¥ Ñ. The map was read from the words (*pañisandhi* = *paṭisandhi*,
+  *bhavaïga* = *bhavaṅga*, *KAMMAòòHâNA* = *KAMMAṬṬHĀNA*) and the chapter titles were checked against
+  the page images. The script reports any old-font letter left (none).
+- **Parts:** the Preface and Introduction, the nine chapters (the Saṅgaha's own, each marked
+  `sangaha_ch` and listed on the map), and the Conclusion with About the Author. Chapter 5 keeps its
+  printed title, *VĪTHIMUT or BHŪMI*.
+- **Paragraphs** from the layout: a first-line indent starts a paragraph; an indented numbered line
+  is a list item; a line with a gap of three spaces or more inside it is a table row, kept with its
+  columns (`pre`); page numbers are dropped and paragraphs run on over page breaks; a drop capital
+  is joined to its word.
+- **Headings** are the section titles of the book's own contents (matched letter for letter, with
+  or without their number, "1 Four Āsavas …"), and other short Title-Case lines after the end of a
+  paragraph; a bracketed line under a heading is a sub-heading.
+- **Line-end hyphens:** kept where the book writes the same word with the hyphen inside a line
+  (*sense-sphere*, *Lobha-mūla*), joined otherwise.
+- **Not in the PDF:** the charts the book refers to as "attached at the back" (Charts 1–10).
+
 ## Changes to the shared reader
 
 - `scripts/build.py`: `pnum_span` shows a block's `label` and its `alias` anchors when it has them;
@@ -157,4 +187,4 @@ Chapter VII straight to Chapter IX. A complete copy is wanted.
 
 ## Checks
 
-`python3 scripts/check_site.py`: 60 pages × 3 widths, no problems (November 2026).
+`python3 scripts/check_site.py`: 72 pages × 3 widths, no problems (November 2026).

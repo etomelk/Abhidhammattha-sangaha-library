@@ -3,6 +3,48 @@
  "tagline": "Ācariya Anuruddha’s manual of the Abhidhamma — its Pāli text, its commentaries and its translations — one chapter per page, with the Saṅgaha’s own paragraphs as a common map between the books.",
  "books": [
   {
+   "slug": "tinmon",
+   "title": "Buddha Abhidhamma: Ultimate Science",
+   "short": "Buddha Abhidhamma — Ultimate Science",
+   "author": "Dr. Mehm Tin Mon",
+   "cite": "Tin Mon",
+   "level": "Study guide",
+   "edition": "Buddha Dharma Education Association (BuddhaNet), PDF 2003",
+   "by": "Dr. Mehm Tin Mon, Saddhamma Jotikadhaja · Buddha Dharma Education Association Inc. (BuddhaNet)",
+   "blurb": "A whole course on the Saṅgaha by a Myanmar Abhidhamma teacher: the nine chapters explained with tables, symbols and reviews, from the 89 cittas to the stages of insight.",
+   "note": "The whole book, one chapter per page: the Preface and Introduction, the nine chapters, which are the Saṅgaha’s own (each linked to the same chapter in the other books on the Saṅgaha map), and the Conclusion. The book’s tables are kept with their columns. The charts it refers to as “attached at the back” (Charts 1–10) are not in this PDF.",
+   "brand_sub": "Tin Mon · Ultimate Science",
+   "toc_foot": "The nine chapters of the Saṅgaha, with the Preface and the Conclusion.",
+   "source": "Source: Dr. Mehm Tin Mon, <em>Buddha Abhidhamma: Ultimate Science</em>, Buddha Dharma Education Association Inc. (BuddhaNet), from the PDF (PageMaker, 2003), taken from its text layer. The PDF is set in an old Pāli font that puts accented letters for the Pāli ones (à for ā, ñ for ṭ, ü for ṃ …); these are turned into the Pāli letters throughout. Line-end hyphens are joined. The charts at the back of the printed book are not in the PDF.",
+   "desc": "Dr. Mehm Tin Mon’s Buddha Abhidhamma: Ultimate Science, a course on the nine chapters of the Abhidhammatthasaṅgaha.",
+   "howto": [
+    [
+     "Find anything",
+     "Type in Search (or press <kbd>/</kbd>). Accents are optional: <i>rupa</i> finds <i>rūpa</i>."
+    ],
+    [
+     "Between the books",
+     "The <a href=\"../map/\">Saṅgaha map</a> links each chapter here to the same chapter in the Pāli, the commentaries and Nārada."
+    ]
+   ],
+   "unit": "Chapter",
+   "cid": "ch",
+   "sign": "§",
+   "margin_sign": "",
+   "xrefs": false,
+   "footnotes": false,
+   "split": true,
+   "inline_markup": false,
+   "drawer_btn": "Notes",
+   "drawer_title": "Pāli terms",
+   "drawer_hint": "This book has no index of its own.",
+   "anchor": "^(ch\\d+.*)$",
+   "goto": "",
+   "goto_label": "",
+   "goto_aria": "",
+   "goto_max": 0
+  },
+  {
    "unit": "Chapter",
    "cid": "ch",
    "sign": "§",
