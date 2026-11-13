@@ -1,6 +1,6 @@
 {
   "status": "running",
-  "lock": "2026-11-13T03:52:24Z",
+  "lock": null,
   "queue": [
     "mendis",
     "fundamental-2",
@@ -9,7 +9,7 @@
   ],
   "current": "mendis",
   "next_page": {
-    "mendis": 1,
+    "mendis": 26,
     "fundamental-2": 106,
     "shwezanaung": 1,
     "cma": 1
