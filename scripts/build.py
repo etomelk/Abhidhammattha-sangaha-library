@@ -1072,7 +1072,7 @@ def render_block(b):
     for piece in (split_enum(raw) if not (ITALICS or PALI_TEXT) else [raw]):
         h, grids = enrich(piece, linkify)
         h = gt_formulas(h)
-        h, extra = lead_label(h)
+        h, extra = lead_label(h) if pn is None else (h, [])      # a numbered paragraph's margin holds its number and chips
         if ITALICS and not examples:
             h = re.sub(r'^(Notes?):\s+', lambda m: f'<b class="lead">{m.group(1)}</b> ', h)
         if b.get('pali'):

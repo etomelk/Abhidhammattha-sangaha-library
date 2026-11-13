@@ -11,7 +11,7 @@ the build scripts and the checks were copied from it and adapted, not linked, an
 changes that site.
 
 **Status: in progress** (November 2026). The Pāli shelf is done (the Saṅgaha and three
-commentaries), and Nārada's Manual (without Chapter VIII, missing from the copy), and Mehm Tin Mon's *Ultimate
+commentaries), and Nārada's Manual (Chapter VIII transcribed from the 1956–57 edition), and Mehm Tin Mon's *Ultimate
 Science*. and *Fundamental Abhidhamma* Part I. Part II needs OCR and waits.
 
 ## The books
@@ -130,13 +130,36 @@ python3 scripts/narada/convert.py work/narada.txt      # data/narada.json and da
 python3 scripts/build.py narada && python3 scripts/build_map.py
 ```
 
-**Chapter VIII (Paccaya) is missing from this copy**: the contents list it, but the text runs from
-Chapter VII straight to Chapter IX. A complete copy is wanted.
+**Chapter VIII (Paccaya)** is missing from this copy (the contents list it, but the text runs from
+Chapter VII straight to Chapter IX). It is transcribed for this library from the first edition — *A
+Manual of Abhidhamma*, Vols. I–II, Vājirārāma 1956–57, reprinted by the Buddha Sāsana Council,
+Kaba-Aye, Rangoon, 1970 (a scan without text, 471 pages) — PDF pages 374–405, printed pp. 73–103:
+
+```sh
+pdftoppm -f 374 -l 405 -r 300 -gray -png Manual-Vol-I-II.pdf work/n8/pg      # the page images
+for f in work/n8/pg-*.png; do tesseract $f ${f%.png} -l eng --psm 6; done      # OCR drafts
+python3 scripts/narada/restore.py work/n8/pg-*.txt                            # drafts with the Pāli diacritics put back
+#   … each page read against its image and written into scripts/narada/ch8/*.md …
+```
+
+- `restore.py` puts the diacritics back into the OCR (Tesseract reads ā as d/a/4, ṁ as m, ñ as fi/ii)
+  by matching each word, without its diacritics, with the words of the Pāli books of the library; it
+  only makes drafts. Every page was then read against its image (the Pāli at twice the size) and
+  written out by hand in `scripts/narada/ch8/` (markup described in `chapter8()` of convert.py).
+- The text is as printed: the print's ṁ is written ṃ (so this chapter's Pāli has its diacritics, where
+  the web chapters have plain m and n); misprints are kept (*saṃhkārā*, *Anataraniruddhā*,
+  *anantarasamanataranatthi-*, *nāmārupānaṃ*, *statess*, *continguity*, “Section 2” printed for
+  Section 4 over the English of the 24 relations). The number of note 39 is smudged in the scan and is
+  read from its place between notes 38 and 40.
+- The two full-page diagrams — the Wheel of Life (p. 74) and Diagram 5, Paṭicca Samuppāda (between
+  pp. 90 and 91, printed sideways and turned upright) — are images (`narada/fig/ch8-375.png`,
+  `ch8-392.png`).
+- Its four sections are tied to the Saṅgaha by the same matching (VIII.1, 2, 14, 38).
 
 - Parts: the Preface and Chapters I–VII, IX. Nārada numbers his sections § 1 … anew in each chapter,
   once before the Pāli and again before the English; the first is the anchor (key chapter × 1000 + n,
   `#p4005` and `#p4-5`, the § box takes `4.5`), the second number is left out of the English.
-- The ties to the Saṅgaha (`data/narada-key.json`, 83 of 97 sections) come from `match()`: the Pāli
+- The ties to the Saṅgaha (`data/narada-key.json`, 87 of 101 sections) come from `match()`: the Pāli
   of each section, folded (no diacritics, spaces or punctuation, list markers left out), against the
   opening of each paragraph of the same chapter in the Sixth Council text, aligned in order, only where
   the likeness is at least 0.6. Each tie was looked over. Sections without a tie get no chip: those
@@ -274,7 +297,8 @@ python3 scripts/tinmon/convert.py work/guide.txt guide && python3 scripts/build.
 
 ## Changes to the shared reader
 
-- `scripts/build.py`: `pnum_span` shows a block's `label` and its `alias` anchors when it has them;
+- `scripts/build.py`: a numbered paragraph does not hang an opening “(1)” in the margin, which holds its
+  number and chips; `pnum_span` shows a block's `label` and its `alias` anchors when it has them;
   `num_label()` writes a key of 1000 or more as I.11 (card ranges, chip titles);
   `goto_text` makes the § box a text field that takes `4.6`.
 - `shared/reader.css`: the four Pāli books wrap their long compounds anywhere (as the Pāli books of
@@ -285,4 +309,4 @@ python3 scripts/tinmon/convert.py work/guide.txt guide && python3 scripts/build.
 
 ## Checks
 
-`python3 scripts/check_site.py`: 113 pages × 3 widths, no problems (November 2026).
+`python3 scripts/check_site.py`: 114 pages × 3 widths, no problems (November 2026).

@@ -159,6 +159,10 @@ def main(src):
                 b['text'] = bl[i + 1]['text']
                 bl[i + 1]['_drop'] = True
         p['blocks'] = [b for b in bl if not b.get('_drop')]
+    # Chapter VIII, missing from the web edition, from the transcription of the 1956–57 edition (scripts/narada/ch8/)
+    ch8 = chapter8()
+    k = next(i for i, p in enumerate(parts) if p['ch'] == 9)
+    parts.insert(k, ch8)
     chapters = [dict(num=str(i), label=p['label'], title=p['title'], blocks=p['blocks'], **({'sangaha_ch': p['ch']} if p['ch'] else {}))
                 for i, p in enumerate(parts)]
     for c in chapters:
@@ -169,6 +173,81 @@ def main(src):
     for c in chapters:
         ks = [b['pnum'] % 1000 for b in c['blocks'] if b.get('pnum')]
         print(f'  {c["label"]:12} {c["title"][:44]:44} §§ {len(ks):3} {ks[:3]}…{ks[-2:]}  tables {sum(1 for b in c["blocks"] if b["type"] == "pre")}', file=sys.stderr)
+
+
+def chapter8():
+    """Chapter VIII from scripts/narada/ch8/*.md, transcribed from the page images of the 1956–57 edition
+    (Buddha Sāsana Council reprint, Rangoon 1970, pp. 73–103). The markup: '# ' the chapter's Pāli title,
+    '## ' a heading, '### ' a sub-heading, '§ n' before the paragraph that opens Nārada's section n
+    (the first one, the Pāli, is the anchor), '> ' a line of verse, '- ' a list item, '[fig N: caption]'
+    a diagram kept as an image (narada/fig/ch8-N.png), '[^1]' and '[^1]: …' a footnote, '@page n' the
+    printed page (not shown). A paragraph broken at the end of a file runs on into the next."""
+    d = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'ch8')
+    text = '\n\n'.join(open(os.path.join(d, f), encoding='utf-8').read() for f in sorted(os.listdir(d)) if f.endswith('.md'))
+    text = re.sub(r'<!--.*?-->', '', text, flags=re.S)
+    text = re.sub(r'⟨pg:\d+⟩', '', text)
+    text = re.sub(r'(?m)^@page \d+\s*$', '', text)
+    paras = [x.strip() for x in re.split(r'\n\s*\n', text) if x.strip()]
+    joined = []
+    for x in paras:
+        if joined and not re.match(r'^(#|§|>|-|\[|\d+\.)', x) and not re.match(r'^(#|§|>|\[)', joined[-1]) and (
+                joined[-1].endswith('-') or x[:1].islower()):
+            joined[-1] = joined[-1][:-1] + x if joined[-1].endswith('-') and x[:1].islower() else joined[-1] + ' ' + x
+        else:
+            joined.append(x)
+    blocks, seen, pending, notes = [], set(), None, {}
+    for x in joined:
+        m = re.match(r'^\[\^(\d+)\]:\s*(.*)$', x, flags=re.S)
+        if m:
+            blocks.append(dict(type='p', note=int(m.group(1)), text=m.group(2)))
+            continue
+        if x.startswith('# '):
+            blocks.append(dict(type='h', text=x[2:]))
+        elif x.startswith('## '):
+            blocks.append(dict(type='h', text=x[3:]))
+        elif x.startswith('### '):
+            blocks.append(dict(type='h4', text=x[4:]))
+        elif re.match(r'^§ \d+$', x.split('\n')[0]):
+            n = int(x.split()[1])
+            rest = '\n'.join(x.split('\n')[1:]).strip()
+            pending = n if 8000 + n not in seen else None
+            if rest:
+                x = rest
+            else:
+                continue
+        m = re.match(r'^\[fig (\d+): (.*)\]$', x)
+        if m:
+            blocks.append(dict(type='img', src=f'fig/ch8-{m.group(1)}.png', alt=m.group(2)))
+            continue
+        if x.startswith('#'):
+            continue
+        lines = x.split('\n')
+        if lines[0].startswith('> '):
+            for i, l in enumerate(lines):
+                b = dict(type='p', text=l[2:].strip(), ind=2)
+                if i == 0 and pending:
+                    b.update(pnum=8000 + pending, label=f'§ {pending}', alias=[f'p8-{pending}'])
+                    seen.add(8000 + pending)
+                    pending = None
+                blocks.append(b)
+            continue
+        if lines[0].startswith('- '):
+            items = re.split(r'\n(?=- )', x)
+            for i, it in enumerate(items):
+                b = dict(type='p', text=re.sub(r'\s+', ' ', it[2:]).strip(), ind=1)
+                if i == 0 and pending:
+                    b.update(pnum=8000 + pending, label=f'§ {pending}', alias=[f'p8-{pending}'])
+                    seen.add(8000 + pending)
+                    pending = None
+                blocks.append(b)
+            continue
+        b = dict(type='p', text=re.sub(r'\s+', ' ', x).strip())
+        if pending:
+            b.update(pnum=8000 + pending, label=f'§ {pending}', alias=[f'p8-{pending}'])
+            seen.add(8000 + pending)
+            pending = None
+        blocks.append(b)
+    return dict(label='Chapter VIII', title='The Compendium of Relations (Paccaya-saṅgaha-vibhāga)', ch=8, blocks=blocks)
 
 
 def match(chapters):

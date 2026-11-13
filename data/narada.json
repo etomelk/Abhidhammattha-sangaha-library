@@ -12937,6 +12937,1163 @@
 },
 {
 "num": "8",
+"label": "Chapter VIII",
+"title": "The Compendium of Relations (Paccaya-saṅgaha-vibhāga)",
+"blocks": [
+{
+"type": "h",
+"text": "Paccaya-Saṅgaha-Vibhāga"
+},
+{
+"type": "h",
+"text": "Section I"
+},
+{
+"type": "p",
+"text": "Yesaṃ saṃkhatadhammānaṃ ye dhammā paccayā yathā",
+"ind": 2,
+"pnum": 8001,
+"label": "§ 1",
+"alias": [
+"p8-1"
+]
+},
+{
+"type": "p",
+"text": "Taṃ vibhāgam’ih’edāni pavakkhāmi yathārahaṃ.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Section 2"
+},
+{
+"type": "p",
+"text": "Paṭiccasamuppādanayo, Paṭṭhānanayo c’āti paccayasaṅgaho duvidho veditabbo.",
+"pnum": 8002,
+"label": "§ 2",
+"alias": [
+"p8-2"
+]
+},
+{
+"type": "p",
+"text": "Tattha tabbhāvabhāvībhāvākāramattopalakkhito paṭiccasamuppādanayo."
+},
+{
+"type": "p",
+"text": "Paṭṭhānanayo pana āhaccapaccayaṭṭhitim’ ārabbha pavuccati. Ubhayaṃ pana vomissetvā papañcenti ācariyā."
+},
+{
+"type": "p",
+"text": "Tattha avijjāpaccayā saṃhkārā, saṃkhāra-paccayā viññāṇaṃ, viññāṇa-paccayā nāmarūpaṃ, nāmarūpa paccayā saḷāyatanaṃ, saḷāyatana-paccayā phasso, phassa-paccayā vedanā, vedanā-paccayā taṇhā, taṇhā-paccayā upādānaṃ, upādāna-paccayā bhavo, bhava-paccayā jāti, jāti-paccayā jarā-maraṇa-soka-parideva-dukkha-domanass’upāyāsā sambhavanti. Evam’etassa kevalassa dukkhakkhandhassa samudayo hotī’ti ayam’ettha paṭiccasamuppādanayo."
+},
+{
+"type": "img",
+"src": "fig/ch8-375.png",
+"alt": "The Wheel of Life (Diagram)"
+},
+{
+"type": "p",
+"text": "Tattha tayo addhā; dvādasaṅgāni; vīsatākārā; tisandhi; catusaṅkhepo; tīṇi vaṭṭāni; dve mūlāni ca veditabbāni."
+},
+{
+"type": "p",
+"text": "Kathaṃ? avijjā, saṅkhārā atīto addhā; jāti, jarā, maraṇaṃ anāgato addhā; majjhe aṭṭha paccupanno addhā’ti tayo addhā."
+},
+{
+"type": "p",
+"text": "Avijjā, saṅkhārā, viññāṇaṃ, nāmarūpaṃ, saḷāyatanaṃ, phasso, vedanā, taṇhā, upādānaṃ, bhavo, jāti, jarā-maraṇan’ti dvādasaṅgāni. Sokādivacanaṃ pan’ettha nissandaphalanidassanaṃ."
+},
+{
+"type": "p",
+"text": "Avijjāsaṅkhāraggahaṇena pan’ettha taṇhūpādānabhavā pi gahitā bhavanti. Tathā taṇh’ūpādānabhavaggahaṇena ca avijjāsaṅkhārā, jātijarāmaraṇaggahaṇena ca viññāṇādiphalapañcakam’eva gahitanti katvā,"
+},
+{
+"type": "p",
+"text": "Atīte hetavo pañca idāni phalapañcakaṃ",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Idāni hetavo pañca āyatiṃ phalapañcakanti",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Vīsatākārā, tisandhi, catusaṃkhepā ca bhavanti."
+},
+{
+"type": "p",
+"text": "Avijjā, taṇh’ūpādānā ca kilesavaṭṭaṃ; kammabhavasaṅkhāto bhav’ekadeso; saṅkhārā ca kammavaṭṭaṃ; upapattibhavasaṅkhāto bhav’ekadeso; avasesā ca vipākavaṭṭanti tīṇi vaṭṭāni."
+},
+{
+"type": "p",
+"text": "Avijjātaṇhāvasena dve mūlāni ca veditabbāni."
+},
+{
+"type": "p",
+"text": "1. Tesam’ eva ca mūlānaṃ nirodhena nirujjhati",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Jārāmaraṇamucchāya pīḷitānam’abhiṇhaso",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Āsavānaṃ samuppādā avijjā ca pavattati.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "2. Vaṭṭam’ābandham’iccevaṃ tebhūmakam’anādikaṃ",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Paṭiccasamuppādo’ti paṭṭhapesi mahāmuni.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "The Compendium of Relations"
+},
+{
+"type": "h",
+"text": "Section 1"
+},
+{
+"type": "h4",
+"text": "Introductory"
+},
+{
+"type": "p",
+"text": "I shall now explain here, in a fitting manner, how causal states act as relations to the conditioned states (1)"
+},
+{
+"type": "h",
+"text": "Section 2"
+},
+{
+"type": "p",
+"text": "The compendium of relations is twofold :—"
+},
+{
+"type": "p",
+"text": "A. The Law of Dependent Arising (2), and",
+"ind": 1
+},
+{
+"type": "p",
+"text": "B. The Law of Causal Relations. (3)",
+"ind": 1
+},
+{
+"type": "p",
+"text": "Of these, the law of Dependent Arising is marked by the simple happening of a state dependent on its antecedent state (4)."
+},
+{
+"type": "p",
+"text": "The Law of Causal Relations is said with reference to the existence of conditions that relate to one another."
+},
+{
+"type": "p",
+"text": "Mixing both methods teachers explain them."
+},
+{
+"type": "h4",
+"text": "The Law of Dependent Arising."
+},
+{
+"type": "p",
+"text": "Therein :—"
+},
+{
+"type": "p",
+"text": "Dependent on Ignorance (5) arise Conditioning Activities (6)."
+},
+{
+"type": "p",
+"text": "Dependent on Conditioning Activities arises (Rebirth) Consciousness (7)."
+},
+{
+"type": "p",
+"text": "Dependent on (Rebirth) Consciousness arise Mind and Matter (8)."
+},
+{
+"type": "p",
+"text": "Dependent on Mind and Matter arise the six (Sense) Bases (9)."
+},
+{
+"type": "p",
+"text": "Dependent on the Six (Sense) Bases arises Contact (10)."
+},
+{
+"type": "p",
+"text": "Dependent on Contact arises Feeling (11)."
+},
+{
+"type": "p",
+"text": "Dependent on Feeling arises Craving (12)."
+},
+{
+"type": "p",
+"text": "Dependent on Craving arises Grasping (13)."
+},
+{
+"type": "p",
+"text": "Dependent on Grasping arises Action or Becoming (14)."
+},
+{
+"type": "p",
+"text": "Dependent on Action arises Birth (15)."
+},
+{
+"type": "p",
+"text": "Dependent on Birth arise Decay, Death, Sorrow, Lamentation, Pain, Grief, and Despair. Thus is the arising of the whole mass of suffering."
+},
+{
+"type": "p",
+"text": "Herein this is the Law of the Dependent Arising."
+},
+{
+"type": "p",
+"text": "It should be understood that there are three periods, twelve factors, twenty modes, three connections, four divisions, three rounds, and two roots."
+},
+{
+"type": "p",
+"text": "How ? Ignorance and Conditioning Activities belong to the past; Birth, Decay, Death belong to the future; the intermediate eight to the present. Thus there are three periods."
+},
+{
+"type": "p",
+"text": "Ignorance, (moral and immoral) Activities, (Rebirth) Consciousness, Mind and Matter, Six Senses, Contact, Feeling, Craving, Grasping, Action, Birth, Decay and Death are the twelve factors. The terms"
+},
+{
+"type": "p",
+"text": "Sorrow and so on are shown as incidental consequences (of Birth)."
+},
+{
+"type": "p",
+"text": "Here by taking ignorance and activities, craving, grasping, and action are also taken. Likewise by taking craving, grasping, and action, ignorance and activities are also taken. By taking birth, decay and death, the five effects with consciousness and so on are taken also. Thus there are—"
+},
+{
+"type": "p",
+"text": "Five causes pertaining to the past, and five effects to the present. Five causes pertain to the present, and five effects to the future."
+},
+{
+"type": "p",
+"text": "There are twenty modes, three connections and four divisions."
+},
+{
+"type": "p",
+"text": "The three Rounds—"
+},
+{
+"type": "p",
+"text": "1. Ignorance, craving and grasping belong to the Round of Passions;",
+"ind": 1
+},
+{
+"type": "p",
+"text": "2. One part of becoming (bhava) known as action and (moral and immoral) activities belong to the Round of Kamma.",
+"ind": 1
+},
+{
+"type": "p",
+"text": "3. One part of becoming known as renewed existence (upapatti bhava) and the rest belong to the Round of Effects.",
+"ind": 1
+},
+{
+"type": "p",
+"text": "Ignorance and craving should be understood as the two roots. (16)[^1]"
+},
+{
+"type": "p",
+"note": 1,
+"text": "See diagrams 4 and 5."
+},
+{
+"type": "h4",
+"text": "Summary"
+},
+{
+"type": "p",
+"text": "By the destruction of these roots does the Round cease."
+},
+{
+"type": "p",
+"text": "The ignorance, originating from defilements (17), increases in the constantly oppressed who faint by decay and death."
+},
+{
+"type": "p",
+"text": "The Great Sage has thus expounded this entangled, beginningless existence in the triple sphere as the ‘Law of Dependent Arising’."
+},
+{
+"type": "h",
+"text": "Notes"
+},
+{
+"type": "h4",
+"text": "Section 1"
+},
+{
+"type": "p",
+"text": "1. Saṅkhatadhammānaṃ—To the conditioned nāma and rūpa described in the previous chapters."
+},
+{
+"type": "h4",
+"text": "Section 2"
+},
+{
+"type": "p",
+"text": "2. Paṭiccasamuppāda—Paṭicca=because of, on account of; samuppāda=arising, origination. Although the literal meaning of the term is ‘arising because of’ or ‘dependent arising or origination’, it is applied to the whole causal formula which consists of twelve interdependent causes and effects, technically called paccaya and paccayuppanna."
+},
+{
+"type": "p",
+"text": "S. Z. Aung renders Paṭiccassamuppādanaya by ‘The Law of happening by way of cause’."
+},
+{
+"type": "p",
+"text": "In this chapter the Law of Dependent Arising is not mixed up with the Paṭṭhānanaya as in the Visuddhimagga."
+},
+{
+"type": "p",
+"text": "3. Paṭṭhānanaya—According to the Ceylon Commentary here the prefix ‘pa’ means ‘various’ (nānappakāra). Ledi Sayadaw says ‘principal’ (padhāna). Thāna (lit. station) signifies ‘cause’ (paccaya) which is paraphrased by ‘upakārakadhamma’—aiding or supportive conditions. These various or principal causes are described in detail in the Paṭṭhānapakaraṇa, the seventh book of the Abhidhamma-Piṭaka. The system expounded in this treatise is called Paṭṭhānanaya."
+},
+{
+"type": "p",
+"text": "The difference between the two nayas should be understood as follows :"
+},
+{
+"type": "p",
+"text": "i. Because of A arises B. Because of B arises C. When there is no A there is no B. When there is no B there is no C. In other words ‘this being so, that is; this not being so, that is not’ (imasmiṃ sati, idaṃ hoti; imasmiṃ asati, idaṃ na hoti). This is the Paṭiccasamuppādanaya.",
+"ind": 1
+},
+{
+"type": "p",
+"text": "ii. When we say that A is related to B in the way of ‘co-existence’, ‘interdependence’ we get an illustration of Paṭṭhānanaya.",
+"ind": 1
+},
+{
+"type": "p",
+"text": "See Journal of the Pāli Text Society, 1915-1916, pp. 21-53."
+},
+{
+"type": "p",
+"text": "4. Tabbhāvabhāvībhāvākāramatta; bhāvākāramatta=the simple happening of a state; tabbhāvabhāvī=dependent on its antecedent state."
+},
+{
+"type": "p",
+"text": "5. Avijjā, lit. not-knowingness, i.e., of the four Noble Truths. It is also explained as ‘that which causes beings to run in the endless Saṃsāra’ (antavirahite saṃsāre satte javāpeti). ‘Whereby the fruit is produced’ is termed ‘paccaya’, which is the cause."
+},
+{
+"type": "p",
+"text": "6. Saṃkhārā—This is a multisignificant term which should be understood according to the context. Here the term signifies moral (kusala), immoral (akusala), and unshakable (āneñjā) volitions (cetanā) which constitute Kamma that produces rebirth. The first embraces all volitions in the 12 types of immoral consciousness; the second, all volitions in the 8 types of Beautiful (kusala) consciousness and the 5 types of kusala Rūpajhāna consciousness; the third, all volitions in the 4 types of kusala Arūpajhānas. There is no proper English equivalent which gives the exact connotation of this Pāli term. Saṃkhārā as one of the five aggregates implies the 50 mental states excluding feeling and perception."
+},
+{
+"type": "p",
+"text": "Ignorance is predominant in immoral activities, while it is latent in moral activities. Hence both moral and immoral actions are regarded as caused by ignorance."
+},
+{
+"type": "p",
+"text": "7. Viññāṇa strictly denotes the 19 types of rebirth-consciousness (paṭisandhi viññāṇa) described in chapter V. All the 32 types of resultant consciousness (vipākacitta), experienced during lifetime, are also implied by the term."
+},
+{
+"type": "p",
+"text": "8. Nāmarūpa.—This compound should be understood as nāma alone, rūpa alone, and nāmarūpa together. In the case of arūpa planes there arises only mind; in the case of mindless (asañña) planes, only matter; in the case of kāma and rūpa planes, both mind and matter."
+},
+{
+"type": "p",
+"text": "By nāma are here meant the three aggregates—feeling (vedanā), perception (saññā) and saṅkhāra—that arise simultaneously with rebirth-consciousness. By rūpa are meant the three decads—kāya, bhāva, vatthu—that also arise simultaneously with rebirth-consciousness, conditioned by past kamma. The second and third factors pertain to the past and present. The third and fourth factors, on the contrary, are contemporaneous."
+},
+{
+"type": "p",
+"text": "9. Saḷāyatana—The six sense-bases of eye, ear, nose, tongue, body, and mind. The first five refer to the sensitive organs that evolve by degrees. Mind-base has already been explained."
+},
+{
+"type": "p",
+"text": "10. Phassa—See Chapters 1 and 2."
+},
+{
+"type": "p",
+"text": "11. Vedanā—Ibid."
+},
+{
+"type": "p",
+"text": "12. Taṇhā or Craving is threefold, namely, craving for sensual pleasures (kāmataṇhā), craving for sensual pleasures associated with the view of eternalism (bhavataṇhā) i.e., enjoying pleasures thinking that they are imperishable, and craving for sensual pleasures associated with the view of nihilism (vibhavataṇhā) i.e., enjoying pleasures thinking that everything perishes after death. The last is the materialistic point of view."
+},
+{
+"type": "p",
+"text": "Bhavataṇhā and Vibhavataṇhā are also interpreted as attachment to Rūpa and Arūpa Planes respectively. Usually these two terms are rendered by craving for existence and non-existence."
+},
+{
+"type": "p",
+"text": "There are six kinds of craving corresponding to the six sense-objects such as form, sound, and so on. They become 12 when they are treated as internal and external. They are reckoned as 36 when past, present and future are taken into consideration. When multiplied by the foregoing three kinds of craving they amount to 108."
+},
+{
+"type": "p",
+"text": "13. Upādāna, derived from upa+ā+√dā, to give, is intensive craving or firm grasping. Taṇhā is like groping in the dark to steal an object. Upādāna corresponds to the actual stealing of the object. Grasping results with attachment and error."
+},
+{
+"type": "p",
+"text": "14. Bhava lit., becoming, is explained as both moral and immoral actions which constitute Kamma (kammabhava)—active process of becoming—and the different planes of existence (upapattibhava)—passive process of becoming. The only difference between Saṃkhāra and Kammabhava is that the former pertains to the past and the latter to the present. It is only the (kamma) bhava that conditions the future birth."
+},
+{
+"type": "p",
+"text": "15. Jāti, strictly speaking, is the arising of the aggregates (khandhānaṃ pātubhāvo)."
+},
+{
+"type": "p",
+"text": "16. Ignorance is shown as the past cause that conditions the present, and Craving as the present cause that conditions the future."
+},
+{
+"type": "p",
+"text": "17. Āsavas or Defilements, latent in all worldlings, are cited as the cause of ignorance."
+},
+{
+"type": "h",
+"text": "Section 3"
+},
+{
+"type": "h4",
+"text": "(Paṭṭhānanayo)"
+},
+{
+"type": "p",
+"text": "(1) Hetupaccayo, (2) ārammaṇapaccayo, (3) adhipatipaccayo, (4) anantarapaccayo, (5) samanantarapaccayo, (6) sahajātapaccayo, (7) aññamaññapaccayo, (8) nissayapaccayo, (9) upanissayapaccayo (10) purejātapaccayo, (11) pacchājātapaccayo, (12) āsevanapaccayo, (13) kammapaccayo, (14) vipākapaccayo, (15) āhārapaccayo, (16) indriyapaccayo, (17) jhānapaccayo, (18) maggapaccayo, (19) sampayuttapaccayo, (20) vippayuttapaccayo, (21) atthipaccayo, (22) natthipaccayo, (23) vigatapaccayo, (24) avigatapaccayo’ti ayam’ettha paṭṭhānanayo.",
+"pnum": 8003,
+"label": "§ 3",
+"alias": [
+"p8-3"
+]
+},
+{
+"type": "p",
+"text": "i. Chadhā nāmantu nāmassa pañcadhā nāmarūpinaṃ",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Ekadhā puna rūpassa rūpaṃ nāmassa c’ekadhā.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "ii. Paññattināmarupāni nāmassa duvidhā dvayaṃ",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Dvayassa navadhā c’eti chabbidhā paccayā kathaṃ.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "A. Anataraniruddhā cittacetasikā dhammā paccuppannānaṃ cittacetasikānaṃ anantarasamanataranatthivigatavasena; purimāni javanāni pacchimānaṃ javanānaṃ āsevanavasena; sahajātā cittacetasikā dhammā aññamaññaṃ sampayuttavasenā’ti chadhā nāmaṃ nāmassa paccayo hoti."
+},
+{
+"type": "p",
+"text": "B. Hetujhānaṅgamaggaṅgāni sahajātānaṃ nāmarūpānaṃ hetādivasena; sahajātā cetanā sahajātānaṃ nāmarūpānaṃ; nānakkhaṇikā cetanā kammābhinibbattānaṃ nāmarūpānaṃ kammavasena; vipākakkhandhā aññamaññaṃ sahajātānaṃ rūpānaṃ vipākavasen’āti ca pañcadhā nāmaṃ nāmārupānaṃ paccayo hoti."
+},
+{
+"type": "p",
+"text": "C. Pacchājātā cittacetasikā dhammā purejātassa imassa kāyassa pacchājātavasen’āti ekadhā va nāmaṃ rūpassa paccayo hoti."
+},
+{
+"type": "p",
+"text": "D. Chavatthūni pavattiyaṃ sattannaṃ viññāṇadhātūnaṃ; pañcālambanāni ca pañcaviññāṇavīthiyā purejātavasen’āti ekadhā va rūpaṃ nāmassa paccayo hoti."
+},
+{
+"type": "p",
+"text": "E. Ārammaṇavasena upanissayavasenā’ti ca duvidhā paññattināmarūpāni nāmass’eva paccayā honti."
+},
+{
+"type": "p",
+"text": "Tattha rūpādivasena chabbidhaṃ hoti ārammaṇaṃ."
+},
+{
+"type": "p",
+"text": "Upanissayo pana tividho hoti—ārammaṇūpanissayo, anantarūpanissayo, pakatūpanissayo c’āti. Tatth’ālambanam’eva garukataṃ ārammanūpanissayo. Anantaraniruddhā cittacetasikā dhammā anantarūpanissayo. Rāgādayo pana dhammā saddhādayo ca sukhaṃ dukkhaṃ puggalo bhojanam utu senāsanañ ca yathārahaṃ ajjhattaṃ ca bahiddhā ca kusalādidhammānaṃ kammaṃ vipākanti ca bahudhā hoti pakatūpanissayo."
+},
+{
+"type": "p",
+"text": "F. Adhipati, sahajāta, aññamañña, nissaya, āhāra, indriya, vippayutta, atthi, avigatavasenā’ti yathārahaṃ navadhā nāmarūpāni nāmarūpānaṃ paccayā bhavanti."
+},
+{
+"type": "p",
+"text": "Tattha garukatam’ ālambanaṃ ālambanādhipativasena nāmānaṃ sahajātādhipati catubbidho’pi sahajātavasena sahajātanaṃ nāmarūpānanti ca duvidho hoti adhipatipaccayo."
+},
+{
+"type": "p",
+"text": "Cittacetasikā dhammā aññamaññaṃ sahajātarūpānañ ca mahābhūtā aññamaññam upādārūpānañ ca paṭisandhikkhaṇe vatthuvipākā aññamaññanti ca tividho hoti sahajātapaccayo."
+},
+{
+"type": "p",
+"text": "Cittacetasikā dhammā aññamaññaṃ mahābhūtā aññamaññaṃ paṭisandhikkhaṇe vatthuvipākā aññamaññanti ca tividho hoti aññamaññapaccayo."
+},
+{
+"type": "p",
+"text": "Cittacetasikā dhammā aññamaññaṃ sahajātarūpānañ ca mahābhūtā aññamaññam upādārūpānañ ca chavatthūni sattannaṃ viññāṇadhātūnanti ca tividho hoti nissayapaccayo."
+},
+{
+"type": "p",
+"text": "Kabaḷīkāro āhāro imassa kāyassa arūpino āhārā sahājātānaṃ nāmarūpānan’ ti ca duvidho hoti āhārapaccayo."
+},
+{
+"type": "p",
+"text": "Pañcappasādā pañcannaṃ viññāṇānaṃ rūpajīvitindriyam upādinnarūpānaṃ, arūpino indriyā sahajātānaṃ nāmarūpānanti ca tividho hoti indriyapaccayo."
+},
+{
+"type": "p",
+"text": "Okkantikkhaṇe vatthuvipākānaṃ, cittacetasikā dhammā sahajātarūpānaṃ sahajātavasena, pacchājāta cittacetasikā dhammā purejātassa imassa kāyassa pacchājātavasena, cha vatthūni pavattiyaṃ sattannaṃ viññāṇadhātūnaṃ purejātavasenā’ti ca tividho hoti vippayuttapaccayo."
+},
+{
+"type": "p",
+"text": "Sahajātaṃ purejātaṃ pacchājātañ ca sabbathā",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Kabaḷīkāro āhāro rūpajīvitamiccayanti.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Pañcavidho hoti atthipaccayo avigatapaccayo."
+},
+{
+"type": "p",
+"text": "Ārammaṇūpanissayakammaatthipaccayesu ca sabbe’pi paccayā samodhānaṃ gacchanti."
+},
+{
+"type": "p",
+"text": "Sahajātarūpanti pan’ettha sabbatthā’pi pavatte cittasamuṭṭhānānaṃ paṭisandhiyaṃ kaṭattārūpānañ ca vasena duvidho hoti veditabbaṃ."
+},
+{
+"type": "p",
+"text": "Iti tekālikā dhammā kālamuttā ca sambhavā",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Ajjhattañ ca bahiddhā ca saṃkhatāsaṃkhatā tathā.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Paññattināmarūpānaṃ vasena tividhā ṭhitā",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Paccayā nāma paṭṭhāne catuvīsati sabbathā’ti.",
+"ind": 2
+},
+{
+"type": "h",
+"text": "Section 3"
+},
+{
+"type": "h4",
+"text": "The Law of Causal Relations"
+},
+{
+"type": "p",
+"text": "The following are the causal relations:-"
+},
+{
+"type": "p",
+"text": "1. Root (18) condition",
+"ind": 1
+},
+{
+"type": "p",
+"text": "2. Object (19) ”",
+"ind": 1
+},
+{
+"type": "p",
+"text": "3. Predominance (20) ”",
+"ind": 1
+},
+{
+"type": "p",
+"text": "4. Contiguity (21) ”",
+"ind": 1
+},
+{
+"type": "p",
+"text": "5. Immediacy (21) ”",
+"ind": 1
+},
+{
+"type": "p",
+"text": "6. Co-nascence (22) ”",
+"ind": 1
+},
+{
+"type": "p",
+"text": "7. Mutuality (or Reciprocity) (23) ”",
+"ind": 1
+},
+{
+"type": "p",
+"text": "8. Dependence (24) ”",
+"ind": 1
+},
+{
+"type": "p",
+"text": "9. Powerful Dependence (or Sufficing) (24) ”",
+"ind": 1
+},
+{
+"type": "p",
+"text": "10. Pre-nascence (or Antecedence) (25) ”",
+"ind": 1
+},
+{
+"type": "p",
+"text": "11. Post-nascence (or Post Occurrence) (26) ”",
+"ind": 1
+},
+{
+"type": "p",
+"text": "12. Repetition (or Habitual Recurrence) (27) ”",
+"ind": 1
+},
+{
+"type": "p",
+"text": "13. Kamma (28) ”",
+"ind": 1
+},
+{
+"type": "p",
+"text": "14. Effect (29) ”",
+"ind": 1
+},
+{
+"type": "p",
+"text": "15. Nutriment (30) ”",
+"ind": 1
+},
+{
+"type": "p",
+"text": "16. Control (31) ”",
+"ind": 1
+},
+{
+"type": "p",
+"text": "17. Jhāna (32) ”",
+"ind": 1
+},
+{
+"type": "p",
+"text": "18. Path (33) ”",
+"ind": 1
+},
+{
+"type": "p",
+"text": "19. Association (34) ”",
+"ind": 1
+},
+{
+"type": "p",
+"text": "20. Dissociation (35) ”",
+"ind": 1
+},
+{
+"type": "p",
+"text": "21. Presence (36) ”",
+"ind": 1
+},
+{
+"type": "p",
+"text": "22. Absence (37) ”",
+"ind": 1
+},
+{
+"type": "p",
+"text": "23. Separation (38) ”",
+"ind": 1
+},
+{
+"type": "p",
+"text": "24. Non-separation (38) ”",
+"ind": 1
+},
+{
+"type": "p",
+"text": "Herein this is the law of causal relations."
+},
+{
+"type": "h",
+"text": "Section 2"
+},
+{
+"type": "h4",
+"text": "The Law of Causal Relations"
+},
+{
+"type": "p",
+"text": "In six ways mind is related to mind. In five ways mind is related to mind and matter. Again matter is related in one way to matter, and in one way to mind. In two ways are concepts, mind and matter are related to mind. In nine ways are the two—mind and matter—related to mind and matter. Thus the relations are sixfold. How?"
+},
+{
+"type": "h4",
+"text": "Relations of Mind and Matter"
+},
+{
+"type": "p",
+"text": "A. In six ways mind is related to mind:—"
+},
+{
+"type": "p",
+"text": "Consciousness and mental states that immediately ceased relate themselves to present consciousness and mental states by way of contiguity, immediacy, absence, and separation."
+},
+{
+"type": "p",
+"text": "Preceding Javanas are related to the subsequent Javanas by way of repetition (or habitual recurrence)."
+},
+{
+"type": "p",
+"text": "Co-existing consciousness and mental states are related to one another by way of association."
+},
+{
+"type": "p",
+"text": "B. In five ways mind is related to mind and matter:—"
+},
+{
+"type": "p",
+"text": "Root, Jhāna and Path factors are related to co-existing mind and matter by way of root etc."
+},
+{
+"type": "p",
+"text": "Co-existing volition is related to co-existing mind and matter and asynchronous volition to mind and matter born of kamma by way of kamma."
+},
+{
+"type": "p",
+"text": "The (mental) aggregates of effect are related to one another and co-existent matter by way of effect."
+},
+{
+"type": "p",
+"text": "C. Only in one way is mind related to matter:—"
+},
+{
+"type": "p",
+"text": "Subsequent consciousness and mental states are related to this preceding (material) body by way of post-occurrence."
+},
+{
+"type": "p",
+"text": "D. Only in one way is matter related to mind:—"
+},
+{
+"type": "p",
+"text": "The six bases during life are related to the seven elements of cognition, and the five objects to the five processes of sense-cognition by way of antecedence."
+},
+{
+"type": "p",
+"text": "E. In two ways are concepts, mind and matter related to mind, namely, by way of object and powerful dependence."
+},
+{
+"type": "p",
+"text": "Therein object is sixfold as form etc. But powerful dependence is threefold, namely, powerful dependence as object, powerful dependence as contiguity, and powerful dependence as intrinsic nature."
+},
+{
+"type": "p",
+"text": "Of them the object itself when it becomes prominent serves as a powerful dependence. Consciousness and mental states that immediately ceased act as the powerful dependence of proximity. The powerful dependence of intrinsic nature is of several kinds:—states of lust etc., states of confidence etc., pleasure, pain, individual, food, season, lodging,—conditions, internal and external, as the case may be,—are related to moral states etc. Kamma too is related to its effect."
+},
+{
+"type": "p",
+"text": "F. Mind and matter are related to mind and matter in nine ways according to circumstances:—namely, by way of pre-dominance, co-nascence, reciprocity, dependence, nutriment, control, dissociation, presence, and non-separation."
+},
+{
+"type": "p",
+"text": "Therein relation of pre-dominance is twofold:—"
+},
+{
+"type": "p",
+"text": "i. The object to which weight is attached is related to states of mind by way of objective pre-dominance.",
+"ind": 1
+},
+{
+"type": "p",
+"text": "ii. The fourfold co-existing pre-dominance is related to co-existing mind and matter by way of co-nascence.",
+"ind": 1
+},
+{
+"type": "p",
+"text": "The relation of co-nascence is threefold:—consciousness and mental states are related to one another and to the co-existing material states; the four Great Essentials, mutually to the derived material qualities; bases and the resultant consciousnesses at the moment of rebirth, to one another."
+},
+{
+"type": "p",
+"text": "The relation of reciprocity is threefold:—consciousness and mental states are related to one another; the four Great Essentials, to one another; bases and the resultant consciousnesses at the moment of rebirth, to one another."
+},
+{
+"type": "p",
+"text": "The relation of dependence is threefold:—consciousness and mental states are related to one another and co-existing matter; the four chief elements, to one another and derived material qualities; and six bases, to the seven cognitive elements."
+},
+{
+"type": "p",
+"text": "The relation of nutriment is twofold:—edible food is related to this body; and immaterial nutriment, to the co-existing mind and matter."
+},
+{
+"type": "p",
+"text": "The relation of control is threefold:—the five sentient organs are related to the five kinds of cognition; the controlling power of material vitality, to the material qualities"
+},
+{
+"type": "img",
+"src": "fig/ch8-392.png",
+"alt": "Paṭicca Samuppāda (Diagram 5)"
+},
+{
+"type": "p",
+"text": "that have been grasped at; the immaterial controlling factors, to the co-existent mind and matter."
+},
+{
+"type": "p",
+"text": "The law of dissociation is threefold:—at the moment of conception the basis of mind is related to the effects (of kamma), and consciousness and mental states to co-existent mind and matter by way of co-existence; the subsequent consciousness and mental states, to this antecedent body by way of post-occurrence; the six bases, in the course of life, to the seven cognitive elements by way of antecedence."
+},
+{
+"type": "p",
+"text": "The five kinds of relations—co-existence, antecedence, post-occurrence, edible food, and material life—are in every way, the relation of presence and that of non-separation."
+},
+{
+"type": "p",
+"text": "All relations are included in the relations of object, powerful dependence, Kamma, and presence."
+},
+{
+"type": "p",
+"text": "Herein co-existing material qualities should be understood as twofold:— throughout the course of life they should be understood as those born of mind, and at rebirth those born of kamma."
+},
+{
+"type": "h4",
+"text": "Summary"
+},
+{
+"type": "p",
+"text": "Thus the relative conditions pertaining to the three periods of time and timeless, internal and external, conditioned and non-conditioned, are threefold by way of concept, mind and matter."
+},
+{
+"type": "p",
+"text": "In all the relations in Paṭṭhāna are twenty-four."
+},
+{
+"type": "h4",
+"text": "Section 3"
+},
+{
+"type": "p",
+"text": "18. Hetu-paccaya—Here paccaya presents some difficulty. It is defined as that by means of which an effect comes to be. In other words it is the cause. Furthermore, it is explained as a ‘serviceable or supportive factor’ (upakārako dhammo). Hetu is defined as ‘that by which an effect is established’. It is used in the sense of ‘root’ (mūlakaṭṭhena). Like the roots of a tree are hetu; like water and manure that aid its growth are paccaya. In the Abhidhamma these two cognate terms are used in these two different senses. In the Suttas, however, they are invariably employed as synonymous terms, without any distinction, as, for example, ko hetu, ko paccayo—what is the reason ? what is the cause ?"
+},
+{
+"type": "p",
+"text": "In the Paṭṭhāna 24 such paccayas are enumerated, and Hetu is one of them. Hetupaccaya is explained as ‘hetu itself is a paccaya’ or ‘as hetu it becomes a paccaya’. It is interpreted as a supportive or serviceable factor in the sense of root (mūlaṭṭhena upakārako dhammo). The causal relation by way of ‘root’ may be suggested as the closest rendering. (See Compendium p. 279; Journal of the Pāli Text Society, 1915-1916, pp. 29-53.)"
+},
+{
+"type": "p",
+"text": "‘Roots’ are purely mental. They are the six moral and immoral roots. See Chapter 1."
+},
+{
+"type": "p",
+"text": "19. Ārammaṇa—or Ālambana—The former is derived from ā+√ram, to delight in; the latter from ā+√lamb, to hang upon. Things on which the subject delights in or hangs upon are ‘objects’. There are six classes of objects. A form, for instance, acts as a causal relation to visual-consciousness by way of an ‘object’. It should be stated that there is nothing mundane or supramundane that does not become an object for mind."
+},
+{
+"type": "p",
+"text": "20. Adhipati—Lit., mastery or lordship over one’s own. One of the four dominant factors, namely, wish, thought, effort and reasoning—may, at one time, causally relate itself to co-existent mental states and material phenomena by way of pre-dominance. “Whenever such phenomena as consciousness and mental states arise by giving predominance to one of these four factors, then this phenomenon is to the other phenomenon a condition by way of pre-dominance.” (Paṭṭhāna)."
+},
+{
+"type": "p",
+"text": "21. Anantara and Samanantara—In meaning there is no difference between the two terms. They differ only in etymology. According to Buddhist philosophy one thought-moment perishes immediately giving birth to another. The succeeding thought-moment inherits all the potentialities of its immediate predecessor. The perishing preceding states causally relate themselves to immediately following states by way of continguity and immediacy."
+},
+{
+"type": "p",
+"text": "22. Sahajāta—The causal relation by way of co-nascence, as, for instance, the four mental aggregates, the different mental states that simultaneously arise in a particular type of consciousness, the four Great Essentials that arise together, the appearance of the three ‘decads’ at the moment of conception, etc. In the Paṭiccasamuppāda it may be mentioned that both contact and feeling which appear as cause and effect are co-nascent."
+},
+{
+"type": "p",
+"text": "A mental state may be co-nascent with a mental state, a mental with a physical, a physical with a physical, and a physical with a mental."
+},
+{
+"type": "p",
+"text": "23. Aññamañña—Just as the legs of a tripod are reciprocally helpful, even so mental or physical state or states may be causally related by way of reciprocity (or mutuality). Causal relations of co-nascence and reciprocity should be differentiated. They are not identical. For instance, mind-born material phenomena are not reciprocally related to the co-existing mind, nor are the material derivatives to the co-existing Great Essentials. As a rule mind and matter are reciprocally related."
+},
+{
+"type": "p",
+"text": "24. Nissaya and Upanissaya—derived from upa+ni+√si, to lie. Upa is an intensive prefix. As trees depend on the ground for their support, and as pictures depend on a canvas on which they are drawn, so is the causal relation of dependence. Upanissaya is defined as a stronger species of Nissaya. It is compared to the rains on which depend the growth of trees. S. Z. Aung renders upanissaya by ‘sufficing condition’. For instance, one of the five heinous crimes such as matricide, parricide and so on will serve as an upanissaya to effect a birth in a woeful state. Good environments, early education, etc. will serve as a causal relation by way of ‘dependence’ (nissaya) to acquire health, wealth and knowledge in later life. Just as good actions become upanissaya for future good deeds, even so they may become upanissaya for evil too, as, for instance, spiritual pride. See Ledi Sayadaw’s learned article on this subject in P. T. S. Journal, 1916, pp. 49-53."
+},
+{
+"type": "p",
+"text": "25. Purejāta—Lit., born before or that which pre-exists. The six physical bases and six sensual objects are regarded as pre-existent. The pre-existent things are regarded as causal relations only when they continue to exist in the present and not by mere antecedence. Priority is not a good rendering."
+},
+{
+"type": "p",
+"text": "26. Pacchājāta—Of the 89 types of consciousness 85 types, excluding the four Arūpa-resultants, and the 52 mental states are causally related to the antecedent physical body by way of post-occurrence."
+},
+{
+"type": "p",
+"text": "27. Āsevana—Repeated practice, as a rule, leads to proficiency. This applies to both good and evil things. By repetition one acquires a certain amount of skill in any particular thing. Āsevana denotes this repeated practice. In javana process the second thought-moment is causally related to the first, the third to the second, the fourth to the third by way of recurrence. This is the reason why the fourth javana thought-moment is considered very powerful."
+},
+{
+"type": "p",
+"text": "28. Kamma means the volition that plays the most important part in moral and immoral thoughts, words, and deeds. This volition, technically known as Kamma, is causally related to the Kamma-born material phenomena etc. As a seed to a tree so is Kamma causally related to its inevitable results."
+},
+{
+"type": "p",
+"text": "29. Vipāka—Like a cool breeze that pacifies a person seated under the cool shade of a tree, even so mental states of resultant types of consciousness are causally related to co-existent mental states and material phenomena by way of ‘effect’ due to their effortless peaceful nature."
+},
+{
+"type": "p",
+"text": "30. Āhāra—Just as material food sustains the physical body, even so mental foods sustain mental states. Edible food is causally related to the body by way of nutriment or food; so are mental contacts or impressions (phassa) to feelings, volitions or moral and immoral actions (manosañcetanā) to rebirth-consciousness (paṭisandhi viññāṇa), and rebirth consciousness (viññāṇa) to mind and matter."
+},
+{
+"type": "p",
+"text": "31. Indriya—The controlling factors enumerated in chapter VII become causally related to the co-existent mental states and material phenomena because they exercise control in their respective spheres. For instance, confidence controls its co-adjuncts in religious convictions; psychic and physical life, in vivifying mind and matter; mindfulness, in contemplative exercises; feelings, in grief and happiness, etc."
+},
+{
+"type": "p",
+"text": "32. Jhāna—The seven jhāna factors of (1) initial application, (2) sustained application, (3) rapture, (4) happiness, (5) equanimity, (6) displeasure and (7) one-pointedness are causally related to one another and other concomitants by way of close perception and contemplation. For instance, the initial application (vitakka) is causally related to its concomitants in directing them towards the desired object. See Ch. I."
+},
+{
+"type": "p",
+"text": "1. 2. 3. 4. 7 are found in two classes of consciousness rooted in attachment; 1. 2. 6. 7. in hateful consciousness; 1. 2. 5. 7. in deluded consciousness."
+},
+{
+"type": "p",
+"text": "33. Magga—means a way or road. One way leads to woeful statess; the other, to states of bliss. The vehicles that convey travellers to the former are the evil ‘Path-constituents’ of wrong views, wrong application, wrong effort, and wrong one-pointedness. The vehicles that ply on the latter way are right understanding, right aspirations, right speech, right action, right livelihood, right effort, right mindfulness, and right one-pointedness. These path factors are causally related to both mind and body, leading downwards in the case of bad ones, and leading away from existence (niyyāna) in the case of good ones."
+},
+{
+"type": "p",
+"text": "See Ch. VII, p. 62."
+},
+{
+"type": "p",
+"text": "34. Sampayutta—Though possessing distinct characteristics from an ultimate point of view, yet as certain mental states arise together, perish together, have one identical object and one identical base they are causally related to one another by way of ‘association’."
+},
+{
+"type": "p",
+"text": "35. Vippayutta is the opposite of the foregoing. Sweet and bitter tastes may be helpful to each other in being dissimilar. For instance, mind that depends on the heart-basis is causally related to it by way of dissociation because they are not mutually bound as water on a lotus leaf."
+},
+{
+"type": "p",
+"text": "36. Atthi is the causal relation of states that exist in the present to similar states like the causal relation of co-existence. The visibility of objects, for instance, is due to the presence of light."
+},
+{
+"type": "p",
+"text": "37. Natthi—As with the disappearance of light darkness spreads, so with the disappearance of the predecessor the successor appears. Such is the causal relation by way of absence. For instance, the visual consciousness (dassana) is causally related to the immediately following receiving consciousness (sampaṭicchana) by way of absence."
+},
+{
+"type": "p",
+"text": "38. Vigata and Avigata are similar to Natthi and Atthi respectively."
+},
+{
+"type": "h",
+"text": "Section 4"
+},
+{
+"type": "h4",
+"text": "Paññattibhedo"
+},
+{
+"type": "p",
+"text": "Tattha rūpadhammā rūpakkhandho ca cittacetasikāsaṃkhātā cattāro arūpino khandhā nibbānañc’ āti pañcavidham pi arūpanti ca nāmanti ca pavuccati.",
+"pnum": 8004,
+"label": "§ 4",
+"alias": [
+"p8-4"
+]
+},
+{
+"type": "p",
+"text": "Tato avasesā paññatti pana paññāpiyattā paññatti, paññāpanato paññattī’ti ca duvidhā hoti."
+},
+{
+"type": "p",
+"text": "Kathaṃ? Taṃ taṃ bhūtapariṇāmākāram’upādāya tathā tathā paññattā bhūmipabbatādikā, sasambhārasannivesākāram ’upādāya (geharathasakaṭādikā, khandhapañcakam’ upādāya) purisapuggalādikā, candavattanādikam’upādāya disākālādikā, asamphuṭṭhākāram’ upādāya kūpaguhādikā, taṃ taṃ bhūtanimittaṃ bhāvavisesañ ca upādāya kasiṇanimittādikā cā’ti evamādippabhedā pana paramatthato avijjamānā pi atthacchāyākārena cittupādānamālambanabhūtā taṃ taṃ upādāya kāraṇaṃ katvā tathā tathā parikappiyamānā saṃkhāyati, samaññāyati, vohariyati, paññāpiyatī’ti paññattī’ti pavuccati. Ayam paññatti paññāpiyattā paññatti nāma."
+},
+{
+"type": "p",
+"text": "Paññāpanato paññatti pana nāma nāmakammādināmena paridīpitā."
+},
+{
+"type": "p",
+"text": "Sā vijjamānapaññatti, avijjamānapaññatti, vijjamānena avijjamāna paññatti, avijjamānena vijjamānapaññatti, vijjamānena vijjamānapaññatti, avijjamānena avijjamānapaññatti c’āti chabbidhā hoti."
+},
+{
+"type": "p",
+"text": "Tattha yadā pana paramatthato vijjamānaṃ rūpavedanādiṃ etāya paññāpenti tad’āyaṃ vijjamānapaññatti. Yadā pana paramatthato avijjamānaṃ bhūmipabbatādiṃ etāya paññāpenti, tad’āyaṃ avijjamānapaññattiti pavuccati. Ubhinnaṃ pana vomissakavasena sesā yathākkamaṃ chaḷabhiñño itthisaddo cakkhuviññāṇaṃ rājaputto’ti ca veditabbā."
+},
+{
+"type": "p",
+"text": "Vacīghosānusārena sotaviññāṇavīthiyā",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Pavattānantaruppanna manodvārassa gocarā.",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Atthā yassānusārena viññāyanti tato paraṃ",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Sāyaṃ paññatti viññeyyā lokasaṃketanimmitā’ti",
+"ind": 2
+},
+{
+"type": "p",
+"text": "Iti Abhidhammatthasaṅgahe Paccayasaṅgahavibhago nāma Aṭṭhamo Paricchedo."
+},
+{
+"type": "h",
+"text": "Section 4"
+},
+{
+"type": "h4",
+"text": "Paññatti"
+},
+{
+"type": "p",
+"text": "Therein the material states are just the aggregates of matter."
+},
+{
+"type": "p",
+"text": "Consciousness and mental states, which comprise the four immaterial aggregates, and Nibbāna are the five kinds of the immaterial. They are also called ‘name’ (Nāma)."
+},
+{
+"type": "p",
+"text": "The rest, Paññatti (39), is twofold inasmuch as it is made known, or as it makes known."
+},
+{
+"type": "p",
+"text": "How ?"
+},
+{
+"type": "p",
+"text": "There are such terms as ‘land’, ‘mountain’ and the like, so designated on account of the mode of transition of the respective elements; such terms as ‘house’, ‘chariot’, ‘cart’ and the like, so named on account of the mode of formation of materials; such terms as ‘person’ and the like, so named, on account of the five aggregates; such terms as direction, time, and the like, named according to the revolution of the moon and so forth; such terms as ‘well’, ‘cave’ and the like, so named on account of the mode of non-impact and so forth; such terms as Kasiṇa-objects and the like, so named on account of respective elements and different mental culture."
+},
+{
+"type": "p",
+"text": "All such different things, though do not exist in an ultimate sense, become objects of thought in the form of shadows of (ultimate) things."
+},
+{
+"type": "p",
+"text": "They are called ‘paññatti’ because they are thought of, reckoned, understood, expressed, and made known on account of, in consideration of, with respect to, this and that mode."
+},
+{
+"type": "p",
+"text": "This ‘Paññatti’ is so called because they are made known."
+},
+{
+"type": "p",
+"text": "As it makes known it is called ‘(nāma) paññatti’. It is described as ‘name’, ‘name-made’, etc."
+},
+{
+"type": "p",
+"text": "It is sixfold(40) :—"
+},
+{
+"type": "p",
+"text": "1. A real concept, 2. an unreal concept, 3. an unreal concept by means of a real concept, 4. a real concept by means of an unreal concept, 5. a real concept by means of a real concept, 6. an unreal concept by means of an unreal concept."
+},
+{
+"type": "p",
+"text": "As, for instance, when they make known by a term, ‘matter’, ‘feeling’, and so forth that exist in reality, it is called a ‘real concept’."
+},
+{
+"type": "p",
+"text": "When they make known by a term, ‘land’, ‘mountain’, and so forth that do not exist in reality, it is called an ‘unreal concept’."
+},
+{
+"type": "p",
+"text": "The rest should respectively be understood by combining both as, for instance, ‘a possessor of sixfold supernormal vision’, ‘woman’s voice’, ‘visual cognition’, ‘king’s son’."
+},
+{
+"type": "h4",
+"text": "Summary"
+},
+{
+"type": "p",
+"text": "By following the sound of speech through the process of auditory consciousness and then by means of the concept conceived by mind-door that subsequently arises, are meanings understood."
+},
+{
+"type": "p",
+"text": "These concepts should be understood as fashioned by world-convention."
+},
+{
+"type": "p",
+"text": "This is the eighth chapter which deals with the Compendium of Relations in the Book of Ultimate Things."
+},
+{
+"type": "p",
+"text": "39. Paññatti—There are two kinds of paññatti or concepts—namely, atthapaññati and nāma-paññati. The former is made known,—that is, the object conveyed by the concept. The latter is that which makes known,—that is, the name given to the object."
+},
+{
+"type": "p",
+"text": "Land, mountain, etc. are called saṇṭhānā-paññatti, formal concepts, since they correspond to the form of things."
+},
+{
+"type": "p",
+"text": "Chariot, village, etc., are called ‘samūha-paññatti’, collective concepts, since they correspond to a collection or group of things."
+},
+{
+"type": "p",
+"text": "East, West, etc. are called ‘disā-paññatti’, ‘local concepts’ since they correspond to locality."
+},
+{
+"type": "p",
+"text": "Morning, noon, etc. are called ‘kāla-paññatti’, ‘time concepts’ since they correspond to time."
+},
+{
+"type": "p",
+"text": "Well, cave, etc. are called ‘ākāsa-paññatti’ ‘space-concepts’, since they correspond to open space."
+},
+{
+"type": "p",
+"text": "Visualized image, conceptualised image, etc. are called ‘nimitta-paññatti’ since they correspond to mental signs gained by mental development."
+},
+{
+"type": "p",
+"text": "40. Six kinds of Paññatti—"
+},
+{
+"type": "p",
+"text": "1. Matter, feeling, etc. exist in an ultimate sense.",
+"ind": 1
+},
+{
+"type": "p",
+"text": "2. Land, mountain, etc. are terms given to things that do not exist in an ultimate sense.",
+"ind": 1
+},
+{
+"type": "p",
+"text": "3. ‘Possessor of sixfold supernormal vision’. Here the former does not exist in an ultimate sense, but the latter does.",
+"ind": 1
+},
+{
+"type": "p",
+"text": "4. Woman’s voice. Here the voice exists in an ultimate sense, but not the woman.",
+"ind": 1
+},
+{
+"type": "p",
+"text": "5. Eye-consciousness—Here the sensitive eye exists in an ultimate sense, and so does the consciousness dependent on it.",
+"ind": 1
+},
+{
+"type": "p",
+"text": "6. King’s son—Here neither the son nor the king exists in an ultimate sense.",
+"ind": 1
+}
+],
+"sangaha_ch": 8
+},
+{
+"num": "9",
 "label": "Chapter IX",
 "title": "Mental Culture",
 "blocks": [

@@ -230,10 +230,10 @@
    "edition": "Vājirārāma, Colombo; Preface dated 1978; palikanon.com web edition",
    "by": "Abhidhammattha-Saṅgaha of Anuruddhācariya, edited in the original Pāli text with English translation and explanatory notes by Nārada Thera, Vājirārāma, Colombo",
    "blurb": "The Saṅgaha section by section: Nārada’s Pāli, his English, and his explanatory notes, with diagrams.",
-   "note": "Chapters I–VII and IX, one per page, after the Preface. Nārada numbers his sections § 1, § 2 … in each chapter; a chip beside a section opens the same Pāli in the Sixth Council Saṅgaha and the Vibhāvinī. <b>Chapter VIII (Paccaya) is missing from this copy</b>: its contents list it, but the text runs from Chapter VII to Chapter IX.",
+   "note": "All nine chapters, one per page, after the Preface. Nārada numbers his sections § 1, § 2 … in each chapter; a chip beside a section opens the same Pāli in the Sixth Council Saṅgaha and the Vibhāvinī. Chapters I–VII and IX are the web edition; <b>Chapter VIII</b>, missing from it, is transcribed for this library from the 1956–57 edition (Buddha Sāsana Council reprint, Rangoon, 1970), with its two diagrams.",
    "brand_sub": "Nārada · Manual",
-   "toc_foot": "Chapters I–VII and IX ({{NPARA}} sections); Chapter VIII is missing from this copy.",
-   "source": "Source: Nārada Thera, <em>Abhidhammattha-Sangaha of Anuruddhācariya: A Manual of Abhidhamma</em>, Vājirārāma, Colombo, from the web edition of palikanon.com as a PDF (Word, 2010; “for free distribution only”). The text is taken as it is in the PDF, whose Pāli writes plain m and n for ṃ and ṅ; the diagrams are its text tables, shown with their columns as the PDF has them (some cells are broken over two lines there).",
+   "toc_foot": "The nine chapters ({{NPARA}} sections); Chapter VIII from the 1956–57 edition.",
+   "source": "Source: Nārada Thera, <em>Abhidhammattha-Sangaha of Anuruddhācariya: A Manual of Abhidhamma</em>, Vājirārāma, Colombo. Chapters I–VII and IX from the web edition of palikanon.com as a PDF (Word, 2010; “for free distribution only”), taken as it is; its Pāli writes plain m and n for ṃ and ṅ, and its diagrams are text tables shown with their columns. Chapter VIII, which that edition lacks, is transcribed from the page images of the first edition (1956–57) as reprinted by the Buddha Sāsana Council, Kaba-Aye, Rangoon, 1970 (pp. 73–103), read against the OCR word by word; its Pāli keeps the print’s diacritics (ṁ written ṃ), and its misprints are kept as printed. Its two diagrams (the Wheel of Life; Diagram 5, Paṭicca Samuppāda) are images of the printed pages.",
    "desc": "Nārada Thera’s Manual of Abhidhamma: the Abhidhammatthasaṅgaha in Pāli and English with explanatory notes, linked to the Pāli text.",
    "howto": [
     [
@@ -254,7 +254,7 @@
    "sign": "§",
    "margin_sign": "",
    "xrefs": false,
-   "footnotes": false,
+   "footnotes": true,
    "split": true,
    "inline_markup": false,
    "drawer_btn": "Notes",
