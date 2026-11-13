@@ -2,6 +2,42 @@
 
 Newest first. See AUTOPILOT.md for the standing instructions.
 
+## 2026-11-13 — Process of Consciousness and Matter pp. 1–40 proofread
+
+First run on Rewata Dhamma's *Process of Consciousness and Matter* (`pcm`). Proofread PDF pages 1–40 of
+`ocr-sources/pcm.pdf` into `ocr/pcm/p001.md`–`p040.md`: half-title, title page (with the seal described in a
+comment), copyright page, Contents (pp. 5–10, as two-column tables, main entries bold), List of Tables,
+Abbreviations, Terms Used and Tables, Preface (U. Silānanda), Acknowledgement (Dr Ottaranyāna), the
+biography of Dr Rewata Dhamma, the Introduction (book pp. 1–7), and Chapter I from the start to book p. 18
+(Abhidhamma, Ultimate Reality, Fourfold Realities, Citta, Classification of Consciousness, "The 89 and 121
+Cittas at a Glance" as a table, Mental Factors, Ethically Variable and Unwholesome Cetasikas). Blank pages
+(2, 16, 18, 20, 22, 30) have a file that says so.
+
+How: the text layer is the Word original (fonts VUTimes / -Bold / -Italic), so the words, italics and bold
+were taken from it with PyMuPDF (font names give `*…*` and `**…**`; 7-pt superscript digits give the note
+references), then every page was read against its image (110 dpi, zoomed where in doubt) for paragraphs,
+headings, lists and tables. Word check: every word of the text layer is in the pages except the running
+heads and page numbers.
+
+Conventions for the build:
+- **Book pages:** PDF page = book page + 22 from the Introduction on (p023 = book page 1); front matter has
+  the book's roman numerals (p011 = I … p021 = XI); contents and title pages say "unnumbered".
+- **Headings:** `##` for the centred headings (INTRODUCTION, CHAPTER I, "Classification of Consciousness",
+  "Mental Factors-Cetasikas" — the bold entries of the Contents), `###` for the left-aligned sub-headings.
+- **Notes:** the book's superscript numbers are endnotes, numbered afresh in the Introduction (1–9) and in
+  each chapter (Chapter I: 1–4 so far); they are kept as `[^n]` but their texts are in the book's "Notes"
+  (book pp. 160–164, PDF pp. 182–186), not at the foot of the page: the build must tie them by chapter.
+- Superscript ordinals as `^{th}` ("26^{th} May", "17^{th} century"); signature blocks keep their line breaks.
+- `<!-- cont -->` marks a page that goes on mid-sentence (or mid-list) from the one before.
+
+Words marked ⟨?⟩: none (the text layer and images agree everywhere). Kept as printed (the author's or
+typesetter's slips, not corrected): "aññanamāna cetasikas" (p040, beside "aññasamāna" in the next lines),
+"jāvitindriya" (p040), "Āramaṇaṁ cintetīti cittaṁ" (p033), "the cittasika" (p039), "Fruit on non-returning"
+(p038), "Arises after Jhavana" (p012, List of Tables 4.14), "checked and edited Mike Regan" (p019),
+"When we analyses" (p032).
+
+Next: `pcm`, PDF page 41 (book p. 19; 183 pages left).
+
 ## 2026-11-13 — Fundamental Abhidhamma Part II built into the site (ready to merge)
 
 Built Part II of *Fundamental Abhidhamma* from the 142 proofread pages (`ocr/fundamental-2/p106.md`–`p247.md`):
