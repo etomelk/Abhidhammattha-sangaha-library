@@ -35,13 +35,27 @@ def indent(l):
 JUSTIFIED = [False]      # set per book: the book's prose is justified with wide gaps (the Handbook)
 
 
+def is_diagram(l):
+    """a line of a thought-process diagram: rows of one- and two-letter marks ("P C SP ST V J J J"), or a rule of dashes"""
+    w = l.split()
+    return bool(re.search(r'-{6,}|_{6,}', l)) or (len(w) >= 5 and sum(1 for x in w if re.fullmatch(r'\(?[A-Z]{1,2}\)?|\(\d\)', x)) >= 0.7 * len(w))
+
+
 def is_table(l):
-    t = re.sub(r'^(•|\d{1,2}|[ivx]{1,4}|\([a-z0-9]+\)|' + SPEAKER + r')\s+', '', l.strip())     # the gap after a list number or a speaker
+    if is_diagram(l):
+        return True
+    t = re.sub(r'^(•|\d{1,2}\.?|[A-H]\.|[ivx]{1,4}\.?|\([a-z0-9]+\)|' + SPEAKER + r')\s+', '', l.strip())
+    t = re.sub(r'^[A-Za-z](-[a-z])?\s{2,}(?=[A-Z])', '', t)                 # "A   In the first …", "b-f   In the next …"
+    if len(re.findall(r'\S {3,}\S', t)) == 1 and re.search(r'[.;:]\s{3,}[A-Z‘“]', t) and len(t.split()) >= 6:
+        return False                     # two sentences with a wide space between them     # the gap after a list number or a speaker
     if not re.search(r'\S {3,}\S', t):
         return False
     gaps = [len(g) for g in re.findall(r'(?<=\S) +(?=\S)', t)]
     words = t.split()
     # a justified line of prose: many words, the gaps spread evenly and none very wide
+    if (len(l.rstrip()) >= 55 and 3 <= len(words) <= 9 and min(gaps) >= 2 and max(gaps) <= 9 and all(re.search(r'[a-zāīūṃñ]', w) for w in words)
+            and any(w[0].islower() or w[-1] in ',.;:' for w in words)):
+        return False                     # a short justified line, its few words spread across the measure
     if JUSTIFIED[0] and len(t) >= 45 and len(words) >= 6 and max(gaps) <= 6 and sum(1 for g in gaps if g >= 3) * 2 >= len(gaps) - 1:
         return False
     return True
@@ -49,6 +63,42 @@ def is_table(l):
 
 def key(t):
     return re.sub(r'[^a-z0-9]', '', t.lower())
+
+
+def guide_fixes(text):
+    """The Guide sets two lists beside braces with their labels on the right; pdftotext scatters the labels
+    among the items. Those two lists are written out here as they read in the book."""
+    def li(xs):
+        return '\n'.join('⟦li⟧' + x for x in xs)
+    fac = [('The 6 kinds of organs', ['1. eye', '2. ear', '3. nose', '4. tongue', '5. body', '6. mind']),
+           (None, ['7. femininity (itthindriya)', '8. virility (purisindriya)', '9. vitality (jīvitindriya)']),
+           ('The 5 kinds of feelings', ['10. bodily ease (sukha)', '11. bodily pain (dukkha)', '12. glad-mindedness (somanassa)',
+                                        '13. sad-mindedness (domanassa)', '14. equanimity (upekkhā)']),
+           ('The 5 spiritual faculties', ['15. faith (saddhā)', '16. energy (viriya)', '17. mindfulness (sati)',
+                                          '18. concentration (samādhi)', '19. wisdom (paññā)']),
+           ('The 3 supramundane faculties', ['20. the thought: “I shall come to know the unknown” (anaññātaññassāmītindriya)',
+                                             '21. the faculty of understanding (aññindriya)',
+                                             '22. the faculty of ‘one who has understood’ (aññātāvindriya)'])]
+    new = '\n\n'.join(('⟦h4⟧' + h + '\n' if h else '') + li(xs) for h, xs in fac) + '\n'
+    text, n1 = re.subn(r'\n[ \t]*\}[ \t]*\n[ \t]*1\. eye\n.*?\(aññātāvindriya\)[^\n]*faculties\)\n', '\n' + new, text, count=1, flags=re.S)
+    schools = [('4th century BCE', ['Vajjiputtakas 12', 'Mahiṃsāsakas (Mahiṃs.) 21, 55, 59, 82, 98, 106, 161, 181, 192, 197',
+                                    'Mahāsaṅghikas (Mahās.) 98–103, 105, 107–09, 112, 116–19, 135, 144, 145, 149, 155–56, 184, 201, 204',
+                                    'Gokulikas 18', 'Sabbatthivādins (Sabb.) 2, 6, 7, 19, 113',
+                                    'Sammitiyas (Samm.) 1–5, 19, 26, 28, 29, 66, 75, 80, 82–84, 98, 106, 141, 142, 154, 161, 162, 182']),
+               ('3rd century BCE', ['Bhadrayānikas 19', 'Kassapikas 8']),
+               ('Later schools', ['Hetuvādins (Het.) 148, 150–51, 153, 157, 168–69, 192, 194, 219',
+                                  'Uttarāpathakas (Uttar.) 34–37, 39, 40, 45, 47, 58, 59, 74, 87, 88, 90–91, 113, 120–21, 123, 126–27, '
+                                  '129–30, 132, 137–38, 159–60, 175, 178–80, 185, 189, 191, 193, 199, 205–06, 209–11, 213, 216, 219',
+                                  'Andhakas (Andh.) 9, 10, 17, 19–24, 26, 28, 29, 32, 33, 41–44, 46, 48–54, 58, 60–63, 70–74, 78–81, 85, '
+                                  '88, 89, 96, 97, 111, 114–15, 131, 139–42, 154, 162–65, 179–80, 182, 186, 190, 195–96, 202, 203, 205–08, 215, 217, 218',
+                                  'Pubba-seliyas (Pubb.) 11–16, 55, 56, 75–77, 83, 84, 86, 93–95, 110, 122, 128, 133–34, 136, 143, 158, 183, 187–88, 198, 214',
+                                  'Apara-seliyas (Apar.) 11, 128, 158, 214', 'Rājagirikas (Rāj.) 64–69, 125, 152, 166–67',
+                                  'Siddhatthikas (Siddh.) 64–69, 166–67', 'Vetulyakas 170–74, 176, 177, 215'])]
+    new = '\n\n'.join('⟦h4⟧' + h + '\n' + li(xs) for h, xs in schools) + '\n'
+    text, n2 = re.subn(r'\n[ \t]*\{[ \t]*\n[ \t]*Vajjiputtakas 12\n.*?Vetulyakas 170–74, 176, 177, 215\n', '\n' + new, text, count=1, flags=re.S)
+    if n1 + n2 < 2:
+        print('guide_fixes: a list was not found', n1, n2, file=sys.stderr)
+    return text
 
 
 def heading_like(t):
@@ -82,7 +132,7 @@ BOOKS = {
                   extra_parts=[(r'^\s*THE MATRIX \(MĀTIKĀ\)\s*$', 'Mātikā', 'The Matrix (Mātikā)'),
                                (r'^\s*APPENDIX I\s*$', 'Appendix I', 'Paṭicca-samuppāda: the doctrine of dependent origination of all phenomena of existence'),
                                (r'^\s*APPENDIX II\s*$', 'Appendix II', 'Tables')],
-                  running_head=r'^\s*(Guide [Tt]hrough the Abhidh?a?m+a Piṭaka|Paṭṭhāna|Kathāvatthu|Vibhaṅga|Yamaka|Paṭicca-samuppāda|Dhammasaṅgaṇī|The Abhidhamma Matrix|Dhātukathā|Puggalapaññatti|Appendix( II?)?)\s*$'),
+                  running_head=r'^\s*(Guide [Tt]hrough the Abhidh?a?m+a Piṭaka|Paṭṭhāna|Kathāvatthu|Vibhaṅga|Yamaka|Paṭicca-samuppāda|Dhammasaṅgaṇī|The Abhidhamma Matrix|The Matrix \(Mātikā\)|Introduction|Dhātukathā|Puggalapaññatti|Appendix( II?)?)\s*$'),
 }
 FONTS = {'tinmon': FONT,
          # Nyanatiloka's Guide (BPS 2007): á ā, þ ṭ, ò ṅ, ó ṇ, ú ū, ì ī, í ṃ, ÿ ¿ ḷ, ð ḍ and their capitals;
@@ -91,6 +141,19 @@ FONTS = {'tinmon': FONT,
                                  'ð': 'ḍ', 'Á': 'Ā', 'Þ': 'Ṭ', 'Ò': 'Ṅ', 'Ó': 'Ṇ', 'Ú': 'Ū', 'Ì': 'Ī', 'Í': 'Ṃ',
                                  'Ÿ': 'Ḷ', 'Ð': 'Ḍ', 'ø': None})}
 NUMWORDS = {'One': 1, 'Two': 2, 'Three': 3, 'Four': 4, 'Five': 5, 'Six': 6, 'Seven': 7, 'Eight': 8, 'Nine': 9}
+EQ = re.compile(r'^\s{0,2}(\S.{0,40}?)\s+=\s+([^\d\s].*[a-zāīū]{3}.*)$')     # "Jhāna        = Jhāna is so called …"
+
+
+def eq_col(ls):
+    """the column where the meanings of a list of terms start"""
+    for x in reversed(ls):
+        m = EQ.match(x)
+        if m:
+            return m.start(2)
+    return -9
+
+
+DEF = re.compile(r'^\S+(\s\S+)?\s+[:=]\s')     # a glossary line: "sampayuttaṃ : connected with"
 SPEAKER = r'(Sayādaw|Student|Students|Yogi|Question|Answer|Q|A)\s*:'
 
 
@@ -101,6 +164,8 @@ def main(src, slug='tinmon'):
     text = re.sub(r'(?m)^(\s*)([A-ZĀĪŪṬḌṆṄÑṂḶ ()-]+)$', lambda m: m.group(1) + re.sub(r'(?<=[A-ZĀĪŪṬḌṆṄÑṂḶ]) (?=[ṬḌṆṄ])|(?<=[ṬḌṆṄ]) (?=[A-ZĀĪŪṬḌṆṄ]{2})', '', m.group(2)), text)
     if slug == 'guide':
         text = text.replace('¿', 'ḷ')                   # the 2008 typesetting keeps a few of the old font's ¿ (sa¿āyatana)
+        text = guide_fixes(text)
+    text = re.sub(r'(?m)^[ \t]*[{}][ \t]*$', '', text)   # a brace drawn beside a group of lines comes out as a line of its own
     if cfg['font']:
         text = text.translate(FONTS[cfg['font'] if isinstance(cfg['font'], str) else 'tinmon'])
     pages = text.split('\f')
@@ -151,7 +216,17 @@ def main(src, slug='tinmon'):
         if not cur:
             return
         bl = parts[-1]['blocks']
-        if cur['kind'] == 'pre':
+        if cur['kind'] == 'pre' and EQ.match(cur['lines'][0]) and all(EQ.match(x) or indent(x) >= 8 for x in cur['lines']):
+            # a list of terms and their meanings ("Jhāna   = Jhāna is so called …"): one paragraph each
+            for x in cur['lines']:
+                m = EQ.match(x)
+                if m:
+                    bl.append(dict(type='p', text=f'**{re.sub(r"\s+", " ", m.group(1).strip())}** = {m.group(2).strip()}', ind=1))
+                else:
+                    t = bl[-1]['text']
+                    w = x.strip()
+                    bl[-1]['text'] = t[:-1] + w if re.search(r'\w-$', t) and w[:1].islower() else t + ' ' + w
+        elif cur['kind'] == 'pre':
             if bl and bl[-1]['type'] == 'pre':
                 bl[-1]['text'] += '\n' + '\n'.join(cur['lines'])
             else:
@@ -170,10 +245,25 @@ def main(src, slug='tinmon'):
             t = re.sub(r'\s+', ' ', t).strip()
             t = re.sub(r'^([A-Z‘“]) {2,}(\w)', r'\1\2', t)                                  # a drop capital
             if cur['kind'] == 'item':
+                if cur.get('head') and len(cur['lines']) > 1:
+                    h = re.sub(r'\s+', ' ', cur['lines'][0].strip())
+                    t = f'**{h}** ' + t[len(h):].strip() if t.startswith(h) else t
                 bl.append(dict(type='p', text=t, ind=1))
             else:
                 bl.append(dict(type='p', text=t))
         cur = None
+
+    def margin_item(s, nxt, i):
+        """a numbered or lettered item set at the margin: with its lines hanging under it, in a run of items,
+        or after a finished sentence ("A.   Lokiya = mundane (81),", "5.   What are …")"""
+        if indent(lines[i]) > 1:
+            return False
+        if re.match(r'^[A-H]\.\s{2,}\S|^[A-Za-z](-[a-z])?\s{3,}[A-Z]', s) or (re.match(r'^\d{1,2}\.\s{2,}\S', s) and ended(i)):
+            return True
+        if not (indent(nxt) >= 3 or re.match(r'^\s?\d{1,3}\.\s+[*A-Z“‘(]', nxt)):
+            return False
+        return bool(re.match(r'^\d{1,2}\.?\s{2,}\S', s)
+                    or (re.match(r'^(\d{1,3}|[ivx]{1,4})\.?\s+[*A-Z“‘(]', s) and (ended(i) or (cur and cur['kind'] == 'item'))))
 
     def ended(i):
         """did the line before i end a paragraph (or is it a break)?"""
@@ -193,6 +283,17 @@ def main(src, slug='tinmon'):
         s = l.strip()
         if not s:
             flush()
+            i += 1
+            continue
+        if re.fullmatch(r'\*\s?\*\s?\*', s):         # a break between sections
+            flush()
+            parts[-1]['blocks'].append(dict(type='p', text='* * *'))
+            i += 1
+            continue
+        if s.startswith('⟦'):                       # a block written out by hand (guide_fixes)
+            flush()
+            kind, t = re.match(r'⟦(\w+)⟧\s*(.*)', s).groups()
+            parts[-1]['blocks'].append(dict(type='h4', text=t) if kind == 'h4' else dict(type='p', text=t, ind=1))
             i += 1
             continue
         m = re.match(cfg['chapter'], l)
@@ -234,6 +335,17 @@ def main(src, slug='tinmon'):
             cur['lines'].append(l)
             i += 1
             continue
+        if cur and cur['kind'] == 'pre' and EQ.match(cur['lines'][-1] if not EQ.match(cur['lines'][0]) else cur['lines'][0]) \
+                and ((indent(l) >= 8 and not EQ.match(l) and abs(indent(l) - eq_col(cur['lines'])) <= 3) or EQ.match(l)):
+            cur['lines'].append(l)              # the meaning of a term goes on under itself
+            i += 1
+            continue
+        nx0 = next((x for x in lines[i + 1:] if x != '\x00' and x.strip()), '')
+        if (cur and cur['kind'] == 'pre' and indent(l) >= 5 and len(s.split()) <= 3 and len(s) <= 25
+                and (is_diagram(nx0) or is_diagram(cur['lines'][-1]))):
+            cur['lines'].append(l)              # a label of a diagram ("Eye-door", "Mind-door")
+            i += 1
+            continue
         if cur and cur['kind'] == 'pre':
             flush()
         ind = indent(l)
@@ -241,6 +353,23 @@ def main(src, slug='tinmon'):
         numbered = re.match(r'^(\d{1,2}|[ivx]{1,4})\.?\s+(.*)$', s)
         if numbered and key(numbered.group(2)) in toc and ended(i):          # "1 Four Āsavas (…)": a numbered section
             flush()
+            parts[-1]['blocks'].append(dict(type='h', text=s))
+            i += 1
+            continue
+        if ind >= 10 and len(s) < 70 and (re.fullmatch(r'[A-Z][\w ’-]+ \(§§[\d–-]+\)', s)
+                                           or (re.fullmatch(r'Section on [\w ’-]+', s) and re.match(r'\s?1\.\s', nxt))):
+            flush()                    # a centred section title of the Matrix: "Section on Roots (§§1053–72)"
+            parts[-1]['blocks'].append(dict(type='h4', text=s))
+            i += 1
+            continue
+        if ind >= 10 and len(s) < 60 and key(s) in toc and heading_like(s) and ended(i) and not s.isupper() and not is_table(l):
+            flush()                    # a centred title that the contents list ("Review Questions")
+            j = i + 1
+            while j < len(lines) and (not lines[j].strip() or lines[j] == '\x00'):
+                j += 1
+            if s.split()[-1] in ('and', 'of', 'the', 'in', 'to', '&') and j < len(lines) and indent(lines[j]) >= 10 and len(lines[j].strip()) < 50:
+                s += ' ' + lines[j].strip()                         # the title goes on in a second line
+                i = j
             parts[-1]['blocks'].append(dict(type='h', text=s))
             i += 1
             continue
@@ -269,23 +398,42 @@ def main(src, slug='tinmon'):
             parts[-1]['blocks'].append(dict(type='h4' if s.startswith('(') else 'h', text=s))
             i += 1
             continue
+        if (re.match(r'^[A-Z][a-z]{0,3}:\s+\S+.*\s[–-]\s', s) and ended(i) and indent(nxt) > ind
+                and not (cur and cur['kind'] == 'item' and ind > cur['ind'] + 1 and not cur.get('head'))):
+            flush()                 # a term of a list with its explanation set in under it ("Na: bhavaṅga-calāna – …")
+            cur = dict(kind='item', ind=1, lines=[s], hang=True, head=True)
+            i += 1
+            continue
         if re.match(SPEAKER + r'\s', s) and ind <= 1:                         # "Sayādaw: …" with a hanging indent
             flush()
             cur = dict(kind='speech', ind=0, lines=[s])
         elif cur and cur['kind'] == 'speech' and ind >= 4 and not re.match(SPEAKER, s):
             cur['lines'].append(s)
-        elif ind >= 2 and re.match(r'^(\d{1,2}|[ivx]{1,4}|\([a-z0-9ivx]+\)|•)\s', s):
+        elif (ind >= 2 and re.match(r'^(\d{1,2}\.?|[ivx]{1,4}\.?|\([a-z0-9ivx]+\)|•)\s|^[A-Za-z](-[a-z])?\s{2,}[A-Z]', s)) or margin_item(s, nxt, i):
             flush()
             cur = dict(kind='item', ind=ind, lines=[s])
         elif cur and cur['kind'] == 'item' and ind > cur['ind']:
-            cur['lines'].append(s)
+            abbr = re.match(r'^[A-Z][a-z]{0,3}:\s', s)
+            if ended(i) and (abbr or (cur.get('cont') and ind >= cur['cont'] + 4)):
+                # inside an item: a new paragraph (set in further), or a term of a list ("Pa: Pañca-dvārāvajjana – …")
+                flush()
+                cur = dict(kind='item', ind=min(ind - 1, 3), lines=[s], hang=True, cont=ind, head=bool(abbr))
+            else:
+                cur['lines'].append(s)
+                cur['hang'] = True
+                cur.setdefault('cont', ind)
+        elif (cur and cur['kind'] == 'para' and ind >= 2 and not DEF.match(s) and not DEF.match(cur['lines'][-1])
+              and ((cur['ind'] >= 2 and ind > cur['ind'] + 1) or (ind == cur.get('cont') and ind > cur['ind'] + 1)
+                   or (cur['ind'] >= 2 and not ended(i)) or (abs(ind - cur['ind']) <= 1 and not ended(i)))):
+            cur['lines'].append(s)              # the paragraph goes on: a hanging indent, or a block set in from the margin
+            cur['cont'] = ind
         elif ind >= 2:
             flush()
             cur = dict(kind='para', ind=ind, lines=[s])
         else:
             if cur is None:
                 cur = dict(kind='para', ind=0, lines=[])
-            elif cur['kind'] == 'item' and ended(i):
+            elif cur['kind'] == 'item' and (ended(i) or (cur['ind'] <= 1 and cur.get('hang'))):     # a hanging item ends at the margin
                 flush()
                 cur = dict(kind='para', ind=0, lines=[])
             cur['lines'].append(s)

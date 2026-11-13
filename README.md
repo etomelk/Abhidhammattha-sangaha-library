@@ -374,3 +374,19 @@ writes the page.
 ## Checks
 
 `python3 scripts/check_site.py`: 115 pages × 3 widths, no problems (November 2026).
+
+## Checking the formatting
+
+`python3 scripts/audit_format.py [book]` looks through the converted books for the faults that text taken from
+PDFs is prone to: lone braces or punctuation, paragraphs cut in two, lines of a table or a diagram set as text,
+headings that are sentences, words broken into letters. What is left after the fixes is mostly the books' own
+layout (lists of terms, Pāli verse lines, `namely:-`).
+
+- The shared converter (`scripts/tinmon/convert.py`) joins hanging indents and items set at the margin, turns
+  "term = meaning" lists into one paragraph per term, keeps thought-process diagrams (`P C SP ST V J J …`)
+  together as preformatted blocks, and drops lone `{` / `}` lines. The Guide's two lists drawn beside braces
+  (the 22 faculties, the schools of the Kathāvatthu) are written out in `guide_fixes()`.
+- Nārada: the notes' "13. Vicikicchā-" lines are joined to their notes; Diagram XIV is rebuilt as a table with
+  upright column heads (the last rows' marks follow the book's counts).
+- Practical Course: figures are bounded by running text only (so whole tables are cropped), and heading and
+  caption lines keep their spaces.

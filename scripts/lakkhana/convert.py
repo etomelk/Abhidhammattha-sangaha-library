@@ -170,6 +170,16 @@ def main(src):
                 b['text'] = re.sub(r'(\w)- (\w)', r'\1-\2', b['text'])
             if 'rows' in b:
                 b['rows'] = [[re.sub(r'(\w)- (\w)', r'\1\2' if i == 1 else r'\1-\2', x) for i, x in enumerate(r)] for r in b['rows']]
+    for c in chapters:                    # a sentence or a bracket that runs on into the next paragraph
+        out = []
+        for b in c['blocks']:
+            if (out and b['type'] == 'p' and out[-1]['type'] == 'p' and not b.get('pnum') and not out[-1].get('pnum')
+                    and (out[-1]['text'].count('(') > out[-1]['text'].count(')')
+                         or (re.search(r'[a-z,]$', out[-1]['text']) and re.match(r'[a-z]', b['text'])))):
+                out[-1] = dict(out[-1], text=out[-1]['text'] + ' ' + b['text'])
+            else:
+                out.append(b)
+        c['blocks'] = out
     json.dump(dict(chapters=chapters, glossary=[]), open(os.path.join(ROOT, 'data', 'lakkhana.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
     for c in chapters:
         print(f'  {c["label"]:14} {c["title"][:60]:60} items {sum(1 for b in c["blocks"] if b["type"] == "h"):3} tables {sum(1 for b in c["blocks"] if b["type"] == "table"):3}', file=sys.stderr)

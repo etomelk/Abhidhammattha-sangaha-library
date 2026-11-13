@@ -243,7 +243,7 @@ def italics(escaped):
         escaped = re.sub(r'\*\*([^*<>]+)\*\*', r'<b>\1</b>', escaped)
         return re.sub(r'(?<![\w*])\*([^*\s][^*]*)\*(?!\w)', r'<i>\1</i>', escaped)
     if not ITALICS:
-        return escaped
+        return re.sub(r'\*\*([^*<>]+)\*\*', r'<b>\1</b>', escaped)      # a term set in bold by the converter
     def run(m):
         t = m.group(1)
         k = vkey(t)
@@ -701,7 +701,7 @@ def render_ex(b):
 
 def render_table(b):
     stack = STACK and b.get('head') and len(b['head']) >= 4 and max(sum(len(c[0] if isinstance(c, list) else c) for c in r) for r in b["rows"] if isinstance(r, list)) > 28
-    out = ['<table class="gt' + (' glossed' if b.get('glossed') else '') + (' stack' if stack else '') + '">']
+    out = ['<table class="gt' + (' glossed' if b.get('glossed') else '') + (' stack' if stack else '') + (' vhead' if b.get('vhead') else '') + '">']
     if b.get('glossed'):
         out.insert(0, TOGGLE_BTN)
     if b.get('head'):

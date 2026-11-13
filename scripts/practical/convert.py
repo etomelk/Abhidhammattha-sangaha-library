@@ -29,6 +29,12 @@ SANGAHA = {3: 1, 4: 2, 5: 6, 6: 5, 8: 4}
 BODY, NOTE_MARK, SUP, NOTE, CAPTION, H4, H3, H2 = 12.0, 7.0, 8.0, 10.0, 10.9, 14.3, 17.2, 20.7
 
 
+def prose(b):
+    """a block of running text (its lines run across the measure), not the cells of a table"""
+    ws = [l['bbox'][2] - l['bbox'][0] for l in b['lines']]
+    return sum(ws) / len(ws) > 300
+
+
 def near(a, b):
     return abs(a - b) < 0.25
 
@@ -99,7 +105,7 @@ def main(src):
             for b in blocks:
                 sz = b['lines'][0]['spans'][0]['size']
                 if b['bbox'][3] <= cb['bbox'][1] + 1 and b is not cb and (
-                        (near(sz, BODY) and b['bbox'][2] - b['bbox'][0] > 380) or sz > 14 or (near(sz, BODY) and b['bbox'][0] < 75 and len(b['lines']) > 1)):
+                        (near(sz, BODY) and prose(b)) or sz > 14):
                     top = max(top, b['bbox'][3])
             for c2 in caps:
                 if c2 is not cb and c2['bbox'][3] <= cb['bbox'][1]:
@@ -113,7 +119,7 @@ def main(src):
             pix = pg.get_pixmap(matrix=pymupdf.Matrix(1.6, 1.6), clip=clip)
             im = Image.frombytes('RGB', (pix.width, pix.height), pix.samples)
             im.quantize(colors=48, method=Image.Quantize.MEDIANCUT).save(os.path.join(figdir, name), optimize=True)
-            cap = re.sub(r'\s+', ' ', ''.join(s['text'] for l in cb['lines'] for s in l['spans'])).strip()
+            cap = re.sub(r'\s+', ' ', ' '.join(''.join(s['text'] for s in l['spans']) for l in cb['lines'])).strip()
             figs[id(cb)] = dict(type='img', src=f'fig/{name}', alt=cap)
         for b in blocks:
             if id(b) in figs:
@@ -139,7 +145,19 @@ def main(src):
                 continue
             if near(first['size'], H3) or near(first['size'], H4):
                 end_para()
-                parts[-1]['blocks'].append(dict(type='h' if near(first['size'], H3) else 'h4', text=text))
+                # the lines of a heading: joined with a space, or closed up over a hyphen that only breaks the word
+                text = ''
+                for l in b['lines']:
+                    x = ''.join(s['text'] for s in l['spans']).strip()
+                    if re.search(r'[a-z]-$', text) and re.match(r'[a-z]', x):
+                        text = text[:-1] + x
+                    else:
+                        text = (text + ' ' + x).strip()
+                text = re.sub(r'\s+', ' ', text)
+                if len(text) > 100:                       # a reader's question, set in bold: a paragraph, not a heading
+                    parts[-1]['blocks'].append(dict(type='p', text=f'**{text}**'))
+                else:
+                    parts[-1]['blocks'].append(dict(type='h' if near(first['size'], H3) else 'h4', text=text))
                 continue
             if near(first['size'], NOTE_MARK) or (near(first['size'], NOTE) and b['bbox'][1] > 450 and note is not None and not near(first['size'], BODY)):
                 # footnotes: each line that starts with a 7 pt number opens a note
@@ -159,7 +177,10 @@ def main(src):
                     continue
                 x = l['bbox'][0]
                 bullet = re.match(r'^(•|–|\d+\.|\([a-z0-9]+\))\s', re.sub(r'^\*+', '', t))
-                if bullet or (li == 0 and x > 80):
+                if (li == 0 and not bullet and para is not None and para.get('text') and re.match(r'[a-z(“]', t)
+                        and not re.search(r'[.:!?”]$', para['text'])):
+                    add_text(t, False)                    # a list item or paragraph that goes on in a new block
+                elif bullet or (li == 0 and x > 80):
                     if bullet:
                         para = dict(type='p', text=t, ind=1)
                         parts[-1]['blocks'].append(para)

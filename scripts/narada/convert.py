@@ -168,11 +168,75 @@ def main(src):
     for c in chapters:
         for b in c['blocks']:
             b.pop('pali', None)
+        diagram14(c['blocks'])
+        c['blocks'] = note_heads(c['blocks'])
     json.dump(dict(chapters=chapters, glossary=[]), open(os.path.join(ROOT, 'data', 'narada.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
     match(chapters)
     for c in chapters:
         ks = [b['pnum'] % 1000 for b in c['blocks'] if b.get('pnum')]
         print(f'  {c["label"]:12} {c["title"][:44]:44} §§ {len(ks):3} {ks[:3]}…{ks[-2:]}  tables {sum(1 for b in c["blocks"] if b["type"] == "pre")}', file=sys.stderr)
+
+
+def note_heads(bl):
+    """The notes give each term a line of its own that ends in a dash ("13. Vicikicchā-") with the note in the
+    next paragraph: the two are set as one, the term in bold; a line "Notes-" is a heading."""
+    out = []
+    i = 0
+    while i < len(bl):
+        b = bl[i]
+        t = b.get('text', '') if b['type'] == 'p' else ''
+        nx = bl[i + 1] if i + 1 < len(bl) else None
+        if re.fullmatch(r'Notes\s*:?\s*-?\s*', t) and not b.get('pnum'):
+            out.append(dict(type='h4', text='Notes'))
+            i += 1
+            continue
+        if (re.search(r'\w-$', t) and not b.get('pnum') and nx and nx['type'] == 'p' and not nx.get('pnum')
+                and re.match(r'[a-zāīū(]', nx['text'])):
+            bl[i + 1] = dict(b, text=t + nx['text'])          # a word broken over two paragraphs
+            i += 1
+            continue
+        if (len(t) > 80 and re.search(r'[a-zāīū,]$', t) and not b.get('pnum') and nx and nx['type'] == 'p' and not nx.get('pnum')
+                and re.match(r'[a-zāīū]', nx['text']) and not re.match(r'[ivx]{1,4} ?\.\s', nx['text'])):
+            bl[i + 1] = dict(b, text=t + ' ' + nx['text'])    # a paragraph broken in two (at a page of the web edition)
+            i += 1
+            continue
+        m = re.fullmatch(r'(\d{1,3}\.\s+\S.{0,70}?|[A-Z][\wāīūṃñ]+(?: [\wāīūṃñ]+)?)\s*-\s*', t)
+        if m and not b.get('pnum') and nx and nx['type'] == 'p' and not nx.get('pnum') and not re.match(r'\d{1,3}\.\s', nx['text']):
+            out.append(dict(b, text=f'**{m.group(1)}** — {nx["text"]}'))
+            i += 2
+            continue
+        out.append(b)
+        i += 1
+    return out
+
+
+def diagram14(bl):
+    """Diagram XIV (the immoral states in the nine categories of evil): its column heads are set upright in the
+    web edition and come out as rows of single letters; the chart is rebuilt here as a table."""
+    k = next((i for i, b in enumerate(bl) if b['type'] == 'h' and b['text'] == 'Diagram XIV'), None)
+    if k is None:
+        return
+    j = k + 1
+    while j < len(bl) and not (bl[j]['type'] == 'pre' and bl[j]['text'].startswith('1. lobha')):
+        j += 1
+    e = j
+    while e < len(bl) and bl[e]['type'] == 'pre' and re.match(r'\d{1,2}\. ', bl[e]['text']):
+        e += 1
+    rows = [bl[n]['text'] for n in range(j, e)]
+    cols = [m.start() for m in re.finditer(r'\+', rows[0])]
+    out = []
+    for r in rows:
+        out.append([r[:cols[0] - 4].strip(), r[cols[0] - 4:cols[0]].strip()] + ['+' if len(r) > c and r[c] == '+' else '' for c in cols])
+    # the web edition's last rows have their marks shifted; set as the counts in its own "In" column
+    # and the lists of Ch. VII §§3–13 have them (middha: a hindrance only; ahirika, anottappa: defilements;
+    # issā, macchariya: fetters of the Abhidhamma list)
+    fix = {'10': 5, '11': 8, '12': 8, '13': 7, '14': 7}
+    for r in out:
+        n = r[0].split('.')[0]
+        if n in fix:
+            r[2:] = ['+' if c == fix[n] else '' for c in range(len(cols))]
+    head = ['Immoral state', 'In', 'āsava', 'ogha', 'yoga', 'gantha', 'upādāna', 'nīvaraṇa', 'anusaya', 'saṃyojana', 'kilesa']
+    bl[k + 1:e] = [dict(type='table', head=head, rows=out, vhead=True)]
 
 
 def chapter8():
