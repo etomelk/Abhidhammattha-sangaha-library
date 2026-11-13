@@ -71,7 +71,9 @@ for ch in sorted(groups):
     sections.append(f'<section class="mgroup" id="{gid}"><h2>{e(CHTITLE.get(ch, "Chapter " + ROMAN[ch]))} <span class="mrng">{ROMAN[ch]}.1–{groups[ch][-1]["label"]}</span></h2>'
                     + (f'<p class="mgloss">The whole chapter in {whole}.</p>' if whole else '')
                     + (f'<p class="mgloss">Charts: {charts}.</p>' if charts else '') + f'<ol class="mlist">{"".join(lis)}</ol></section>')
-    chips.append(f'<a class="mchip" href="#{gid}">{ROMAN[ch]}</a>')
+    full = CHTITLE.get(ch, 'Chapter ' + ROMAN[ch])
+    short = full.split(' — ', 1)[-1]
+    chips.append(f'<a class="mchip" href="#{gid}" title="{e(full)}"><b>{ROMAN[ch]}</b> {e(short)}</a>')
 nitems = sum(len(v) for v in groups.values())
 
 page = f'''<!doctype html>
@@ -109,7 +111,11 @@ page = f'''<!doctype html>
     </footer>
   </div>
 </main>
+<button class="totop" id="totop" aria-label="Back to top" title="Back to top" hidden>↑</button>
 <script>
+  (function(){{ const b=document.getElementById('totop'); if(!b) return;
+    b.addEventListener('click',()=>scrollTo({{top:0,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'}}));
+    const f=()=>{{ b.hidden=scrollY<innerHeight*0.8; }}; addEventListener('scroll',f,{{passive:true}}); f(); }})();
 (function(){{
   const root=document.documentElement;
   try{{const t=localStorage.getItem('pg-theme'); if(t) root.setAttribute('data-theme',t);}}catch(e){{}}

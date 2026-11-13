@@ -63,7 +63,7 @@ html[data-theme="dark"] .cthumb{background:#e9e6df}
       <p class="lede">The tables and diagrams of the Abhidhamma that students in Myanmar draw and learn by heart — the 89 and 121 types of consciousness, the 52 mental factors and their combinations, the miscellaneous section, the cognitive process, the realms and matter — in the order of the Saṅgaha’s chapters. With them, by chapter, the tables of Bhikkhu Vietnam Dhammadhaja’s <i>Systematization of Abhidhammaṭṭha Saṅgaha</i> (2025–26). Open a chart to see it full-screen: it stays sharp at any zoom.</p>
       <ul class="stats"><li><b>46</b><span>charts and tables</span></li><li><b>278</b><span>pages</span></li></ul>
     </header>
-    <nav class="mchips" aria-label="Chapters"><a class="mchip" href="#g0">The four ultimate realities</a><a class="mchip" href="#g1">Chapter I</a><a class="mchip" href="#g2">Chapter II</a><a class="mchip" href="#g3">Chapter III</a><a class="mchip" href="#g4">Chapter IV</a><a class="mchip" href="#g5">Chapter V</a><a class="mchip" href="#g6">Chapter VI</a><a class="mchip" href="#g8">Chapter VIII</a><a class="mchip" href="#g9">Chapter IX</a></nav>
+    <nav class="mchips" aria-label="Chapters"><a class="mchip" href="#g0" title="The four ultimate realities">The four ultimate realities</a><a class="mchip" href="#g1" title="Chapter I — Consciousness (citta)"><b>I</b> Consciousness</a><a class="mchip" href="#g2" title="Chapter II — Mental factors (cetasika)"><b>II</b> Mental factors</a><a class="mchip" href="#g3" title="Chapter III — Miscellaneous (pakiṇṇaka)"><b>III</b> Miscellaneous</a><a class="mchip" href="#g4" title="Chapter IV — The cognitive process (vīthi)"><b>IV</b> The cognitive process</a><a class="mchip" href="#g5" title="Chapter V — Process-freed (vīthimutta)"><b>V</b> Process-freed</a><a class="mchip" href="#g6" title="Chapter VI — Matter (rūpa)"><b>VI</b> Matter</a><a class="mchip" href="#g8" title="Chapter VIII — Conditionality (paccaya)"><b>VIII</b> Conditionality</a><a class="mchip" href="#g9" title="Chapter IX — Meditation subjects (kammaṭṭhāna)"><b>IX</b> Meditation subjects</a></nav>
     <section class="cgroup" id="g0"><h2>The four ultimate realities</h2><p class="mgloss">The subject of the Saṅgaha: conventional and ultimate reality, and the four paramatthas.</p><div class="charts"><article class="chart" id="reality"><a class="cthumb" href="#reality" data-open="reality" aria-label="Open Reality according to Abhidhamma"><img src="thumb/reality.png" alt="" loading="lazy"><span class="czoom">Open ⤢</span></a><div class="cbody"><h3><a href="#reality" data-open="reality">Reality according to Abhidhamma</a></h3><p class="cby">Aggañāṇī</p><p class="cnote">Conventional and ultimate reality; the four ultimate realities and how they are counted (89/121 cittas, 52 cetasikas, 28 rūpas, Nibbāna); the aggregates.</p><p class="clinks"><a href="#reality" data-open="reality">View</a> · <a href="pdf/reality.pdf" download>PDF</a></p><details class="ctext"><summary>Text of this chart</summary><pre>A g g a n yā n i                            REALITY
 
                          Reality acccording to Abhidhamma
@@ -12418,7 +12418,12 @@ Buddhasāsanaṃ ciraṃ tiṭṭḥatu.
   </div>
   <div class="chvstage" id="chvstage"><div class="chvpage" id="chvpage"><img id="chvimg" alt=""><canvas id="chvcanvas" hidden></canvas></div><span class="chvhint">Scroll or pinch to zoom · drag to move · ← → next · r turns · Esc to close</span></div>
 </div>
+<button class="totop" id="totop" aria-label="Back to top" title="Back to top" hidden>↑</button>
 <script>
+  (function(){ const b=document.getElementById('totop'); if(!b) return;
+    b.addEventListener('click',()=>scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'}));
+    const f=()=>{ b.hidden=scrollY<innerHeight*0.8; }; addEventListener('scroll',f,{passive:true}); f(); })();
+
 (function(){
   const root=document.documentElement;
   try{const t=localStorage.getItem('pg-theme'); if(t) root.setAttribute('data-theme',t);}catch(e){}

@@ -101,6 +101,7 @@ html.lib :target:not(.chapter):not(.homeview){animation:none;background:transpar
 .mchips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 28px}
 .mchip{font:500 12.5px/1 var(--ui);padding:7px 10px;border:1px solid var(--rule);border-radius:999px;color:var(--ink-2);text-decoration:none;background:var(--paper)}
 .mchip:hover{border-color:var(--accent);color:var(--accent-ink)}
+.mchip b{font-weight:700;color:var(--accent-ink);margin-right:3px}
 .mgroup{margin:0 0 34px;scroll-margin-top:72px}
 .mgroup h2{font:600 20px/1.3 var(--serif);margin:0 0 2px}
 .mgroup .mrng{font:500 12px var(--ui);color:var(--ink-3);margin-left:6px}
