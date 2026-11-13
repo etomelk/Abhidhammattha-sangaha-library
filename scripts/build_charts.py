@@ -279,7 +279,12 @@ def main():
             continue
         sections.append(f'<section class="cgroup" id="g{g}"><h2>{e(name)}</h2><p class="mgloss">{e(blurb)}</p>'
                         f'<div class="charts">{"".join(cards[g])}</div></section>')
-        chips.append(f'<a class="mchip" href="#g{g}">{e(name.split(" — ")[0])}</a>')
+        if ' — ' in name:                         # "Chapter I — Consciousness (citta)" → I Consciousness
+            num, rest = name.split(' — ', 1)
+            chip = f'<b>{e(num.replace("Chapter ", ""))}</b> {e(rest.split(" (")[0])}'
+        else:
+            chip = e(name)
+        chips.append(f'<a class="mchip" href="#g{g}" title="{e(name)}">{chip}</a>')
     lib = json.load(open(os.path.join(ROOT, 'data', 'library.json'), encoding='utf-8'))
     page = open(os.path.join(HERE, 'charts.html'), encoding='utf-8').read()
     for k, v in {'TITLE': e(lib['title']), 'SECTIONS': '\n'.join(sections), 'CHIPS': ''.join(chips),

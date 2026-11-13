@@ -31,7 +31,10 @@ from the scan). Part II of *Fundamental Abhidhamma* needs OCR and waits.
 | | `anudipani/` | Anudīpanī (Ledi Sayadaw) | VRI `e0401n.nrf.xml` |
 | 5. Background | `guide/` | Nyanatiloka, *Guide Through the Abhidhamma Piṭaka* (BPS, 4th ed. 2008, PDF 2019) | PDF text layer (Unicode) |
 | 3. The Saṅgaha in English | `narada/` | Nārada Thera, *A Manual of Abhidhamma* (Vājirārāma; Preface 1978) | palikanon.com web edition, PDF (Word) |
-| To come | | Bhikkhu Bodhi (Gen. Ed.), *A Comprehensive Manual of Abhidhamma* (BPS 1993) | PDF |
+| To come | | Bhaddanta Dr. Rewata Dhamma, *Process of Consciousness and Matter* (Triple Gem Publications 2004; © 2007 Birmingham Buddhist Vihara; sponsored for free distribution) | PDF text layer (Word) |
+| | | Rerukane Chandawimala Mahāthera, *Basic Facts of Abhidhamma* (*Abhidharmaye Mūlika Karuṇu*), tr. D. J. Percy Silva (“Non-Commercial Distribution”) | scan (96 dpi), legacy Pāli font |
+| | | Ashin Nandamālābhivaṃsa, *Paramatthadīpanī: An Annotated Translation* of chapters 1–4 (M.Phil. thesis, University of Kelaniya, 1996), published with the author's permission | scan (150 dpi), OCR from the page images |
+| | | Bhikkhu Bodhi (Gen. Ed.), *A Comprehensive Manual of Abhidhamma* (BPS 1993) | PDF |
 | | | Shwe Zan Aung & C. A. F. Rhys Davids, *Compendium of Philosophy* (PTS 1910) | scan |
 
 The VRI source files are kept in `sources/` (UTF-16, as published at
