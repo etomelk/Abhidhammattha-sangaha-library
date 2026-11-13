@@ -66,7 +66,7 @@ html[data-theme="dark"] .cthumb{background:#e9e6df}
     <nav class="mchips" aria-label="Chapters">{{CHIPS}}</nav>
     {{SECTIONS}}
     <footer class="source">
-      <p class="note">The charts are drawn by Aggañāṇī (© 2005, with the Centre for Buddhist Studies, Sagaing, for the course of <i>Fundamental Abhidhamma</i>; updated 2008) by Dr. Rewata Dhamma (the realms and the eye-door process), and by Hanh Thuong (the tree of the four realities, 2015). The <i>Systematization of Abhidhammaṭṭha Saṅgaha</i> is compiled by Bhikkhu Vietnam Dhammadhaja (Na Uyana Forest Monastery, Sri Lanka, 2025–26) from Bhikkhu Bodhi’s <i>Comprehensive Manual</i> (CMA), Sayadaw Revatadhamma’s <i>Process of Consciousness and Matter</i> (PCM) and U Sīlānanda’s <i>Handbook</i> (HOA), whose pages its tables cite; the book gives its documents no titles, so the titles here are the library’s, and its pages are drawn from the PDF in the browser (pdf.js). Each chart is shown from its own PDF as a vector drawing, cropped to its printed area and unchanged; its words are given under it as text, and the PDF can be downloaded. In the viewer: scroll or pinch to zoom, drag to move, ← → for the next page or chart, ⟳ (or r) to turn a wide chart, Esc to close. On a phone held upright, wide charts are turned to fill the screen.</p>
+      <p class="note">The charts are drawn by Aggañāṇī (© 2005, with the Centre for Buddhist Studies, Sagaing, for the course of <i>Fundamental Abhidhamma</i>; updated 2008) by Dr. Rewata Dhamma (the realms and the eye-door process), and by Hanh Thuong (the tree of the four realities, 2015). The <i>Systematization of Abhidhammaṭṭha Saṅgaha</i> is compiled by Bhikkhu Vietnam Dhammadhaja (Na Uyana Forest Monastery, Sri Lanka, 2025–26) from Bhikkhu Bodhi’s <i>Comprehensive Manual</i> (CMA), Sayadaw Revatadhamma’s <i>Process of Consciousness and Matter</i> (PCM) and U Sīlānanda’s <i>Handbook</i> (HOA), whose pages its tables cite; the book gives its documents no titles, so the titles here are the library’s, and its pages are drawn from the PDF in the browser (pdf.js); where a table runs on over a page break, the viewer shows that table whole, its two pieces one under the other. Each chart is shown from its own PDF as a vector drawing, cropped to its printed area and unchanged; its words are given under it as text, and the PDF can be downloaded. In the viewer: scroll or pinch to zoom, drag to move, ← → for the next page, table or chart, ⟳ (or r) to turn a wide chart, Esc to close. On a phone held upright, wide charts are turned to fill the screen.</p>
       <p class="rightsline">Offered freely as <i>Dhamma-dāna</i>, for study. All rights in these works belong to their authors, translators and publishers; this library claims none and cannot grant permission to reproduce them. <a href="../#rights">A note on rights</a></p>
     </footer>
   </div>
@@ -109,16 +109,26 @@ html[data-theme="dark"] .cthumb{background:#e9e6df}
     const L=await lib();
     docs[it.c.pdf]=docs[it.c.pdf]||L.getDocument(it.c.pdf).promise;
     const doc=await docs[it.c.pdf]; if(seq[k]!==it) return;
-    const pg=await doc.getPage(it.i+1); if(seq[k]!==it) return;
-    const [cx,cy,cw,chh]=it.p.clip;
-    let sc=s*(window.devicePixelRatio||1); sc=Math.min(sc, 5000/Math.max(cw,chh));
+    // the printed area of the page, or (a table that runs on over a page break) its pieces, one under the other
+    const parts=it.p.parts||[[it.i,...it.p.clip]];
+    let sc=s*(window.devicePixelRatio||1); sc=Math.min(sc, 5000/Math.max(it.p.w,it.p.h));
     const key=it.c.slug+it.i+':'+sc.toFixed(2); if(key===drawn) return; drawn=key;
-    const vp=pg.getViewport({scale:sc});
-    const c=document.createElement('canvas'); c.width=Math.ceil(vp.width); c.height=Math.ceil(vp.height);
-    await pg.render({canvasContext:c.getContext('2d'), viewport:vp, background:'#fff'}).promise;
-    if(seq[k]!==it) return;
-    canvas.width=Math.round(cw*sc); canvas.height=Math.round(chh*sc);      // the printed area of the page
-    canvas.getContext('2d').drawImage(c, cx*sc, cy*sc, cw*sc, chh*sc, 0, 0, canvas.width, canvas.height);
+    const out=document.createElement('canvas'); out.width=Math.round(it.p.w*sc); out.height=Math.round(it.p.h*sc);
+    const g=out.getContext('2d'); g.fillStyle='#fff'; g.fillRect(0,0,out.width,out.height);
+    const done={}; let top=0;
+    for(const [n,cx,cy,cw,chh] of parts){
+      if(!done[n]){
+        const pg=await doc.getPage(n+1); if(seq[k]!==it) return;
+        const vp=pg.getViewport({scale:sc});
+        const c=document.createElement('canvas'); c.width=Math.ceil(vp.width); c.height=Math.ceil(vp.height);
+        await pg.render({canvasContext:c.getContext('2d'), viewport:vp, background:'#fff'}).promise;
+        if(seq[k]!==it) return;
+        done[n]=c;
+      }
+      g.drawImage(done[n], cx*sc, cy*sc, cw*sc, chh*sc, 0, Math.round(top*sc), Math.round(cw*sc), Math.round(chh*sc));
+      top+=chh;
+    }
+    canvas.width=out.width; canvas.height=out.height; canvas.getContext('2d').drawImage(out,0,0);
   }
   function fit(){
     const it=seq[k], W=stage.clientWidth, H=stage.clientHeight, m=16;
@@ -137,7 +147,7 @@ html[data-theme="dark"] .cthumb{background:#e9e6df}
     else { canvas.hidden=true; img.hidden=false; img.src=it.p.src; img.alt=it.c.title; }
     $('chvtitle').innerHTML='';
     $('chvtitle').append(it.c.title);
-    const sm=document.createElement('small'); sm.textContent=(it.c.pages.length>1?`page ${it.i+1} of ${it.c.pages.length} · `:'')+it.c.by; $('chvtitle').append(sm);
+    const sm=document.createElement('small'); sm.textContent=(it.c.pages.length>1?`${it.c.unit||'page'} ${it.i+1} of ${it.c.pages.length} · `:'')+it.c.by; $('chvtitle').append(sm);
     $('chvpdf').href=it.c.pdf||('pdf/'+it.c.slug+'.pdf');
     const h='#'+it.c.slug+(it.i?'-'+(it.i+1):'');
     if(location.hash!==h) history.replaceState(null,'',h);

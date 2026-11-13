@@ -78,6 +78,13 @@ SYS = [
     ('9', 'Meditation subjects: calm (samatha)', 'sys_samatha', 242, 247),
     ('9', 'Meditation subjects: insight (vipassanā) and the purifications', 'sys_vipassana', 248, 255),
 ]
+# Documents whose tables run on from one page to the next (a table begun at the foot of a page and
+# finished at the head of the next, with no running column heads): in these the viewer shows one
+# table at a time, its pieces drawn one under the other from the PDF (see table_views). The other
+# documents are shown page by page: their long tables repeat their heads on every page, or each page
+# is a whole sheet of notes and diagrams.
+STITCH = {'sys_jati', 'sys_paticcasamuppada'}
+
 CHARTS = [
     ('0', 'Reality according to Abhidhamma', 'reality', AGG, 'Conventional and ultimate reality; the four ultimate realities and how they are counted (89/121 cittas, 52 cetasikas, 28 rūpas, Nibbāna); the aggregates.'),
     ('0', 'Abhidhamma: the four ultimate realities at a glance', 'abhidhamma_hanh_thuong', 'Hanh Thuong (2015)', 'One tree of everything the Saṅgaha counts: the 89/121 cittas by plane and kind, the 52 cetasikas by group, the 28 rūpas, and Nibbāna, each in its coloured box.'),
@@ -116,6 +123,66 @@ def crop_box(pdf, page):
         return 0, 0, w, h
     m = 10
     return max(0, bb[0] - m), max(0, bb[1] - m), min(w, bb[2] + m) - max(0, bb[0] - m), min(h, bb[3] + m) - max(0, bb[1] - m)
+
+
+def page_blocks(pg, gap=7):
+    """what is printed on a page of the Systematization below its running head ("Compiled by …
+    Page x of n"), as bands of y (in PDF points) separated by blank gaps of more than `gap`; with the
+    bottom of the running head"""
+    def is_head(t, y0):
+        return y0 < 60 and ('Compiled by' in t or re.fullmatch(r'Page \d+ of \d+', t))
+    lines = [(''.join(sp['text'] for sp in l['spans']).strip(), l['bbox'])
+             for b in pg.get_text('dict')['blocks'] for l in b.get('lines', [])]
+    top = max([bb[3] for t, bb in lines if t and is_head(t, bb[1])], default=0) + 0.5
+    iv = [(max(d['rect'].y0, top), d['rect'].y1) for d in pg.get_drawings() if d['rect'].y1 > top]
+    iv += [(bb[1], bb[3]) for t, bb in lines if t and bb[3] > top + 1 and not is_head(t, bb[1])]
+    out = []
+    for a, b in sorted(iv):
+        if out and a <= out[-1][1] + gap:
+            out[-1][1] = max(out[-1][1], b)
+        else:
+            out.append([a, b])
+    return top, [(a, b) for a, b in out if b - a > 2]
+
+
+def table_views(doc, clips):
+    """the tables of a document, each as a list of pieces [page, x, y, w, h] (page from 0, PDF
+    points) to draw one under the other: the blocks of each page (page_blocks), where a block that
+    reaches the foot of a page and goes on at the head of the next page of the same document ("Page
+    2 of n" and on) is joined to that next piece"""
+    pages = [page_blocks(pg) for pg in doc]
+
+    def runs_on(i):                                # the last block of page i goes on at the head of page i+1
+        if i + 1 >= len(doc) or not pages[i][1] or not pages[i + 1][1]:
+            return False
+        top, bl = pages[i]
+        a, b = bl[-1]
+        m = re.search(r'Page (\d+) of \d+', doc[i + 1].get_text())
+        return bool(b > doc[i].rect.height - 90 and pages[i + 1][1][0][0] < pages[i + 1][0] + 20
+                    and m and int(m.group(1)) > 1 and not (len(bl) == 1 and a < top + 20))
+
+    views, cur = [], None
+    for i, (top, bl) in enumerate(pages):
+        x, _, w, _ = clips[i]
+        on = runs_on(i)
+        for j, (a, b) in enumerate(bl):
+            joined_above = j == 0 and cur is not None
+            joined_below = j == len(bl) - 1 and on
+            y0 = a if joined_above else max(top, a - 4)            # no margin where two pieces meet
+            y1 = b if joined_below else min(doc[i].rect.height, b + 4)
+            piece = [i, x, round(y0, 1), w, round(y1 - y0, 1)]
+            if joined_above:
+                cur.append(piece)                 # the rest of the table cut at the foot of the page before
+            else:
+                if cur is not None:
+                    views.append(cur)
+                cur = [piece]
+            if j == len(bl) - 1 and not on:
+                views.append(cur)
+                cur = None
+    if cur is not None:
+        views.append(cur)
+    return [dict(parts=v, w=max(p[3] for p in v), h=round(sum(p[4] for p in v), 1)) for v in views]
 
 
 def svg_page(pdf, page, out):
@@ -184,9 +251,12 @@ def main():
         for p in range(1, n + 1):
             x, y, w, h = crop_box(pdf, p)
             pages.append(dict(clip=[x, y, w, h], w=w, h=h))
+        x, y, w, h = pages[0]['clip']
+        unit = None
+        if slug in STITCH:                        # one table at a time (see STITCH)
+            pages, unit = table_views(pymupdf.open(pdf), [q['clip'] for q in pages]), 'table'
         run('pdftoppm', '-f', '1', '-l', '1', '-r', '60', '-png', '-singlefile', pdf, os.path.join(OUT, 'thumb', slug))
         im = Image.open(os.path.join(OUT, 'thumb', f'{slug}.png'))
-        x, y, w, h = pages[0]['clip']
         k = 60 / 72
         im = im.crop((int(x * k), int(y * k), int((x + w) * k), int((y + h) * k)))
         im.thumbnail((420, 300))
@@ -194,7 +264,7 @@ def main():
         text = run('pdftotext', '-layout', pdf, '-')
         text = re.sub(r'(?m)^.*Compiled by Bhikkhu.*$\n?', '', text)
         text = re.sub(r'\n{3,}', '\n\n', '\n'.join(l.rstrip() for l in text.split('\n'))).strip('\n')
-        data.append(dict(slug=slug, title=title, by=DHD, pdf=f'sys/{slug}.pdf', pages=pages))
+        data.append(dict(slug=slug, title=title, by=DHD, pdf=f'sys/{slug}.pdf', pages=pages, **({'unit': unit} if unit else {})))
         cards[g].append(
             f'<article class="chart sys" id="{slug}"><a class="cthumb" href="#{slug}" data-open="{slug}" aria-label="Open {html.escape(title, quote=True)}">'
             f'<img src="thumb/{slug}.png" alt="" loading="lazy"><span class="czoom">Open ⤢</span></a>'

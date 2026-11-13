@@ -388,7 +388,15 @@ writes the page.
   from what each document sets out. As SVG the 255 pages would weigh 71 MB against the PDF's 3.3 MB, so
   these pages are drawn from the PDF in the browser with pdf.js (`shared/pdfjs/`, pdfjs-dist 4.10.38,
   legacy build, Apache-2.0), cropped to the printed area and drawn again after each zoom, so they too stay
-  sharp. Their text is kept under each card.
+  sharp. Their text is kept under each card. In two documents the tables run on over the page breaks
+  (*jāti* … *dhātu*, the 89 cittas by class; the twelve links of dependent origination): a table begun
+  at the foot of a page goes on at the head of the next, with no column heads repeated. For these
+  (`STITCH` in build_charts.py) the viewer shows one table at a time, whole: `table_views` finds the
+  blocks of each page (bands of print between blank gaps, below the running head) and joins a block
+  that reaches the foot of a page to the block at the head of the next page of the same document
+  ("Page 2 of n" and on), and the viewer draws the pieces one under the other from the PDF, unchanged
+  ("table 4 of 8"). The other documents are shown page by page: their long tables repeat their heads on
+  every page, or each page is a sheet of notes and diagrams.
 
 ## Changes to the shared reader
 
