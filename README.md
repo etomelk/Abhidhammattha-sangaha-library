@@ -21,6 +21,7 @@ Science*. and *Fundamental Abhidhamma* Part I. Part II needs OCR and waits.
 | 1. Start here: study guides | `fundamental/` | Dr. Nandamālābhivaṃsa, *Fundamental Abhidhamma*, Part I (CBS Sagaing 2005) | PDF text layer |
 | | `tinmon/` | Dr. Mehm Tin Mon, *Buddha Abhidhamma: Ultimate Science* (BuddhaNet) | PDF text layer, old Pāli font mapped |
 | | `handbook/` | Sayādaw U Sīlānanda, *Handbook of Abhidhamma Studies*, Vols. I–II (SBVMS 2012) | PDF text layer |
+| | `practical/` | *Practical Abhidhamma Course*, v1.1 (2016), by “Rob” | PDF (LuaTeX) read with PyMuPDF; figures as images |
 | 2. The Saṅgaha in Pāli | `sangaha/` | Abhidhammatthasaṅgaho, Sixth Council edition | VRI tipitaka-xml `abh07t.nrf.xml`, first book |
 | 4. The commentaries | `vibhavini/` | Abhidhammatthavibhāvinīṭīkā (Sumaṅgala) | VRI `abh07t.nrf.xml`, second book |
 | | `paramattha/` | Paramatthadīpanī, the Saṅgaha-mahāṭīkā (Ledi Sayadaw) | VRI `e0301n.nrf.xml` |
@@ -228,6 +229,27 @@ python3 scripts/tinmon/handbook.py && python3 scripts/build.py handbook
 - The lectures cite Bhikkhu Bodhi's *Comprehensive Manual* ("CMA, I, Guide to §7, p.39"); those
   references are left as text until the CMA is in the library.
 
+## Practical Abhidhamma Course (practical/)
+
+*Practical Abhidhamma Course*, version 1.1 (April 2016), practicalabhidhamma.com. The course names its
+author only as “Rob” (rob.abhidhamma@gmail.com); the library credits it so. The PDF was made with
+LuaTeX and is read with PyMuPDF (`pip install pymupdf`), which gives each span's size and style:
+
+```sh
+python3 scripts/practical/convert.py Practical-Abhidhamma.pdf && python3 scripts/build.py practical
+```
+
+- 20.7 pt opens a part (Lessons 1–8, the Postscript, Appendices 1–3), 17.2 pt is a heading, 14.3 pt a
+  sub-heading, 12 pt the text; bold and italic are kept as `**…**` and `*…*`.
+- **Footnotes** (about 650): a 7 pt number at the foot of a page opens a note, an 8 pt number in the
+  text is its reference; notes are renumbered in each part and set under the paragraph that cites them.
+- **Figures** (102): drawn as vector graphics with words laid over them, so each is cropped from the
+  page, from the end of the text above it to the end of its caption, and kept as an image
+  (`practical/fig/NNN.png`, 1.6×, 48 colours, 2.2 MB in all); the caption is its alt text, and the
+  words inside a figure are left out of the text.
+- On the Saṅgaha map: Lesson 3 (Citta) → I, 4 (Cetasika) → II, 5 (Rūpa) → VI, 6 (Realms) → V,
+  8 (Processes) → IV; Lesson 7 (Kamma and Natural Decisive Support) spans V and VIII and is not tied.
+
 ## Changes to the shared reader
 
 - `scripts/build.py`: `pnum_span` shows a block's `label` and its `alias` anchors when it has them;
@@ -241,4 +263,4 @@ python3 scripts/tinmon/handbook.py && python3 scripts/build.py handbook
 
 ## Checks
 
-`python3 scripts/check_site.py`: 88 pages × 3 widths, no problems (November 2026).
+`python3 scripts/check_site.py`: 102 pages × 3 widths, no problems (November 2026).
