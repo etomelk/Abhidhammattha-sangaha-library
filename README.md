@@ -317,6 +317,16 @@ writes the page.
   cittas; II the 52 cetasikas, their combination with the cittas, the aggregate of feeling; III feeling,
   roots, functions, doors, objects, bases; IV the eye-door process; V the 31 realms; VI the 28 rūpas.
   The Saṅgaha map lists each chapter's charts.
+- **The Systematization.** Bhikkhu Vietnam Dhammadhaja, *Systematization of Abhidhammaṭṭha Saṅgaha*
+  (Na Uyana Forest Monastery, Sri Lanka, 2025–26; `sources/systematization.pdf`, 255 landscape pages):
+  tables and process diagrams citing the pages of CMA, PCM (Revatadhamma, *Process of Consciousness and
+  Matter*) and HOA (Sīlānanda's *Handbook*). The PDF is a run of documents each numbered "Page 1 of n";
+  `SYS` in build_charts.py splits it into its 28 documents (`charts/sys/*.pdf`), each a card in the
+  chapter it belongs to (I–VI, VIII, IX). The book gives them no titles: the titles are the library's,
+  from what each document sets out. As SVG the 255 pages would weigh 71 MB against the PDF's 3.3 MB, so
+  these pages are drawn from the PDF in the browser with pdf.js (`shared/pdfjs/`, pdfjs-dist 4.10.38,
+  legacy build, Apache-2.0), cropped to the printed area and drawn again after each zoom, so they too stay
+  sharp. Their text is kept under each card.
 
 ## Changes to the shared reader
 
