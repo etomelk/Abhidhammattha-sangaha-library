@@ -1,6 +1,6 @@
 # Autopilot: the books that need OCR
 
-A scheduled task runs every two hours (minute 51 of every odd UTC hour). Each run is a fresh session
+A scheduled task runs every hour (minute 51 of every UTC hour; changed from every two hours on 2026-11-13 at the owner's request). Each run is a fresh session
 with no memory: this file, `data/autopilot.json` (the position) and `AUTOPILOT_LOG.md` (what the
 runs did) are all it knows. The owner (etomelk@gmail.com) asked on 2026-11-12 for the four books on
 hold to be done **from the shortest to the longest**, one chunk per run.
