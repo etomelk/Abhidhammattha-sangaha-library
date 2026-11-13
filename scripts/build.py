@@ -39,7 +39,7 @@ ROMAN = ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX']
 
 def num_label(n):
     """§1011 -> I.11 for the books keyed by the Saṅgaha's chapter and paragraph"""
-    return f'{ROMAN[n // 1000]}.{n % 1000}' if meta.get('sangaha_keys') and n >= 1000 else str(n)
+    return f'{ROMAN[n // 1000]}.{n % 1000}' if n >= 1000 else str(n)
 
 
 

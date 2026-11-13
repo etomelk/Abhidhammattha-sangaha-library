@@ -49,7 +49,56 @@
    "goto_text": true,
    "sangaha_keys": true,
    "pts_map": "sangaha-key.json",
-   "pts_label": "Saṅgaha"
+   "pts_label": "Saṅgaha",
+   "pts_sections": true
+  },
+  {
+   "slug": "narada",
+   "title": "A Manual of Abhidhamma",
+   "short": "A Manual of Abhidhamma",
+   "author": "Nārada Thera",
+   "cite": "Nārada",
+   "level": "Pāli & English",
+   "edition": "Vājirārāma, Colombo; Preface dated 1978; palikanon.com web edition",
+   "by": "Abhidhammattha-Saṅgaha of Anuruddhācariya, edited in the original Pāli text with English translation and explanatory notes by Nārada Thera, Vājirārāma, Colombo",
+   "blurb": "The Saṅgaha section by section: Nārada’s Pāli, his English, and his explanatory notes, with diagrams.",
+   "note": "Chapters I–VII and IX, one per page, after the Preface. Nārada numbers his sections § 1, § 2 … in each chapter; a chip beside a section opens the same Pāli in the Sixth Council Saṅgaha and the Vibhāvinī. <b>Chapter VIII (Paccaya) is missing from this copy</b>: its contents list it, but the text runs from Chapter VII to Chapter IX.",
+   "brand_sub": "Nārada · Manual",
+   "toc_foot": "Chapters I–VII and IX ({{NPARA}} sections); Chapter VIII is missing from this copy.",
+   "source": "Source: Nārada Thera, <em>Abhidhammattha-Sangaha of Anuruddhācariya: A Manual of Abhidhamma</em>, Vājirārāma, Colombo, from the web edition of palikanon.com as a PDF (Word, 2010; “for free distribution only”). The text is taken as it is in the PDF, whose Pāli writes plain m and n for ṃ and ṅ; the diagrams are its text tables, shown with their columns as the PDF has them (some cells are broken over two lines there).",
+   "desc": "Nārada Thera’s Manual of Abhidhamma: the Abhidhammatthasaṅgaha in Pāli and English with explanatory notes, linked to the Pāli text.",
+   "howto": [
+    [
+     "Find anything",
+     "Type in Search (or press <kbd>/</kbd>). Accents are optional: <i>rupa</i> finds <i>rūpa</i>."
+    ],
+    [
+     "Go to a section",
+     "Type chapter and section in <b>§</b>, e.g. <b>4.5</b> for § 5 of Chapter IV."
+    ],
+    [
+     "Between the books",
+     "The chip beside a section opens the same Pāli in the Saṅgaha and the Vibhāvinī."
+    ]
+   ],
+   "unit": "Chapter",
+   "cid": "ch",
+   "sign": "§",
+   "margin_sign": "",
+   "xrefs": false,
+   "footnotes": false,
+   "split": true,
+   "inline_markup": false,
+   "drawer_btn": "Notes",
+   "drawer_title": "Pāli terms",
+   "drawer_hint": "This book has no index of its own.",
+   "anchor": "^(p[\\d-]+)$",
+   "goto": "p",
+   "goto_label": "§",
+   "goto_aria": "Go to chapter.section",
+   "goto_text": true,
+   "pts_map": "narada-key.json",
+   "pts_label": "Nārada"
   },
   {
    "unit": "Chapter",
@@ -98,7 +147,8 @@
    "goto_text": true,
    "sangaha_keys": true,
    "pts_map": "sangaha-key.json",
-   "pts_label": "Vibhāvinī"
+   "pts_label": "Vibhāvinī",
+   "pts_sections": true
   },
   {
    "unit": "Chapter",

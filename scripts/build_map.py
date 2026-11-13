@@ -23,6 +23,17 @@ def plain(t, n=140):
 
 
 have = {b['slug']: {bl['pnum'] for c in data[b['slug']]['chapters'] for bl in c['blocks'] if bl.get('pnum')} for b in keyed}
+# books with numbers of their own tied to the Saṅgaha's (Nārada: data/narada-key.json): Saṅgaha key -> (their key, label)
+tied = []
+for b in lib['books']:
+    if b.get('pts_map') and b['pts_map'] not in ('sangaha-key.json', 'pd-key.json'):
+        m = json.load(open(os.path.join(ROOT, 'data', b['pts_map']), encoding='utf-8'))
+        lab = {bl['pnum']: bl.get('label', str(bl['pnum'])) for c in data[b['slug']]['chapters'] for bl in c['blocks'] if bl.get('pnum')}
+        inv = {}
+        for k, v in sorted(m.items(), key=lambda x: int(x[0])):
+            inv.setdefault(v, (int(k), lab.get(int(k), k)))
+        tied.append((b, inv))
+bychapter = [b for b in bychapter if not any(b is t for t, _ in tied)]
 part_of = {b['slug']: {c.get('sangaha_ch'): c['num'] for c in data[b['slug']]['chapters'] if c.get('sangaha_ch')} for b in bychapter}
 sections, chips = [], []
 nplaces = 0
@@ -40,6 +51,11 @@ for ch in sorted(groups):
         for b in keyed:
             if k in have[b['slug']]:
                 rows.append(f'<li><span class="cb">{e(b["cite"])}</span> <a href="../{b["slug"]}/#p{k}">§{bl["label"]}</a></li>')
+                nplaces += 1
+        for b, inv in tied:
+            if k in inv:
+                ok, ol = inv[k]
+                rows.append(f'<li><span class="cb">{e(b["cite"])}</span> <a href="../{b["slug"]}/#p{ok}">{e(ROMAN[ok // 1000])} {e(ol)}</a></li>')
                 nplaces += 1
         lis.append(f'<li class="mi" id="s{ch}-{k % 1000}"><span class="mtag">{bl["label"]}</span><div class="mbody"><p class="mtext">{e(plain(bl["text"]))}</p>'
                    f'<ul class="cplaces">{"".join(rows)}</ul></div></li>')
@@ -74,7 +90,7 @@ page = f'''<!doctype html>
       <a class="crumb" href="../">{e(lib["title"])}</a>
       <p class="kicker">Between the books</p>
       <h1>The Saṅgaha map</h1>
-      <p class="lede">The Abhidhammatthasaṅgaha numbers its paragraphs anew in each of its nine chapters, and the Vibhāvinī, as the Sixth Council edition prints it, numbers its comments by the paragraph they explain. Those numbers, written I.1 … IX.75, are the library’s common map: every paragraph of the Saṅgaha is listed here with its opening words and the same place in each book keyed to it. Ledi Sayadaw’s Paramatthadīpanī and Anudīpanī run numbers of their own, so they are linked chapter by chapter. The English translations will be added to the map as they come into the library.</p>
+      <p class="lede">The Abhidhammatthasaṅgaha numbers its paragraphs anew in each of its nine chapters, and the Vibhāvinī, as the Sixth Council edition prints it, numbers its comments by the paragraph they explain. Those numbers, written I.1 … IX.75, are the library’s common map: every paragraph of the Saṅgaha is listed here with its opening words and the same place in each book keyed to it. Nārada’s sections are tied to the paragraph whose Pāli they give, by comparing the Pāli (where the likeness is not clear, the section is left out). Ledi Sayadaw’s Paramatthadīpanī and Anudīpanī run numbers of their own, so they are linked chapter by chapter.</p>
       <ul class="stats"><li><b>{nitems}</b><span>paragraphs</span></li><li><b>{len(lib["books"])}</b><span>books mapped</span></li><li><b>{nplaces:,}</b><span>linked sections</span></li></ul>
     </header>
     <nav class="mchips" aria-label="Chapters">{"".join(chips)}</nav>
