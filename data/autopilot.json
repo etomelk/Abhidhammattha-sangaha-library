@@ -1,0 +1,9 @@
+{
+  "status": "running",
+  "lock": null,
+  "queue": ["mendis", "fundamental-2", "shwezanaung", "cma"],
+  "current": "mendis",
+  "next_page": {"mendis": 1, "fundamental-2": 106, "shwezanaung": 1, "cma": 1},
+  "last_page": {"mendis": 80, "fundamental-2": 247, "shwezanaung": 354, "cma": 432},
+  "built": []
+}
