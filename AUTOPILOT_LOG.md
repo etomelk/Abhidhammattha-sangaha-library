@@ -2,6 +2,42 @@
 
 Newest first. See AUTOPILOT.md for the standing instructions.
 
+## 2026-11-14 — Basic Facts of Abhidhamma pp. 126–150 (beautiful mental factors to the end; Twenty eight corporealities begun) proofread
+
+PDF pages 126–150 of `ocr-sources/rerukane.pdf` into `ocr/rerukane/p126.md`–`p150.md` (book page = PDF page). Same method
+as the last runs: 300 dpi render, `tesseract --psm 4`, every page read against its image (the Pāli on p129–p130,
+p136, p138–p141, p144, p146 on full-resolution crops), Pāli by the font mapping (ó → ḍ: "Vaóunnàva" *Vaḍunnāva*; â → Ā:
+"âjãva" *Ājīva*, "âpo" *Āpo*; □□ → ññ: "Appama□□a", "Pa□□à"; ññ → ṭṭ: "Paññhàna" *Paṭṭhāna*), and a word-by-word
+comparison of each page with tesseract's output to catch dropped lines (none: every difference is a Pāli word).
+
+Headings, same scheme as before: `####` *Hiri* and *Ottappa* p126, *Alobha* p127, *Adosa* p127, *Amoha* p128,
+*Tatramajjhattatā* p131, and the paired factors in bold roman (Tranquility p132, Lightness p133, Suppleness p134,
+Adaptability p134, Proficiency p135, Uprightness p136). "Mental factors of abstinence" (p138) and "*Appamañña Cetasika*"
+(p142) are new groups inside the beautiful factors, so `###` like "Beautiful mental factors" (p122); under them `####`
+*Sammā Vācā* p140, *Sammā Kammanta* p140, *Sammā Ājīva* p141, *Karuṇā* p142, *Muditā* p142 (text from p143). p144
+closes the part with "**The description of mental factors ends here.**" (bold, like the closing line of *Citta*) and
+opens a new part: "Twenty eight corporealities" (`##`), "*Bhūtarūpa*" (`###`), then `####` *Paṭhavi Dāthu* p145,
+*Āpo Dhātu* p146, *Tejo Dhātu* p147, *Vāyo Dhātu* p149.
+
+Footnotes `[^42]` (p137) and `[^43]` (p148). Bold kept as printed: the bold glosses ("**suppleness of body**",
+"**adaptability of mental factors.**", "***Māyā*** **(fraud)**" …), the bold opening list of the abstinences (p138) and
+of the illimitables (p142), "**The farmer at North Vaḍunnāva**" and "**Pingala Buddharakkhita**" (p139), "**Paṭṭhāna
+Pakarana**" (p150, bold roman; the quotation follows on p151).
+
+Kept as printed (not transcription errors): "*Amoh*a" (p128, the last letter roman), "*Attakinlamatānuyoga*" (p129),
+"realisisation", "duo to", "burning due the fire" (p130), "Atthasālinī Dhammsaṅganī" (p130, roman, no *a*),
+"Dhammasaṅganī" (p132, plain n), "facors" (p132–p133), "faxtors" (p134), "***Naṅgala koṭi vaṅka***" (p136–p137),
+"***Sammāājīva***" (p138, the bold list, double ā; "*Sammā Ājīva*" p141), "Cakkaṇa" (p138–p139, roman), "noice",
+"Vaḍunnā Mountain" (p139), "*Saṅkārakkhandha*" and "*Vedanākkhanda*" (p142), "*Metta*" beside "*Mettā*" (p143),
+"*Paṭhavi Dāthu*" (heading, p145; "*Paṭhavi Dhātu*" elsewhere), "Kakkhalatta lakkhaṇā paṭhavi dhātu" (p146),
+"Pakarana" (plain n, p150), "one his age", "make it establish", "the beings body".
+
+Words marked ⟨?⟩: none this run.
+
+Site not touched this run (proofread pages only).
+
+Next: `rerukane`, PDF page 151 (123 pages left).
+
 ## 2026-11-14 — Basic Facts of Abhidhamma pp. 101–125 (the unwholesome mental factors; beautiful factors begun) proofread
 
 PDF pages 101–125 of `ocr-sources/rerukane.pdf` into `ocr/rerukane/p101.md`–`p125.md` (book page = PDF page). Same method
