@@ -2,6 +2,46 @@
 
 Newest first. See AUTOPILOT.md for the standing instructions.
 
+## 2026-11-14 — Basic Facts of Abhidhamma pp. 151–175 (the rest of the great elements; sensitive, objective, gender, heart, life and food corporeality) proofread
+
+PDF pages 151–175 of `ocr-sources/rerukane.pdf` into `ocr/rerukane/p151.md`–`p175.md` (book page = PDF page). Same method
+as the last runs: 300 dpi render, `tesseract --psm 4`, every page read against its image (the Pāli on p151, p153–p154,
+p168–p169 on full-resolution crops), Pāli by the font mapping (õ → ṇ: "Ghàõa" *Ghāṇa*, "Pamàõato"; ó → ḍ: "Mancàói"
+*Mancāḍi*; ï → ṅ: "Itthiliïga" *Itthiliṅga*, "Saïgaha"; □□ → ññ: "vi□□àna" *viññāna*; ññ → ṭṭ: "tiññhati" *tiṭṭhati*;
+ñ → ṭ: "Pañisambhidà" *Paṭisambhidā*), and a word-by-word comparison of each page with tesseract's output to catch
+dropped lines (none: every difference is a Pāli word or an OCR slip).
+
+Headings, continuing the scheme of p144 (`##` "Twenty eight corporealities", `###` *Bhūtarūpa*): the groups of the
+twenty eight are `###` — "Five sensitive corporealities" p152, *Gocara Rūpa* p160, "Two gender corporealities" p166,
+*Hadaya rūpa* p170, "Life corporeality" p172, "Food corporeality" p173 — and the items or sub-topics inside a group
+`####`: *Cakkhu Pasāda* p153, *Sota Pasāda* p155, *Ghāṇa Pasāda* p156, *Jivhā Pasāda* p156, *Kāya Pasāda* p157, "How
+vision and the like occurs" p158, Form p160, Sound p162, Odour p163, Taste p163 (text from p164), Contact p164 (text
+from p165), "Conversion of gender" p169. The book prints all of these in the same large bold type (roman or italic),
+so the levels follow the structure, not the type size; the owner may want to look at "How vision and the like occurs"
+and "Conversion of gender" (`####`, discussions rather than items). "Reasons for the arising of sensitivities" (p157)
+is in the smaller bold, like "Few concealed matters" (p109), so `#####`.
+
+Footnotes `[^44]`–`[^47]` (p151, p152, p164, p171). The Paṭṭhāna quotation that p150 introduces is on p151 as a bold
+italic paragraph; the Vinaya quotation on p169 and the Paṭisambhidāmagga-commentary quotation (p153–p154) are italic in
+the running text. Bold kept as printed: the bold list of the five sensitivities (p153), "**The ear sensitivity**",
+"**tongue sensitivity**", "**body sensitivity**", "**captures, unarrived**", "**capture the unarrived sound**",
+"**capture arrived objects.**", "**form, sound, odour, taste and contact.**", the bold Pāli-and-gloss lists on p168,
+"***Swabhāva rūpa*** **(Natural corporeality)**" and "***lakkhana rūpa*** **(Characteristic corporeality)**" (p175).
+
+Kept as printed (not transcription errors): "*sādehetvā tiṭṭhati*" (p154), "Buddhagosa" (p154), "*Ghāna Pasāda*"
+(p153, plain n; "*Ghāṇa Pasāda*" heading p156) and "*Ghāna viññāna dhātu*" (p170), "viññāna" with plain n throughout
+p170 and p175, "Dhammasaṅganī" (p168, plain n as on p132), "*ithīliṅgaṃ*" and "*bhikkuniyā*" (p169, the Vinaya
+quotation), "*Panca vokāra bhava*" (p171), "corporality" (p173), "(*Ojā*)is" (no space, p173), "*Āhāra*" with the
+font's capital Ā twice mid-sentence on p175 beside "*āhāra*", "*Kabalinkārāhāra*", "*Manosancetanā*" (p175),
+"*lakkhana rūpa*" (lower-case, plain n, p175), "*Mancāḍi*" (p152), "a match is stuck" (p159), "chilly" (p164),
+"the nine corporeality consisting," (p167), "nose, tongue and body sensitivities captures only the objects that arrives".
+
+Words marked ⟨?⟩: none this run.
+
+Site not touched this run (proofread pages only).
+
+Next: `rerukane`, PDF page 176 (98 pages left).
+
 ## 2026-11-14 — Basic Facts of Abhidhamma pp. 126–150 (beautiful mental factors to the end; Twenty eight corporealities begun) proofread
 
 PDF pages 126–150 of `ocr-sources/rerukane.pdf` into `ocr/rerukane/p126.md`–`p150.md` (book page = PDF page). Same method
