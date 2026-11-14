@@ -2,6 +2,34 @@
 
 Newest first. See AUTOPILOT.md for the standing instructions.
 
+## 2026-11-14 — Basic Facts of Abhidhamma pp. 26–50 (Absolute and conventional truth, *Citta*) proofread
+
+PDF pages 26–50 of `ocr-sources/rerukane.pdf` into `ocr/rerukane/p026.md`–`p050.md` (book page = PDF page). Same method
+as the last run: 300 dpi render, `tesseract --psm 4`, then every page read against its image; every Pāli word, italic
+and bold taken from the image and written in Unicode by the font mapping (à ā, ã ī, å ū, ñ ṭ, õ ṇ, § ṃ, □ ñ, ï ṅ, â Ā,
+ë ḷ, ó ḍ). Running heads, page numbers and the "Non-Commercial Distribution" footer removed.
+
+Sections begun here (`## …`): Absolute truth (*Paramattha*) and Conventional truth (*Hīnattha*) p028; Characteristics
+of conventional truth and Absolute truth p030; How the absolute truth can be found. p030; The word *Paramattha* p031;
+*Paramattha* and the words in the language p040; *Citta* p044; Lifetime of the *Citta* p046; The varied nature of
+*Citta* p049; Power of the mind p050; The difficulty in understanding the mind p050.
+
+Footnotes `[^4]`–`[^23]`, each at the end of its page (p028 one, p031 one, p032 eight, p033 two, p035, p039, p040,
+p041, p043, p044, p048, p050 one each). p031's note 5 hangs on the heading "The word *Paramattha*" at the foot of the
+page; the section's text begins on p032. Long Pāli quotations (p026 end of the Atthasālinī passage, p042 the
+Dhammasaṅgaṇī's hundred words for greed, p047, p048 the Milinda simile) are bold italic paragraphs as printed (p042's
+list is italic, not bold).
+
+Kept as printed (not transcription errors): "Parmattha" (p028, p050), "Hīnattha", "Mūlattha"/"Vikrutiattha",
+"Sārāttha", "*Āpo* (wind)" (p031), "Pāpaya", "Aviparita"/"Viparita" (short i), "Veyyakaraṇa", "Adhikārtha",
+"Viññāna" (p044, plain n), "Tithi", "maharaja" and "abhjjhā" (p042, p048), "ekaccharakheṇe", "Yāḷa"/"Amuṇa",
+"Miḷinda", "Nibbana" once beside "Nibbāna" (p033), "Majority", "mislead", "remnance", "lightening", "Facts beings so",
+the doubled ")" on p048, the plain-roman "Citta" before "*Bhavaṅga Citta*" on p048, "Dhammasaṅganī Pakaraṇa" (p041).
+
+Words marked ⟨?⟩: none.
+
+Next: `rerukane`, PDF page 51 (223 pages left).
+
 ## 2026-11-14 — Basic Facts of Abhidhamma pp. 1–25 (title, Contents, Translator's Note, Preface) proofread
 
 Started Rerukane Chandawimala's *Basic Facts of Abhidhamma* (`rerukane`): PDF pages 1–25 of `ocr-sources/rerukane.pdf`
