@@ -2,6 +2,45 @@
 
 Newest first. See AUTOPILOT.md for the standing instructions.
 
+## 2026-11-14 — Basic Facts of Abhidhamma pp. 76–100 (Universal and occasional mental factors, start of the unwholesome) proofread
+
+PDF pages 76–100 of `ocr-sources/rerukane.pdf` into `ocr/rerukane/p076.md`–`p100.md` (book page = PDF page). Same method
+as the last runs: 300 dpi render, `tesseract --psm 4`, every page read against its image (doubtful letters checked on
+full-resolution crops), Pāli by the font mapping, and a word-by-word comparison of each page with tesseract's output to
+catch dropped lines (none). The regular italic on these pages shows the tilde of ã plainly ("Pãti", p097–p098), which
+confirms that the flat accent in bold italic ("Jãvitindriya", "Pãti" in the headings) is ã → ī.
+
+Heading levels: p075 opened "Variations of mental factors" (`##`) and "Universal mental factors" (`###`). The single
+factors are headed in large bold italic (printed as large as the `##` headings) but stand under those two, so they are
+`####` here: *Phassa* p076, *Vedanā* p079 (text from p080), *Saññā* p081, *Cetanā* p082, *Ekaggatā* p085,
+*Jīvitindriya* p087, *Manasikāra* p088; then "*Pakiṇṇaka Cetasika*" (`###`, p088) with *Vitakka* p089, *Vicāra* p090,
+*Adhimokkha* p092, *Viriya* p094, *Pīti* p097, *Chanda* p099; then "Fourteen unwholesome mental factors" (`###`, p100)
+and *Moha* (`####`, p100). The build should map `###` and `####` to two sub-heading levels (or `####` to `h4`).
+
+Footnotes `[^34]`–`[^37]` (p080, p088, p095, p097). The bold lists that open each group (p076, p088, p100) and the bold
+glosses ("***Vedanā*** (feeling)" …) are kept bold as printed. p098 ends "Glad-" and p099 goes on "mindedness": a real
+hyphen (the word is "Glad-mindedness" on p098 too); the build should join without a space.
+
+The heading on p081 prints "Saññā", which bears on the Contents' "*Saññānā*⟨?⟩" (p002, logged in the first run): the
+Contents' reading stays as printed and marked.
+
+Kept as printed (not transcription errors): "Jīvitndriya" (p076, the bold list; "Jīvitindriya" on p087), "Manisikāra"
+(p088, beside "Manasikāra"), "Adhimokka" (p088 list) beside "Adhimokkha" (p092–p094), "Abhidhamma Pāḷi" in roman,
+"Dhammasaṅganī" (plain n, p093), "Dhammasaṅganī Pāli", "Dvipañcaviññānaya" (plain n, the Sinhala ending), "Ghāna",
+"viññāṇā" beside "viññāṇa" (p089–p090), "vicikiccā"/"Vicikiccā" (cc), "Bodhipākkhiya", "Samma Vāyāma", "Okkaṇtika"
+(ṇ, p098), "Mancāḍi, Kalanda, Palama" (Sinhala weights, p095), "Pali" (plain, p099), "expeiencing", "lager", "large
+than itself", "Mudane", "dies of after sometime", "occur due a", "lightening", "a sexy man", "(ear consciousness*)*"
+(the bracket printed in italic, p089).
+
+Words marked ⟨?⟩:
+- p096 "*Dasa Pāraṃī*⟨?⟩" — printed "Pàra§ã" (§ = ṃ where *m* is expected); *pāramī* is meant.
+- p097 "*Sampaṭcchijana*⟨?⟩" — printed "Sampañcchijana" (ñ = ṭ by the mapping); *sampaṭicchana* is meant (the book has
+  "*Sampaṭicchana Citta*" on p068).
+
+Site not touched this run (proofread pages only).
+
+Next: `rerukane`, PDF page 101 (173 pages left).
+
 ## 2026-11-14 — Basic Facts of Abhidhamma pp. 51–75 (*Cetasika*, *Rūpa*, Nibbāna, Variations of the *Citta*) proofread
 
 PDF pages 51–75 of `ocr-sources/rerukane.pdf` into `ocr/rerukane/p051.md`–`p075.md` (book page = PDF page). Same method as
