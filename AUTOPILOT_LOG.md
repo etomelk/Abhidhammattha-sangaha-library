@@ -2,6 +2,49 @@
 
 Newest first. See AUTOPILOT.md for the standing instructions.
 
+## 2026-11-14 — Basic Facts of Abhidhamma pp. 176–200 (the non-produced corporealities; corporeality groups; causes of corporeality) proofread
+
+PDF pages 176–200 of `ocr-sources/rerukane.pdf` into `ocr/rerukane/p176.md`–`p200.md` (book page = PDF page). Same method
+as the last runs: 300 dpi render, `tesseract --psm 4`, every page read against its image (the Atthasālinī quotation on
+p183 and the box-and-õ word on p196 on full-resolution crops), Pāli by the font mapping (□□ → ññ: "Vi□□atti"
+*Viññatti*, "Abhi□□à" *Abhiññā*; ñ → ṭ: "Ajañàkàsa" *Ajaṭākāsa*, "Paññhàna" *Paṭṭhāna*; ã → ī: "Vacã" *Vacī*,
+"Jãvita", "Itthã"; ï → ṅ: "Bhaïga", "Saïsàra" *Saṅsāra*, "Saïkàra" *Saṅkāra*; â → Ā), and a word-by-word comparison of
+each page with tesseract's output to catch dropped lines (none: every difference is a Pāli word).
+
+Headings, following the book's own contents (p5): inside "Twenty eight corporealities" the remaining groups are `###` —
+"Space element" p176, "Two *Viññatti* corporealities" p178, "Three *Vikāra rūpa*" p183, "The four *Lakkhana rūpa*"
+p186 — and their items `####`: "Bodily expression corporeality" p178, "Verbal expression corporeality" p180 (text from
+p181), "Corporeality of lightness" p184, "Corporeality of elasticity" p185, "Corporeality of adaptability" p185 (text
+from p186). The contents lists the next four at the top level, so `##`: "Corporeality groups" p192 (opens a new page
+with a blank top), "Causes for the arising of corporeality" p194, "The strength of *Citta* which produce corporeality"
+p199, "Corporealities produced by conditions such as *kamma*." p200 (the full stop is printed).
+
+Footnotes `[^48]`–`[^52]` (p177 ×2, p178, p182, p199). The Atthasālinī quotation on p183 is a bold italic paragraph
+like p151; it opens with “ and has no closing quotation mark, ending "*nāma.,*" as printed. The short quotations on p182
+("***Saha saddā pana ekā viññatti atthi idaṃ vacīkammadvāraṃ***", bold italic), p195 and p197 (italic) are in the running
+text. Bold kept as printed: the bold glosses on p176 (*Nippanna rūpa*, *Rūpa rūpa*, *Sammassana rūpa*), p178 (the two
+expressions), p184, p186, p189 (*Jaratā rūpa*, *Aniccatā rūpa*), p191 (gross, subtle, *Avinibbhoga rūpa*), p192 (the six
+groups), p193–p194 (each named group), "**corporeality of elasticity**" (p185), "**corporeality of adaptability**"
+(p186), "***Upacaya***" ×3 (p188), "**Vibhaṅga commentary**" (p196, bold roman), "***Kamma, Citta, Utu*** and
+***Āhāra***" (p194). On p194 only "Verbal expression decad group" is bold; its Pāli in parentheses is plain italic.
+
+Kept as printed (not transcription errors): "*Parichceda rūpa*" (p177) beside "*Paricceda rūpa*" (p191),
+"*Saptarasāyushka rūpa* (Corporeality consisting seven tastes)" (p177), "At a another place" (p183), "*Āyusha*" with the
+font's capital Ā after "an" (p179), "M, I, N, I, S, Ā" and "If Ā is taken as two A s" (p181, the font's capital Ā, as
+for "*Āhāra*" on p175), "*Minisā*", "*ghaṭṭhayamānāva*" and "*uppajati*" (p183, the quotation), "*Lahutā ekā dasaka
+kalāpa*" (p194), "*Ashṭaka kalāpa*" (p192), "*Saṇsejada*" (p188), "*Jatirūpa*" (p188), "(*Cittaja*))" with the double
+parenthesis (p189), "*Abhidhamm*a" with the last letter roman (p198), "*Panca viñṇāna*" (p196: the page prints one box
+and õ, "vi□õàna", beside "*Panca Viññāna*" twice on the same page), "*Tithi*" (p196), "*Ghāna dasaka kalāpa*" (p193,
+plain n), "*Vishaya rūpa*", "*Oudārika rūpa*", "*Sukshama rūpa*" (p191), "*Anishpanna rūpa*" (p190), "corporality"
+(p187), "adventiousness" (p197), "latterly birth" (p188), "become weak due the decay" (p189), "life corporeality the two
+gender corporealities" (no comma, p200), and the footnote on p182 without a full stop.
+
+Words marked ⟨?⟩: none this run.
+
+Site not touched this run (proofread pages only).
+
+Next: `rerukane`, PDF page 201 (73 pages left).
+
 ## 2026-11-14 — Basic Facts of Abhidhamma pp. 151–175 (the rest of the great elements; sensitive, objective, gender, heart, life and food corporeality) proofread
 
 PDF pages 151–175 of `ocr-sources/rerukane.pdf` into `ocr/rerukane/p151.md`–`p175.md` (book page = PDF page). Same method
