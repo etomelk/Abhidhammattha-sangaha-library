@@ -2,6 +2,44 @@
 
 Newest first. See AUTOPILOT.md for the standing instructions.
 
+## 2026-11-14 — Process of Consciousness and Matter pp. 81–120 proofread
+
+Proofread PDF pages 81–120 of `ocr-sources/pcm.pdf` (book pp. 59–98) into `ocr/pcm/p081.md`–`p120.md`: the end of
+Chapter II (Cittas in Five-Door Processes, The Object and the Base, The Plane, The Individuals, Bhavanga, Analysis
+of Types of Individual), all of Chapter III, Mind-Door Cognitive Process (the process ending with registration,
+ending with javana, with other objects, in the dream state; the consequent mind-door processes; the intimation
+comprehending process), and Chapter IV, Absorption Javana in the Mind-Door Process, up to book p. 98 (jhāna
+processes, attainment of fine-material and immaterial jhāna, 72 jhāna processes, reviewing processes, the path
+process, the first diagrams of the path process).
+
+How: as the earlier runs: words, italics and bold from the text layer (PyMuPDF), superscript note numbers as
+`[^n]`, then every page read against its image (110 dpi, zoomed where in doubt) for paragraphs, lists, headings
+and diagrams. Word check: every word of the text layer is in the pages (running heads and page numbers excepted),
+the only differences being the diagram codes the layer runs together ("MAJC", "VBAB", "MAMAMA" are separate cells
+in the printed boxes).
+
+Conventions added in this chunk (for the build):
+- **Mind-door diagrams** (31, pp. 89–120) as the vīthi tables before: codes in the first row (MA, PR, AC, CO, CL,
+  JH, MC, FC, PF, PC beside SB/PB/VB/AB/JC/RS/BC), `ooo` per cell; each table's cell count was checked against
+  the `ooo` total of the text layer. The diagram at the foot of p094 has its `ooo` row printed at the top of
+  p095: the whole table is on p094, and both pages say so in a comment.
+- **Verse** (p103, the Pāli stanza "Saddaṁ pathama cittena …", set indented on two lines): two `> ` lines with a
+  comment asking the build to keep the line break.
+- Centred two-line headings are one `##` line (e.g. "## Consequent Mind-Door Process (Tadanuvattika-manodvāra
+  Vīthi)"); "CHAPTER III" (foot of p087) and "CHAPTER IV" (foot of p107) are on the page where they are printed,
+  their titles on the next page.
+- Notes: Chapter II goes on 17–18; Chapter III runs 1–24 (p088–p107); Chapter IV starts again at 1 (p113) and
+  reaches 5 (p120).
+
+Words marked ⟨?⟩: none (text layer and images agree). Kept as printed (the book's slips, not corrected):
+"Theses are" (p081), "Aranhatship" (p087), "Ashin Janakābhivaṭsa" (p117, for -bhivaṃsa; zoomed: the page has ṭ),
+"Viññattigahāna Vīthi" (p106 heading, beside "Viññattiggahaṇa" on p105), "sambandha ggahaṇa" (p104),
+"runs,bhavanga" (p103), "inhabits ill-will" (p111), "(uggaha-nimitta)" without a full stop (p111), "its object,
+Finally" (p106), "Like-wise" (p116), "Further more" (p116), "the consequent mind-door processes runs" (p106),
+"dissociated with knowledge" (p085).
+
+Next: `pcm`, PDF page 121 (book p. 99; 103 pages left).
+
 ## 2026-11-14 — Process of Consciousness and Matter pp. 41–80 proofread
 
 Proofread PDF pages 41–80 of `ocr-sources/pcm.pdf` (book pp. 19–58) into `ocr/pcm/p041.md`–`p080.md`: the rest of
