@@ -2,6 +2,54 @@
 
 Newest first. See AUTOPILOT.md for the standing instructions.
 
+## 2026-11-14 — Process of Consciousness and Matter pp. 189–208 (Glossary, Index) proofread; back matter decided
+
+Proofread PDF pages 189–208 of `ocr-sources/pcm.pdf` (book pp. 167–186) into `ocr/pcm/p189.md`–`p208.md`: the
+Pāli-English Glossary (pp. 167–175) and the Index (pp. 176–186). Every page of the book's own text is now proofread
+(PDF pp. 1–208).
+
+How: the text layer by PyMuPDF line by line, split into the two printed columns by position (left column, then right),
+wrapped lines joined into one entry per line; every page read against its image (110 dpi). Word check: every word of
+the text layer is in the pages (running heads and page numbers excepted). No italics in these pages (the layer has
+only the regular face; the image agrees).
+
+Conventions (for the build):
+- **Glossary** (p189–p197): `## PĀLI-ENGLISH GLOSSARY` on p189, then one entry per line as printed ("term - meaning";
+  the dash is sometimes an en dash, as printed); **Index** (p198–p208): `## INDEX` on p198, one entry per line
+  ("English (Pāli) pages"). A blank line where the book leaves a gap between letter groups. A hyphen at a line end is
+  kept (the book's compounds are hyphenated: "non-concretely", "eye-consciousness", page ranges "97-9"). Double
+  spaces of the justified layout made single. The build should render each line as its own short paragraph (or a
+  two-column list), not run them together.
+- Entries broken across pages are left on their pages with a `<!-- cont … -->` comment at the top of the next page:
+  "cakkhu-viññāna - eye-" / "consciousness" (p191/p192), "samūhaggahaṇa vīthi - the" (p196/p197), "change of lineage
+  (gotrabhū)" / "86, 88, 99, 104" (p198/p199), "decision mind-door process" / "(vinicchayaggahaṇa vīthi) 82, 85"
+  (p199/p200): the build should join them.
+- Index page numbers are the book's own (PCM book pages), so the build can link them to the page anchors `pNNN`; the
+  roman numerals (Abhidhamma "III, VII, IX, XI"; sangaha "VII, XI") are the front-matter pages.
+
+**Back matter (decided this run, as the last run asked):** PDF pp. 209–223 are not the author's text and are not
+transcribed: p209 reflections extracted from *Timeless & Priceless Treasures of Thabyekan Sayadaw*; p210 the
+publisher's page (Triple Gem Publications, its boards, and private postal and e-mail addresses); pp. 211–221 a list of
+Myanmar monasteries abroad with addresses and telephone numbers; pp. 222–223 the sponsors' acknowledgement with a list
+of private donors and their amounts. Only the acknowledgement's opening statement is kept, in `ocr/pcm/p222.md`
+(book p. 200), because it is the source of the "for free distribution" note: "…for their ***Dhamma Dãnã*** in
+sponsoring this book for free distribution." (bold italic and "Dãnã" with tildes as printed). The build may show it at
+the end of the book or only cite it in README; the owner may prefer to leave it out.
+
+Words marked ⟨?⟩: none (text layer and images agree). Kept as printed (the book's slips, not corrected): glossary
+"aññanamāna cetasikas" (p189; index p200 the same), "atīta-bhavanga- past bhavanga", "appanā javanavāra- manodvāra vīthi"
+(p189), "( lit." (p190), "kāya-dvāra- vīthi" (p191), "kamanimitta" (p191), "jāvitindriya" (p192; index p203),
+"viññattigahāna", "practise" (p196), "manodvārāvajjana - door adverting consciousness" (p195), "phalasamāpatti vīthi -
+the path process" (p194; index p204 the same); index "23, 27 30" (p198), "38,76" (p199), "dodecad of muability
+(kāyaviññatti-lahutādi) dvādasaka" (p200), "lit.common" (p200), "eye-decad" printed twice with two spellings (p201),
+"96 104" (p202), "Ledi Sayadaw 76, 83 166" (p202), "aviparita" (p202), "paramatthadīpanī" lower-case (p204),
+"process discening" (p205), "practioners" (p205), "shamlessness" (p206), "anāgataṁsañāna" (p205).
+
+Next: **build `pcm`** (every page is proofread: PDF pp. 1–208 and p222). `next_page.pcm` is set to 224 (past the last
+page) to say so. The build should follow the conventions logged by the PCM runs: `book page X` → page anchors `pX`
+(so a chart's "PCM p113" can be found), the tables' `<!-- cont -->` joins, the endnotes numbered by chapter, and the
+glossary/index lines above.
+
 ## 2026-11-14 — Process of Consciousness and Matter pp. 161–188 proofread
 
 Proofread PDF pages 161–188 of `ocr-sources/pcm.pdf` (book pp. 139–166) into `ocr/pcm/p161.md`–`p188.md`: the end of
