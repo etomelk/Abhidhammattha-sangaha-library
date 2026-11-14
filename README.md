@@ -13,7 +13,8 @@ changes that site.
 **Status: in progress** (November 2026). The Pāli shelf is done (the Saṅgaha and three
 commentaries), and Nārada's Manual (Chapter VIII transcribed from the 1956–57 edition), and Mehm Tin Mon's *Ultimate
 Science*. and *Fundamental Abhidhamma* Parts I–II (Part II proofread from the scan), and N. K. G. Mendis's
-*The Abhidhamma in Practice* (proofread from the scan). The books still waiting for OCR are listed under "To
+*The Abhidhamma in Practice* (proofread from the scan), and Bhaddanta Dr. Rewata Dhamma's *Process of
+Consciousness and Matter* (proofread against the page images). The books still waiting for OCR are listed under "To
 come" below; the autopilot (`AUTOPILOT.md`) works through them.
 
 ## The books
@@ -22,6 +23,7 @@ come" below; the autopilot (`AUTOPILOT.md`) works through them.
 |---|---|---|---|
 | 1. Start here: study guides | `mendis/` | Dr. N. K. G. Mendis, *The Abhidhamma in Practice* (BPS, The Wheel 322/323, 1985, repr. 2005) | scan: OCR proofread against the page images (`ocr/mendis/`) |
 | | `fundamental/` | Dr. Nandamālābhivaṃsa, *Fundamental Abhidhamma*, Parts I–II (CBS Sagaing 2005) | Part I: PDF text layer; Part II: scan, OCR proofread against the page images (`ocr/fundamental-2/`) |
+| | `pcm/` | Bhaddanta Dr. Rewata Dhamma, *Process of Consciousness and Matter*, ed. Ven. Dr. Kumarabhivamsa (Triple Gem Publications 2004; © 2007 Birmingham Buddhist Vihara; sponsored for free distribution) | PDF text layer (Word), proofread against the page images (`ocr/pcm/`) |
 | | `tinmon/` | Dr. Mehm Tin Mon, *Buddha Abhidhamma: Ultimate Science* (BuddhaNet) | PDF text layer, old Pāli font mapped |
 | | `handbook/` | Sayādaw U Sīlānanda, *Handbook of Abhidhamma Studies*, Vols. I–II (SBVMS 2012) | PDF text layer |
 | | `practical/` | *Practical Abhidhamma Course*, v1.1 (2016), by “Rob” | PDF (LuaTeX) read with PyMuPDF; figures as images |
@@ -32,8 +34,7 @@ come" below; the autopilot (`AUTOPILOT.md`) works through them.
 | | `anudipani/` | Anudīpanī (Ledi Sayadaw) | VRI `e0401n.nrf.xml` |
 | 5. Background | `guide/` | Nyanatiloka, *Guide Through the Abhidhamma Piṭaka* (BPS, 4th ed. 2008, PDF 2019) | PDF text layer (Unicode) |
 | 3. The Saṅgaha in English | `narada/` | Nārada Thera, *A Manual of Abhidhamma* (Vājirārāma; Preface 1978) | palikanon.com web edition, PDF (Word) |
-| To come | | Bhaddanta Dr. Rewata Dhamma, *Process of Consciousness and Matter* (Triple Gem Publications 2004; © 2007 Birmingham Buddhist Vihara; sponsored for free distribution) | PDF text layer (Word) |
-| | | Rerukane Chandawimala Mahāthera, *Basic Facts of Abhidhamma* (*Abhidharmaye Mūlika Karuṇu*), tr. D. J. Percy Silva (“Non-Commercial Distribution”) | scan (96 dpi), legacy Pāli font |
+| To come | | Rerukane Chandawimala Mahāthera, *Basic Facts of Abhidhamma* (*Abhidharmaye Mūlika Karuṇu*), tr. D. J. Percy Silva (“Non-Commercial Distribution”) | scan (96 dpi), legacy Pāli font |
 | | | Ashin Nandamālābhivaṃsa, *Paramatthadīpanī: An Annotated Translation* of chapters 1–4 (M.Phil. thesis, University of Kelaniya, 1996), published with the author's permission | scan (150 dpi), OCR from the page images |
 | | | Bhikkhu Bodhi (Gen. Ed.), *A Comprehensive Manual of Abhidhamma* (BPS 1993) | PDF |
 | | | Shwe Zan Aung & C. A. F. Rhys Davids, *Compendium of Philosophy* (PTS 1910) | scan |
@@ -297,6 +298,47 @@ python3 scripts/build.py fundamental
   the proofread transcription of its labels under it, for search. Their Pāli is printed without
   diacritics and abbreviated (*Jvtdrya*, *Mnskra*), kept so.
 
+## Bhaddanta Dr. Rewata Dhamma — Process of Consciousness and Matter (pcm/)
+
+(Aggamahāpaṇḍita) Bhaddanta Dr. Rewata Dhamma, *Process of Consciousness and Matter*, edited by
+(Aggamahāpaṇḍita) Ven. Dr. Kumarabhivamsa, Triple Gem Publications, Chino Hills, 2004; © 2007 Birmingham
+Buddhist Vihara, printed in Malaysia by arrangement with Sukhi Hotu. The sponsors' acknowledgement
+(book p. 200) says the book was sponsored “for free distribution”. From `ocr-sources/pcm.pdf` (223 pages,
+made from Word, kept out of the site): its text layer is good Unicode, so the words, italics and bold were
+taken from it with PyMuPDF and every page was proofread against its page image by the autopilot runs (see
+`AUTOPILOT_LOG.md`, 13–14 November 2026), into `ocr/pcm/p001.md` … `p208.md` and `p222.md` (one file per
+PDF page; PDF page = book page + 22 from the Introduction on, the front matter in roman numerals).
+
+```sh
+python3 scripts/pcm/convert.py && python3 scripts/build.py pcm
+```
+
+- **The text is as printed.** The book's misprints are kept (“Theses are”, “Aranhatship”, “jāvitindriya”,
+  the table totals that do not add up …; the log lists them page by page). No reading was left in doubt
+  (the text layer and the images agree), so nothing is marked ⟨?⟩.
+- **Page numbers.** The book's pages are anchors, `#pg113` with `#p113` beside it (the book setting
+  `page_alias`), so that the Systematization charts' “PCM p113” can be found; the Go to box (p.) takes a
+  page number. A page that begins between blocks has its number in the margin (on a wide screen); one that
+  begins inside a paragraph or a table has it inline. The Index's page numbers link to these anchors.
+- **Parts:** Front matter (the title page, the imprint, List of Tables, Abbreviations, Terms Used and
+  Tables), Preface (U. Silānanda), Acknowledgement (Dr Ottaranyāna), the biography, Introduction, Chapters
+  I–V, the eight Tables of kalāpas (pp. 144–159), Notes, Bibliography, Pāli-English Glossary, Index, and the
+  opening statement of the sponsors' acknowledgement. Left out: the half-title and the Contents (the
+  reader has its own), and the back matter that is not the author's text — an extract from another book
+  (PDF p. 209), the publisher's page with private addresses, a list of Myanmar
+  monasteries abroad, and the list of donors with their amounts. On the Saṅgaha map: Chapter I → I,
+  Chapters II–IV → IV, Chapter V → VI.
+- **Notes.** The book's notes are endnotes, numbered afresh in the Introduction and in each chapter, and
+  printed together after the Tables. They stay there; each reference in the text links to its note (the
+  book setting `endnotes`: a part's `notes_key` names its notes, a note's `nkey`/`back` its chapter), and
+  each note links back. The script checks that every reference has its note and every note a reference.
+- **Process diagrams** (the vīthis drawn mind-moment by mind-moment: a row of codes over a row of
+  “ooo”) are tables marked `diagram`: shown compact; on a phone the same cells run on in rows of seven. The Tables of kalāpas
+  are tables; a table running over a page is one table again.
+- Indented passages are indented paragraphs; the two Pāli passages and the verse keep their line breaks;
+  the glossary is a list of lines and the index an index, both one entry per line as printed, with the
+  entries broken over a page joined.
+
 ## Sayādaw U Sīlānanda — Handbook of Abhidhamma Studies, Vols. I–II (handbook/)
 
 U Sīlānanda's lectures on the Saṅgaha, edited from his American courses: *Handbook of Abhidhamma
@@ -448,6 +490,11 @@ writes the page.
   book is read with its own markup (`inline_markup`).
 - `scripts/build_map.py`: a book may tie two parts to one chapter of the Saṅgaha (Fundamental's Part I and
   Part II Vīthi); the map links both, each named by its label ("Fundamental (Part I)").
+- `scripts/build.py` (PCM): `endnotes` links a chapter's `[^n]` to its note in a Notes part of its own
+  (ids `en<key>-<n>`); `page_alias` gives each page anchor a second id (`#p113` beside `#pg113`); a page
+  mark `⟨pg:X⟩` may stand in a table cell (it is left out of the phone's cards, so the id stays single) and
+  in any string of the book; a table marked `diagram` is shown compact (`shared/reader.css`: `.vdiag`), and on a
+  phone cut into rows of seven cells, in order.
 
 ## Checks
 

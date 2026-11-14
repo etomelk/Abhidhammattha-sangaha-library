@@ -2,6 +2,50 @@
 
 Newest first. See AUTOPILOT.md for the standing instructions.
 
+## 2026-11-14 — Process of Consciousness and Matter built into the site (ready to merge)
+
+Built Rewata Dhamma's *Process of Consciousness and Matter* (`pcm`) from the proofread pages (`ocr/pcm/p001.md`–`p208.md`
+and `p222.md`):
+- `scripts/pcm/convert.py` writes `data/pcm.json`: 16 parts — Front matter (title page, imprint, List of Tables,
+  Abbreviations, Terms Used and Tables), Preface, Acknowledgement, the biography ("Dr Rewata Dhamma"), Introduction,
+  Chapters I–V (Saṅgaha map: I → I, II–IV → IV, V → VI), Tables (the eight tables of kalāpas, pp. 144–159), Notes,
+  Bibliography, Pāli-English Glossary, Index, and the opening of the sponsors' acknowledgement (p. 200, the source of
+  "for free distribution"). Left out: the half-title, a blank page and the Contents (PDF pp. 1–2, 5–10); the back
+  matter after the Index was already not transcribed (see the last proofreading run).
+- **Page anchors:** every numbered page is `#pgX` with `#pX` beside it (new book setting `page_alias`), so a chart's
+  "PCM p113" finds `pcm/#p113`; the Go to box (p.) takes a page number. A page beginning inside a paragraph, a note's
+  list or a table has an inline mark (`⟨pg:X⟩`); the Index's page numbers link to the anchors.
+- **Endnotes:** the chapters' `[^n]` link to their note in the Notes part and back (new book setting `endnotes`, ids
+  `en<key>-<n>`). The converter checks that every reference has its note and every note a reference (Intro 1–9,
+  I 1–14, II 1–18, III 1–24, IV 1–29, V 1–22): all match.
+- **Joins:** paragraphs and indented passages over a page, the tables of pp. 144–159 over a page (one table again), the
+  glossary and index entries broken over a page ("cakkhu-viññāna - eye-consciousness" with its hyphen kept), the list
+  under Ch. IV note 29.
+- **Process diagrams** (54 tables of codes over "ooo"): marked `diagram`, shown compact (`shared/reader.css` `.vdiag`) and,
+  on a phone, the same cells in rows of seven, in order (the reader's card view did not suit them).
+- Word check: every word of the proofread pages is in the JSON; the only differences are the "CHAPTER n" lines and the
+  part titles (now the parts' titles), the note numbers (now the notes' numbers) and the glossary join above. Headings
+  printed in capitals that would show oddly in the contents are given the case of the book's Contents ("The 89 and 121
+  Cittas at a Glance"; in Notes "Introduction", "Chapter II"; front "List of Tables" …); the reader sets them in
+  capitals as printed.
+- `scripts/build.py`: `endnotes`, `page_alias`, page marks counted anywhere in a book (table cells) and kept out of the
+  phone's table cards (so each id stays single), `diagram` tables. Every other book was rebuilt: its output is
+  unchanged.
+- `data/library.json` (the PCM entry), `scripts/build_home.py` (shelf "Start here", after Fundamental), README (status,
+  the books table, the "To come" row removed, a PCM section, the changes to the shared reader).
+- `python3 scripts/build.py pcm`, `build_map.py`, `build_home.py`; `audit_format.py pcm`: 4 "sentence" hits, the book's
+  own headings ending with a full stop ("Bhavanga Kicca - Function of Life Continuum." …); `check_site.py`:
+  **157 pages × 3 widths, 0 problems**.
+
+Words marked ⟨?⟩: none (none in the pages).
+
+**For the owner:** merge `autopilot` into `main` to publish *Process of Consciousness and Matter*. You may want to look
+at: the page anchors (`/pcm/#p113`), the diagrams on a phone, and whether to keep the sponsors' statement as the last
+part (drop p222 from `convert.py` to leave it out).
+
+Next: Rerukane Chandawimala, *Basic Facts of Abhidhamma* (`rerukane`), PDF page 1 (273 pages of 96 dpi images: render at
+300 dpi, tesseract, and map the legacy Pāli font as AUTOPILOT.md says).
+
 ## 2026-11-14 — Process of Consciousness and Matter pp. 189–208 (Glossary, Index) proofread; back matter decided
 
 Proofread PDF pages 189–208 of `ocr-sources/pcm.pdf` (book pp. 167–186) into `ocr/pcm/p189.md`–`p208.md`: the

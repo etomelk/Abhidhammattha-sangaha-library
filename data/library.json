@@ -253,6 +253,55 @@
    "title_case_caps": true
   },
   {
+   "slug": "pcm",
+   "title": "Process of Consciousness and Matter",
+   "short": "Process of Consciousness and Matter",
+   "author": "Bhaddanta Dr. Rewata Dhamma",
+   "cite": "PCM",
+   "level": "Study guide",
+   "edition": "Triple Gem Publications, 2004 (© 2007 Birmingham Buddhist Vihara); edited by Ven. Dr. Kumarabhivamsa",
+   "by": "(Aggamahāpaṇḍita) Bhaddanta Dr. Rewata Dhamma · edited by (Aggamahāpaṇḍita) Ven. Dr. Kumarabhivamsa · Triple Gem Publications, 2004",
+   "blurb": "A supplement to the Comprehensive Manual on the process of consciousness and matter: citta and cetasikas, the five-door and mind-door processes, absorption, path, fruition, cessation and dying, and the kalāpas of matter, with the processes drawn mind-moment by mind-moment.",
+   "note": "The whole book: the Preface, Acknowledgement and biography, the Introduction, its five chapters, the eight tables of kalāpas, the Notes, Bibliography, Pāli-English Glossary and Index. The book’s page numbers are kept in the margin (and can be reached as #pg113 or #p113, so a chart’s “PCM p113” can be found; the Go to box takes a page number); the index links to them. The notes are endnotes numbered by chapter: each reference opens its note in the Notes. The Saṅgaha map links Chapter I to the Saṅgaha’s chapter I, Chapters II–IV to chapter IV and Chapter V to chapter VI. The book’s own misprints are kept as printed.",
+   "brand_sub": "Rewata Dhamma · PCM",
+   "toc_foot": "Five chapters, with the Introduction, the tables, the notes, the glossary and the index.",
+   "source": "Source: Bhaddanta Dr. Rewata Dhamma, <em>Process of Consciousness and Matter</em>, edited by Ven. Dr. Kumarabhivamsa, Triple Gem Publications, 2004, © 2007 Birmingham Buddhist Vihara, printed in Malaysia by arrangement with Sukhi Hotu; sponsored “for free distribution” (the sponsors’ acknowledgement, p. 200). From the PDF (made from Word, 223 pages): its text layer, with the book’s italics and bold, was proofread page by page against the page images for this library. The contents pages are left out (the reader has its own); of the back matter after the Index only the opening of the sponsors’ acknowledgement is kept (the list of donors, the publisher’s page, the list of Myanmar monasteries abroad and an extract from another book are not the author’s text). The book’s misprints are kept as printed.",
+   "desc": "Bhaddanta Dr. Rewata Dhamma’s Process of Consciousness and Matter: the cognitive processes and the process of matter, mind-moment by mind-moment.",
+   "howto": [
+    [
+     "Find anything",
+     "Type in Search (or press <kbd>/</kbd>). Accents are optional: <i>rupa</i> finds <i>rūpa</i>."
+    ],
+    [
+     "A page of the book",
+     "Type the page number in the Go to box (p.): the charts cite this book by page (“PCM p113”)."
+    ],
+    [
+     "Between the books",
+     "The <a href=\"../map/\">Saṅgaha map</a> links the chapters to the same chapters of the Saṅgaha in the other books."
+    ]
+   ],
+   "unit": "Chapter",
+   "cid": "ch",
+   "sign": "§",
+   "margin_sign": "",
+   "xrefs": false,
+   "footnotes": true,
+   "split": true,
+   "inline_markup": true,
+   "drawer_btn": "Notes",
+   "drawer_title": "Pāli terms",
+   "drawer_hint": "This book has no index of its own.",
+   "anchor": "^(ch\\d+.*)$",
+   "goto": "pg",
+   "goto_label": "p.",
+   "goto_aria": "Go to a page of the book",
+   "goto_max": 200,
+   "rich_cells": true,
+   "endnotes": true,
+   "page_alias": "p"
+  },
+  {
    "unit": "Chapter",
    "cid": "ch",
    "sign": "§",

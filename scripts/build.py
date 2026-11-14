@@ -97,6 +97,10 @@ PAGE_IDS = {f'pg{b["n"]}' for c in chapters for b in c['blocks'] if b['type'] ==
 ALL_IDS = {b["id"] for c in chapters for b in c["blocks"] if b.get("id")}
 PAGE_IDS |= {'pg' + x for c in chapters for b in c['blocks'] for t in [b.get('text', '')] + b.get('left', []) + b.get('right', [])
              for x in re.findall(r'⟨pg:([^⟩]+)⟩', t)}
+PAGE_IDS |= {'pg' + x for x in re.findall(r'⟨pg:([^⟩]+)⟩', json.dumps(chapters, ensure_ascii=False))}   # PCM: a page beginning inside a table or a list
+PAGE_ALIAS = meta.get('page_alias', '')      # PCM: each page anchor #pg113 has a second id, #p113 (the charts cite "PCM p113")
+ENDNOTES = meta.get('endnotes', False)       # PCM: [^n] in a chapter links to note n of that chapter in the Notes part
+NOTE_KEYS = {CID + c['num']: c['notes_key'] for c in chapters if c.get('notes_key')}
 UNIT_IDS = {CID + c['num'] for c in chapters} | {b['id'] for c in chapters for b in c['blocks'] if b.get('id')}
 valid = {b['pnum'] for c in chapters for b in c['blocks'] if 'pnum' in b} if CID == 'ch' else set()
 SECS = {'s' + str(b['pnum']).replace('.', '-') for c in chapters for b in c['blocks'] if b['type'] == 'h' and b.get('pnum')}
@@ -446,7 +450,8 @@ def pg_mark(n):
     if n[:1] in _BACK and n[1:] in _BACK[n[:1]][1]:
         osl = _BACK[n[:1]][0]
         back = f'<a class="xb pgx" href="../{osl}/#a{n[1:]}" title="This page in English (Pe Maung Tin, The Expositor)">Eng</a>'
-    return f'<span class="pgmark pgin" id="pg{n}" data-ref="{page_ref(n)}" title="Printed page {page_no(n)}">{page_no(n)}</span>{back}'
+    alias = f'<span class="sanchor" id="{PAGE_ALIAS}{n}"></span>' if PAGE_ALIAS else ''
+    return f'{alias}<span class="pgmark pgin" id="pg{n}" data-ref="{page_ref(n)}" title="Printed page {page_no(n)}">{page_no(n)}</span>{back}'
 
 
 def pts_mark(m):
@@ -851,6 +856,8 @@ def split_span_table(b, maxcols=4):
 def stack_span_table(b):
     """The last resort for a wide table on a phone: one card per row, each filled cell under the name
     of its column (the lowest header cell above it)."""
+    if '⟨pg:' in json.dumps(b['rows'], ensure_ascii=False):     # a page mark in a cell: kept in the wide table only (one id)
+        b = dict(b, rows=[[re.sub(r'⟨pg:[^⟩]+⟩', '', c) if isinstance(c, str) else c for c in r] for r in b['rows']])
     hrows = b.get('hrows', [])
     ncol = max(len(r) for r in hrows + [r for r in b['rows']])
     def owner_text(rows, i, j):
@@ -950,6 +957,8 @@ def render_block(b):
     if FOOTNOTES and b.get('note'):
         n = b['note']
         nid, rid = (f'n{n}', f'r{n}') if NOTES_GLOBAL else (f'{b["_cid"]}-n{n}', f'{b["_cid"]}-r{n}')
+        if ENDNOTES and b.get('nkey'):     # an endnote: its id names the chapter, its back link goes to that chapter
+            nid, rid = f'en{b["nkey"]}-{n}', f'{CID}{b["back"]}-r{n}'
         body = html.escape(b['text'], quote=False)
         if INLINE:
             body = ' </p><p class="para fnote cont">'.join(rd_inline(x, escaped=True) for x in body.split(' ¶ '))
@@ -958,7 +967,8 @@ def render_block(b):
         dref = f' data-ref="note {n}"' if NOTES_GLOBAL else ''
         return (f'<p class="para fnote" id="{nid}"{dref}><a class="fnback" href="#{rid}" title="Back to the text">{n}</a> {body}</p>')
     if b['type'] == 'pg':        # Warder: where a printed page begins (#pg23), shown in the margin on wide screens
-        return f'<span class="pgmark" id="pg{b["n"]}" data-ref="{page_ref(b["n"])}" title="Printed page {page_no(b["n"])}">{page_no(b["n"])}</span>'
+        alias = f'<span class="sanchor" id="{PAGE_ALIAS}{b["n"]}"></span>' if PAGE_ALIAS else ''
+        return f'{alias}<span class="pgmark" id="pg{b["n"]}" data-ref="{page_ref(b["n"])}" title="Printed page {page_no(b["n"])}">{page_no(b["n"])}</span>'
     if b['type'] == 'idx':       # Warder: index entries; printed page numbers link to their page (#pg23)
         def pages(t):
             t = html.escape(t, quote=False)
@@ -1042,6 +1052,13 @@ def render_block(b):
         if b.get('details'):     # Nhu Lien: the text of a chart shown as an image above it
             return (f'<details class="tdet"><summary>{html.escape(b["details"], quote=False)}</summary>'
                     f'<div class="tbl tscroll">{render_span_table(b, narrow=False)}</div></details>')
+        if b.get('diagram'):     # PCM: a process diagram (codes over "ooo"), compact, scrolling sideways when too wide
+            nc = max(len(r) for r in b.get('hrows', []) + b['rows'])
+            cut = lambda r, a: list(r[a:a + 7])
+            narrow = ''.join(render_span_table(dict(b, hrows=[cut(r, a) for r in b.get('hrows', [])], rows=[cut(r, a) for r in b['rows']]), narrow=False)
+                             for a in range(0, nc, 7))       # on a phone: the same cells, seven to a row, in order
+            return (f'<div class="tbl vdiag"{anchor}><div class="vscroll tsplit-w">{render_span_table(b, narrow=False)}</div>'
+                    f'<div class="tsplit-n">{narrow}</div></div>')
         cap = f'<p class="cap">{html.escape(b["cap"], quote=False)}</p>' if b.get('cap') and b.get('spans') else ''
         return f'<div class="tbl"{anchor}>{pnum_span(b)}{cap}{render_span_table(b) if b.get("spans") else render_table(b)}</div>'
     if b['type'] == 'pre':
@@ -1108,6 +1125,8 @@ def fn_refs(h, cid):
     def one(m):
         n = m.group(1)
         rid, nid = (f'r{n}', f'n{n}') if NOTES_GLOBAL else (f'{cid}-r{n}', f'{cid}-n{n}')
+        if ENDNOTES and cid in NOTE_KEYS:
+            nid = f'en{NOTE_KEYS[cid]}-{n}'
         idattr = '' if rid in SEEN_REFS else f' id="{rid}"'
         SEEN_REFS.add(rid)
         return f'<sup class="fnref"><a class="xref" href="#{nid}" data-s="{nid}"{idattr}>{n}</a></sup>'

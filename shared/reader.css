@@ -538,3 +538,7 @@ table.gt.grouped tr:not(.grp) td.num + td.num + td{white-space:nowrap;hyphens:no
 /* a chart whose column heads stand upright, as in the book (Nārada, Diagram XIV) */
 .gt.vhead th:nth-child(n+2){writing-mode:vertical-rl;transform:rotate(180deg);text-align:left;vertical-align:bottom;padding:4px 2px;white-space:nowrap}
 .gt.vhead td:nth-child(n+2){text-align:center;padding-left:2px;padding-right:2px}
+.vdiag .vscroll{overflow-x:auto;max-width:100%}
+.vdiag table.gt{width:auto;font-size:13px;margin:0 0 6px}
+.vdiag table.gt th,.vdiag table.gt td{white-space:nowrap;padding:3px 4px;text-align:center}
+.vdiag .tsplit-n table.gt{margin:0 0 8px}
