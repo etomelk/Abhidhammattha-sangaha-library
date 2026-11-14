@@ -2,6 +2,44 @@
 
 Newest first. See AUTOPILOT.md for the standing instructions.
 
+## 2026-11-14 — Basic Facts of Abhidhamma pp. 101–125 (the unwholesome mental factors; beautiful factors begun) proofread
+
+PDF pages 101–125 of `ocr-sources/rerukane.pdf` into `ocr/rerukane/p101.md`–`p125.md` (book page = PDF page). Same method
+as the last runs: 300 dpi render, `tesseract --psm 4`, every page read against its image (the Pāli-dense passages on
+p119, p120 and p122 on full-resolution crops), Pāli by the font mapping (â → Ā again: "âvàsa" *Āvāsa*), and a
+word-by-word comparison of each page with tesseract's output to catch dropped lines (none: every difference is a Pāli
+word or an OCR slip).
+
+Headings, same scheme as p075–p100 (`####` for each factor): *Ahirika* p102, *Anotappa* p102, *Uddhacca* p103,
+*Lobha* p105, *Diṭṭhi* p106, *Māna* p106, *Dosa* p108, *Issā* p109, *Macchariya* p111 (text from p112), *Kukkucca*
+p115, *Thīna* and *Middha* p117, *Vicikicchā* p119 (text from p120); "Beautiful mental factors" (`###`, p122, the next
+group, like "Fourteen unwholesome mental factors" on p100), then *Saddhā* p123 and *Sati* p124. One more: "Few
+concealed matters" (p109, at the foot of the page; text p110–p111) is printed in the same bold roman as the group
+headings, but it is a digression inside *Issā* (jealousy and greed), so it is `#####` here; the build should map it
+one level below `####` (or to `h4` if only one sub-level is used).
+
+Footnotes `[^38]`–`[^41]` (p114 two, p121, p124). The bold lists that open each group are kept bold as printed (p122–
+p123: the nineteen beautiful factors, Pāli bold italic, glosses bold, the closing "are the nineteen beautiful mental
+factors." roman), as are the bold glosses ("***Macchariya*** **(stinginess).**", "**anger.**", "**fear.**", "**disgust.**",
+"**sorrow**", "**displeasure.**", "**like a hand**" …). The Pāli quotation on p120 (the eight kinds of doubt) is a bold
+italic paragraph, kept so.
+
+Kept as printed (not transcription errors): "Anotappa" (p102–p103, beside "Ottappa" on p122), "Uddacca" (p104, beside
+"Uddhacca" on p103), "*Sāssata Diṭṭhi*" (p106, *sassata*), "*Miccā*" (p106), "*Lābhmacchariya*" (p112, beside
+"*Lābhamacchariya*" p113–p115), "Dhammasaṅgaṇi" (p112, short i), "*Kadariyatāva*", "*Kāyakakammaññatā*",
+"*Cittamudututā*", "*Kayapāguññatā*" (all p119), "*Kāya pāguññatā*" (two words, p122), the glosses "(… of mental
+factors)" for the *Kāya* pairs (p122), "*swarūpa*", "Kukkula hell", "*Hattha kukkuccaya pādakukkuccaya*", "it’s
+associated", "make the body", "due his to taking", "hell.,”", "follows,.", "dose off", "an elephant in musk", "It is
+because the mental factors of …" (p119, the sentence as printed).
+
+Words marked ⟨?⟩:
+- p120 "Dhammasṅgaṇi⟨?⟩" — printed "Dhammasïgaõi" (ï = ṅ, with no *a* before it; checked on a crop); the book has
+  "Dhammasaïgaõi" on p112.
+
+Site not touched this run (proofread pages only).
+
+Next: `rerukane`, PDF page 126 (148 pages left).
+
 ## 2026-11-14 — Basic Facts of Abhidhamma pp. 76–100 (Universal and occasional mental factors, start of the unwholesome) proofread
 
 PDF pages 76–100 of `ocr-sources/rerukane.pdf` into `ocr/rerukane/p076.md`–`p100.md` (book page = PDF page). Same method
