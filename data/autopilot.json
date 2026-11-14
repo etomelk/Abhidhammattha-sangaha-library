@@ -1,6 +1,6 @@
 {
   "status": "running",
-  "lock": null,
+  "lock": "2026-11-14T05:52:32Z",
   "queue": [
     "mendis",
     "fundamental-2",
