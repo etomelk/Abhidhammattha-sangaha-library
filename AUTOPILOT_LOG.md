@@ -2,6 +2,44 @@
 
 Newest first. See AUTOPILOT.md for the standing instructions.
 
+## 2026-11-14 — Basic Facts of Abhidhamma pp. 51–75 (*Cetasika*, *Rūpa*, Nibbāna, Variations of the *Citta*) proofread
+
+PDF pages 51–75 of `ocr-sources/rerukane.pdf` into `ocr/rerukane/p051.md`–`p075.md` (book page = PDF page). Same method as
+the last runs: 300 dpi render, `tesseract --psm 4`, every page read against its image (doubtful accents checked on
+full-resolution crops); Pāli by the font mapping. One more letter of the font met here and confirmed by context:
+**¥ → Ñ** ("¥àna-sampayutta" *Ñāna-sampayutta*, p065). The page images show the tilde of ã (ī) clearly in italic
+("dãgha□ca", "ghaññãyati pãliyati", "Akãrti" Akīrti), which settles ã → ī in the verses.
+
+Sections begun here (`## …`): *Cetasika* p051 (heading at the foot of the page; text from p052); *Rūpa* p053 (text
+from p054); Nibbāna p057; Variations of the *Citta* p060; *Bhavāṅga Citta* p061; *Javana Citta* p066 (text from p067);
+Wholesome *Citta* and Unwholesome *Citta* p070; *Vipāka Citta* p072. p075: the bold line "The description of *Citta*
+ends here." then **two heading levels**: "Variations of mental factors" (`##`, printed larger) and "Universal mental
+factors" (`###`) — the first `###` in this book; the build should map it to a sub-heading.
+
+Footnotes `[^24]`–`[^33]` (p054, p059, p062 two, p068, p069, p073, p074 two, p075). Bold glosses on p068–p069
+("“*Āvajjana Citta*” (Adverting consciousness)" etc.) are bold through the closing bracket, as printed. Verses as block
+quotes: p054 (Dhp 37), p058 (two stanzas, Kevaṭṭa), p064 (Dhp 64), p073 (Dhp 71, bold italic).
+
+Kept as printed (not transcription errors): "Bhavāṅga" (printed "Bhavàïga", with ā, on every page here, beside
+"Bhavaṅga" on p048), "Bhvāṅga" (p061), "nāmaṅca" (ï, on both p058 and p059), "pahaṃ", "rasañca", "payarupāsati",
+"Pahassaramidaṃ", "pīliyati" (plain l), "Viññāna" (plain n) beside "Viññāṇa", "Viññāṇā" (p059), "Saṅkāra", "Khanda",
+"Ñāna" (plain n), "Cetsika" (p073, p074), "Parmattha" (p056), "Kevaṭṭa", "Ruvanveliseya", "with tree root conditions",
+"as do the embers covered with ash do?", "Facts"-style English slips left alone.
+
+Words marked ⟨?⟩:
+- p054 "*ekavaraṃ*⟨?⟩" — printed so; the verse (Dhp 37) has *ekacaraṃ*.
+- p054 "***asarīraṃ***⟨?⟩" and p055 "***Ruppatīti***⟨?⟩" — in bold the accent looks flat like a macron (asarāraṃ,
+  Ruppatāti) at the scan's 96 dpi; read as ã → ī (the verse's *asarīraṃ*, the sutta's *ruppatīti*). Check.
+- p058 "*Viññāṇaṃ*⟨?⟩" — printed "Viïïàõà§" (ï ï, and à before §); *viññāṇaṃ* expected.
+- p058 and p060 "*phūlaṃ*⟨?⟩" — printed "phåla§"; the verse has *thūlaṃ* (the case AUTOPILOT.md names).
+- p059 "*Vīññāṇa*⟨?⟩" — printed "Vã□□àõa" (ī) once, beside "Vi□□àõa" elsewhere.
+- p073 "***ḍahantaṃ***⟨?⟩" — printed "óahanta§" (ó = ḍ); the verse has *dahantaṃ*.
+- p074 "*Vi*⟨?⟩" — printed "Vî" (i with a circumflex, not in the mapping); the syllable *vi* of *Vipāka* is meant.
+
+Site not touched this run (proofread pages only).
+
+Next: `rerukane`, PDF page 76 (198 pages left).
+
 ## 2026-11-14 — Basic Facts of Abhidhamma pp. 26–50 (Absolute and conventional truth, *Citta*) proofread
 
 PDF pages 26–50 of `ocr-sources/rerukane.pdf` into `ocr/rerukane/p026.md`–`p050.md` (book page = PDF page). Same method
