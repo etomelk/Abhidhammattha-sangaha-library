@@ -2,6 +2,43 @@
 
 Newest first. See AUTOPILOT.md for the standing instructions.
 
+## 2026-11-14 — Basic Facts of Abhidhamma pp. 1–25 (title, Contents, Translator's Note, Preface) proofread
+
+Started Rerukane Chandawimala's *Basic Facts of Abhidhamma* (`rerukane`): PDF pages 1–25 of `ocr-sources/rerukane.pdf`
+into `ocr/rerukane/p001.md`–`p025.md`. The printed page number at the top of each page equals the PDF page number, so
+"book page X" = NNN throughout so far (the Contents' numbers are these page numbers).
+
+How: each page rendered at 300 dpi (`pdftoppm`), `tesseract --psm 4` for the English, then every page read against its
+image line by line; every Pāli word, italic and bold taken from the image (tesseract drops the legacy font's letters).
+Pāli written in Unicode by the AUTOPILOT.md mapping (à ā, ã ī, å ū, ñ ṭ, õ ṇ, § ṃ, □ ñ) plus three letters of the same
+font met on these pages and confirmed by context: **ï → ṅ** ("Saïgha" Saṅgha, "maïgala", "saïsàra" saṅsāra,
+"màpayiïsu" māpayiṅsu — the author's ṅ for ṃ before s/h is kept), **â → Ā** ("âpo dhàtu", "âbhidhammika"), **ë → ḷ**
+("Pàëi" Pāḷi), **ó → ḍ** ("vaóóhetvà" vaḍḍhetvā). Running heads/page numbers and the footer "Non-Commercial
+Distribution" (on every page) removed.
+
+Conventions (for the build):
+- p001 title page; p002–p007 the Contents as a nested list "title — page" (indent as printed; p002 opens with
+  `## Contents`, the word printed at the foot of p001).
+- Parts begin with `## …`: Translator's Note (p008), Preface (p010), "Basic Facts of *Abhidhamma*" (p023, the body
+  begins there after the Preface's sign-off).
+- Footnotes numbered through the book as printed (`[^1]` p010, `[^2]` p013, `[^3]` p014), each at the end of its page.
+- Pāli verses as block quotes (`>`), one printed line each; prose quotations in Pāli as bold italic paragraphs, as
+  printed.
+- Paragraphs running over a page are left split; the build should join them (no hyphenation breaks in these pages).
+- p009: the translator's private postal address, e-mail and telephone number are **not transcribed** (a comment marks
+  the place); his name and the date are kept.
+
+Kept as printed (not errors of transcription): "Parmattha" (Contents), "8Suppleness", "pre-nascencesupport",
+"pacsachimadisābhāge", "cettha", "satasahasenapi", "Majjima", "Savitti", "Karunā" (plain n), "paṇditaṃ" and
+"Pāṇdukambala" (plain d), "Patthāna" (p024, plain t), "Atthasālini" (p025) beside "Atthasālinī" elsewhere,
+"Ven, Sumanaseela".
+
+Words marked ⟨?⟩:
+- p002 "*Saññānā*⟨?⟩" — the Contents prints "Sa□□ànà" (Saññā expected; check against the heading on p081).
+- p005 "*viñnatti*⟨?⟩" — printed "vi□natti" with one box (viññatti expected; check against p178).
+
+Next: `rerukane`, PDF page 26 (248 pages left).
+
 ## 2026-11-14 — Process of Consciousness and Matter built into the site (ready to merge)
 
 Built Rewata Dhamma's *Process of Consciousness and Matter* (`pcm`) from the proofread pages (`ocr/pcm/p001.md`–`p208.md`
