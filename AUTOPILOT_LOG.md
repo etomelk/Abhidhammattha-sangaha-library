@@ -2,6 +2,50 @@
 
 Newest first. See AUTOPILOT.md for the standing instructions.
 
+## 2026-11-14 — Process of Consciousness and Matter pp. 161–188 proofread
+
+Proofread PDF pages 161–188 of `ocr-sources/pcm.pdf` (book pp. 139–166) into `ocr/pcm/p161.md`–`p188.md`: the end of
+Chapter V (temperature-born kalāpas continued, Nutriment-Born Kalāpas, Eye-Decad Kalāpa etc., Five-Door Cognitive
+Process, The Attainment of Cessation, Dying Moment), the eight Tables (pp. 144–159), the endnotes (pp. 160–164) and
+the Bibliography (pp. 165–166). A shorter chunk than 40 pages because the tables are dense.
+
+How: running text as the earlier runs (PyMuPDF text layer, superscripts as `[^n]` or plain ordinals, every page read
+against its image at 100 dpi). The tables were taken cell by cell from the layer with PyMuPDF `find_tables`, then
+compared with the page images (the doubtful rows zoomed at 200 dpi); every row was also summed by script. Word check:
+every word of the text layer is in the pages (running heads and page numbers excepted).
+
+Conventions added in this chunk (for the build):
+- **Tables** (p166–p181): `### Table N: …` (the bold title, two printed lines joined) and a Markdown table; the Citta
+  name is in the first row of each three-row group (Arising/Presence/Dissolution), the other two rows blank, as the
+  merged cells print. A table running onto the next page goes on there after a `<!-- cont … -->` comment with an
+  empty header row (no header is printed there): the build should join it to the table before. The first table page
+  (p166) has a comment that the running head is "TABLES" (no heading is printed).
+- **Table 6** (p176): the label "From this instance the process of consciousness is ceased." is printed rotated in
+  one cell spanning the Citta and Instance columns of all the rows after the two jhāna cittas; it is written in the
+  first of those rows, with a comment. On p177 the last three Citta-born cells are blank as printed.
+- Cell labels broken at a hyphen are joined: "Sense-consciousness" (p174), "Eye-consciousness" (p180).
+- **Endnotes** (p182–p186): `## NOTES`, `### INTRODUCTION`, `### CHAPTER I` … `### CHAPTER V`, each note a `n. …`
+  line (wrapped lines joined). The sub-lists printed one per line under a note (Ch. II n. 17; Ch. IV nn. 8, 9, 21,
+  29) are 4-space-indented lines under it; the list of Ch. IV n. 29 goes on at the top of p186 (indented lines, with
+  a comment); its `"` are the book's ditto marks. These notes are the targets of the chapters' `[^n]` (numbered by
+  chapter: Intro 1–9, I 1–14, II 1–18, III 1–24, IV 1–29, V 1–22, which match the references in the text).
+- **Bibliography** (p187–p188): `## BIBLIOGRAPHY`, one paragraph per entry, titles in italics as printed (the bold
+  comma after "Anuruddha" is written plain).
+
+Words marked ⟨?⟩: none (text layer and images agree). Kept as printed (the book's slips, not corrected): the table
+totals that do not add up — Table 6 row 4 "408 15 51 474 949" (p176; sum 948), Table 8 "304 16 51 379 751" (sum 750)
+and "176 16 51 251 484" (sum 494) (p180), "120 16 51 195 385" (p181; sum 382); "one nutriment-born kalāpas"
+(p161), "the consciousness conditioned temperature-born kalāpa are always arising" (p161), "the nutriment conditioned
+temperature-born kalāpa increase" (p162), "[Table VI &VII]" (p164); in the notes "Saddatthabhedacint ," (Ch. III
+n. 21), "gahaa" (n. 18), "Nyā ṇavibhaṅga" (n. 6), "Iddhhividha" (Ch. IV n. 8), "Pathāna" (n. 6), "Peccavekkha-
+samanantara" (n. 21), "Vibhv. (120" (n. 22), "DiA.II, 187)" (n. 27), "(See CMA )240" (Ch. V n. 3), "the term”
+sensual beings”" and "had contacted" (Ch. II nn. 9, 12), "Abhidhammatthasanghaha" (Bibliography).
+
+Next: `pcm`, PDF page 189 (book p. 167, the Pāli-English Glossary; then the Index pp. 198–208 and the back matter
+pp. 209–223; 35 pages left). The next run should decide (and log) whether the back matter after the Index (a
+reflection extract, the publisher's page, the list of Myanmar monasteries abroad, the sponsors' acknowledgement) is
+kept in the book; the acknowledgement p. 222–223 is the source of the "for free distribution" note in AUTOPILOT.md.
+
 ## 2026-11-14 — Process of Consciousness and Matter pp. 121–160 proofread
 
 Proofread PDF pages 121–160 of `ocr-sources/pcm.pdf` (book pp. 99–138) into `ocr/pcm/p121.md`–`p160.md`: the rest of
