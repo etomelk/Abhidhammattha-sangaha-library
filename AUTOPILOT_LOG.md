@@ -2,6 +2,39 @@
 
 Newest first. See AUTOPILOT.md for the standing instructions.
 
+## 2026-11-14 — Process of Consciousness and Matter pp. 41–80 proofread
+
+Proofread PDF pages 41–80 of `ocr-sources/pcm.pdf` (book pp. 19–58) into `ocr/pcm/p041.md`–`p080.md`: the rest of
+Chapter I (Beautiful Cetasikas, "The 52 Mental Factors at a Glance" as a two-column table keeping the printed rows,
+Further Classifications: Vedanā, Hetu, Kicca, Dvāra, Ālambana, Vatthu, Consciousness Element, Classification of
+Cittas according to Base) and Chapter II, Process of Consciousness (Citta Vīthi), from the start to book p. 58
+(Basic Facts, the five-door process with very great, great, slight and very slight objects, with and without
+transitional bhavanga).
+
+How: as the first run: words, italics and bold from the text layer (PyMuPDF), superscript note numbers as `[^n]`,
+then every page read against its image (110 dpi) for paragraphs, lists, headings and tables. Word check: every
+word of the text layer is in the pages (running heads and page numbers excepted), and nothing else.
+
+New conventions in this chunk (for the build):
+- **Vīthi diagrams** (24 of them, pp. 64–80): each is a two-row Markdown table, the codes in the first row
+  (`SB | “PB | VB | … | RS” | SB`, the quotation marks as printed) and `ooo` in every cell of the second; the
+  cell counts were checked against the `ooo` runs of the text layer. Their titles (bold, underlined) are `###`.
+- **Indented passages** (the long "When a visible object … arise simultaneously …" descriptions, set as a block
+  indented on both sides) are block quotes (`> `); where one runs over a page the next page starts with `> ` after
+  `<!-- cont -->`.
+- Centred headings `##`, left-aligned `###` as before; a centred heading printed on two lines is one line here.
+  "Note:" is underlined in the book (kept plain).
+- Notes: Chapter I goes on 5–14; Chapter II starts again at 1 (p058) and reaches 16 (p075). Their texts are in
+  the book's Notes (PDF pp. 182–186).
+
+Words marked ⟨?⟩: none (text layer and images agree). Kept as printed (the book's slips, not corrected):
+"Sampṭicchanādi Kicca" (p049 heading), "counsciousness" (p050), "Illimit Illimitables-2" (p043 table),
+"jīhvā-vatthu" (p061, beside "jīvhā" elsewhere), "arrest bhavana" (p071), "instantsof" (p074),
+"mahaggata- vipāka" (p051), "flash of lightening" (p058), "tadālaṃbaṇa" (p059, "tadālaṃbana" elsewhere),
+"disassociate from knowledge" (p046).
+
+Next: `pcm`, PDF page 81 (book p. 59; 143 pages left).
+
 ## 2026-11-13 — Process of Consciousness and Matter pp. 1–40 proofread
 
 First run on Rewata Dhamma's *Process of Consciousness and Matter* (`pcm`). Proofread PDF pages 1–40 of
