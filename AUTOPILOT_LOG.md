@@ -2,6 +2,44 @@
 
 Newest first. See AUTOPILOT.md for the standing instructions.
 
+## 2026-11-14 — Process of Consciousness and Matter pp. 121–160 proofread
+
+Proofread PDF pages 121–160 of `ocr-sources/pcm.pdf` (book pp. 99–138) into `ocr/pcm/p121.md`–`p160.md`: the rest of
+Chapter IV (the path process: Three Theories, path and reviewing processes; (5) the fruition process; (6) the direct
+knowledge process; (7) the attainment of cessation and the fourfold resolution; (8) the dying process, five-door and
+mind-door, the bhavanga process; the Parinibbāna process with its jhāna, reviewing, direct-knowledge and jīvitasamasīsī
+immediacy processes; "The End of Cognitive Process") and Chapter V, Process of Matter, up to book p. 138 (Rūpa, the
+eleven material qualities, concretely and non-concretely produced matter, the kalāpas by origin, the occurrence of the
+process of matter, kamma-, consciousness- and temperature-born kalāpas, vital-nonad kalāpas).
+
+How: as the earlier runs: words, italics and bold from the text layer (PyMuPDF; words the justified layout splits
+into separate pieces on one line joined back), superscript note numbers as `[^n]`, then every page read against its
+image (100 dpi, the long dying-process diagram zoomed at 250 dpi) for paragraphs, lists, headings and diagrams.
+Word check: every word of the text layer is in the pages (running heads and page numbers excepted), the only
+differences being the diagram codes the layer runs together ("VBAB", "MAPR", "CessationFC").
+
+Conventions added in this chunk (for the build):
+- **Diagrams with an open-ended run** (fruition process p125, cessation p132): the ellipsis cells are kept bold as
+  printed (`**…**`, `**...**”`); in the cessation diagram the "Cessation" cell has `**……**` in the second row.
+- **The dying-process diagram** (p136) is printed as one box in two rows of 20 cells with an empty row between: here
+  two tables after a comment saying so.
+- **Pāli passage** (p157, "Iccevaṁ, paṭisandhim upādāya …", set indented): `> ` lines keeping the printed line breaks,
+  with a comment; the indented description on p136 ("When a visible object appears to a dying person’s eye …") is one
+  block quote, as on the earlier pages.
+- "CHAPTER V" and "PROCESS OF MATTER" (p151) are two `##` lines as printed; the kalāpa headings keep their note
+  and count: `### Kamma Originated Kalāpas[^6] (9)`.
+- Ordinal superscripts are plain text: "1/46,656th" (p151), "51st" (p160); the italic closing quote after
+  "katvā" (p147) is written as a plain ”.
+- Notes: Chapter IV goes on 6–29 (p126–p150); Chapter V starts again at 1 (p151) and reaches 15 (p160).
+
+Words marked ⟨?⟩: none (text layer and images agree). Kept as printed (the book's slips, not corrected):
+"pādakaj jhāna" (p121), "one has attained its fruition" (p124), "that is basis the of the abhiññā process" (p130),
+"neither perception nor-non-perception" (p131), "kamma- born" (p139), "Parittārammana-tika" (p146),
+"ārammanaṁ" (p146, "ārammaṇaṁ" on p147), "alakkhanarūpa" (p153), "jīvhādasaka" (p154), "the vocal intimation decad"
+(p155, for a navaka), "the five material states" (p134), "element.(4)" without a space (p152).
+
+Next: `pcm`, PDF page 161 (book p. 139; 63 pages left).
+
 ## 2026-11-14 — Process of Consciousness and Matter pp. 81–120 proofread
 
 Proofread PDF pages 81–120 of `ocr-sources/pcm.pdf` (book pp. 59–98) into `ocr/pcm/p081.md`–`p120.md`: the end of
