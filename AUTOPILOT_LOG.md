@@ -2,6 +2,46 @@
 
 Newest first. See AUTOPILOT.md for the standing instructions.
 
+## 2026-11-14 — Basic Facts of Abhidhamma pp. 201–225 (end of the corporeality chapter; Analysis of *Paccaya*, conditions 1–8) proofread
+
+PDF pages 201–225 of `ocr-sources/rerukane.pdf` into `ocr/rerukane/p201.md`–`p225.md` (book page = PDF page). Same method
+as the last runs: 300 dpi render, `tesseract --psm 4`, every page read against its image (the glyphs of "Paccayanăka"
+p208, "Vãmaïsà" p217, "Vi□□àna" p219 and the italic/roman split of "dhamma"/"kamma" on p202, p222, p224 on
+full-resolution crops), Pāli by the font mapping (õ → ṇ: "Pakaraõa" *Pakaraṇa*, "Suvaõõatà" *Suvaṇṇatā*; ññ → ṭṭ:
+"Paññhàna" *Paṭṭhāna*; ñ → ṭ: "pañicca" *paṭicca*, "Sampañicchana" *Sampaṭicchana*; □□ → ññ: "a□□ama□□a" *aññamañña*;
+ã → ī: "Dãghàyuka" *Dīghāyuka*, "Santãrana" *Santīrana*, "Paccayanãka" *Paccayanīka*, "Vãmaïsà" *Vīmaṅsā*; ï → ṅ:
+"saïvattanikà" *saṅvattanikā*, "Vibhaïga"; § → ṃ: "yadida§" *yadidaṃ*, "Eka§ khandha§"; â → Ā: "âvajjana" *Āvajjana*,
+"ârammaõàdhipati" *Ārammaṇādhipati*), and a word-by-word comparison with tesseract's output to catch dropped lines (none).
+
+Headings: "The description of corporeality ends here." (p205) is bold, like p75 and p144. "Analysis of *Paccaya*" (p206,
+new page with a blank top, top level in the contents) is `##`, like "Twenty eight corporealities". The numbered conditions
+are `###` — "*1.Hetu paccya*" p209 (bold italic, "paccya" and the missing space as printed), "2. Object condition
+(*Ārammana Paccaya*)" p213, "3. Predominance condition (*Adhipati Paccaya*)" p214, "4, 5 Priority condition (*Anantara
+Paccaya*) and Contiguity condition (*Samanantara Paccaya*)" p219, "6. Co-nascence condition (*Sahajāta Paccaya*)" p221,
+"7.Mutuality condition (*Aññamañña Paccaya*)" p223, "8. Support condition (*Nissaya Paccaya*)" p225 — and each "three
+collections" heading under them `####` (p212, p213, p215, p218, p221, p222, p224, p225). The contents (p5–p6) lists
+these at mixed indents (some conditions indented, some not); the levels here follow the text's structure, not the
+contents' indents. The owner may want to look at this when the book is built.
+
+Footnotes `[^53]` (p209) and `[^54]` (p219). Verses and quotations: the Nidhikaṇḍa stanza (p203) as a bold italic
+blockquote like p15; the Paṭṭhāna list of the 24 conditions (p206) as a bold italic paragraph like p151; the Cūlakamma
+Vibhaṅga quotation (p204, italic) and the Paṭṭhāna "*Ekaṃ khandhaṃ paṭicca …*" (p224, bold italic) in the running text.
+
+Kept as printed (not transcription errors): "fonud" (p201), "*Upasthambaka*" (p201), "*dhamm*a" and "*kamm*a" with the
+last letter roman (p202, p222, p224, as for "*Abhidhamm*a" on p198), "seventeen mind-produced corporeality fifteen"
+(no comma, p202), "*ādipacca*" (p203, for *ādhipacca*), "temperature produce corporeality" (p204), "*Paccayanīka*" /
+"*Paccanīka*" (p208, p212, p213: the font's ã → ī, the book's spelling for *paccanīka*), "*pravurti*" (p212), "the twelve
+ethically variables" (p212), "*upnissaya*" (p206), "*Ārammana*" with plain n beside "*Ārammaṇādhipati*" (p213, p214),
+"temperature produced-corporeality" (p214), "excluding the; eighteen" and "worry skeptical doubt" (p215), the heading
+"The three collections of the predominance of object condition." with its full stop (p215), "disassociated" (p217),
+"*kamma* produced" without hyphen (p218).
+
+Words marked ⟨?⟩: none this run.
+
+Site not touched this run (proofread pages only).
+
+Next: `rerukane`, PDF page 226 (48 pages left).
+
 ## 2026-11-14 — Basic Facts of Abhidhamma pp. 176–200 (the non-produced corporealities; corporeality groups; causes of corporeality) proofread
 
 PDF pages 176–200 of `ocr-sources/rerukane.pdf` into `ocr/rerukane/p176.md`–`p200.md` (book page = PDF page). Same method
